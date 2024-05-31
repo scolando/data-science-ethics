@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Science Ethics - Common Syllabi Topics’ Connections to the Data Science Lifecycle</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-17.0.0/react.min.js"></script>
+<script src="site_libs/react-17.0.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
+<script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/favicon.ico" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Data Science Ethics</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-intro-to-data-science-ethics" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Intro to Data Science Ethics</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-intro-to-data-science-ethics">    
+        <li>
+    <a class="dropdown-item" href="./Intro-DS-ethics.html" rel="" target="">
+ <span class="dropdown-text">What is Data Science Ethics?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Intro-DS-lifecycle.html" rel="" target="">
+ <span class="dropdown-text">Data Science Lifecycle</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-inside-the-syllabi" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Inside the Syllabi</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-inside-the-syllabi">    
+        <li>
+    <a class="dropdown-item" href="./inside-syllabi.html" rel="" target="">
+ <span class="dropdown-text">Inside the Syllabi Notes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Common-Topics.html" rel="" target="">
+ <span class="dropdown-text">Common Syllabi Topics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./DS-pipeline.html" rel="" target="">
+ <span class="dropdown-text">Data Science Lifecycle Connections</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./Reading-Tags.html" rel="" target=""><i class="bi bi-fa-book-open" role="img">
+</i> 
+ <span class="menu-text">Readings</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Common Syllabi Topics’ Connections to the Data Science Lifecycle</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<hr>
+<div class="cell">
+<style type="text/css">
+h1 {
+  text-align: left;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color:  #877e2c;
+    border-color:  #877e2c;
+}
+</style>
+</div>
+<hr>
+<section id="common-syllabi-topics" class="level1">
+<h1>Common Syllabi Topics</h1>
+<hr>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+
+<div id="htmlwidget-83de1881336f0ea0d272" class="reactable html-widget " style="width:800px;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-83de1881336f0ea0d272">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Syllabi_Topics":["Privacy","Bias","Fairness","Explainability","Workplace","Alignment","Transparency","Causation","Characterizations of Data and Data Science","Consent","Democracy","Interpretability","Justice","Predictive Policing","Responsibility"],"Count":[11,8,8,6,5,4,4,3,3,3,3,3,3,3,3]},"columns":[{"id":"Syllabi_Topics","name":"Syllabi Topic","type":"character"},{"id":"Count","name":"Count","type":"numeric"}],"searchable":true,"defaultPageSize":8,"showPagination":true,"highlight":true,"showSortable":true,"width":"800px","theme":{"highlightColor":"#F0EDD1","style":{"fontFamily":"-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"}},"dataKey":"8a384a6acb5ecbddc7a8140ad79e3911"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<p>Most Common Syllabi Topics Arranged in Descending Order by Count</p>
+</div>
+</div>
+<hr>
+</section>
+<section id="lifecycle-locations-of-the-most-common-syllabi-topics" class="level1">
+<h1>Lifecycle Locations of the Most Common Syllabi Topics</h1>
+<hr>
+<p><span style="color:#877e2c; background-color: #F0EDD1; border: 3px solid #F0EDD1; border-radius: 4px;"><strong>‘Most Common’ = has a count of 3 or more</strong></span> <br></p>
+<section id="lifecycle-1" class="level2">
+<h2 class="anchored" data-anchor-id="lifecycle-1">Lifecycle 1</h2>
+<ul>
+I considered paradigmatic ethical issues that relate to each most common topic to place them on the Data Science lifecycle:
+</ul>
+<p><br></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Pipeline-Ethics.png" style="width:110.0%;height:90.0%" alt="this is the data science lifecycle diagram with rings around it that represent the connections between the ethical issues and the lifecycle. The connections between the ethical issues and the lifecycle are described in section 3:'Connections'." class="figure-img"></p>
+<figcaption class="figure-caption"><br>This diagram helps us understand which stages or processes of the Data Science lifecycle are represented in the syllabi and which stages or processes are (generally) underrepresented in the syllabi. Importantly though, there are arguments to be made for why the most common topics should overlap with other stages of the lifecycle too.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="lifecycle-2" class="level2">
+<h2 class="anchored" data-anchor-id="lifecycle-2">Lifecycle 2</h2>
+<p>Rings with less opacity denote areas where there seems to be substantial overlap between common topics and the data science stage though these considerations are not “paradigmatic” ethical issues.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Pipeline-Ethics-Alpha.png" style="width:100.0%;height:90.0%" alt="this is the data science lifecycle diagram with rings around it that represent the connections between the ethical issues and the lifecycle. The connections between the ethical issues and the lifecycle are described in section 3:'Connections'" class="figure-img"></p>
+<figcaption class="figure-caption">This diagram helps us understand which stages or processes of the Data Science lifecycle are represented in the syllabi and which stages or processes are (generally) underrepresented in the syllabi. The components with less opacity are areas of overlap between syllabi topics and data science stages that are less commonly thought of within data science literature</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+</section>
+<section id="connections" class="level1">
+<h1>Connections</h1>
+<hr>
+<p>This section is meant to give some brief justifications for my placement of the most common syllabi topics on the data science lifecycle in the diagram above. As with most topics in <em>both</em> data science and ethics, there is so much nuance that I cannot possibly capture in a few paragraphs. I recommend going through the readings linked below to understand more intricacies and applications of the connections between data science practices and the ethical issues that I begin to explicate below.</p>
+<hr>
+<section id="consent" class="level2">
+<h2 class="anchored" data-anchor-id="consent">Consent</h2>
+<hr>
+<p>Generally, when people think about consent in data science, they think about it in data collection. That is, did the researchers or business have informed consent when collecting people’s data? Usually, when researchers or companies get permission to collect people’s data, they also ask for consent to use the data in a specific capacity later in the lifecycle (e.g., to build models, be placed in a database, sell to another company, etc.).</p>
+<p>Yet, an agent must also consent to have the knowledge interpreted from a data model applied to them, even if none of their data was collected for the model building. For example, imagine that a company creates a data model that predicts that people who watch a certain television show are more likely to vote for a particular presidential candidate based on previously observed cases. A person begins watching the television show, and none of their information was used in building the predictive data model. Still, it seems crucial to consider if the person gave informed consent to have the model make predictions about them and their likelihood of voting for a particular presidential candidate.</p>
+<p><br></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Consent.html"><strong>Consent Readings</strong></a></p>
+<p><br></p>
+<hr>
+</section>
+<section id="privacy" class="level2">
+<h2 class="anchored" data-anchor-id="privacy">Privacy</h2>
+<hr>
+<p>In 2016, university researchers published personal data from the OkCupid dating site to an open data repository. This data revealed intimate details about over 70,000 users, including usernames, sexual preferences, and personal opinions. A scholar at Carnegie Mellon University said about 30% of these profiles were directly identifiable, meaning their OkCupid profile data could be connected to their real name, causing international outrage <span class="citation" data-cites="OkCupid">(<a href="#ref-OkCupid" role="doc-biblioref">Woollacott, 2016</a>)</span>. The OkCupid case study underscores why data science ethics courses heavily emphasize privacy’s importance. Data science often requires massive amounts of data and, as aforementioned, informed consent to be collected. Intuitively, it is unethical for personal data that people usually consented to be used by a particular entity for a specific purpose to be available to other entities, especially when the available data is identifiable (i.e., traceable back to them).</p>
+<p>Therefore, privacy is central to interactions with the world that lead to data collection, processing, and data storage, especially when the information collected is personal. Usually, data is aggregated and thus anonymized to develop a model, so there are typically no concerns about the model or its predictions exposing personal information.</p>
+<p>When knowledge inferred from a data model informs further interactions with the world, worries about privacy resurface. For instance, imagine a data model by one company predicts that you are unqualified for a job. It would be unethical for this prediction to be shared with every other company you applied to or for your prediction to be given to career development companies to target course advertisements toward you. Hence, just like personal data, it seems like people have a right to keep model predictions about them private.</p>
+<p><br></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Privacy.html"><strong>Privacy Readings</strong></a></p>
+<p><br></p>
+<hr>
+</section>
+<section id="explainability-interpretability-transparency" class="level2">
+<h2 class="anchored" data-anchor-id="explainability-interpretability-transparency">Explainability, Interpretability, Transparency</h2>
+<hr>
+<p>A common complaint about data science models, particularly more advanced ones, is that they are black boxes. Explainability, interpretability, and transparency all describe similar desires for data science technologies to be more understandable to humans, particularly the technology’s stakeholders. People usually demand that data science technologies are comprehensible to humans at the deployment stage, where predictions about individuals or groups are made. For example, if an inmate’s bail is set higher than they think it should be because an algorithm recommended the higher bail amount, it seems highly likely that the inmate would be upset. Some would argue that the inmate’s upsetness is partly because they have a right to an explanation.</p>
+<p>The “right to an explanation” argument extends to future interactions with our world. Imagine law enforcement starts over-policing neighborhood A relative to neighborhood B because people in neighborhood A tend to have higher bail amounts than people in neighborhood B. It seems that the people in neighborhood A have a right to know why they are being over-policed relative to the people in neighborhood B.</p>
+<p>Like many data science ethics terms, what exactly explainability, interpretability, and transparency require is an open question. It does not seem sufficient to publish the model’s code because this does not tell us why the model made the decision it did on a particular person. Simultaneously, more advanced data science models can use millions of hyper-parameters to make predictions. So, we cannot point to a single variable and say that it caused the algorithm to predict class X over class Y for Individual I.</p>
+<p><br></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Explainability.html"><strong>Explainability, Interpretability, and Transparency Readings</strong></a></p>
+<p><br></p>
+<hr>
+</section>
+<section id="democracy-workplace-predictive-policing" class="level2">
+<h2 class="anchored" data-anchor-id="democracy-workplace-predictive-policing">Democracy, Workplace, Predictive Policing</h2>
+<hr>
+<p>Democracy, workplace, and predictive policing are settings where data science practices have exceptionally high moral stakes. As such, case studies from democracy, workplace, or predictive policing settings are routinely used in data science ethics classes to underscore how pernicious data science’s moral harms can be. Usually, when case studies are referenced, it concerns deploying predictive models in these settings. The COMPAS algorithm, which predicted an inmate’s risk of being reconvicted to determine their sentence length, is a well-known example of an algorithm that was scrutinized for being deployed in courtrooms, given that it predicted a higher proportion of false high-risk appraisals for Black defendants than White defendants <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Julia Angwin, 2016</a>)</span>.</p>
+<p>Furthermore, these predictions can lead to morally problematic interactions with the world. For instance, suppose that law enforcement starts over-policing a predominantly Black neighborhood because a recidivism algorithm predicted that people from that neighborhood are more likely to be reconvicted of a crime. Yet, the recidivism algorithm was trained on historical data riddled with racial biases. Over-policing that neighborhood could lead to specific populations being wrongfully convicted or more likely to be convicted solely because of their demographic characteristics – both of which are intuitively morally problematic.</p>
+<p>Interestingly, even though there is a high likelihood of immoral outcomes of deploying predictive models in democracy, workplace, and predictive policing settings, creating these predictive models is not intuitively morally problematic in itself. Imagine that a civil rights group develops an algorithm to predict a person’s likelihood of being reconvicted to show that the criminal justice system is racially biased, which intuitively, does not seem morally troublesome. Though, if the recidivism algorithm is deployed, meaning it influences people’s beliefs about a person’s reconviction risk, does it become morally pernicious.</p>
+<p><br></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Democracy.html"><strong>Democracy Readings</strong></a></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Workplace.html"><strong>Workplace Readings</strong></a></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Predictive-Policing.html"><strong>Predictive Policing Readings</strong></a></p>
+<p><br></p>
+<hr>
+</section>
+<section id="causation" class="level2">
+<h2 class="anchored" data-anchor-id="causation">Causation</h2>
+<hr>
+<p>Probably the most-known lesson in statistics is that “correlation does not imply causation”. This lesson becomes especially poignant when a model representing the world is interpreted as knowledge. At least currently, most models only identify correlations between the predictor variables and the response variable, not causation (there is also centuries worth of philosophical debates about how to define causation). Interpreting correlative relationships as causal can have significant moral repercussions. For instance, suppose we have a logistic model that predicts whether a person will drop out of high school. Our model has a positive correlation between having Spanish as your first language and your expected probability of dropping out (i.e., if your first language is Spanish, you are expected to have a higher chance of dropping out of high school, holding all other variables constant). Clearly, several confounding variables, such as socioeconomic status and available academic opportunities, lead to the positive relationship we found. But, suppose that someone took our model and, from it, declared that having Spanish as your first language causes a higher probability of dropping out of high school. They might conclude that people whose first language is Spanish are less intelligent or lazier in school than those whose first language is not Spanish, leading to racist beliefs and actions that morally harm people whose first language is Spanish. Therefore, several data science ethics classes focus on causation at the knowledge-interpretation stage and, specifically, how it is dangerous to interpret causal relationships from most data models.</p>
+<p>There can also be ethical repercussions of false causal relationships between predictors and the response variable in informing future interactions with the world. Imagine biologists theorize that native Spanish speakers are naturally less intelligent than native English speakers and use false causal claims they took from our model to justify data collection. Thus, ethical worries related to causation span not just what we should interpret as knowledge from a data model but also what sorts of interactions with the world are can be justified on the basis of previously interpreted knowledge.</p>
+<p><br></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Causation.html"><strong>Causation Readings</strong></a></p>
+<p><br></p>
+</section>
+<section id="bias-fairness-justice" class="level2">
+<h2 class="anchored" data-anchor-id="bias-fairness-justice">Bias, Fairness, Justice</h2>
+<hr>
+<p>Bias, fairness, and justice are all fundamental topics in data science ethics. Ongoing philosophical work is committed to defining bias, fairness, and justice and their relationship to one another. As such, I will not attempt to define nor explain the relationship between bias, fairness, and justice in this short connection paragraph. Even without definitions, though, there are intuitive cases of biased, unfair, and unjust data science practices and models. For instance, consider the COMPAS algorithm: a data model that predicted the risk of recidivism had higher rates of false “high risk” predictions for Black defendants than White defendants <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Julia Angwin, 2016</a>)</span>. Intuitively, COMPAS’ predictions are biased against Black people, and similarly, it would be unfair (and unjust) to decide a person’s parole or set their bail using COMPAS.</p>
+<p>The COMPAS case study highlights why most data science ethics courses tend to focus on bias, fairness, and justice surrounding data models: primarily, what is input into them (i.e., the data) as well as what they output (i.e., their predictions) and how decision-makers use the model’s outputs. The saying “garbage in, garbage out” encapsulates the commonly-seen connection between bias, fairness, and justice and data modeling. “Garbage in, garbage out” indicates that if the data used to build the data model was biased against group X, then the model’s predictions would be biased against group X and could lead to unfair outcomes for group X. This explains why the opaque concentric circle for bias, fairness, and justice extends from “data” to “knowledge” in the data science lifecycle.</p>
+<p>Another paradigmatic stage of the data science lifecycle where bias, fairness, and justice emerge is “interactions with the world”. Suppose a data scientist wants to model the average number of hours in the hospital after giving birth but only surveys white females. We would consequently consider the data set biased towards white women and be cautious about generalizing the data scientist’s findings to people who are not white women.</p>
+<p>While there is a focus on bias, fairness, and justice in data modeling and interactions with the world, they are essential concepts to consider at every stage in the data science lifecycle. For example, we might drop observations with missing values when processing interactions as objects and then data. Yet, dropping those values can create biases in our data and subsequent analysis if they are not missing at random (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3668100/">example inspired by this paper</a>). Bias, fairness, and justice can also come into play from “knowledge” to “interactions with our world”. For instance, it might be considered unjust or unfair to give nannying job ads to only women because an algorithm found that women were significantly more likely than men to click on a nannying ad (<a href="https://hbr.org/2019/05/all-the-ways-hiring-algorithms-can-introduce-bias">example inspired by this article</a>).</p>
+<p><br></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Bias.html"><strong>Bias, Fairness, Justice Readings</strong></a></p>
+<p><br></p>
+<hr>
+</section>
+<section id="alignment-responsibility-characterizations-of-data-and-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="alignment-responsibility-characterizations-of-data-and-data-science">Alignment, Responsibility, Characterizations of Data and Data Science</h2>
+<hr>
+<section id="alignment" class="level3">
+<h3 class="anchored" data-anchor-id="alignment">Alignment</h3>
+<p>Alignment refers to how our moral values align with our data science practices and technologies. We frequently consider alignment during the deployment stage, where our data model generates predictions about novel inputs. When seeing the outputs, it becomes salient if our moral values and data science practices are misaligned. Still, alignment comes into play throughout the lifecycle. We apply our moral values in interactions with our world (e.g., the moral requirement to get informed consent when collecting personal information). We use our moral values in data processing and cleaning when thinking about what to do with missing data, especially when it is not missing at random. Alignment also comes into play when developing data models. For instance, we use our moral values when deciding what fairness metric to use when evaluating our model’s performance and thereafter when thinking about how we apply the model outputs to inform future interactions with the world (e.g., see the privacy and consent sections above).</p>
+</section>
+<section id="responsibility" class="level3">
+<h3 class="anchored" data-anchor-id="responsibility">Responsibility</h3>
+<p>Here, I am focusing on <em>moral</em> rather than mere legal responsibility; an individual might be morally responsible for X, even if X is legal (e.g., cheating on a significant other). Moral responsibility comes up throughout the data science lifecycle. Most commonly, data science focuses on moral responsibility concerning model deployment and interactions with the world. For example, Amazon was seen as morally responsible for deploying a hiring algorithm that was biased against female applicants <span class="citation" data-cites="Amazon">(<a href="#ref-Amazon" role="doc-biblioref">Dastin, 2018</a>)</span>. Moral responsibility also arises when building data models. It seems reasonable to contend that if another company made Amazon’s faulty hiring algorithm, it would also be morally responsible for the biased results – even if that company never deployed the model itself.</p>
+<p>Moral responsibility is also crucial in interactions with the world. For instance, there are several case studies, data science, and beyond where people are morally responsible for failing to obtain informed consent when collecting personal information. Some examples include the Tuskegee Study or commercializing a social media user’s data without informed consent.</p>
+<p>Though less commonly thought about, moral responsibility also influences the “interactions with the world” to “data” stages of the lifecycle. Specifically, it seems valid to hold data scientists morally responsible for how data is stored and cleaned. For example, if a data scientist stored personal data in a foreseeably faulty database, they would be at least partially morally responsible for any data leakages. Similarly, if data is publicized that is not adequately anonymized, the data scientist who was supposed to remove identifiers from the data would be at least partially morally responsible for any ethical repercussions that arose from the data not being adequately anonymized.</p>
+</section>
+<section id="characterizations-of-data-and-data-science" class="level3">
+<h3 class="anchored" data-anchor-id="characterizations-of-data-and-data-science">Characterizations of Data and Data Science</h3>
+<p>Finally, characterizations of data and data science affect how we conceive of the data science lifecycle in general and, in turn, influence each stage in the data science lifecycle (see the <a href="Intro-DS-lifecycle.html">Data Science Lifecycle Page</a> for more information).</p>
+<p><br></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Alignment.html"><strong>Alignment Readings</strong></a></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Responsibility.html"><strong>Responsibility Readings</strong></a></p>
+<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="Characterizations.html"><strong>Characterizations of Data and Data Science Readings</strong></a></p>
+<p><br></p>
+<hr>
+</section>
+</section>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<hr>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-Amazon" class="csl-entry" role="listitem">
+Dastin, J. (2018). <em><span>A</span>mazon scraps secret <span>A</span><span>I</span> recruiting tool that showed bias against women</em>. <a href="https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G" class="uri">https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G</a>; Reuters.
+</div>
+<div id="ref-COMPAS" class="csl-entry" role="listitem">
+Julia Angwin, L. K., Jeff Larson. (2016). <em><span>M</span>achine <span>B</span>ias</em>. <a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" class="uri">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>; ProPublica.
+</div>
+<div id="ref-OkCupid" class="csl-entry" role="listitem">
+Woollacott, E. (2016). <em>70,000 <span>O</span>k<span>C</span>upid <span>P</span>rofiles <span>L</span>eaked, <span>I</span>ntimate <span>D</span>etails <span>A</span>nd <span>A</span>ll</em>. <a href="https://www.forbes.com/sites/emmawoollacott/2016/05/13/intimate-data-of-70000-okcupid-users-released/?sh=2ac42f2f1e15" class="uri">https://www.forbes.com/sites/emmawoollacott/2016/05/13/intimate-data-of-70000-okcupid-users-released/?sh=2ac42f2f1e15</a>; Forbes.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© Copyright 2024, Sara Colando and Jo Hardin</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/scolando/personal-website">
+      <i class="bi bi-github" role="img" aria-label="Quarto GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

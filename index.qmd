@@ -1,0 +1,71 @@
+---
+format: 
+  html:
+    toc: false
+---
+
+::: column-page
+
+# Welcome to the Website!
+
+There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data science ethics. There are not always, however, explicit connections between data science ethics and the centuries-old work on ethics within the discipline of philos- ophy. Here, we present a framework for bringing together key data science practices with ethical topics. The ethical topics were collated from sixteen data science ethics courses with public-facing syllabi and reading lists. We encourage individuals who are teaching data science ethics to engage with the philosophical literature and its connection to current data science practices, which is rife with potentially morally charged decision points.
+
+This website is associated with a paper, which gives a more in-depth overview of the **add**. The accompanying paper is currently available on ArXiv.
+
+::: link
+::: link-header
+#### {{< iconify simple-icons:arxiv >}} ArXiv Preprint
+:::
+
+::: link-container
+<a href = "https://arxiv.org/abs/2310.02444" target = "_blank"><https://arxiv.org/abs/2310.02444></a>
+:::
+:::
+
+---
+
+## Data Science Ethics Collated Syllabi
+
+The table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit [Inside the Syllabi Notes](inside-syllabi.html) for in-depth notes on each course's learning goals and topics.
+:::
+
+```{r echo = FALSE, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(DT)
+library(knitr)
+library(reactable)
+library(reactablefmtr)
+```
+
+```{r echo = FALSE, message = FALSE, warning=FALSE}
+syllabi <- tribble(
+  ~title, ~institution, ~department, ~level, ~prereqs, ~instructor, ~intructor_discipline,  ~`link`, ~semester,
+  ~list,"The Ethics of Data and Artificial Intelligence", "London School of Economics","Philosophy, Logic, and Scientific Method", "Undergraduate", "None", "Kate Vredenburgh, Ali Boyle, Alex Voorhoeve, Paola Romero", "Philosophy, Logic, and Scientific Method", '<a target="_top" href = "https://www.lse.ac.uk/ss-asset-library/course-outlines/2023/ME102-Course-Outline-2023.pdf" target = "_blank">Syllabus Link</a>', "Summer 2023", "Yes",
+  "Data, Ethics, and Society", "Rice University", "Data Science", "Undergraduate", "None", "Elizabeth Petrick", "History", '<a target="_top" href = "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBqtWbooD_AhUhIzQIHXWLD_c4ChAWegQIBhAB&url=https%3A%2F%2Festher.rice.edu%2Fselfserve%2F!bwzkpsyl.v_viewDoc%3Fterm%3D202120%26crn%3D23021%26type%3DSYLLABUS&usg=AOvVaw1zimMugXOdwaI0SYtmBHVE" target = "_blank">Syllabus PDF\n(automatically downloads)</a>', "Spring 2021", "Yes",
+  "Human Contexts and Ethics of Data", "University of California, Berkeley", "Data Science (Cross-listed in History and STS)", "Undergraduate", "None", 'Margo Boenig-Lipstin,<br> Ari Edmundson', 'Margo Boenig-Lipstin: History<br>Ari Edmundson: Data Science', '<a target="_top" href = "https://docs.google.com/document/d/1aRSkK0FmyaWCIsFq4MCbTrP2yGmP_rTPQ9MJLzdwWnc/edit" target = "_blank">Syllabus Link</a>', "Spring 2020", "Yes",
+  "Data Ethics", "University of California, San Diego", "Philosophy", "Undergraduate", "None", "David Danks", "Philosophy and Data Science", '<a target="_top" href = "https://philosophy.ucsd.edu/courses/course-syllabus/wi23/PHIL174.pdf" target = "_blank">Syllabus Link</a>', "Winter 2023", "Yes",
+  "Computing, Ethics, and Society", "Northwestern University", "Computer Science", "Undergraduate", "None", "Sarah Van Wart", "Computer Science and Engineering", '<a target="_top" href = "https://nu-tech-ethics.github.io/winter2021/syllabus/" target = "_blank">Syllabus Link</a>', "Winter 2021", "Yes",
+  "Ethical and Societal Issues in AI", "Cornell University", "Computer Science", "Undergraduate", "None", "Joseph Halpern,<br>Bart Selman", "Computer Science", '<a target="_top" href = "https://www.cs.cornell.edu/courses/cs4732/2017sp/" target = "_blank">Syllabus Link</a>', "Spring 2017", "Yes",
+  "Ethics and Technology", "Swarthmore College", "First-year Seminar", "Undergraduate", "None", 'Ameet Soni,<br>Krista Karbowski Thomason','Ameet Soni: Computer Science<br> Krista Karbowski Thomason: Philosophy', '<a target="_top" href = "https://works.swarthmore.edu/cgi/viewcontent.cgi?article=1027&context=dev-dhgrants" target = "_blank">Syllabus Link</a>', "Spring 2019", "Yes",
+  "Data Science Ethics", "Yale Univesity", "Statistics and Data Science", "Undergraduate", "Statistics and/or Data Analytics is Required,<br>Prior Coursework in AI/ML/Algorithms and Ethics/Philosophy is Useful", "Elisa Celis", "Statistics and Data Science", '<a target="_top" href = "https://datascienceethics.wordpress.com/the-course/syllabus/" target = "_blank">Syllabus Link</a>', "Spring 2019", "No",
+  "Philosophical Foundations of Machine Learning", "Carnegie Mellon University", "Machine Learning", "Graduate/\nUndergraduate", "None", "Zachary Lipton", "Machine Learning and Operations Research", '<a target="_top" href = "https://github.com/acmi-lab/cmu-10721-philosophy-machine-intelligence" target = "_blank">Syllabus Link</a>', "Spring 2023", "Yes",
+  "Ethics and Policy in Data Analytics", "Carnegie Mellon University", "Information Systems and Public Policy", "Graduate", "Familiarity with Data Analytics Pipeline is Recommended", "David Danks, Sina Fazelpour", 'David Danks: Data Science and Philosophy<br>Sina Fazelpour: Computer Science and Philosophy', '<a target="_top" href = "https://www.heinz.cmu.edu/current-students/courses/94-836/2238/" target = "_blank">Syllabus Link</a>', "Spring 2021", "Yes",
+  "Ethics in AI", "", "Philosophy", "Graduate/\nUndergraduate", "Prior Coursework in Moral/Political Philosophy and Logic/Statistics is Useful", "Liam Kofi Bright", "Philosophy", '<a target="_top" href = "https://philpeople.org/public_cache/file?content_type=application%2Fpdf&key=z1d1wj8yk9ztczwt4d9wspqbl6qb" target = "_blank">Syllabus Link</a>', "Spring 2023", "Yes",
+  "Ethics and Policy in Data Science", "Cornell University", "Information Sciences", "Graduate/\nUndergraduate", "None", "Solon Barocas", "Information Science (and Principle Researcher at Microsoft)", '<a target="_top" href = "https://docs.google.com/document/d/1GV97qqvjQNvyM2I01vuRaAwHe9pQAZ9pbP7KkKveg1o/edit" target = "_blank">Syllabus Link</a>', "Fall 2017", "Yes",
+  "The Ethics and Governance of Artificial Intelligence", 'Massachusetts Institute of Technology,<br>Harvard University', "Cross-Disciplinary", "Graduate", "None", 'Joi Ito,<br>Jonathan Zittrain', 'Joi Ito: Practice in Media Arts and Science<br>Jonathon Zittrain: International Law, Computer Science, and Public Policy', '<a target="_top" href = "https://dam-prod.media.mit.edu/x/2018/02/07/Ethics%20and%20Governance%20of%20AI%20S18%20.pdf" target = "_blank">Syllabus PDF\n(automatically downloads)</a>', "Spring 2018", "Yes",
+  "Ethics, Public Policy, and Technological Change", "Stanford University", "Computer Science", "Undergraduate", "None", "Rob Reich, Mehran Sahami, Jeremy Weinstein", 'Rob Reich: Political Science<br>Mehran Sahami:Computer Science<br>Jeremy Weinstein: Computer Science', '<a target="_top" href = "https://web.stanford.edu/class/cs182/" target = "_blank">Syllabus Link</a>', "Winter 2023","Yes",
+  "Ethics, Data, and Technology", "University of Florida", "Philosophy", "Undergraduate", "None", "David Gray Grant", "Philosophy", '<a target="_top" href = "https://phil.ufl.edu/wp-content/uploads/sites/145/2022/01/PHI3681-Grant-Syllabus-2021-28-12.pdf" target = "_blank">Syllabus Link</a>', "Spring 2022", "Yes",
+  "Special Topics in Data Science:<br>
+Responsible Data Science", "New York University", "Data Science", "Undergraduate", "Introduction to Data Science or <br> Introduction to Computer Science", "Julia Stoyanovich", "Data Science, Computer Science, and Engineering", 
+  '<a target="_top" href = "https://dataresponsibly.github.io/courses/spring19/" target = "_blank">Syllabus Link</a>', "Spring 2019", "Yes"
+  )
+```
+
+```{r}
+#| column: page
+#| echo: false
+#| message: false
+#| warning: false
+
+reactable(syllabi, elementId = "syllabi-table", columns = list(title = colDef("Course Title", minWidth = 120, html = TRUE ), institution = colDef("Institution", minWidth = 125, html = TRUE), department = colDef("Department", minWidth = 120, html = TRUE), level = colDef("Course Level", minWidth = 130, html = TRUE), prereqs = colDef("Prerequisites", minWidth = 135, html = TRUE), instructor = colDef("Instructors", minWidth = 120, html = TRUE), intructor_discipline = colDef("Instructor Discpline", minWidth = 130, html = TRUE), link = colDef("Syllabus Link", html = TRUE, minWidth = 130), semester = colDef("Syllabus' Term"), list = colDef("Reading List Included?", minWidth = 130)), highlight = TRUE, searchable = TRUE, showSortable = TRUE, showPagination = TRUE, filterable = TRUE, resizable = TRUE, fullWidth = TRUE, theme = reactableTheme( highlightColor = "#F0EDD1", style = list( fontFamily = "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif", fontSize = '0.875em')))
+```

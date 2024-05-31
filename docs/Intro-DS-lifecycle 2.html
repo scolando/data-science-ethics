@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Science Ethics - Data Science Lifecycle</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./images/favicon.ico" rel="icon">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./images/favicon.ico" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Data Science Ethics</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-intro-to-data-science-ethics" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Intro to Data Science Ethics</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-intro-to-data-science-ethics">    
+        <li>
+    <a class="dropdown-item" href="./Intro-DS-ethics.html" rel="" target="">
+ <span class="dropdown-text">What is Data Science Ethics?</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Intro-DS-lifecycle.html" rel="" target="">
+ <span class="dropdown-text">Data Science Lifecycle</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-inside-the-syllabi" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Inside the Syllabi</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-inside-the-syllabi">    
+        <li>
+    <a class="dropdown-item" href="./inside-syllabi.html" rel="" target="">
+ <span class="dropdown-text">Inside the Syllabi Notes</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Common-Topics.html" rel="" target="">
+ <span class="dropdown-text">Common Syllabi Topics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./DS-pipeline.html" rel="" target="">
+ <span class="dropdown-text">Data Science Lifecycle Connections</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./Reading-Tags.html" rel="" target=""><i class="bi bi-fa-book-open" role="img">
+</i> 
+ <span class="menu-text">Readings</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Science Lifecycle</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<hr>
+<div class="cell">
+<style type="text/css">
+h1 {
+  text-align: left;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color:  #877e2c;
+    border-color:  #877e2c;
+}
+</style>
+</div>
+<p style="background-color: #ededed; border: 5px solid #ededed;">
+<strong>A Data Science Lifecycle or Pipeline:</strong> a diagram that depicts a relationship between different stages of data science (e.g., data collection, data cleaning, model-building).
+</p>
+<p>Though it might not be explicit, using one lifecycle or pipeline over another endorses specific views about data, data models, and their respective relationships to what we take to be knowledge about our world. Thus, the choice to use a certain data science lifecycle is <strong>value-laden</strong>.</p>
+<p>Here, I examine two popular conceptions of the relationships between data, data models, and what we should interpret as knowledge about our world (i.e., the epistemic roles of data and data models) <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>:</p>
+<ol type="1">
+<li><p><strong>The representational view of data and data models</strong></p></li>
+<li><p><strong>The relational view of data and data models</strong></p></li>
+</ol>
+<p style="background-color: #ededed; border: 5px solid #ededed;">
+<strong>Data Models:</strong> “arrangements of data that are evaluated, manipulated and modified with the explicit goal of representing a phenomenon, which is often (though not always) meant to capture specific aspects of the world,” <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>.<br><br><strong>Examples of Data Models:</strong><br><br>1. A simple linear regression that uses years of education to model the expected income is a data model.<br><br>2. An algorithm that utilizes millions of hyperparameters to predict an incarcerated individual’s risk of recidivism.<br><br>3. A data visualization that describes a relationship between variables within a sample.
+</p>
+<p>In the following two subsections, I provide an explication of the representational and relational view of data and data models and some benefits of using the relational view of data and data models over the representational one. I recommend reading <span class="citation" data-cites="Leonelli">Leonelli (<a href="#ref-Leonelli" role="doc-biblioref">2018</a>)</span> for a more in-depth justification of the value of a relational view of data and data models over a representational one.</p>
+<hr>
+<section id="the-representational-view" class="level1">
+<h1>The Representational View</h1>
+<hr>
+<p>Under the representational view of data and data models, the informational content of data is fixed and independent of the researchers’ background assumptions and context. Thus, data models are important only insofar as they extract the truth from the data. Hence, under the representational view, models are either objectively correct or incorrect, depending on their ability to elucidate the truth stored in the data. In other words, data models are only relevant because they clarify the arrows between data and knowledge in the diagram below <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/DS-replifecycle.png" style="width:70.0%;height:70.0%" alt="Data Science Lifecycle under the Representational View of Data and Models described by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 3 components that all interact with one another. The components include: (1) World, (2) Data, and (3) Knowledge. (1) World is documented via (2) Data and (2) Data represents (1) World. Additonally, (3) Knowledge is based on (2) Data and (2) Data is used to infer (3) Knowledge." class="figure-img"></p>
+<figcaption class="figure-caption">Data Science Lifecycle under the Representational View of Data and Models described by Sabina Leonelli in 2019. Any processing of the data, data organizing, or data modeling would merely be a tool to elucidate the connection between Data and Knowledge and the World.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="the-relational-view" class="level1">
+<h1>The Relational View</h1>
+<hr>
+<p>Meanwhile, under the relational view of data and data models, data is understood as any object treated as evidence for at least one claim about the world and “is possible to circulate…among individuals/groups,” <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>. Consequently, the informational content of data depends on the researchers’ background assumptions and social context. So, truth is not stored in data and is instead defined by its social environment and the function it is supposed to serve. As such, data models, not data, serve as representations of our world, making data models necessary and highly influential to knowledge production under the relational view of data and data models <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/DS-pipeline.png" style="width:50.0%;height:50.0%" alt="Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 5 stages. The stages of inquiry include: (1) 'Interactions with the World', which produce (2) 'Objects', which are processed as 'Data', which are ordered as (4) 'Models representing the World', which is then interpreted as (5) 'Knowledge'. What is interpreted as (5) 'Knowledge' further informs (1) 'Interactions with the World'." class="figure-img"></p>
+<figcaption class="figure-caption">Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="the-relational-vs.-representational-view-in-practice" class="level1">
+<h1>The Relational vs.&nbsp;Representational View In-Practice</h1>
+<hr>
+<p>Consider how soccer match data influences our valuation of the match’s players (i.e., the phenomenon we are interested in understanding).</p>
+<p><strong>From the representational view of data and data models:</strong> the data inherently represents the actual soccer matches and players’ values. As such, questions about the data are solely focused on whether it is good enough. For instance, we may wonder if the sensors on the pitch are calibrated correctly.</p>
+<p><strong>Meanwhile, from the relational view of data and data models:</strong> data is only evidence in virtue of how it is organized. In turn, we would question why specific data should be evidence of a player’s value and how the larger social environment influences what data is generated. For instance, we may ask if data about the percentage of passes completed or kilometers run is better evidence of a soccer player’s value given our data model or how social contexts, like the role of FIFA videogames or social media, influence perceptions of soccer and data generation <span class="citation" data-cites="Beaulieu-Leonelli">(<a href="#ref-Beaulieu-Leonelli" role="doc-biblioref">Beaulieu &amp; Leonelli, 2021, p. 59</a>)</span>.</p>
+<p>Such an example shows data in itself is <em>representationally ambiguous</em> and is dependent on its broader social environment. For instance, it is unclear what the sensors should be calibrated for, especially if calibration for foot speed reduces calibration for ball location, et cetera. There are many other questions that the representational view of data and data models neglects, such as which data model should be used and which variables (i.e., components of data) should be used within a given data model. Researchers must rely upon their background assumptions, knowledge, value judgments, and social contexts to answer these questions and, thus, what data is taken as evidence.</p>
+<p style="background-color: #ededed; border: 5px solid #ededed;">
+<strong>Therefore, this case study gives us reason to reject the representational view of data and data models in favor of the relational view of data and data models.</strong>
+</p>
+<hr>
+<section id="silberzahn-et-al.s-many-analysts-one-data-set-making-transparent-how-variations-in-analytic-choices-affect-results" class="level3">
+<h3 class="anchored" data-anchor-id="silberzahn-et-al.s-many-analysts-one-data-set-making-transparent-how-variations-in-analytic-choices-affect-results">Silberzahn et al.’s “Many Analysts, One Data Set: Making Transparent How Variations in Analytic Choices Affect Results”</h3>
+<p>In <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, 29 data analysis teams were asked to use the same data set to determine “whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players,”. Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.</p>
+<p>The difference in chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ final decisions:</p>
+<ul>
+<li><p>4 different model types were used: 15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.</p></li>
+<li><p>21/29 teams used unique combinations of predictor variables.</p></li>
+</ul>
+<p>Through <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, we can also see how ambiguity about the data model and the relative importance of certain predictor variables also impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, knowledge, and social contexts.</p>
+<p style="background-color: #ededed; border: 5px solid #ededed;">
+<strong>Hence, <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span> emphasize that data and data models should be viewed relationally rather than representationally.</strong>
+</p>
+<hr>
+</section>
+</section>
+<section id="the-final-data-science-lifecycle" class="level1">
+<h1>The Final Data Science Lifecycle</h1>
+<hr>
+<p>Several lifecycles are compatible with a relational view of data. The final data science lifecycle I will use on this website endorses the relational view of data and data models proposed by <span class="citation" data-cites="Leonelli">Leonelli (<a href="#ref-Leonelli" role="doc-biblioref">2018</a>)</span>. The diagram below shows us where paradigmatic data science practices occur in the selected lifecycle <span class="citation" data-cites="Beaulieu-Leonelli">(<a href="#ref-Beaulieu-Leonelli" role="doc-biblioref">Beaulieu &amp; Leonelli, 2021, p. 58</a>)</span>.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Pipeline-Practices.png" style="width:80.0%;height:80.0%" alt="Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 5 stages. Data Collection belongs to (1) Interactions with the World. Data Processing creates (2) Objects. Data Cleaning produces (3) Data. Exploratory Data Analysis is an intermediary between (3) Data and (4) Models. Machine Learning, Algorithms, Statistical Models are paradigmatic examples of (4) Models representing the World. Deployment of (4) Models creates interpretations of (5) Knowledge, which includes Communication, Visualizations, Report-Findings, and Decision making. Finally, (5) Knowledge informs further (1) Interactions with the world via Data Product Development." class="figure-img"></p>
+<figcaption class="figure-caption">Data Science Lifecycle under the Relational View of Data and Models Superimposed with Paradigmatic Data Science Practices <span class="citation" data-cites="Beaulieu-Leonelli">(<a href="#ref-Beaulieu-Leonelli" role="doc-biblioref">Beaulieu &amp; Leonelli, 2021, p. 58</a>)</span>.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<hr>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
+<hr>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-Beaulieu-Leonelli" class="csl-entry" role="listitem">
+Beaulieu, A., &amp; Leonelli, S. (2021). <em>Data and society: A critical introduction</em> (First). SAGE Publications Ltd.
+</div>
+<div id="ref-Leonelli" class="csl-entry" role="listitem">
+Leonelli, S. (2018). What distinguishes data from models? <em>European Journal for Philosophy of Science</em>, <em>9</em>. <a href="https://doi.org/10.1007/s13194-018-0246-0">https://doi.org/10.1007/s13194-018-0246-0</a>
+</div>
+<div id="ref-soccer-case" class="csl-entry" role="listitem">
+Silberzahn, R., Uhlmann, E., Martin, D., Anselmi, P., Aust, F., Awtrey, E., … Nosek, B. (2017). Many analysts, one dataset: Making transparent how variations in analytical choices affect results. <em>Advances in Methods and Practices in Psychological Science</em>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">© Copyright 2024, Sara Colando and Jo Hardin</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/scolando/personal-website">
+      <i class="bi bi-github" role="img" aria-label="Quarto GitHub">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

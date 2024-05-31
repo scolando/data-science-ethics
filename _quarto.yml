@@ -1,0 +1,52 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Data Science Ethics"
+  favicon: "images/favicon.ico"
+  site-url: scolando.github.io/personal-website/
+  repo-url: https://github.com/scolando/personal-website
+  page-navigation: true
+    
+  navbar:
+    logo: "images/favicon.ico"
+    right:
+      - text: "Intro to Data Science Ethics"
+        menu: 
+         - text: "What is Data Science Ethics?"
+           href: Intro-DS-ethics.qmd
+         - text: "Data Science Lifecycles"
+           href: Intro-DS-lifecycle.qmd
+      - text: "Inside the Syllabi"
+        menu:
+         - text: "Data Science Ethics Syllabi"
+           href: inside-syllabi.qmd 
+         - text: "Most Common Syllabi Topics"
+           href: Common-Topics.qmd
+         - text: "Data Science Lifecycle Connections"
+           href: DS-pipeline.qmd
+      - text: "Reading Lists"
+        icon: fa-book-open
+        href: Reading-Tags.qmd
+    background: "#ffffff"
+    
+  page-footer:
+    left: "&copy; Copyright 2024, [Sara Colando](https://scolando.github.io/personal-website/) and [Jo Hardin](https://hardin47.netlify.app)"
+    
+    right:
+      - icon: github
+        href: https://github.com/scolando/personal-website
+    background: "#ffffff"
+
+format:
+  html:
+    theme:
+      - cosmo
+      - styles.scss
+    backgroundcolor: "#ffffff" 
+
+editor: visual
+
+language: 
+  search-box-placeholder: Search

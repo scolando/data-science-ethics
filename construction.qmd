@@ -1,0 +1,9 @@
+---
+title: ""
+output: html_document
+---
+
+```{r dpi= 500, fig.align='center', echo = FALSE, out.width='50%', out.height='50%', fig.cap = "This page is under construction. Check back later!"}
+knitr::include_graphics("images/construction.png")
+```
+

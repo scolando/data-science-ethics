@@ -1,0 +1,165 @@
+---
+title: "What is Data Science Ethics?"
+subtitle: "defining data science ethics, its importance, and demonstrating how it combines the discplines of data science and ethics."
+format: 
+  html:
+    toc: true
+    toc_float: true
+    toc-title: "Page Contents"
+bibliography: bibliographies/DSethics-summer2023.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
+```
+
+```{r}
+#| out.width: '100%'
+#| out.height: '20%'
+#| fig.cap: "Comic via [Evil AI Cartoons](https://www.evilaicartoons.com/)."
+#| fig-alt: "Comic from Evil AI Cartoons in black and white where three people are voicing their wants to a computer (e.g., we want AI fairness). The computer responds, 'And I want infinite battery! Talk to me when you've negotiated tradeoffs!'."
+knitr::include_graphics("images/AI-ethics.jpg")
+```
+
+------------------------------------------------------------------------
+
+# What is Data Science?
+
+------------------------------------------------------------------------
+
+### Definition
+
+Data Science is typically focused on transforming the data into data model(s), but data science encompasses the *all the stages* needed to answer questions with data: from "Problem Definition" to "Deployment and Use".
+
+```{r}
+#| fig-cap: "Processes involved in data science. The amount of processing required to get the outputted object (e.g., raw data, data, a tuned model, etc.) increases as we move to the right."
+knitr::include_graphics("images/DS-stack.png")
+```
+
+-   **Problem Definition:** defines the question we aim to answer with data. We answer questions like: what counts as "success" (i.e., when do we say a data model is successful), and how can we actually measure (or approximate) our event-of-interest?
+
+::: {.callout-note icon=false collapse=false}
+
+### Example
+
+Suppose we aim to answer: what is likelihood that a customer purchases product S? Only when our model achieves an overall accuracy ≥ 0.75 (for the test data) at a particular cutoff value (generated using only the training data), do we say that our model is successful.
+
+:::
+
+```{=html}
+<p class = "example";">
+
+            <strong>Example:</strong> suppose we aim to answer: what is likelihood that a customer purchases
+            product S? Only when our model achieves an overall accuracy ≥ 0.75 (for the test
+            data) at a particular cutoff value (generated using only the training data), do we
+            say that our model is successful. 
+
+</p>
+```
+-   **Raw Data:** the information collected from interactions with the world.
+
+|              E.g. our raw data includes information from each time the customer clicks on a advertisement
+|              for product S, including the timestamps for each advertisement interaction, and the customer's
+|              demographic information.
+
+-   **Data:** the processed form of the raw data. This often is the tabularized version of the raw data.
+
+|              E.g., a data table where each row represents a unique customer and the columns are the
+|              variables that describe that customer. These columns include information from the raw data
+|              (e.g., the number of times they click on a advertisement for product S, their age, etc.) and
+|              also any engineered variables (e.g., their average time between advertisement clicks). During
+|              data generation, we also decide what to do with any missing values (i.e., do we leave them as
+|              null or impute them?).
+
+-   **Data Model(s):** the product created from running the input data through a learning algorithm (i.e., a mathematical formula that predicts an output for a given input). Data Models aim to generalize the relationship between variables in the data.
+
+|              E.g., we choose to use logistic regression, where our response variable is the binary
+|              indicator of whether or not the customer purchased product S. Our explanatory variables are
+|              the customer's age, their number of advertisement clicks, and the average time between
+|              advertisement clicks. The general form of our data model would be:
+
+$$\textrm{logit}(p(\textrm{purchase S})) = \beta_0 + \beta_1 \cdot \textrm{age} + \beta_2 \cdot \textrm{ad-click number} + \beta_3 \cdot \textrm{average time between clicks} $$
+
+-   **Tuned Data Model(s):** a data model in which the model's parameters (including hyperparameters) are adjusted, usually to better balance the model's generalizablity and (prediction) accuracy for the population-of-interest. In practice, tuning is typically done by either splitting the data into training and test sets or by performing cross-validation.
+
+|             E.g., we choose to do 5-fold cross-validation to tune our data model's parameters in order to
+|             maximize our model's overall accuracy at a particular cutoff value. With logistic regression,
+|             the model tuning comes as choice of which variables to include (logistic regression does not
+|             have any hyperparameters).
+
+-   **Deployment and Use:** the generation of predictions (or other output) from the tuned data model. This is the stage where we ask questions like where should the system be used, who should be using it, and who/what should the data model be used on?
+
+|            E.g., we ultimately decide that we should only use our tuned data model on US customers who are
+|            under a certain age. Also, we determine that only data scientists at the company who are selling
+|            product S should be able to access the data model and generate predictions with it.
+
+------------------------------------------------------------------------
+
+# What is Ethics?
+
+------------------------------------------------------------------------
+
+### Definition
+
+Ethics (also referred to as moral philosophy) is comprised of three main branches:
+
+1.  **Applied Ethics:** concerns the treatment of "moral problems, practices, and policies in personal life, professions, technology, and government," [@applied-ethics].
+
+|             E.g., Is it morally permissible to deploy predictive-policing algorithms? When (if ever) is it
+|             morally permissible to let someone die?
+
+2.  **Ethical Theory:** concerns "the articulation and justification of the fundamental moral principles that govern how we should live and what we ought to morally do," (Driver, 2007). Types of overarching ethical theories include utilitarianism (Sinnott- Armstrong, 2019), deontological ethics (Alexander and Moore, 2020), and virtue ethics (Hursthouse and Pettigrove, 2022). It is important to note that many ethical theories are abstract (e.g., do the action that maximizes utility). As such, ongoing philosophical work is committed to offering, critiquing, and translating abstract ethical theories into advice about how we should actually live and what we ought to morally do in practice [@ethical-theory].[^1]
+
+[^1]: It is also worth noting that some philosophers just focus on what we should do in specific cases and do not appeal to overarching ethical theories at all
+
+|             E.g., Why should I be just? What constitutes respecting others?
+
+3.  **Metaethics:** explores "the status, foundations, and scope of moral values, properties, and words," [@metaethics].
+
+|             E.g., When we say an action is morally "wrong", do we mean the action has a certain feature
+|             that is bad, that I have a negative feeling towards the action, or something else? How do we
+|             come to know whether ethical claims (e.g., we should respect others) are true or false?
+
+A key takeaway is that ethics attempts to answer normative questions. For instance, ethics attempts to answer not what person A morally values, but rather what person A *should* morally value. Similarly, ethics is interested in what decision person A should make and not what decision person A makes (or is likely to make).
+
+It is also important to distinguish between ethics and the law. Actions can be legal without being morally permissible and actions can be illegal without being morally impermissible. For example, it seems morally impermissible for someone to cheat on a romantic partner they are in a monogamous relationship with, even though it is legal for them to do so.
+
+------------------------------------------------------------------------
+
+# What is Data Science Ethics?
+
+------------------------------------------------------------------------
+
+Data science ethics is usually considered a subfield of applied ethics. Though, case studies in data science ethics can also be used to explore questions in ethical theory and metaethics.
+
+### Definition
+
+Per @DS-ethics-def, Data Science Ethics studies and evaluates moral problems related to:
+
+-   **Data** including generation, recording, processing, dissemination, and sharing
+
+-   **Algorithms** including artificial intelligence, machine learning and statistical learning
+
+-   **Corresponding Practices** including responsible innovation, programming, hacking, and professional codes
+
+in order to formulate and support morally good solutions (e.g. right conducts or right moral values).
+
+### Importance
+
+There are a number of critical decision points in data science, which can lead to moral problems in data, algorithms, and corresponding practices.
+
+```{r}
+#| fig-cap: "In blue, some key decision points which might produce morally charged outcomes have been added to the data science processes diagram. A data scientist may or may not be aware of these decision points or responsible for all these decisions in-practice."
+#| fig-alt: "data science pipeline labeled in blue with some of the key decision points which might produce morally charged outcomes. E.g., for the 'data model(s)', model assumptions are noted in blue."
+knitr::include_graphics("images/DS-stack-values.png")
+```
+
+Given the commonly-held belief that math, and consequently statistics, is objective (in the sense that it is not influenced by one's moral values), the potentially morally charged choices in data science are often made implicitly, without the decision-maker reflecting on, for example, how opting for Choice A over Choice B (mis)aligns with their best jugdement about what they ought to do and/or their moral duties to stakeholders. The ethical considerations at data science decision points must be made explicit: both the existence of a choice and the implications of the analyst's ultimate decision are key aspects of each data science stage.
+
+Data science ethics attempts to illuminate the ethical repercussions of these choices and takes an interdisciplinary perspective on aligning our data science practices with what we should do and/or our moral duties to stakeholders.
+
+Therefore, understanding data science ethics is critical to ensuring morally responsible data science practices, and is particularly important in the age of big data, where our decisions are increasingly influenced by data science.
+
+> Case studies

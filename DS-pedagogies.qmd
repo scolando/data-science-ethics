@@ -1,0 +1,59 @@
+---
+title: "Data Science Ethics Pedagogies"
+output: 
+  html_document:
+    toc: TRUE
+    toc_float: TRUE
+bibliography: bibliographies/DSethics-summer2023.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
+```
+
+
+```{css, echo=FALSE}
+h1 {
+  text-align: left;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color:  #877e2c;
+    border-color:  #877e2c;
+}
+```
+
+Comic via [Evil AI Cartoons](https://www.evilaicartoons.com/):
+
+```{r out.width = '100%', out.height='50%'}
+knitr::include_graphics("images/teaching-ethics.png")
+```
+
+
+A common trend in data science ethics is to focus on case studies. In these case studies, students would identify stakeholders, list their values, and then determine how we should balance these values, especially in situations where the values are in conflict with one another. Though, a pertinent goal of data science ethics is to articulate what values we *should* have in data science, which can then be applied more broadly to issues in development and deployment of data science technologies.
+
+https://bdes.datasociety.net/council-output/pedagogical-approaches-to-data-ethics-2/
+
+https://link.springer.com/article/10.1007/s40593-021-00241-7
+
+http://lcfi.ac.uk/projects/ai-innovation-praxis/ai-ethics-pedagogy/
+
+https://dl.acm.org/doi/abs/10.1145/3313831.3376251
+
+https://eric.ed.gov/?id=EJ1346937
+
+https://link.springer.com/epdf/10.1007/s40593-021-00241-7?sharing_token=7V8AomkB89TXMBI5NnPAVPe4RwlQNchNByi7wbcMAY6lExaQR-ZUUAf62luEpHKe0ZdS9g5ArGcLEIv3lh3HlnQbsDGl31lDLQKrWsTM1iAaJkY2xGE7yaDrp8nme9Oe0b7Av0_i7A8G9y4IvSx4d0pBoOSgkeGjW-k1KbU0ewg%3D
+
+https://dl.acm.org/doi/abs/10.1145/3442188.3445914
+
+chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2038041
+
+---
+
+# References
+
+---

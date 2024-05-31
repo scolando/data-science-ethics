@@ -1,0 +1,14 @@
+---
+title: "Reading Lists"
+subtitle: 'readings are primarily pulled from the syllabi listed in <a href="inside-syllabi.html"> Inside the Syllabi Notes</a>.'
+format:
+  html:
+    search: true
+listing:
+  contents: readings/*.qmd
+  type: grid
+  sort: 
+    - "title"
+  categories: true
+  fields: [title, subtitle]
+---

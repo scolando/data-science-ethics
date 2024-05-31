@@ -1,0 +1,450 @@
+[
+  {
+    "objectID": "inside-syllabi.html#ethics-in-ai-by-liam-kofi-bright",
+    "href": "inside-syllabi.html#ethics-in-ai-by-liam-kofi-bright",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "1.1 Ethics in AI by Liam Kofi Bright",
+    "text": "1.1 Ethics in AI by Liam Kofi Bright\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n1.1.1 Background\nThis course was created by Liam Kofi Bright who is a philosopher of science currently at London School of Economics. The course is intended for upper level undergraduate or masters students. There are no formal pre-requisites, though it would be beneficial to have some prior experience with moral/polical philosophy and logic/statistics (Bright, 2022).\n\n\n1.1.2 Course Goals\nThe following is taken from the “Course Intent” section of Bright (2022).\n\nStudents understand what is morally and politically at stake in the wave of automation we are now undergoing.\nStudents grapple with what sort of epistemic capacities we can reasonably expect from AI and other similar algorithms.\nStudents work to understand how the epistemic capacities and moral and political stakes of AI interrelate to one another.\nStudents work to apply philosophical reasoning skills to understand a series of issues surrounding AI that have aroused public concern: stakeholder-transparency, medical uses, labor rights, privacy, AI governance, and aligning AI values with designer values.\n\n\n\n1.1.3 Course Topics\nEach week there is a different central topic. There are primary, secondary, and optional readings listed on the syllabus that relate to the week’s core topic.\nThe core topics are the following:\n\nEthical Foundations I: Bias\nEthical Foundations II: Justice\nExplanatory Desiderata I: Accuracy\nExplanatory Desiderata II: Causal Inference\nthe Good vs the True?\nTransparency\nLabor Rights\nPrivacy\nMedical Decisions\nAI Governance\nAlignment"
+  },
+  {
+    "objectID": "inside-syllabi.html#the-ethics-of-data-and-artificial-intelligence-by-the-london-school-of-economics",
+    "href": "inside-syllabi.html#the-ethics-of-data-and-artificial-intelligence-by-the-london-school-of-economics",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "1.2 The Ethics of Data and Artificial Intelligence by the London School of Economics",
+    "text": "1.2 The Ethics of Data and Artificial Intelligence by the London School of Economics\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n1.2.1 Background\nThe course is run by the Department of Philosophy, Logic and Scientific Method at the London School of Economics. The lead faculty are all professors within the Department of Philosophy, Logic, and Scientific Method. This course is intended for undergraduates and there are no prerequisites (Kate Vredenburgh, 2023).\n\n\n1.2.2 Course Goals\nThe following is taken from the “Course Outcomes” section of Kate Vredenburgh (2023).\n\nStudents understand core ethics concepts and how those concepts apply to AI systems.\nStudents analyze the ethical issues raised by a particular technology by applying core ethical reasoning techniques to real-world cases.\nStudents apply cutting-edge ethics research within the development process to build more ethical AI systems.\nStudents communicate their own ethical viewpoint clearly and persuasively by reconstructing others’ arguments, objecting to them, and providing their own solution.\n\n\n\n1.2.3 Course Topics\n\nJustice and the control of technology\nWhat is intelligence?\nEvaluating intelligence in AI systems\nParticipatory AI\nData and Privacy\nFair Prediction\nExplainable AI\nAI, Privacy, and Consent to Personal Data Processing on Social Media\nSurveillance and workplace privacy\nAI and value alignment\nAI and democracy: political discourse and social media, regulating power"
+  },
+  {
+    "objectID": "inside-syllabi.html#philosophical-foundations-of-machine-learning-by-carnegie-mellon-university",
+    "href": "inside-syllabi.html#philosophical-foundations-of-machine-learning-by-carnegie-mellon-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "1.3 Philosophical Foundations of Machine Learning by Carnegie Mellon University",
+    "text": "1.3 Philosophical Foundations of Machine Learning by Carnegie Mellon University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n1.3.1 Background\nThis course is run by Carnegie Mellon’s Machine Learning department. The faculty instructor is Zachary Lipton, who is a professor of Machine Learning and Operations Research. Philosopher Mel Andrews also helps instruct the class. The class is intended for graduate students though undergraduates can enroll with instructor permission. There are no formal prerequisites for the class (Lipton, 2023b).\n\n\n1.3.2 Course Goals\nThere are no explicit/listed course goals on Lipton (2023b). As such, the following list is based on extrapolation from the reading list and course information.\n\nStudents learn the origins of Machine Learning through schlars like Turing, Misnky, and Pearl.\nStudents understand the fundamental problem of induction and the evolution of philosophy of science through scholars like Kuhn, Hacking, and Hofstadter and then apply these philosophical concepts to field of Machine Learning.\nStudents develop a Machine Learning language to talk about the philosophical conceptions related to probability and causal through scholars like Polya, Cox, Cartwright, and Pearl.\nStudents analyze the ethical dimensions of deploying data driven models to automate decisions in consequential domains.\nStudents work to understand Machine Learning algorithms’ relationship to knowledge and creativity.\n\n\n\n1.3.3 Course Topics\nThe course topics are pulled from Lipton (2023a).\n\nThe (Technical) Origins of AI, Cybernetics, and Machine Learning\nThe Problem of Induction\nInduction and Statistical Learning Theory\nCausation\nCategories and Kinds\nEpistemological and Methodological Considerations of Machine Learning\nUnderstanding and Knowledge as it relates to Machine Learning\nGenerative AI, Bullshit, and Creativity\nAI Consciousness\nThe Troubles with Explanation (in Machine Learning)\nEthics I: Justice\nEthics II: Discrimination, Causal Interpretations, and Path-Specific Effects"
+  },
+  {
+    "objectID": "inside-syllabi.html#ethics-data-and-technology-by-the-university-of-florida",
+    "href": "inside-syllabi.html#ethics-data-and-technology-by-the-university-of-florida",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "1.4 Ethics, Data, and Technology by the University of Florida",
+    "text": "1.4 Ethics, Data, and Technology by the University of Florida\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n1.4.1 Background\nThis course is run by the University of Florida’s Philosophy department. The faculty instructor is David Gray Grant, who is an assistant professor of Philosophy at UF. The class is intended for undergraduates. There are no prerequisites for the class (Grant, 2021).\n\n\n1.4.2 Course Goals\nThe following is taken from the “Course Objectives” section of Grant (2021).\n\nStudents develop of basic vocabulary for discussing the ethical dimensions of data science and its applications.\nStudents analyze the issues and policies concerning emerging “big data” technologies through the application of ethical concepts.\nStudents critique public policies, social practices, and social institutions that shape, and are shaped by, scientific discovery and technology design.\nStudents discern the structure of arguments, represent them fairly and clearly, and evaluate them of cogency.\nStudents formulate original arguments, anticipate objections, and respond in a conscientious fashion\nStudents read and sicuss complex philosophical texts from both historical sources and contemporary works\nStudents speak and write clearly and persuasively about abstract and conceptually elusive matters.\n\n\n\n1.4.3 Course Topics\n\nThe Alignment Problem: Defining ‘Algorithm’ and recognizing the gap between the values embedded into algorithms and our human values.\nIntroduction to Ethics: Consequentialism\nAI Safety\nPrivacy and Surveillance Capitalism (with a case study analysis)\nAutonomy and the Attention Economy (with a case study analysis)\nAlgorithmic Opacity (with a case study analysis)\nAlgorithmic Bias (with a case study analysis)\nResponsibility Gaps"
+  },
+  {
+    "objectID": "inside-syllabi.html#data-ethics-by-the-university-of-california-san-diego",
+    "href": "inside-syllabi.html#data-ethics-by-the-university-of-california-san-diego",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "1.5 Data Ethics by the University of California, San Diego",
+    "text": "1.5 Data Ethics by the University of California, San Diego\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n1.5.1 Background\nThis course is run by the University of California, San Diego’s Philosophy department. The faculty instructor is David Danks, who is a professor of Data Science and Philosophy. There are no formal prerequisites for this course (Danks, 2023).\n\n\n1.5.2 Course Outcomes\nThese are taken from the “Learning Objectives” section of Danks (2023).\n\nStudents can describe the many ways that ethical issues arise throughout the lifecycle of a data science effort.\nStudents can generate appropriate ethical questions for a given data science effort\nStudents can work individually or collaboratively to develop more ethical & responsible data science projects.\n\n\n\n1.5.3 Course Topics\n\nLifecycle of a data science effort\nRights, values, and interests in data science\nThe neutrality thesis for data and technology\nAlgorithmic society\nPrivacy and Consent in Data Collection and Use\nBias and Fairness in Data Analysis and Modeling\nAlgorithmic Explainability\nAlgorithmic Justice\nAccountability in Using Data\nData Colonialism and Sovereignty\nCase Studies in Workplace Surveillance and Healthcare Resources"
+  },
+  {
+    "objectID": "inside-syllabi.html#ethics-and-technology-by-swarthmore-college",
+    "href": "inside-syllabi.html#ethics-and-technology-by-swarthmore-college",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "1.6 Ethics and Technology by Swarthmore College",
+    "text": "1.6 Ethics and Technology by Swarthmore College\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n1.6.1 Background\nThis course is run by Swarthmore College. It is a first-year seminar course that is co-taught by Ameet Soni, an Associate Professor of Computer Science, and Krista Karbowski Thomason, an Associate Professor of Philosophy. The course has no formal prerequisites (Soni & Thomason, 2019).\n\n\n1.6.2 Course Outcomes\nThe following is extrapolated from the “Course Goals” sections and course readings listed in Soni & Thomason (2019).\n\nStudents improve their ability to read and write philosophically.\nStudents gain an understanding of some key ethical theories and how they would be applied.\nStudents understand fundamental ethical issues surrounding algorithms such as bias, surveillance and privacy, and consciousness in AI.\nStudents improve their ability to craft a philosophical argument surrounding the ethical issues listed above.\n\n\n\n1.6.3 Course Topics\n\nWriting/Reading like a Philosopher\nApplied Ethical Theory: Relativism, Virtue Ethics, Humean Ethics, Kantian Ethics, Utilitarianism, Feminist Ethics, Buddhist Ethics\nDefinitions of Technology\nMachine Learning and Algorithmic Bias\nSurveillance and Privacy\nEthics surrounding Artificial Intelligence\nTranshumanism"
+  },
+  {
+    "objectID": "inside-syllabi.html#ethics-and-policy-of-data-analytics-by-carnegie-mellon-university",
+    "href": "inside-syllabi.html#ethics-and-policy-of-data-analytics-by-carnegie-mellon-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "1.7 Ethics and Policy of Data Analytics by Carnegie Mellon University",
+    "text": "1.7 Ethics and Policy of Data Analytics by Carnegie Mellon University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n1.7.1 Background\nThis course is run by Carnegie Mellon University’s Department of Information Systems and Public Policy. The faculty instructors are David Danks, who is a Professor of Data Science and Philosophy, and Sina Fazelpour, who is an Assistant Professor of Philosophy and Computer Science. There are no formal prerequisites for the course, though some familiarity with the data analytics pipeline is helpful (Danks & Fazelpour, 2021).\n\n\n1.7.2 Course Outcomes\nThe following is taken from the “Learning Objectives” section of Danks & Fazelpour (2021).\n\nStudents understand the key concepts of privacy, fairness, bias, explainability, and trust.\nStudents can determine the ethical impacts (along these dimensions) of various standard data analysis practices, methods, and products.\nStudents can derive relevant, key policy and legal constraints on data analytic practices and products.\nStudents can apply both ethical and policy considerations to an analysis of the permissibility and/or legitimacy of different data analytics.\n\n\n\n1.7.3 Course Topics\n\nCharacterizations of the “Ethics and Policy of Data Analytics”\nPrivacy: its Ethical and Policy Considerations in Big Data Analytics\nFairness and Bias: Ethical and Policy Considerations within Algorithmic Fairness Measures\nExplainability: Ethical and Policy Considerations in Algorithms\nTrust: a Unifying Approach?"
+  },
+  {
+    "objectID": "inside-syllabi.html#data-ethics-and-society-by-rice-university",
+    "href": "inside-syllabi.html#data-ethics-and-society-by-rice-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "1.8 Data, Ethics, and Society by Rice University",
+    "text": "1.8 Data, Ethics, and Society by Rice University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n1.8.1 Background\nThis course is run by Rice University’s Department of Data Science. The faculty instructor is Elizabeth Petrick, who is an Associate Professor of History. The course is meant for undergraduates and has no formal prerequisites (Petrick, 2021).\n\n\n1.8.2 Course Outcomes\nThe following is taken from the “Objectives” section of Petrick (2021).\n\nStudents will be able to explain the history of ethical concerns with data.\nStudents will be able to apply ethical reasoning when gathering, processing, and analyzing data.\nStudents will explore their individual ethical commitments as future data scientists.\n\n\n\n1.8.3 Course Topics\n\nFundamental Ethical Frameworks: Utilitarianism, Deontology (Kantian Ethics), Virtue Ethics.\nWho Counts and Who is Counted in Data Science: includes issues surrounding consent.\nHow is Data Resisted: Issues in Privacy\nWho Owns and Controls Data: Governmental Surveillance, Data Security and Hacking, Data Breaches\nHow is Data Gathered and Used Today: The Right to be Forgotten, Internet Companies, Biometrics, Fingerprinting.\nMachine Learning: Disability and AI, Creation and Circulation of Datasets, Autonomous Vehicles\nAlgorithms and Bias"
+  },
+  {
+    "objectID": "inside-syllabi.html#data-science-ethics-by-yale-university",
+    "href": "inside-syllabi.html#data-science-ethics-by-yale-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "2.1 Data Science Ethics by Yale University",
+    "text": "2.1 Data Science Ethics by Yale University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n2.1.1 Background\nThis course is run by Yale University’s Department of Statistics and Data Science. The faculty instructor is Elisa Celis, who is an assistant professor of Statistics and Data Science. The class is intended for undergraduates. The formal prerequisites for this class are probability and statistics as well as a data analysis course. Furthermore, prior coursework in AI/ML/Algorithms and Ethics/Philosophy is recommended (Celis, 2019).\n\n\n2.1.2 Course Outcomes\nThe following are taken from the “Course Learning Objectives” section of Celis (2019).\n\nStudents develop fluency in the key technical, ethical, policy, and legal terms and concepts related to data science.\nStudents learn about algorithmic and data-driven approaches for mitigating biases in AI/ML systems.\nStudents reason through problems with no clear answer in a systematic manner, taking and defending different viewpoints, and justifying your conclusions in a rigorous manner.\nStudents improve their writing and communication skills both with a technical and lay audience.\nStudents listen, understand and communicate with people of varying opinions, viewpoints, and ideas.\n\n\n\n2.1.3 Course Topics\n\nData Collection and Representation and Privacy via subtopics such as Data Sampling and Collection, Managing Datasets Responsibility and Data Cannibalism, the Goal(s) of Data Science, Inference and Privacy, and Re-Identification of Data.\nMachine Bias via subtopics such as Characterizing Machine Bias, Bias versus Correlation versus Causation, Understanding Fairness and Discrimination, Trade-offs between Data Science versus and Human Agents.\nSolutions to Bias via Algorithmic Fairness via subtopics such as Preprocessing Approaches and Debiasing Datasets, Impossibility Results, In-Processing Approaches to Fairness, Fairness in Deep Learning, and Representative Fairness.\nSocial Implications and Feedback Loops via subtopics such as Polarization and Feedback Loops, Algorithmic Persuasion, Employment, Advertising, Opportunity, Understanding “Who is” Data Science.\nControlling Machine Learning Systems via subtopics such as Transparency, Explainability/Interpretability, Accountability, Auditing Algorithms."
+  },
+  {
+    "objectID": "inside-syllabi.html#computing-ethics-and-society-by-northwestern-university",
+    "href": "inside-syllabi.html#computing-ethics-and-society-by-northwestern-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "2.2 Computing, Ethics, and Society by Northwestern University",
+    "text": "2.2 Computing, Ethics, and Society by Northwestern University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n2.2.1 Background\nThis course is run by Northwestern University’s Computer Science Department in the School of Engineering. The course is taught by Sarah Van Wart, an assistant professor of instruction in Computer Science and Engineering. The course has no formal prerequisites (Wart, 2021).\n\n\n2.2.2 Course Outcomes\nThe following is taken from the “Course Learning Goals” section of Wart (2021).\n\nStudents recognize the impact of one’s own assumptions, biases, and experiences.\nStudents identify (and question) dominant/normative ways of thinking about computing and technology.\nStudents understand some of the underlying concepts that power AI and the internet.\nStudents develop a framework for thinking about the relationship between technology and society.\nStudents consider how to participate in a world that is heavily mediated by computing.\n\n\n\n2.2.3 Course Topics\nThese are based on “Schedule” listed on Wart (2021).\n\nMorality, Ethics, and Human Values: Humans’ relationship to morality, understanding fundamental ethical frameworks such as Utilitarianism, Libertarianism, and Kantian ethics.\nTheories of Technology and Society: Understanding the relationship between human values and technology specifically with respect to race and social categories, media representation, surveillance, technological benevolence, and the role of classification systems in perpetuating systematic injustices.\nComputing Infrastructures: Big Data, Surveillance, AI, Content Moderation on Platforms, Business Models of Platforms, and combining these with normative values discussed earlier in the class."
+  },
+  {
+    "objectID": "inside-syllabi.html#special-topics-in-data-science-responsible-data-science-by-new-york-university",
+    "href": "inside-syllabi.html#special-topics-in-data-science-responsible-data-science-by-new-york-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "2.3 Special Topics in Data Science: Responsible Data Science by New York University",
+    "text": "2.3 Special Topics in Data Science: Responsible Data Science by New York University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n2.3.1 Background\nThis course is run by New York University’s Center for Data Science. It is taught by Julia Stoyanovich, who is an assistant professor of Data Science, Computer Science, and Engineering. The course has formal prerequisites of either Introduction to Data Science or Introduction to Computer Science or similar (Stoyanovich, 2019a).\n\n\n2.3.2 Course Outcomes\nThe following is taken from the “Learning Objectives” section of Stoyanovich (2019b).\n\nStudents can construct an end-to-end case study that illustrates the role of data science in society.\nStudents can explain the ethical and/or legal constraints in the collection and sharing of data according to a framework of the student’s choice.\nStudents can implement a computer program that applies anonymization and privacy techniques to a dataset, and explain the trade-offs with utility.\nStudents can articulate the differences between various interpretations of algorithmic fairness, and relate these interpretations to the points of view of different stakeholders.\nStudents can implement a computer program that audits a black-box classifier.\n\n\n\n2.3.3 Course Topics\n\nAlgorithmic Fairness\nCausality in Algorithms (and its Relationship to Algorithmic Fairness)\nAnonymity and Privacy in Data Science\nThe Trade-off between Privacy and Utility\nProfiling and Particularity\nAlgorithmic Transparency\nData Cleaning\nLegal frameworks, Codes of Ethics, and Personal Responsibility around Data Science\nCivil Rights, Predictive Policing, and Criminal Justice."
+  },
+  {
+    "objectID": "inside-syllabi.html#ethical-and-social-issues-in-ai-by-cornell-university",
+    "href": "inside-syllabi.html#ethical-and-social-issues-in-ai-by-cornell-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "2.4 Ethical and Social Issues in AI by Cornell University",
+    "text": "2.4 Ethical and Social Issues in AI by Cornell University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n2.4.1 Background\nThis course is run by Cornell University’s Computer Science Department. The faculty instructors are Joseph Halpern and Bart Selman, who are both Professors of Computer Science. The course is meant for undergraduates and there are no formal prerequisites for the course. Additionally, it is worth noting that this course is offered only as a Pass/No Credit discussion; there are no assignments beyond “active participation” in the class discussions (Halpern & Selman, 2017).\n\n\n2.4.2 Course Outcomes\nThe following is extrapolated from the required readings and abstracts listed in Halpern & Selman (2017).\n\nStudents understand some of the key ethical issues that are associated with developing and employing algorithmic technologies.\nStudents foresee some of the potential ethical and social issues facing the development and (widespread) employment of algorithmic technologies.\nStudents develop their ability to use philosophical language/frameworks to approach issues in AI.\nStudents learn how to engage in discussions of the ethical and social issues of AI, where there are various stakeholders to consider.\n\n\n\n2.4.3 Course Topics\nThe following is extrapolated from the required readings and abstracts listed in Halpern & Selman (2017).\n\nFuture of AI: Laying out the Benefits and Risks\nInherent Trade-offs in Algorithmic Fairness\nInterpretable AI\nComputational Ethics for AI\nThe Relationship between Humans and Machines in the Workplace\nThe Ethics of Robotics, Autonomy, Embodiment, and Anthropomorphism\nMoral Responsibility, Blameworthiness, and Intention of AI"
+  },
+  {
+    "objectID": "inside-syllabi.html#ethics-public-policy-and-technological-change-by-stanford-university",
+    "href": "inside-syllabi.html#ethics-public-policy-and-technological-change-by-stanford-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "3.1 Ethics, Public Policy, and Technological Change by Stanford University",
+    "text": "3.1 Ethics, Public Policy, and Technological Change by Stanford University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n3.1.1 Background\nThis course in run by Stanford University’s Department of Computer Science. The course instructors are Rob Reich (Professor of Political Science), Mehran Sahami (Professor of Computer Science and Engineering), and Jeremy Weinstein (Professor of Political Science). The course is meant for undergraduates and it has no formal prerequisites (Rob Reich & Weinstein, 2023).\n\n\n3.1.2 Course Outcomes\nThe following is extrapolated from the “Course Description” section and required readings of Rob Reich & Weinstein (2023).\n\nStudents integrate perspectives from computer science, philosophy, and social science to robustly and holistically examine the impact of technology on humans and societies.\nStudents critically reflect on their role as enablers and shapers of technological change in society.\nStudents will learn how to engage with students across different disciplines in discussions about the ethical and socio-political dimensions of technologies.\n\n\n\n3.1.3 Course Topics\n\nAlgorithmic Decision-making\nThe Political Economy of Technology\nData Collection, Privacy, and Civil Liberties\nArtificial Intelligence and Autonomous Systems\nPower of Private Platforms\nBlockchain and Decentralized Technical Architectures\n\nEach topic is broken down into 6 sub-modules: Promise and Perils, Technical Deep Dive, Rights and Responsibilities, Moderated Discussion with Experts, Tensions and Trade-offs via a Case Study, and Making Product/System/Policy Choices in Light of these Trade-offs"
+  },
+  {
+    "objectID": "inside-syllabi.html#human-contexts-and-ethics-of-data-by-the-university-of-california-berkeley",
+    "href": "inside-syllabi.html#human-contexts-and-ethics-of-data-by-the-university-of-california-berkeley",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "3.2 Human Contexts and Ethics of Data by the University of California, Berkeley",
+    "text": "3.2 Human Contexts and Ethics of Data by the University of California, Berkeley\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n3.2.1 Background\nThis course is run by University of California, Berkeley’s College of Computing, Data Science, and Society (and cross-listed by the History and Science Technology and Society department). This course’s faculty instructors are Margo Boenig-Lipstin, who is the Director of Human Context and Ethics, and Ari Edmundson, who is a Lecturer in UC Berkeley’s Data Science Undergraduate Studies Program. The course has no formal prerequisites (Boenig-Lipstin & Edmundson, 2020).\n\n\n3.2.2 Course Outcomes\nThe following is taken from the “Scope and Objectives” section of Boenig-Lipstin & Edmundson (2020).\n\nStudents understand the challenge and importance of doing ethical data science amid shifting definitions of human subjects, consent, and privacy.\nStudents grapple with the changing relationship between data, democracy, and law.\nStudents understand the role of data analytics in how corporations and governments provide public goods such as health and security to citizens.\nStudents explore technologies like sensors, machine learning, and artificial intelligence and how they are changing the landscapes of labor, industry, and city life.\nStudents reflect on the implications of data for how the public and varied scientific disciplines know the world.\n\n\n\n3.2.3 Course Topics\n\nThe History of Datafication\nData Futures: Past and Present\nCharacterizations of Data and Data Science\n(Ethically) Responsible Data Science\nData Shaping Identities\nPopulations and States\nSurveillance and Security\nPredictive Policing\nMaking Arguments with Data\nChoice, Influence, Manipulation, and Governance\nAlgorithmic Sentencing\nData and Democracy\nData’s Influence on Scientific Research\nMachines and Industry\nThe Ethos of Making"
+  },
+  {
+    "objectID": "inside-syllabi.html#the-ethics-and-governance-of-artificial-intelligence-by-the-massachusetts-institute-of-technology",
+    "href": "inside-syllabi.html#the-ethics-and-governance-of-artificial-intelligence-by-the-massachusetts-institute-of-technology",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "3.3 The Ethics and Governance of Artificial Intelligence by the Massachusetts Institute of Technology",
+    "text": "3.3 The Ethics and Governance of Artificial Intelligence by the Massachusetts Institute of Technology\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n3.3.1 Background\nThis course is a Cross-Disciplinary course run by the Massachusetts Institute of Technology. The faculty instructors are Joi Ito, who is a Professor of Practice in Media Arts and Science, and Jonathan Zittrain, who is a Professor of International Law, Computer Science, and Public Policy. The course is meant for graduate students and there are no formal prerequisites (Ito & Zittrain, 2018).\n\n\n3.3.2 Course Outcomes\nThe following is extrapolated from the “Course Description” section and course readings listed on Ito & Zittrain (2018).\n\nStudents investigate the implications of emerging technologies (with an emphasis on the development and deployment of AI) from a cross-disciplinary perspective.\nStudents grapple with complex issues surrounding AI such as how to balance regulation and innovation, how AI influences the dissemination of information, and questions related to individual rights.\nStudents analyze socio-political perspectives related to AI case studies in private corporations, labor, and governance.\n\n\n\n3.3.3 Course Topics\n\nMachine Learning and Philosophy of Mind\nAlgorithmic Opacity\nAutonomy, System Design, Agency, and Liability\nAlgorithmic Bias: with case studies in Risk Assessment, Predictive Policing, Credit Scoring, and Image Recognition\nOwnership, Control, and Access\nGovernance, Explainability, Accountability\nLabor, Automation, and Regulation\nEthics, Morals, and Frontiers"
+  },
+  {
+    "objectID": "inside-syllabi.html#ethics-and-policy-in-data-science-by-cornell-university",
+    "href": "inside-syllabi.html#ethics-and-policy-in-data-science-by-cornell-university",
+    "title": "Inside the Data Science Ethics Syllabi",
+    "section": "3.4 Ethics and Policy in Data Science by Cornell University",
+    "text": "3.4 Ethics and Policy in Data Science by Cornell University\n\n\n\n\n\n\nCourse Information\n\n\n\n\n\n\n3.4.1 Background\nThis course is run by Cornell University’s Department of Information Science. The faculty instructor for the course in Solon Barocas, who is an Adjunct Assistant Professor in the Department of Information Science and Principal Researcher at Microsoft. The course is meant for Masters/Undergraduate students and has no formal prerequisites (Barocas, 2017).\n\n\n3.4.2 Course Outcomes\nThe following is extrapolated from the “Course Description and Objectives” section of Barocas (2017).\n\nStudents can recognize where and understand why ethical issues and policy questions can arise when applying data science to real world problems.\nStudents develop fluency in key technical, ethical, policy, and legal terms and concepts that are relevant to a normative assessment of data science and gain exposure to legal scholarship and policy documents that will help them understand the current regulatory environment and potential future environments.\nStudents develop their ability to bring analytic and technical precision to normative debates about the role that data science, machine learning, and artificial intelligence play in consequential decision-making in commerce, employment, finance, healthcare, education, policing, and other areas.\nStudents will develop tools to conceptualize, measure, and mitigate bias in data-driven decision-making, to audit and evaluate models, and render these analytic tools more interpretable and their determinations more explainable.\n\n\n\n3.4.3 Course Topics\n\nCharacterizing Data and the Importance of Data Science Ethics\nAlgorithmic Bias and Exclusion\nThe Social Science of Discrimination\nHow Machines Learn to Discriminate\nAuditing Algorithms\nFormalizing and Enforcing Fairness in Machine Learning\nProfiling and Particularity\nAllocative to Representational Harms\nTransparency and Due Process\nInterpretability in Machine Learning\nThe Value of Explanation\nPrivacy\nPrice Discrimination\nCase Studies with Insurance\nAlgorithmic Persuasion and Manipulation\nCase Studies with Hiring"
+  },
+  {
+    "objectID": "syllabi-table-code.html",
+    "href": "syllabi-table-code.html",
+    "title": "Syllabi Table Creation",
+    "section": "",
+    "text": "html file saved to /Users/sara/Desktop/data-science-ethics/syllabi-table.html"
+  },
+  {
+    "objectID": "readings/Privacy.html#primary-privacy-readings",
+    "href": "readings/Privacy.html#primary-privacy-readings",
+    "title": "Privacy Readings",
+    "section": "Primary Privacy Readings",
+    "text": "Primary Privacy Readings\n\n\n\n\n\n\n\n\nTitle\nCitation\nDescription\n\n\n\n\nPrivacy (Stanford Encyclopedia of Philosophy)\nDeCew (2018)\n2020\n\n\nWhy Privacy is Important\nRachels (1975)\n2019\n\n\nWhy We Care about Privacy\nMcFarland (2012)\n2019\n\n\nPrivacy and Human Behavior in the Age of Information\nAcquisti, Brandimarte, & Loewenstein (2015)\n2019\n\n\nSurveillance and Capture: Two Models of Privacy\nAcquisti et al. (2015)\n2019\n\n\nFrom Individual to Group Privacy in Big Data Analytics\nMittelstadt (2017)\n2019\n\n\nA Modern Pascal’s Wager for Mass Electronic Surveillance\nDanks (2014)\n2019\n\n\nPrivacy and Paternalism: The Ethics of Student Data Collection\nCreel & Dixit (2022)\n2019\n\n\nBig Data’s End Run around Procedural Privacy Protections\nBarocas & Nissenbaum (2014)\n2019\n\n\nWhy ‘I Have Nothing to Hide’ is the Wrong Way to Think About Surveillance\nBarocas & Nissenbaum (2014)\n2019\n\n\nCan a Set of Equations keep U.S. Census Data Private?\nBarocas & Nissenbaum (2014)\n2019"
+  },
+  {
+    "objectID": "readings/Privacy.html#additional-privacy-readings",
+    "href": "readings/Privacy.html#additional-privacy-readings",
+    "title": "Privacy",
+    "section": "Additional Privacy Readings",
+    "text": "Additional Privacy Readings\n\nPhilosophy of Privacy and Digital Life\nNothing to Hide\nIt’s Not Privacy, and It’s Not Fair\nDigital Reputation in an Era of Runaway Data\nThe Surveillance Society\nRecommender Systems and Their Ethical Challenges"
+  },
+  {
+    "objectID": "readings/Privacy.html#primary-privacy-readings-references",
+    "href": "readings/Privacy.html#primary-privacy-readings-references",
+    "title": "Privacy",
+    "section": "Primary Privacy Readings’ References",
+    "text": "Primary Privacy Readings’ References"
+  },
+  {
+    "objectID": "readings/Causation.html#primary-causation-readings",
+    "href": "readings/Causation.html#primary-causation-readings",
+    "title": "Causation",
+    "section": "Primary Causation Readings",
+    "text": "Primary Causation Readings"
+  },
+  {
+    "objectID": "readings/Causation.html#additional-causation-readings",
+    "href": "readings/Causation.html#additional-causation-readings",
+    "title": "Causation",
+    "section": "Additional Causation Readings",
+    "text": "Additional Causation Readings\n\n\nTheory of Causation\nLost in (Modal) Space: Demographic Base-Rate Neglect in the Service of Modal Knowledge\n“But What Are You Really?” On the Metaphysics of Race\nVariation Semantics\nEvaluations of Causal Claims Reflect a Trade-Off Between Informativeness and Compression"
+  },
+  {
+    "objectID": "readings/Causation.html#primary-causation-readings-references",
+    "href": "readings/Causation.html#primary-causation-readings-references",
+    "title": "Causation",
+    "section": "Primary Causation Readings’ References",
+    "text": "Primary Causation Readings’ References"
+  },
+  {
+    "objectID": "Reading-Tags.html",
+    "href": "Reading-Tags.html",
+    "title": "Reading Lists",
+    "section": "",
+    "text": "Alignment\n\n\nReadings on the moral alignment between human values and current data science practices.\n\n\n\n\n\n\n\n\n\n\nBias, Fairness, and Justice\n\n\nReadings on the normative concepts of bias, fairness, and justice and how they are relevant considerations in data science.\n\n\n\n\n\n\n\n\n\n\nCausation\n\n\nReadings on causation as it applies to data science, and more specifically data science ethics. A primary focus of these readings is causal inference and socially sensitive attributes (e.g., race and gender).\n\n\n\n\n\n\n\n\n\n\nCharacterizations of Data Science\n\n\n\n\n\n\n\n\n\n\nConsent\n\n\nReadings on informed consent in data science practices, why it ethically matters, and how to grapple with the practical challenges of obtaining informed consent in data science.\n\n\n\n\n\n\n\n\n\n\nDemocracy\n\n\n\n\n\n\n\n\n\n\nExplainability\n\n\nReadings on what is meant by “explainability” (and related terms like “transparency” and “interpretability”) in data science and to what extent acheiving explainabilty (or transparency or interpretability) in algorithms is morally important.\n\n\n\n\n\n\n\n\n\n\nPredictive Policing\n\n\nReadings and case studies on the applications of data science in predictive policing and the ethical implications of using statistical models to perform predictive policing.\n\n\n\n\n\n\n\n\n\n\nPrivacy\n\n\nReadings on privacy, why it matters, its relationship to consent, and case studies that emphasize both the importance and difficulty of ensuring privacy in data science.\n\n\n\n\n\n\n\n\n\n\nResponsibility\n\n\n\n\n\n\n\n\n\n\n\n\n\nWorkplace\n\n\nReadings and case studies on the applications of data science in the workplace (e.g., in hiring or promotion) and the ethical implications of using statistical models in such contexts.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Website!",
+    "section": "",
+    "text": "There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data science ethics. There are not always, however, explicit connections between data science ethics and the centuries-old work on ethics within the discipline of philos- ophy. Here, we present a framework for bringing together key data science practices with ethical topics. The ethical topics were collated from sixteen data science ethics courses with public-facing syllabi and reading lists. We encourage individuals who are teaching data science ethics to engage with the philosophical literature and its connection to current data science practices, which is rife with potentially morally charged decision points.\nThis website is associated with a paper, which gives a more in-depth overview of the add. The accompanying paper is currently available on ArXiv.\n\n\n\n\n\nhttps://arxiv.org/abs/2310.02444\n\n\n\n\n\nThe table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit Inside the Syllabi Notes for in-depth notes on each course’s learning goals and topics."
+  },
+  {
+    "objectID": "index.html#welcome-to-the-website",
+    "href": "index.html#welcome-to-the-website",
+    "title": "Data Science Ethics",
+    "section": "",
+    "text": "There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data science ethics. There are not always, however, explicit connections between data science ethics and the centuries-old work on ethics within the discipline of philos- ophy. Here, we present a framework for bringing together key data science practices with ethical topics. The ethical topics were collated from sixteen data science ethics courses with public-facing syllabi and reading lists. We encourage individuals who are teaching data science ethics to engage with the philosophical literature and its connection to current data science practices, which is rife with potentially morally charged decision points.\n\n\n\n\n\nhttps://arxiv.org/abs/2310.02444\n\n\n\n\n\nThe table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit Inside the Syllabi Notes for in-depth notes on each course’s learning goals and topics."
+  },
+  {
+    "objectID": "index.html#syllabi-table",
+    "href": "index.html#syllabi-table",
+    "title": "Welcome to the Website!",
+    "section": "",
+    "text": "The table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit Inside the Syllabi Notes for in-depth notes on each course’s learning goals and topics."
+  },
+  {
+    "objectID": "DS-pipeline.html#lifecycle-1",
+    "href": "DS-pipeline.html#lifecycle-1",
+    "title": "Common Syllabi Topics’ Connections to the Data Science Lifecycle",
+    "section": "Lifecycle 1",
+    "text": "Lifecycle 1\n\nI considered paradigmatic ethical issues that relate to each most common topic to place them on the Data Science lifecycle:\n\n\n\n\n\n\n\nThis diagram helps us understand which stages or processes of the Data Science lifecycle are represented in the syllabi and which stages or processes are (generally) underrepresented in the syllabi. Importantly though, there are arguments to be made for why the most common topics should overlap with other stages of the lifecycle too."
+  },
+  {
+    "objectID": "DS-pipeline.html#lifecycle-2",
+    "href": "DS-pipeline.html#lifecycle-2",
+    "title": "Common Syllabi Topics’ Connections to the Data Science Lifecycle",
+    "section": "Lifecycle 2",
+    "text": "Lifecycle 2\nRings with less opacity denote areas where there seems to be substantial overlap between common topics and the data science stage though these considerations are not “paradigmatic” ethical issues.\n\n\n\n\n\nThis diagram helps us understand which stages or processes of the Data Science lifecycle are represented in the syllabi and which stages or processes are (generally) underrepresented in the syllabi. The components with less opacity are areas of overlap between syllabi topics and data science stages that are less commonly thought of within data science literature"
+  },
+  {
+    "objectID": "DS-pipeline.html#consent",
+    "href": "DS-pipeline.html#consent",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "3.1 Consent",
+    "text": "3.1 Consent\nGenerally, when people think about consent in data science, they think about it in data collection. That is, did the researchers or business have informed consent when collecting people’s data? Usually, when researchers or companies get permission to collect people’s data, they also ask for consent to use the data in a specific capacity later in the lifecycle (e.g., to build models, be placed in a database, sell to another company, etc.).\nYet, an agent must also consent to have the knowledge interpreted from a data model applied to them, even if none of their data was collected for the model building. For example, imagine that a company creates a data model that predicts that people who watch a certain television show are more likely to vote for a particular presidential candidate based on previously observed cases. A person begins watching the television show, and none of their information was used in building the predictive data model. Still, it seems crucial to consider if the person gave informed consent to have the model make predictions about them and their likelihood of voting for a particular presidential candidate.\nConsent Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#privacy",
+    "href": "DS-pipeline.html#privacy",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "3.2 Privacy",
+    "text": "3.2 Privacy\nIn 2016, university researchers published personal data from the OkCupid dating site to an open data repository. This data revealed intimate details about over 70,000 users, including usernames, sexual preferences, and personal opinions. A scholar at Carnegie Mellon University said about 30% of these profiles were directly identifiable, meaning their OkCupid profile data could be connected to their real name, causing international outrage (Woollacott, 2016). The OkCupid case study underscores why data science ethics courses heavily emphasize privacy’s importance. Data science often requires massive amounts of data and, as aforementioned, informed consent to be collected. Intuitively, it is unethical for personal data that people usually consented to be used by a particular entity for a specific purpose to be available to other entities, especially when the available data is identifiable (i.e., traceable back to them).\nTherefore, privacy is central to interactions with the world that lead to data collection, processing, and data storage, especially when the information collected is personal. Usually, data is aggregated and thus anonymized to develop a model, so there are typically no concerns about the model or its predictions exposing personal information.\nWhen knowledge inferred from a data model informs further interactions with the world, worries about privacy resurface. For instance, imagine a data model by one company predicts that you are unqualified for a job. It would be unethical for this prediction to be shared with every other company you applied to or for your prediction to be given to career development companies to target course advertisements toward you. Hence, just like personal data, it seems like people have a right to keep model predictions about them private.\nPrivacy Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#explainability-interpretability-transparency",
+    "href": "DS-pipeline.html#explainability-interpretability-transparency",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "3.3 Explainability, Interpretability, Transparency",
+    "text": "3.3 Explainability, Interpretability, Transparency\nA common complaint about data science models, particularly more advanced ones, is that they are black boxes. Explainability, interpretability, and transparency all describe similar desires for data science technologies to be more understandable to humans, particularly the technology’s stakeholders. People usually demand that data science technologies are comprehensible to humans at the deployment stage, where predictions about individuals or groups are made. For example, if an inmate’s bail is set higher than they think it should be because an algorithm recommended the higher bail amount, it seems highly likely that the inmate would be upset. Some would argue that the inmate’s upsetness is partly because they have a right to an explanation.\nThe “right to an explanation” argument extends to future interactions with our world. Imagine law enforcement starts over-policing neighborhood A relative to neighborhood B because people in neighborhood A tend to have higher bail amounts than people in neighborhood B. It seems that the people in neighborhood A have a right to know why they are being over-policed relative to the people in neighborhood B.\nLike many data science ethics terms, what exactly explainability, interpretability, and transparency require is an open question. It does not seem sufficient to publish the model’s code because this does not tell us why the model made the decision it did on a particular person. Simultaneously, more advanced data science models can use millions of hyper-parameters to make predictions. So, we cannot point to a single variable and say that it caused the algorithm to predict class X over class Y for Individual I.\nExplainability Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#democracy-workplace-predictive-policing",
+    "href": "DS-pipeline.html#democracy-workplace-predictive-policing",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "3.4 Democracy, Workplace, Predictive Policing",
+    "text": "3.4 Democracy, Workplace, Predictive Policing\nDemocracy, workplace, and predictive policing are settings where data science practices have exceptionally high moral stakes. As such, case studies from democracy, workplace, or predictive policing settings are routinely used in data science ethics classes to underscore how pernicious data science’s moral harms can be. Usually, when case studies are referenced, it concerns deploying predictive models in these settings. The COMPAS algorithm, which predicted an inmate’s risk of being reconvicted to determine their sentence length, is a well-known example of an algorithm that was scrutinized for being deployed in courtrooms, given that it predicted a higher proportion of false high-risk appraisals for Black defendants than White defendants (Julia Angwin, 2016).\nFurthermore, these predictions can lead to morally problematic interactions with the world. For instance, suppose that law enforcement starts over-policing a predominantly Black neighborhood because a recidivism algorithm predicted that people from that neighborhood are more likely to be reconvicted of a crime. Yet, the recidivism algorithm was trained on historical data riddled with racial biases. Over-policing that neighborhood could lead to specific populations being wrongfully convicted or more likely to be convicted solely because of their demographic characteristics – both of which are intuitively morally problematic.\nInterestingly, even though there is a high likelihood of immoral outcomes of deploying predictive models in democracy, workplace, and predictive policing settings, creating these predictive models is not intuitively morally problematic in itself. Imagine that a civil rights group develops an algorithm to predict a person’s likelihood of being reconvicted to show that the criminal justice system is racially biased, which intuitively, does not seem morally troublesome. Though, if the recidivism algorithm is deployed, meaning it influences people’s beliefs about a person’s reconviction risk, does it become morally pernicious.\nDemocracy Readings\nWorkplace Readings\nPredictive Policing Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#causation",
+    "href": "DS-pipeline.html#causation",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "3.5 Causation",
+    "text": "3.5 Causation\nProbably the most-known lesson in statistics is that “correlation does not imply causation”. This lesson becomes especially poignant when a model representing the world is interpreted as knowledge. At least currently, most models only identify correlations between the predictor variables and the response variable, not causation (there is also centuries worth of philosophical debates about how to define causation). Interpreting correlative relationships as causal can have significant moral repercussions. For instance, suppose we have a logistic model that predicts whether a person will drop out of high school. Our model has a positive correlation between having Spanish as your first language and your expected probability of dropping out (i.e., if your first language is Spanish, you are expected to have a higher chance of dropping out of high school, holding all other variables constant). Clearly, several confounding variables, such as socioeconomic status and available academic opportunities, lead to the positive relationship we found. But, suppose that someone took our model and, from it, declared that having Spanish as your first language causes a higher probability of dropping out of high school. They might conclude that people whose first language is Spanish are less intelligent or lazier in school than those whose first language is not Spanish, leading to racist beliefs and actions that morally harm people whose first language is Spanish. Therefore, several data science ethics classes focus on causation at the knowledge-interpretation stage and, specifically, how it is dangerous to interpret causal relationships from most data models.\nThere can also be ethical repercussions of false causal relationships between predictors and the response variable in informing future interactions with the world. Imagine biologists theorize that native Spanish speakers are naturally less intelligent than native English speakers and use false causal claims they took from our model to justify data collection. Thus, ethical worries related to causation span not just what we should interpret as knowledge from a data model but also what sorts of interactions with the world are can be justified on the basis of previously interpreted knowledge.\nCausation Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#bias-fairness-justice",
+    "href": "DS-pipeline.html#bias-fairness-justice",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "3.6 Bias, Fairness, Justice",
+    "text": "3.6 Bias, Fairness, Justice\nBias, fairness, and justice are all fundamental topics in data science ethics. Ongoing philosophical work is committed to defining bias, fairness, and justice and their relationship to one another. As such, I will not attempt to define nor explain the relationship between bias, fairness, and justice in this short connection paragraph. Even without definitions, though, there are intuitive cases of biased, unfair, and unjust data science practices and models. For instance, consider the COMPAS algorithm: a data model that predicted the risk of recidivism had higher rates of false “high risk” predictions for Black defendants than White defendants (Julia Angwin, 2016). Intuitively, COMPAS’ predictions are biased against Black people, and similarly, it would be unfair (and unjust) to decide a person’s parole or set their bail using COMPAS.\nThe COMPAS case study highlights why most data science ethics courses tend to focus on bias, fairness, and justice surrounding data models: primarily, what is input into them (i.e., the data) as well as what they output (i.e., their predictions) and how decision-makers use the model’s outputs. The saying “garbage in, garbage out” encapsulates the commonly-seen connection between bias, fairness, and justice and data modeling. “Garbage in, garbage out” indicates that if the data used to build the data model was biased against group X, then the model’s predictions would be biased against group X and could lead to unfair outcomes for group X. This explains why the opaque concentric circle for bias, fairness, and justice extends from “data” to “knowledge” in the data science lifecycle.\nAnother paradigmatic stage of the data science lifecycle where bias, fairness, and justice emerge is “interactions with the world”. Suppose a data scientist wants to model the average number of hours in the hospital after giving birth but only surveys white females. We would consequently consider the data set biased towards white women and be cautious about generalizing the data scientist’s findings to people who are not white women.\nWhile there is a focus on bias, fairness, and justice in data modeling and interactions with the world, they are essential concepts to consider at every stage in the data science lifecycle. For example, we might drop observations with missing values when processing interactions as objects and then data. Yet, dropping those values can create biases in our data and subsequent analysis if they are not missing at random (example inspired by this paper). Bias, fairness, and justice can also come into play from “knowledge” to “interactions with our world”. For instance, it might be considered unjust or unfair to give nannying job ads to only women because an algorithm found that women were significantly more likely than men to click on a nannying ad (example inspired by this article).\nBias, Fairness, Justice Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#alignment-responsibility-characterizations-of-data-and-data-science",
+    "href": "DS-pipeline.html#alignment-responsibility-characterizations-of-data-and-data-science",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "3.7 Alignment, Responsibility, Characterizations of Data and Data Science",
+    "text": "3.7 Alignment, Responsibility, Characterizations of Data and Data Science\n\n3.7.1 Alignment\nAlignment refers to how our moral values align with our data science practices and technologies. We frequently consider alignment during the deployment stage, where our data model generates predictions about novel inputs. When seeing the outputs, it becomes salient if our moral values and data science practices are misaligned. Still, alignment comes into play throughout the lifecycle. We apply our moral values in interactions with our world (e.g., the moral requirement to get informed consent when collecting personal information). We use our moral values in data processing and cleaning when thinking about what to do with missing data, especially when it is not missing at random. Alignment also comes into play when developing data models. For instance, we use our moral values when deciding what fairness metric to use when evaluating our model’s performance and thereafter when thinking about how we apply the model outputs to inform future interactions with the world (e.g., see the privacy and consent sections above).\nAlignment Readings\n\n\n3.7.2 Responsibility\nHere, I am focusing on moral rather than mere legal responsibility; an individual might be morally responsible for X, even if X is legal (e.g., cheating on a significant other). Moral responsibility comes up throughout the data science lifecycle. Most commonly, data science focuses on moral responsibility concerning model deployment and interactions with the world. For example, Amazon was seen as morally responsible for deploying a hiring algorithm that was biased against female applicants (Dastin, 2018). Moral responsibility also arises when building data models. It seems reasonable to contend that if another company made Amazon’s faulty hiring algorithm, it would also be morally responsible for the biased results – even if that company never deployed the model itself.\nMoral responsibility is also crucial in interactions with the world. For instance, there are several case studies, data science, and beyond where people are morally responsible for failing to obtain informed consent when collecting personal information. Some examples include the Tuskegee Study or commercializing a social media user’s data without informed consent.\nThough less commonly thought about, moral responsibility also influences the “interactions with the world” to “data” stages of the lifecycle. Specifically, it seems valid to hold data scientists morally responsible for how data is stored and cleaned. For example, if a data scientist stored personal data in a foreseeably faulty database, they would be at least partially morally responsible for any data leakages. Similarly, if data is publicized that is not adequately anonymized, the data scientist who was supposed to remove identifiers from the data would be at least partially morally responsible for any ethical repercussions that arose from the data not being adequately anonymized.\nResponsibility Readings\n\n\n3.7.3 Characterizations of Data and Data Science\nFinally, characterizations of data and data science affect how we conceive of the data science lifecycle in general and, in turn, influence each stage in the data science lifecycle (see the Data Science Lifecycle Page for more information).\nCharacterizations of Data and Data Science Readings"
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html",
+    "href": "Intro-DS-lifecycle.html",
+    "title": "Data Science Lifecycle",
+    "section": "",
+    "text": "Though it might not be explicit, using one lifecycle or pipeline over another endorses specific views about data, data models, and their respective relationships to what we take to be knowledge about our world. Thus, the choice to use a certain data science lifecycle is value-laden.\nHere, I examine two popular conceptions of the relationships between data, data models, and what we should interpret as knowledge about our world (i.e., the epistemic roles of data and data models) (Leonelli, 2018):\nExamples of Data Models: 1. A simple linear regression that uses years\n            of education to model the expected income is a data model.2. An algorithm that utilizes\n            millions of hyperparameters to predict an incarcerated individual's risk of recidivism.3.\n            A data visualization that describes a relationship between variables within a sample.\nIn the following two subsections, I provide an explication of the representational and relational view of data and data models and some benefits of using the relational view of data and data models over the representational one. I recommend reading Leonelli (2018) for a more in-depth justification of the value of a relational view of data and data models over a representational one."
+  },
+  {
+    "objectID": "DS-pedagogies.html",
+    "href": "DS-pedagogies.html",
+    "title": "Data Science Ethics Pedagogies",
+    "section": "",
+    "text": "Comic via Evil AI Cartoons:\n\n\n\n\n\n\n\n\n\nA common trend in data science ethics is to focus on case studies. In these case studies, students would identify stakeholders, list their values, and then determine how we should balance these values, especially in situations where the values are in conflict with one another. Though, a pertinent goal of data science ethics is to articulate what values we should have in data science, which can then be applied more broadly to issues in development and deployment of data science technologies.\nhttps://bdes.datasociety.net/council-output/pedagogical-approaches-to-data-ethics-2/\nhttps://link.springer.com/article/10.1007/s40593-021-00241-7\nhttp://lcfi.ac.uk/projects/ai-innovation-praxis/ai-ethics-pedagogy/\nhttps://dl.acm.org/doi/abs/10.1145/3313831.3376251\nhttps://eric.ed.gov/?id=EJ1346937\nhttps://link.springer.com/epdf/10.1007/s40593-021-00241-7?sharing_token=7V8AomkB89TXMBI5NnPAVPe4RwlQNchNByi7wbcMAY6lExaQR-ZUUAf62luEpHKe0ZdS9g5ArGcLEIv3lh3HlnQbsDGl31lDLQKrWsTM1iAaJkY2xGE7yaDrp8nme9Oe0b7Av0_i7A8G9y4IvSx4d0pBoOSgkeGjW-k1KbU0ewg%3D\nhttps://dl.acm.org/doi/abs/10.1145/3442188.3445914\nchrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2038041\n\n\nReferences"
+  },
+  {
+    "objectID": "Common-Topics.html",
+    "href": "Common-Topics.html",
+    "title": "Most Common Syllabi Topics",
+    "section": "",
+    "text": "Most Common Syllabi Topics\n\n\n\n\n\n\n\n\n\nCollation Methodology\n\n\n\n\n\nTo determine the syllabi topics, we took the listed course topics, available on Inside the Syllabi Notes, and collated them on one spreadsheet. We then grouped the course topics under more general headings (e.g., we put the ‘Labor, Automation, and Regulation’ under the heading of ‘Workplace’) to create a more concise list of the syllabi topics.\n\nLink to syllabi-topics.csv\n\n\n\n\n\n\n\nAll Syllabi Topics\n\n\n\n\n\n\nSyllabi topics, arranged in descending order by count.\n\n\n\n\n\nMost Common Syllabi Topics\n\n‘Most Common’ = has a count of 3 or more \n\n\n\n\n\nMost common syllabi topics, arranged in descending order by count."
+  },
+  {
+    "objectID": "construction.html",
+    "href": "construction.html",
+    "title": "Data Science Ethics",
+    "section": "",
+    "text": "This page is under construction. Check back later!"
+  },
+  {
+    "objectID": "readings/Democracy.html#primary-democracy-readings",
+    "href": "readings/Democracy.html#primary-democracy-readings",
+    "title": "Democracy",
+    "section": "Primary Democracy Readings",
+    "text": "Primary Democracy Readings"
+  },
+  {
+    "objectID": "readings/Democracy.html#additional-democracy-readings",
+    "href": "readings/Democracy.html#additional-democracy-readings",
+    "title": "Democracy",
+    "section": "Additional Democracy Readings",
+    "text": "Additional Democracy Readings"
+  },
+  {
+    "objectID": "readings/Democracy.html#primary-democracy-readings-references",
+    "href": "readings/Democracy.html#primary-democracy-readings-references",
+    "title": "Democracy",
+    "section": "Primary Democracy Readings’ References",
+    "text": "Primary Democracy Readings’ References"
+  },
+  {
+    "objectID": "readings/Consent.html#primary-consent-readings",
+    "href": "readings/Consent.html#primary-consent-readings",
+    "title": "Consent",
+    "section": "Primary Consent Readings",
+    "text": "Primary Consent Readings"
+  },
+  {
+    "objectID": "readings/Consent.html#additional-consent-readings",
+    "href": "readings/Consent.html#additional-consent-readings",
+    "title": "Consent",
+    "section": "Additional Consent Readings",
+    "text": "Additional Consent Readings\n\nMiddletown, a Study in Contemporary American Culture\nA Belmont Report for Health Data\nNaturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation\nPrivacy and Human Behavior in the Age of Information"
+  },
+  {
+    "objectID": "readings/Consent.html#primary-consent-readings-references",
+    "href": "readings/Consent.html#primary-consent-readings-references",
+    "title": "Consent",
+    "section": "Primary Consent Readings’ References",
+    "text": "Primary Consent Readings’ References"
+  },
+  {
+    "objectID": "Intro-DS-ethics.html",
+    "href": "Intro-DS-ethics.html",
+    "title": "What is Data Science Ethics?",
+    "section": "",
+    "text": "Comic via Evil AI Cartoons."
+  },
+  {
+    "objectID": "readings/Consent.html#primary-readings",
+    "href": "readings/Consent.html#primary-readings",
+    "title": "Consent",
+    "section": "Primary Readings",
+    "text": "Primary Readings\n\n\n\n\n\n\n\n\nTitle\nCitation\nDescription\n\n\n\n\nPrivacy (Stanford Encyclopedia of Philosophy)\nDeCew (2018)\n2020\n\n\nWhy Privacy is Important\nRachels (1975)\n2019"
+  },
+  {
+    "objectID": "readings/Consent.html",
+    "href": "readings/Consent.html",
+    "title": "Consent",
+    "section": "",
+    "text": "Middletown, a Study in Contemporary American Culture\nA Belmont Report for Health Data\nNaturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation\nPrivacy and Human Behavior in the Age of Information"
+  },
+  {
+    "objectID": "readings/Privacy.html",
+    "href": "readings/Privacy.html",
+    "title": "Privacy",
+    "section": "",
+    "text": "ignoring entry 'Danks-privacy' (line 20) because :\n    A bibentry of bibtype 'Article' has to specify the field: journal"
+  },
+  {
+    "objectID": "readings/Privacy.html#privacy-readings",
+    "href": "readings/Privacy.html#privacy-readings",
+    "title": "Privacy",
+    "section": "Privacy Readings",
+    "text": "Privacy Readings\n\n\n\n\n\n\n\n\nTitle\nCitation\nDescription\n\n\n\n\nPrivacy (Stanford Encyclopedia of Philosophy)\nDeCew (2018)\n2020\n\n\nWhy Privacy is Important\nRachels (1975)\n2019\n\n\nWhy We Care about Privacy\nMcFarland (2012)\n2019\n\n\nPrivacy and Human Behavior in the Age of Information\nAcquisti, Brandimarte, & Loewenstein (2015)\n2019\n\n\nSurveillance and Capture: Two Models of Privacy\nAcquisti et al. (2015)\n2019\n\n\nFrom Individual to Group Privacy in Big Data Analytics\nMittelstadt (2017)\n2019\n\n\nA Modern Pascal’s Wager for Mass Electronic Surveillance\nDanks (2014)\n2019\n\n\nPrivacy and Paternalism: The Ethics of Student Data Collection\nCreel & Dixit (2022)\n2019\n\n\nBig Data’s End Run around Procedural Privacy Protections\nBarocas & Nissenbaum (2014)\n2019\n\n\nWhy ‘I Have Nothing to Hide’ is the Wrong Way to Think About Surveillance\nBarocas & Nissenbaum (2014)\n2019\n\n\nCan a Set of Equations keep U.S. Census Data Private?\nBarocas & Nissenbaum (2014)\n2019\n\n\nWhy ‘Anonymous’ Data Sometimes Isn’t\nSchneier (2007)\n2020"
+  },
+  {
+    "objectID": "readings/Consent.html#consent-readings",
+    "href": "readings/Consent.html#consent-readings",
+    "title": "Consent",
+    "section": "Consent Readings",
+    "text": "Consent Readings\n\n\n\n\n\n\n\n\nTitle\nCitation\nDescription\n\n\n\n\nInformed Consent (Stanford Encyclopedia of Philosophy)\nEyal (2019)\n2020\n\n\nPrivacy Self-Management and the Consent Dilemma\nSolove (2012)\n2019\n\n\nThe Ethics of Consent: Theory and Practice\nMiller & Wertheimer (2010)\n2019\n\n\nMiddletown, a Study in Contemporary American Culture\nWolmarans & Voorhoeve (2022)\n2019\n\n\nA Belmont Report for Health Data\nWolmarans & Voorhoeve (2022)\n2019\n\n\nNaturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation\nWolmarans & Voorhoeve (2022)\n2019\n\n\nWhat Makes Personal Data Processing by Social Networking Services Permissible?\nWolmarans & Voorhoeve (2022)\n2019\n\n\nWhat’s Wrong with Automated Influence\nBenn & Lazar (2021)\n2019"
+  },
+  {
+    "objectID": "index.html#syllabi",
+    "href": "index.html#syllabi",
+    "title": "Data Science Ethics",
+    "section": "",
+    "text": "The table below details the syllabi that I consulted during this project. A majority of them are undergraduate courses and include a reading list. Visit Inside the Syllabi Notes for in-depth notes on each course’s learning goals and topics."
+  },
+  {
+    "objectID": "Common-Topics.html#common-syllabi-topics",
+    "href": "Common-Topics.html#common-syllabi-topics",
+    "title": "Common Syllabi Topics",
+    "section": "",
+    "text": "METHODOLOGY:\nTo determine the syllabi topics, I took the listed course topics, available on Inside the Syllabi Notes, and listed them on one document. I then clustered the course topics under more general headings (e.g., I put the ‘Labor, Automation, and Regulation’ under the heading of ‘Workplace’) to create a more concise list of the syllabi topics.\n\nLink to syllabi-topics.csv"
+  },
+  {
+    "objectID": "readings/Causation.html#causation-readings",
+    "href": "readings/Causation.html#causation-readings",
+    "title": "Causation",
+    "section": "Causation Readings",
+    "text": "Causation Readings\n\n\n\n\n\n\n\n\nTitle\nCitation\nDescription\n\n\n\n\nCausation\nScheines (n.d.)\n2020\n\n\nThe Problem of Induction (Stanford Encyclopedia of Philosophy)\nHenderson (2022)\n2019\n\n\nThe Use and Misuse of Counterfactuals in Ethical Machine Learning\nKasirzadeh & Smart (2021)\n2019\n\n\nEddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination\nKohler-Hausmann (2017)\n2019\n\n\nWhat is “Race” in Algorithmic Discrimination on the Basis of Race?\nHu (Forthcoming)\n2019"
+  },
+  {
+    "objectID": "Intro-DS-ethics.html#footnotes",
+    "href": "Intro-DS-ethics.html#footnotes",
+    "title": "What is Data Science Ethics?",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIt is also worth noting that some philosophers just focus on what we should do in specific cases and do not appeal to overarching ethical theories at all↩︎"
+  },
+  {
+    "objectID": "DS-pipeline.html#data-science-ethics-lifecycle",
+    "href": "DS-pipeline.html#data-science-ethics-lifecycle",
+    "title": "Common Syllabi Topics’ Connections to the Data Science Lifecycle",
+    "section": "2.1 Data Science Ethics Lifecycle",
+    "text": "2.1 Data Science Ethics Lifecycle\nThe rings with less opacity denote areas where there seems to be substantial overlap between common topics and the data science stage though these considerations are not “paradigmatic” ethical issues.\n\n\n\n\n\nThe diagram helps us understand which stages or processes of the Data Science lifecycle are represented in the syllabi and which stages or processes are (generally) underrepresented in the syllabi. The components with less opacity are areas of overlap between syllabi topics and data science stages that are less commonly thought of within data science literature"
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#silberzahn-et-al.s-many-analysts-one-data-set-making-transparent-how-variations-in-analytic-choices-affect-results",
+    "href": "Intro-DS-lifecycle.html#silberzahn-et-al.s-many-analysts-one-data-set-making-transparent-how-variations-in-analytic-choices-affect-results",
+    "title": "Data Science Lifecycle",
+    "section": "3.1 Silberzahn et al.’s “Many Analysts, One Data Set: Making Transparent How Variations in Analytic Choices Affect Results”",
+    "text": "3.1 Silberzahn et al.’s “Many Analysts, One Data Set: Making Transparent How Variations in Analytic Choices Affect Results”\nIn Silberzahn et al. (2017), 29 data analysis teams were asked to use the same data set to determine “whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players,”. Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.\nThe difference in chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ final decisions:\n\n4 different model types were used: 15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.\n21/29 teams used unique combinations of predictor variables.\n\nThrough Silberzahn et al. (2017), we can also see how ambiguity about the data model and the relative importance of certain predictor variables also impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by Silberzahn et al. (2017), each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, knowledge, and social contexts.\nHence, Silberzahn et al. (2017) emphasize that data and data models should be viewed relationally rather than representationally."
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#likelihood-of-a-red-card-in-soccer",
+    "href": "Intro-DS-lifecycle.html#likelihood-of-a-red-card-in-soccer",
+    "title": "Data Science Lifecycle",
+    "section": "3.1 Likelihood of a Red Card in Soccer",
+    "text": "3.1 Likelihood of a Red Card in Soccer\nIn Silberzahn et al. (2017), 29 data analysis teams were asked to use the same data set to determine “whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players,”. Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.\nThe difference in chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ final decisions:\n\n4 different model types were used: 15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.\n21/29 teams used unique combinations of predictor variables.\n\nThrough Silberzahn et al. (2017), we can also see how ambiguity about the data model and the relative importance of certain predictor variables also impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by Silberzahn et al. (2017), each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, knowledge, and social contexts.\nHence, Silberzahn et al. (2017) emphasize that data and data models should be viewed relationally rather than representationally."
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#predicting-the-likelihood-of-a-red-card-in-soccer",
+    "href": "Intro-DS-lifecycle.html#predicting-the-likelihood-of-a-red-card-in-soccer",
+    "title": "Data Science Lifecycle",
+    "section": "3.1 Predicting the Likelihood of a Red Card in Soccer",
+    "text": "3.1 Predicting the Likelihood of a Red Card in Soccer\nIn Silberzahn et al. (2017), 29 data analysis teams were asked to use the same data set to determine “whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players,”. Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.\nThe difference in chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ final decisions:\n\n4 different model types were used: 15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.\n21/29 teams used unique combinations of predictor variables.\n\nThrough Silberzahn et al. (2017), we can also see how ambiguity about the data model and the relative importance of certain predictor variables also impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by Silberzahn et al. (2017), each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, knowledge, and social contexts.\nHence, Silberzahn et al. (2017) emphasize that data and data models should be viewed relationally rather than representationally."
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer",
+    "href": "Intro-DS-lifecycle.html#predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer",
+    "title": "Data Science Lifecycle",
+    "section": "3.2 Predicting the Likelihood that a Player Receives a Red Card in Soccer",
+    "text": "3.2 Predicting the Likelihood that a Player Receives a Red Card in Soccer\nIn Silberzahn et al. (2017), 29 data analysis teams were asked to use the same data set to determine “whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players,”. Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.\nThe difference in chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ final decisions:\n\n4 different model types were used: 15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.\n21/29 teams used unique combinations of predictor variables.\n\nThrough Silberzahn et al. (2017), we can also see how ambiguity about the data model and the relative importance of certain predictor variables also impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by Silberzahn et al. (2017), each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, knowledge, and social contexts.\nHence, Silberzahn et al. (2017) emphasize that data and data models should be viewed relationally rather than representationally."
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#predicting-the-likelihood-that-a-person-buys-concert-tickets",
+    "href": "Intro-DS-lifecycle.html#predicting-the-likelihood-that-a-person-buys-concert-tickets",
+    "title": "Data Science Lifecycle",
+    "section": "3.1 Predicting the Likelihood that a Person Buys Concert Tickets",
+    "text": "3.1 Predicting the Likelihood that a Person Buys Concert Tickets\nPredicting the Likelihood of Buying Concert Tickets Suppose we are interested in predicting a person’s likelihood of buying concert tickets from a particular website. To predict a person’s likelihood, we collect data about the number of times they clicked on an advertisement for concert tickets from that particular website, the timestamps of these ad-clicks, the person’s demographic information, etc.\nHowever, it is unclear what exactly the data we gathered actually represents. We concede that we cannot directly measure a person’s interest in buying concert tickets, but we believe that someone’s interest is relevant to them actually buying the concerts tickets. So, we decide to use the person’s number of ad-clicks as a proxy for their interest in buying concert tickets. In doing so, we take ad-click counts to represent a person’s interest in buying concert tickets from that website. However, it is possible that a person clicks on the ad because they are trying to figure out for how much to resell their previously purchased concert tickets. So, in this case, the ad-click data does not actually represent a person’s interest in buying concert tickets.\nFurthermore, using certain data as evidence could influence future interactions with the world. Suppose we find that when the website displays, “less than 1% of tickets remaining”, the person is much more likely to buy concert tickets. In turn, other ticket sites adopt this strategy to sell more tickets. However, maybe we only found such a strong correlation between displaying this message and a person’s likelihood of buying tickets on our website because no other site was displaying a similar message. In turn, when other sites adopt our strategy, displaying the message “less than 1% of tickets remaining” no longer increases the person’s likelihood of buying tickets from our website. So, we have changed how people will interact with our site and buy concert tickets. Therefore, we influence people’s future interactions with ticket websites by using display message data as evidence.\nUnlike the representational view, the relational view acknowledges data’s informational content is influenced by researchers’ background assumptions and social contexts. Furthermore, the relational view endorses that data can be dynamic, and what we take as knowledge from the data influences future interactions with the world. As such, the concert ticket example described above gives us reason to endorse the relational view of data and data models over the representational view."
+  },
+  {
+    "objectID": "index.html#data-science-ethics-course-syllabi",
+    "href": "index.html#data-science-ethics-course-syllabi",
+    "title": "Welcome to the Website!",
+    "section": "",
+    "text": "The table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit Inside the Syllabi Notes for in-depth notes on each course’s learning goals and topics."
+  },
+  {
+    "objectID": "index.html#data-science-ethics-collated-syllabi",
+    "href": "index.html#data-science-ethics-collated-syllabi",
+    "title": "Welcome to the Website!",
+    "section": "",
+    "text": "The table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit Inside the Syllabi Notes for in-depth notes on each course’s learning goals and topics."
+  }
+]
