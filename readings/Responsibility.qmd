@@ -1,0 +1,11 @@
+---
+title: "Responsibility"
+categories:
+  - "Interactions with World"
+  - "Producing Objects"
+  - "Processing Objects as Data"
+  - "Ordering Data as Models to Represent the World"
+  - "Interpreting Models as Knowledge"
+subtitle: ""
+Number of Listed Readings: 12
+---

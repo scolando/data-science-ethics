@@ -1,0 +1,8 @@
+---
+title: "Explainability"
+subtitle: 'Readings on what is meant by "explainability" (and related terms like "transparency" and "interpretability") in data science and to what extent acheiving explainabilty (or transparency or interpretability) in algorithms is morally important.'
+categories:
+  - "Interactions with World"
+  - "Ordering Data as Models to Represent the World"
+  - "Interpreting Models as Knowledge"
+---

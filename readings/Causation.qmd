@@ -1,0 +1,114 @@
+---
+title: "Causation"
+subtitle: "Readings on causation as it applies to data science, and more specifically data science ethics. A primary focus of these readings is causal inference and socially sensitive attributes (e.g., race and gender)."
+bibliography: bibliographies/Causation.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
+---
+
+------------------------------------------------------------------------
+
+## Causation Readings
+
+| Title                                                                     | Citation            | Description |
+|----------------------------------------|----------------|----------------|
+| Causation                                                                 | @scheines        | 2020        |
+| The Problem of Induction (Stanford Encyclopedia of Philosophy)            | @sep-induction-problem    | 2019        |
+| The Use and Misuse of Counterfactuals in Ethical Machine Learning            | @causal-inf-use    | 2019        |
+| Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination          | @Eddie-murphy    | 2019        |
+| What is "Race" in Algorithmic Discrimination on the Basis of Race?         | @Hu    | 2019        |
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(reactable)
+library(reactablefmtr)
+```
+
+```{r}
+causation <- tribble(~Title, ~Reading_One, ~Summary, ~Tags,
+            "Causation",
+'<span class="citation">Scheines
+(<a href="#ref-scheines" role="doc-biblioref">n.d.</a>)</span>',
+"Scheines describes the theories of causation that have been popular over the last 30 years, in both philosophy and computer science/statistics. This article uses several examples to illuminate what a theory of causation must explain and why defining causation is so difficult. Such insights are important, especially as causal inference has become more common in data science.",
+"<a href='consent.html'>Primer</a>",                           
+                      "The Problem of Induction (Stanford Encyclopedia of Philosophy)",
+                   '<span class="citation">Henderson (<a href="#ref-sep-induction-problem"
+role="doc-biblioref">2022</a>)</span>', 
+                   "The Problem of Induction is a famous philosophical puzzle raised by Philosopher David Hume in the 1700s that is helpful to understand when thinking about causation. The Problem of Induction is concerned with how we can rationally justify that future observsations will resemble the past observations (i.e., induction). The Problem of Induction is also a challenge to how we think about causation. Traditionally, we use induction to conclude causation. For example, we would say that X causes Y if Y consistently follows X (in sufficiently diverse settings). But this traditional view of causation falls prey to the Problem of Induction. This Stanford Enclyclopedia of Philosophy further outlines the Problem of Induction, its connections to causation, and responses to the Problem of Induction.", 
+                   "<a href='consent.html'>Primer</a>, <a href='consent.html'>Philosophically Dense</a>",
+                   "Beyond Accuracy: Epistemic Flaws with Statistical Generalizations",
+                    '<span class="citation">Munton (<a
+href="#ref-Munton" role="doc-biblioref">2019</a>)</span>',
+                    "In this paper, Munton examines the epistemic flaw of statistical generalizations (i.e., why statistical generalizations are not always conducive to knowledge). Per Munton, 'Statistical beliefs are accompanied by an implicit representation of the statistic's modal profile.' The modal profile of a statistic describes 'the counterfactual stability of the relevant regularity, including what, if any, further facts underpin it' and thus relates to the counterfactual definition of causation (i.e., if A had not occurred, then B would not have occurred). Munton views the modal profiles of accurate statistical generalizations that rely on constant intervention as unstable, concluding that such generalizations are epistemically flawed. These insights help us understand why counterfactual causal explanations (of what would have been the case in all relevant counterfactual worlds) might be necessary for data science.", 
+"<a href='consent.html'>Philosophically Dense</a>",
+"Causal Diagrams for Empirical Research",
+'<span class="citation">Pearl (<a href="#ref-Pearl"
+role="doc-biblioref">1995</a>)</span>',
+"In this paper, computer scientist Judea Pearl introduces directed acyclic graphs (DAGs) to represent and analyze causal relationships in empirical (observational) research. These insights help us translate specific theories of causation into mathematical language, which is necessary to perform causal inference in fields like data science.",
+"<a href='consent.html'>Primer</a>, <a href='consent.html'>Mathematically Dense</a>",
+"Causal Discovery Algorithms: A Practical Guide",
+'<span class="citation">Malinsky &amp; Danks (<a href="#ref-practical"
+role="doc-biblioref">2017</a>)</span>',
+"A common goal in research is to discover causal relationships, which has lead to algorithms that can discover (or identify) causal relationships between variables becoming popular. In this paper, Malinsky and Danks provide a framework for when these causal-discovery algorithms should be used, what technical preparations must be made to run data through a causal-discovery algorithm, the trade-offs between different kinds of causal-discovery algorithms, and how we ought to interpret the output from causal-discovery algorithms.",
+"<a href='consent.html'>Mathematically Dense</a>",
+"Actual Causation and the Art of Modeling",
+'<span class="citation">Halpern &amp; Hitchcock (<a href="#ref-art-causation"
+role="doc-biblioref">2011</a>)</span>',
+"Halpern and Hitchcock's paper emphasizes how important it is to justify why a certain causal model (i.e., a certain set of structural equations) is being used in the particular context. This paper raises interesting questions about how one's values or background beliefs can affect their choice to use one causal model over another, and how influential this choice can be to the ultimate conclusions drawn about causality.",
+"<a href='consent.html'>Mathematically Dense</a>",
+"The Use and Misuse of Counterfactuals in Ethical Machine Learning",
+'<span class="citation">Kasirzadeh &amp; Smart (<a
+href="#ref-causal-inf-use" role="doc-biblioref">2021</a>)</span>',
+"Counterfactuals are becoming increasingly more common in algorithmic decision-making and are generally thought of as a way to make algorithmic decision-making more ethical. Kasirzadeh and Smart articulate why they think we should be more cautious when we use counterfactuals, especially around social categories (like race and gender). They outline some key presumptions/assumptions that need to be addressed to design/apply 'counterfactually fair of explainable algorithms to social contexts.' and a set of principles to help data science researchers conduct 'interdisciplinary conversations and become aware of the potential harms and ethical impacts of their counterfactual thinking as it pertains to the social world.'",
+"",
+"Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination",
+'<span class="citation">Kohler-Hausmann (<a href="#ref-Eddie"
+role="doc-biblioref">2017</a>)</span>',
+"In this paper, Kohler-Hausmann argues that that counterfactual causal model of discrimination that are used in law and social science is wrong. Per Kohler-Hausmann, th counterfactual model 'is wrong because to fit the rigor of the counterfactual model of a clearly defined treatment on otherwise identical units, we must reduce race to only the signs of the category, meaning we must think race is skin color, or phenotype, or other ways we identify group status. And that is a concept mistake if one subscribes to a constructivist, as opposed to a biological or genetic, conception of race.' Kohler-Hausmann ends by offering recommendations for what should replace the counterfactual causal model of discrimination.",
+"<a href='consent.html'>Case Study</a>, <a href='consent.html'>Law</a>",
+"What is “Race” in Algorithmic Discrimination on the Basis of Race?",
+'<span class="citation">Hu (<a
+href="#ref-Hu" role="doc-biblioref">Forthcoming</a>)</span>',
+"Hu's paper offers a way to distinguish between a machine learning algorithm's decision being correlated with race versus being on the basis of race, which indicates a causal relationship between race and its decision. Hu introduces the 'thick constructivist' account of race, in which ' to be raced is to be socially positioned in the way indicated by a certain set of statistical regularities on the basis of particular phenotypic traits.'. Thus, Hu argues that the machine learning algorithm (or person) acting on the basis of this particular set of statistical regularities is equivalent to acting on the basis race. This definition of `on the basis of' has profound ramifications in legal settings as it affects when we would conclude that algorithmic discrimination has occurred.",
+"<a href='consent.html'>Case Study</a>, <a href='consent.html'>Law</a>,
+<a href='consent.html'>Philosophically Dense</a>",
+)
+```
+
+```{r}
+reactable(causation,
+          columns = list(Title = colDef("Title", html = TRUE, align = "center", vAlign = "center"),
+            Reading_One = colDef("Reference", html = TRUE, minWidth = 100, align = "center", vAlign = "center"),
+                         Summary = colDef("Summary", html = TRUE, minWidth = 250),
+                         Tags = colDef("Tags", html = TRUE, width = 120)),
+          resizable = TRUE,
+          highlight = TRUE,
+          pagination = FALSE,
+          showSortable = TRUE,
+          searchable = TRUE,
+          theme = reactableTheme(
+             highlightColor = "#F0EDD1",
+             style = list(
+      fontFamily = "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif",
+      fontSize = '14px')
+          )
+)
+```
+
+------------------------------------------------------------------------
+
+## Additional Causation Readings
+
+------------------------------------------------------------------------
+
+-   [Theory of Causation](https://www.cmu.edu/dietrich/philosophy/research/areas/science-methodology/theory-of-causation.html)
+
+-   [Lost in (Modal) Space: Demographic Base-Rate Neglect in the Service of Modal Knowledge](https://academic.oup.com/aristotelian/article/123/1/73/7093237)
+
+-   ["But What Are You Really?" On the Metaphysics of Race](https://philpapers.org/archive/MILBWA)
+
+-   [Variation Semantics](http://philsci-archive.pitt.edu/20626/)
+
+-   [Evaluations of Causal Claims Reflect a Trade-Off Between Informativeness and Compression](https://escholarship.org/uc/item/0rc3b03k)

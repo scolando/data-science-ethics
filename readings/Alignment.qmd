@@ -1,0 +1,10 @@
+---
+title: Alignment
+categories:
+  - "Interactions with World"
+  - "Producing Objects"
+  - "Processing Objects as Data"
+  - "Ordering Data as Models to Represent the World"
+  - "Interpreting Models as Knowledge"
+subtitle: "Readings on the moral alignment between human values and current data science practices."
+---

@@ -7,7 +7,6 @@ csl: bibliographies/apa-6th-edition.csl
 ---
 
 ::: column-page
-
 # Most Common Syllabi Topics
 
 ```{css, echo=FALSE}
@@ -30,14 +29,12 @@ library(reactable)
 library(reactablefmtr)
 ```
 
-::: {.callout-note icon=false collapse=false}
-
+::: {.callout-note icon="false" collapse="false"}
 ### Collation Methodology
 
 To determine the syllabi topics, we took the listed course topics, available on [Inside the Syllabi Notes](inside-syllabi.html), and collated them on one spreadsheet. We then grouped the course topics under more general headings (e.g., we put the 'Labor, Automation, and Regulation' under the heading of 'Workplace') to create a more concise list of the syllabi topics.
 
 -   Link to [syllabi-topics.csv](https://github.com/scolando/DSethics-summer2023/blob/main/Rmds/syllabi-topics.csv)
-
 :::
 
 ------------------------------------------------------------------------

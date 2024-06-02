@@ -1,0 +1,7 @@
+---
+title: "Predictive Policing"
+subtitle: "Readings and case studies on the applications of data science in predictive policing and the ethical implications of using statistical models to perform predictive policing."
+categories: 
+  - "Interactions with World"
+  - "Interpreting Models as Knowledge"
+---
