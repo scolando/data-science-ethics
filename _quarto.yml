@@ -5,9 +5,12 @@ project:
 website:
   title: "Data Science Ethics"
   favicon: "images/favicon.ico"
-  site-url: scolando.github.io/personal-website/
-  repo-url: https://github.com/scolando/personal-website
+  site-url: https://scolando.github.io/data-science-ethics/
+  repo-url: https://github.com/scolando/data-science-ethics
   page-navigation: true
+  search:
+    type: overlay
+    show-item-context: tree
     
   navbar:
     logo: "images/favicon.ico"
@@ -27,9 +30,8 @@ website:
          - text: "Data Science Lifecycle Connections"
            href: DS-pipeline.qmd
       - text: "Reading Lists"
-        icon: fa-book-open
         href: Reading-Tags.qmd
-    background: "#ffffff"
+    background: "#f4f4f4ff" 
     
   page-footer:
     left: "&copy; Copyright 2024, [Sara Colando](https://scolando.github.io/personal-website/) and [Jo Hardin](https://hardin47.netlify.app)"
@@ -37,16 +39,13 @@ website:
     right:
       - icon: github
         href: https://github.com/scolando/personal-website
-    background: "#ffffff"
+    background: "#f4f4f4ff"
 
 format:
   html:
     theme:
       - cosmo
       - styles.scss
-    backgroundcolor: "#ffffff" 
+    backgroundcolor: white
 
 editor: visual
-
-language: 
-  search-box-placeholder: Search

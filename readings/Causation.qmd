@@ -6,18 +6,19 @@ link-citations: true
 csl: bibliographies/apa-6th-edition.csl
 ---
 
+![](images/causation.png){fig-align="center" width="85%"}
+
 ------------------------------------------------------------------------
 
 ## Causation Readings
 
-| Title                                                                     | Citation            | Description |
-|----------------------------------------|----------------|----------------|
-| Causation                                                                 | @scheines        | 2020        |
-| The Problem of Induction (Stanford Encyclopedia of Philosophy)            | @sep-induction-problem    | 2019        |
-| The Use and Misuse of Counterfactuals in Ethical Machine Learning            | @causal-inf-use    | 2019        |
-| Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination          | @Eddie-murphy    | 2019        |
-| What is "Race" in Algorithmic Discrimination on the Basis of Race?         | @Hu    | 2019        |
-
+| Title                                                                                                | Citation               | Description |
+|--------------------------------------|-----------------|-----------------|
+| Causation                                                                                            | @scheines              | 2020        |
+| The Problem of Induction (Stanford Encyclopedia of Philosophy)                                       | @sep-induction-problem | 2019        |
+| The Use and Misuse of Counterfactuals in Ethical Machine Learning                                    | @causal-inf-use        | 2019        |
+| Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination | @Eddie-murphy          | 2019        |
+| What is "Race" in Algorithmic Discrimination on the Basis of Race?                                   | @Hu                    | 2019        |
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

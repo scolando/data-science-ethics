@@ -1,10 +1,10 @@
 ---
 title: "Democracy"
+subtitle: "Readings and case studies on the applications of data science in democracy and the ethical implications of using statistical models in such contexts."
 output: html_document
 bibliography: bibliographies/Democracy.bib
 link-citations: true
 csl: bibliographies/apa-6th-edition.csl
-nocite: '@*'
 categories: 
   - "Interactions with World"
   - "Interpreting Models as Knowledge"

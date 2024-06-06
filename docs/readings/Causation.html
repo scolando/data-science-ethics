@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Science Ethics - Causation</title>
+<title>Data Science Ethics – Causation</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -65,7 +66,13 @@ div.csl-indent {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": "tree",
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -74,12 +81,12 @@ div.csl-indent {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
-
 <script src="../site_libs/core-js-2.5.3/shim.min.js"></script>
 <script src="../site_libs/react-17.0.0/react.min.js"></script>
 <script src="../site_libs/react-17.0.0/react-dom.min.js"></script>
@@ -95,9 +102,9 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
     <img src="../images/favicon.ico" alt="" class="navbar-logo">
     </a>
@@ -106,54 +113,53 @@ div.csl-indent {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-intro-to-data-science-ethics" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-intro-to-data-science-ethics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Intro to Data Science Ethics</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-intro-to-data-science-ethics">    
         <li>
-    <a class="dropdown-item" href="../Intro-DS-ethics.html" rel="" target="">
+    <a class="dropdown-item" href="../Intro-DS-ethics.html">
  <span class="dropdown-text">What is Data Science Ethics?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Intro-DS-lifecycle.html" rel="" target="">
+    <a class="dropdown-item" href="../Intro-DS-lifecycle.html">
  <span class="dropdown-text">Data Science Lifecycles</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-inside-the-syllabi" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-inside-the-syllabi" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Inside the Syllabi</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-inside-the-syllabi">    
         <li>
-    <a class="dropdown-item" href="../inside-syllabi.html" rel="" target="">
+    <a class="dropdown-item" href="../inside-syllabi.html">
  <span class="dropdown-text">Data Science Ethics Syllabi</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Common-Topics.html" rel="" target="">
+    <a class="dropdown-item" href="../Common-Topics.html">
  <span class="dropdown-text">Most Common Syllabi Topics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../DS-pipeline.html" rel="" target="">
+    <a class="dropdown-item" href="../DS-pipeline.html">
  <span class="dropdown-text">Data Science Lifecycle Connections</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../Reading-Tags.html" rel="" target=""><i class="bi bi-fa-book-open" role="img">
-</i> 
- <span class="menu-text">Reading Lists</span></a>
+    <a class="nav-link" href="../Reading-Tags.html"> 
+<span class="menu-text">Reading Lists</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -181,16 +187,23 @@ div.csl-indent {
   </div>
   
 
+
 </header>
 
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/causation.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:85.0%"></p>
+</figure>
+</div>
 <hr>
 <section id="causation-readings" class="level2">
 <h2 class="anchored" data-anchor-id="causation-readings">Causation Readings</h2>
-<table class="table">
+<table class="caption-top table">
 <colgroup>
-<col style="width: 55%">
-<col style="width: 22%">
-<col style="width: 22%">
+<col style="width: 52%">
+<col style="width: 23%">
+<col style="width: 23%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -229,9 +242,8 @@ div.csl-indent {
 </table>
 <div class="cell">
 <div class="cell-output-display">
-
-<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-18c9221615567af99cc4" style="width:auto;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-18c9221615567af99cc4">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Title":["Causation","The Problem of Induction (Stanford Encyclopedia of Philosophy)","Beyond Accuracy: Epistemic Flaws with Statistical Generalizations","Causal Diagrams for Empirical Research","Causal Discovery Algorithms: A Practical Guide","Actual Causation and the Art of Modeling","The Use and Misuse of Counterfactuals in Ethical Machine Learning","Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination","What is “Race” in Algorithmic Discrimination on the Basis of Race?"],"Reading_One":["<span class=\"citation\">Scheines\n(<a href=\"#ref-scheines\" role=\"doc-biblioref\">n.d.<\/a>)<\/span>","<span class=\"citation\">Henderson (<a href=\"#ref-sep-induction-problem\"\nrole=\"doc-biblioref\">2022<\/a>)<\/span>","<span class=\"citation\">Munton (<a\nhref=\"#ref-Munton\" role=\"doc-biblioref\">2019<\/a>)<\/span>","<span class=\"citation\">Pearl (<a href=\"#ref-Pearl\"\nrole=\"doc-biblioref\">1995<\/a>)<\/span>","<span class=\"citation\">Malinsky &amp; Danks (<a href=\"#ref-practical\"\nrole=\"doc-biblioref\">2017<\/a>)<\/span>","<span class=\"citation\">Halpern &amp; Hitchcock (<a href=\"#ref-art-causation\"\nrole=\"doc-biblioref\">2011<\/a>)<\/span>","<span class=\"citation\">Kasirzadeh &amp; Smart (<a\nhref=\"#ref-causal-inf-use\" role=\"doc-biblioref\">2021<\/a>)<\/span>","<span class=\"citation\">Kohler-Hausmann (<a href=\"#ref-Eddie\"\nrole=\"doc-biblioref\">2017<\/a>)<\/span>","<span class=\"citation\">Hu (<a\nhref=\"#ref-Hu\" role=\"doc-biblioref\">Forthcoming<\/a>)<\/span>"],"Summary":["Scheines describes the theories of causation that have been popular over the last 30 years, in both philosophy and computer science/statistics. This article uses several examples to illuminate what a theory of causation must explain and why defining causation is so difficult. Such insights are important, especially as causal inference has become more common in data science.","The Problem of Induction is a famous philosophical puzzle raised by Philosopher David Hume in the 1700s that is helpful to understand when thinking about causation. The Problem of Induction is concerned with how we can rationally justify that future observsations will resemble the past observations (i.e., induction). The Problem of Induction is also a challenge to how we think about causation. Traditionally, we use induction to conclude causation. For example, we would say that X causes Y if Y consistently follows X (in sufficiently diverse settings). But this traditional view of causation falls prey to the Problem of Induction. This Stanford Enclyclopedia of Philosophy further outlines the Problem of Induction, its connections to causation, and responses to the Problem of Induction.","In this paper, Munton examines the epistemic flaw of statistical generalizations (i.e., why statistical generalizations are not always conducive to knowledge). Per Munton, 'Statistical beliefs are accompanied by an implicit representation of the statistic's modal profile.' The modal profile of a statistic describes 'the counterfactual stability of the relevant regularity, including what, if any, further facts underpin it' and thus relates to the counterfactual definition of causation (i.e., if A had not occurred, then B would not have occurred). Munton views the modal profiles of accurate statistical generalizations that rely on constant intervention as unstable, concluding that such generalizations are epistemically flawed. These insights help us understand why counterfactual causal explanations (of what would have been the case in all relevant counterfactual worlds) might be necessary for data science.","In this paper, computer scientist Judea Pearl introduces directed acyclic graphs (DAGs) to represent and analyze causal relationships in empirical (observational) research. These insights help us translate specific theories of causation into mathematical language, which is necessary to perform causal inference in fields like data science.","A common goal in research is to discover causal relationships, which has lead to algorithms that can discover (or identify) causal relationships between variables becoming popular. In this paper, Malinsky and Danks provide a framework for when these causal-discovery algorithms should be used, what technical preparations must be made to run data through a causal-discovery algorithm, the trade-offs between different kinds of causal-discovery algorithms, and how we ought to interpret the output from causal-discovery algorithms.","Halpern and Hitchcock's paper emphasizes how important it is to justify why a certain causal model (i.e., a certain set of structural equations) is being used in the particular context. This paper raises interesting questions about how one's values or background beliefs can affect their choice to use one causal model over another, and how influential this choice can be to the ultimate conclusions drawn about causality.","Counterfactuals are becoming increasingly more common in algorithmic decision-making and are generally thought of as a way to make algorithmic decision-making more ethical. Kasirzadeh and Smart articulate why they think we should be more cautious when we use counterfactuals, especially around social categories (like race and gender). They outline some key presumptions/assumptions that need to be addressed to design/apply 'counterfactually fair of explainable algorithms to social contexts.' and a set of principles to help data science researchers conduct 'interdisciplinary conversations and become aware of the potential harms and ethical impacts of their counterfactual thinking as it pertains to the social world.'","In this paper, Kohler-Hausmann argues that that counterfactual causal model of discrimination that are used in law and social science is wrong. Per Kohler-Hausmann, th counterfactual model 'is wrong because to fit the rigor of the counterfactual model of a clearly defined treatment on otherwise identical units, we must reduce race to only the signs of the category, meaning we must think race is skin color, or phenotype, or other ways we identify group status. And that is a concept mistake if one subscribes to a constructivist, as opposed to a biological or genetic, conception of race.' Kohler-Hausmann ends by offering recommendations for what should replace the counterfactual causal model of discrimination.","Hu's paper offers a way to distinguish between a machine learning algorithm's decision being correlated with race versus being on the basis of race, which indicates a causal relationship between race and its decision. Hu introduces the 'thick constructivist' account of race, in which ' to be raced is to be socially positioned in the way indicated by a certain set of statistical regularities on the basis of particular phenotypic traits.'. Thus, Hu argues that the machine learning algorithm (or person) acting on the basis of this particular set of statistical regularities is equivalent to acting on the basis race. This definition of `on the basis of' has profound ramifications in legal settings as it affects when we would conclude that algorithmic discrimination has occurred."],"Tags":["<a href='consent.html'>Primer<\/a>","<a href='consent.html'>Primer<\/a>, <a href='consent.html'>Philosophically Dense<\/a>","<a href='consent.html'>Philosophically Dense<\/a>","<a href='consent.html'>Primer<\/a>, <a href='consent.html'>Mathematically Dense<\/a>","<a href='consent.html'>Mathematically Dense<\/a>","<a href='consent.html'>Mathematically Dense<\/a>","","<a href='consent.html'>Case Study<\/a>, <a href='consent.html'>Law<\/a>","<a href='consent.html'>Case Study<\/a>, <a href='consent.html'>Law<\/a>,\n<a href='consent.html'>Philosophically Dense<\/a>"]},"columns":[{"id":"Title","name":"Title","type":"character","html":true,"align":"center","vAlign":"center"},{"id":"Reading_One","name":"Reference","type":"character","html":true,"minWidth":100,"align":"center","vAlign":"center"},{"id":"Summary","name":"Summary","type":"character","html":true,"minWidth":250},{"id":"Tags","name":"Tags","type":"character","html":true,"width":120}],"resizable":true,"searchable":true,"pagination":false,"highlight":true,"showSortable":true,"theme":{"highlightColor":"#F0EDD1","style":{"fontFamily":"-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif","fontSize":"14px"}},"dataKey":"c3d96ab1e6269aef154ff713c1d6c7c8"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+<div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-3513742ec6504494960d" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-3513742ec6504494960d">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Title":["Causation","The Problem of Induction (Stanford Encyclopedia of Philosophy)","Beyond Accuracy: Epistemic Flaws with Statistical Generalizations","Causal Diagrams for Empirical Research","Causal Discovery Algorithms: A Practical Guide","Actual Causation and the Art of Modeling","The Use and Misuse of Counterfactuals in Ethical Machine Learning","Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination","What is “Race” in Algorithmic Discrimination on the Basis of Race?"],"Reading_One":["<span class=\"citation\">Scheines\n(<a href=\"#ref-scheines\" role=\"doc-biblioref\">n.d.<\/a>)<\/span>","<span class=\"citation\">Henderson (<a href=\"#ref-sep-induction-problem\"\nrole=\"doc-biblioref\">2022<\/a>)<\/span>","<span class=\"citation\">Munton (<a\nhref=\"#ref-Munton\" role=\"doc-biblioref\">2019<\/a>)<\/span>","<span class=\"citation\">Pearl (<a href=\"#ref-Pearl\"\nrole=\"doc-biblioref\">1995<\/a>)<\/span>","<span class=\"citation\">Malinsky &amp; Danks (<a href=\"#ref-practical\"\nrole=\"doc-biblioref\">2017<\/a>)<\/span>","<span class=\"citation\">Halpern &amp; Hitchcock (<a href=\"#ref-art-causation\"\nrole=\"doc-biblioref\">2011<\/a>)<\/span>","<span class=\"citation\">Kasirzadeh &amp; Smart (<a\nhref=\"#ref-causal-inf-use\" role=\"doc-biblioref\">2021<\/a>)<\/span>","<span class=\"citation\">Kohler-Hausmann (<a href=\"#ref-Eddie\"\nrole=\"doc-biblioref\">2017<\/a>)<\/span>","<span class=\"citation\">Hu (<a\nhref=\"#ref-Hu\" role=\"doc-biblioref\">Forthcoming<\/a>)<\/span>"],"Summary":["Scheines describes the theories of causation that have been popular over the last 30 years, in both philosophy and computer science/statistics. This article uses several examples to illuminate what a theory of causation must explain and why defining causation is so difficult. Such insights are important, especially as causal inference has become more common in data science.","The Problem of Induction is a famous philosophical puzzle raised by Philosopher David Hume in the 1700s that is helpful to understand when thinking about causation. The Problem of Induction is concerned with how we can rationally justify that future observsations will resemble the past observations (i.e., induction). The Problem of Induction is also a challenge to how we think about causation. Traditionally, we use induction to conclude causation. For example, we would say that X causes Y if Y consistently follows X (in sufficiently diverse settings). But this traditional view of causation falls prey to the Problem of Induction. This Stanford Enclyclopedia of Philosophy further outlines the Problem of Induction, its connections to causation, and responses to the Problem of Induction.","In this paper, Munton examines the epistemic flaw of statistical generalizations (i.e., why statistical generalizations are not always conducive to knowledge). Per Munton, 'Statistical beliefs are accompanied by an implicit representation of the statistic's modal profile.' The modal profile of a statistic describes 'the counterfactual stability of the relevant regularity, including what, if any, further facts underpin it' and thus relates to the counterfactual definition of causation (i.e., if A had not occurred, then B would not have occurred). Munton views the modal profiles of accurate statistical generalizations that rely on constant intervention as unstable, concluding that such generalizations are epistemically flawed. These insights help us understand why counterfactual causal explanations (of what would have been the case in all relevant counterfactual worlds) might be necessary for data science.","In this paper, computer scientist Judea Pearl introduces directed acyclic graphs (DAGs) to represent and analyze causal relationships in empirical (observational) research. These insights help us translate specific theories of causation into mathematical language, which is necessary to perform causal inference in fields like data science.","A common goal in research is to discover causal relationships, which has lead to algorithms that can discover (or identify) causal relationships between variables becoming popular. In this paper, Malinsky and Danks provide a framework for when these causal-discovery algorithms should be used, what technical preparations must be made to run data through a causal-discovery algorithm, the trade-offs between different kinds of causal-discovery algorithms, and how we ought to interpret the output from causal-discovery algorithms.","Halpern and Hitchcock's paper emphasizes how important it is to justify why a certain causal model (i.e., a certain set of structural equations) is being used in the particular context. This paper raises interesting questions about how one's values or background beliefs can affect their choice to use one causal model over another, and how influential this choice can be to the ultimate conclusions drawn about causality.","Counterfactuals are becoming increasingly more common in algorithmic decision-making and are generally thought of as a way to make algorithmic decision-making more ethical. Kasirzadeh and Smart articulate why they think we should be more cautious when we use counterfactuals, especially around social categories (like race and gender). They outline some key presumptions/assumptions that need to be addressed to design/apply 'counterfactually fair of explainable algorithms to social contexts.' and a set of principles to help data science researchers conduct 'interdisciplinary conversations and become aware of the potential harms and ethical impacts of their counterfactual thinking as it pertains to the social world.'","In this paper, Kohler-Hausmann argues that that counterfactual causal model of discrimination that are used in law and social science is wrong. Per Kohler-Hausmann, th counterfactual model 'is wrong because to fit the rigor of the counterfactual model of a clearly defined treatment on otherwise identical units, we must reduce race to only the signs of the category, meaning we must think race is skin color, or phenotype, or other ways we identify group status. And that is a concept mistake if one subscribes to a constructivist, as opposed to a biological or genetic, conception of race.' Kohler-Hausmann ends by offering recommendations for what should replace the counterfactual causal model of discrimination.","Hu's paper offers a way to distinguish between a machine learning algorithm's decision being correlated with race versus being on the basis of race, which indicates a causal relationship between race and its decision. Hu introduces the 'thick constructivist' account of race, in which ' to be raced is to be socially positioned in the way indicated by a certain set of statistical regularities on the basis of particular phenotypic traits.'. Thus, Hu argues that the machine learning algorithm (or person) acting on the basis of this particular set of statistical regularities is equivalent to acting on the basis race. This definition of `on the basis of' has profound ramifications in legal settings as it affects when we would conclude that algorithmic discrimination has occurred."],"Tags":["<a href='consent.html'>Primer<\/a>","<a href='consent.html'>Primer<\/a>, <a href='consent.html'>Philosophically Dense<\/a>","<a href='consent.html'>Philosophically Dense<\/a>","<a href='consent.html'>Primer<\/a>, <a href='consent.html'>Mathematically Dense<\/a>","<a href='consent.html'>Mathematically Dense<\/a>","<a href='consent.html'>Mathematically Dense<\/a>","","<a href='consent.html'>Case Study<\/a>, <a href='consent.html'>Law<\/a>","<a href='consent.html'>Case Study<\/a>, <a href='consent.html'>Law<\/a>,\n<a href='consent.html'>Philosophically Dense<\/a>"]},"columns":[{"id":"Title","name":"Title","type":"character","html":true,"align":"center","vAlign":"center"},{"id":"Reading_One","name":"Reference","type":"character","html":true,"minWidth":100,"align":"center","vAlign":"center"},{"id":"Summary","name":"Summary","type":"character","html":true,"minWidth":250},{"id":"Tags","name":"Tags","type":"character","html":true,"width":120}],"resizable":true,"searchable":true,"pagination":false,"highlight":true,"showSortable":true,"theme":{"highlightColor":"#F0EDD1","style":{"fontFamily":"-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif","fontSize":"14px"}},"dataKey":"c3d96ab1e6269aef154ff713c1d6c7c8"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 <hr>
@@ -251,7 +263,7 @@ div.csl-indent {
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-sep-induction-problem" class="csl-entry" role="listitem">
 Henderson, L. (2022). <span class="nocase">The Problem of Induction</span>. In E. N. Zalta &amp; U. Nodelman (Eds.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>W</span>inter 2022). <a href="https://plato.stanford.edu/archives/win2022/entries/induction-problem/" class="uri">https://plato.stanford.edu/archives/win2022/entries/induction-problem/</a>; Metaphysics Research Lab, Stanford University.
 </div>
@@ -303,18 +315,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -346,11 +347,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/scolando\.github\.io\/data-science-ethics\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -360,8 +400,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -373,7 +422,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -417,6 +589,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -442,6 +615,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -504,7 +703,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2024, <a href="https://scolando.github.io/personal-website/">Sara Colando</a> and <a href="https://hardin47.netlify.app">Jo Hardin</a></div>   
+    <div class="nav-footer-left">
+<p>© Copyright 2024, <a href="https://scolando.github.io/personal-website/">Sara Colando</a> and <a href="https://hardin47.netlify.app">Jo Hardin</a></p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -520,6 +721,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

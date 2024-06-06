@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.40">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": "tree",
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,12 +62,12 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
-
 <script src="site_libs/core-js-2.5.3/shim.min.js"></script>
 <script src="site_libs/react-17.0.0/react.min.js"></script>
 <script src="site_libs/react-17.0.0/react-dom.min.js"></script>
@@ -77,9 +83,9 @@ ul.task-list li input[type="checkbox"] {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./images/favicon.ico" alt="" class="navbar-logo">
     </a>
@@ -88,54 +94,53 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-intro-to-data-science-ethics" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-intro-to-data-science-ethics" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Intro to Data Science Ethics</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-intro-to-data-science-ethics">    
         <li>
-    <a class="dropdown-item" href="./Intro-DS-ethics.html" rel="" target="">
+    <a class="dropdown-item" href="./Intro-DS-ethics.html">
  <span class="dropdown-text">What is Data Science Ethics?</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Intro-DS-lifecycle.html" rel="" target="">
+    <a class="dropdown-item" href="./Intro-DS-lifecycle.html">
  <span class="dropdown-text">Data Science Lifecycles</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-inside-the-syllabi" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-inside-the-syllabi" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">Inside the Syllabi</span>
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-inside-the-syllabi">    
         <li>
-    <a class="dropdown-item" href="./inside-syllabi.html" rel="" target="">
+    <a class="dropdown-item" href="./inside-syllabi.html">
  <span class="dropdown-text">Data Science Ethics Syllabi</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./Common-Topics.html" rel="" target="">
+    <a class="dropdown-item" href="./Common-Topics.html">
  <span class="dropdown-text">Most Common Syllabi Topics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./DS-pipeline.html" rel="" target="">
+    <a class="dropdown-item" href="./DS-pipeline.html">
  <span class="dropdown-text">Data Science Lifecycle Connections</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="./Reading-Tags.html" rel="" target=""><i class="bi bi-fa-book-open" role="img">
-</i> 
- <span class="menu-text">Reading Lists</span></a>
+    <a class="nav-link" href="./Reading-Tags.html"> 
+<span class="menu-text">Reading Lists</span></a>
   </li>  
 </ul>
+          </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -149,13 +154,14 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+
 <section id="welcome-to-the-website" class="level1 column-page">
 <h1>Welcome to the Website!</h1>
 <p>There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data science ethics. There are not always, however, explicit connections between data science ethics and the centuries-old work on ethics within the discipline of philos- ophy. Here, we present a framework for bringing together key data science practices with ethical topics. The ethical topics were collated from sixteen data science ethics courses with public-facing syllabi and reading lists. We encourage individuals who are teaching data science ethics to engage with the philosophical literature and its connection to current data science practices, which is rife with potentially morally charged decision points.</p>
 <p>This website is associated with a paper, which gives a more in-depth overview of the <strong>add</strong>. The accompanying paper is currently available on ArXiv.</p>
 <div class="link">
-<section id="iconify-simple-iconsarxiv-arxiv-preprint" class="level4 link-header">
-<h4 class="anchored" data-anchor-id="iconify-simple-iconsarxiv-arxiv-preprint"><iconify-icon inline="" icon="simple-icons:arxiv" aria-label="Icon arxiv from simple-icons Iconify.design set." title="Icon arxiv from simple-icons Iconify.design set."></iconify-icon> ArXiv Preprint</h4>
+<section id="arxiv-preprint" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="arxiv-preprint"><iconify-icon inline="" icon="simple-icons:arxiv" aria-label="Icon arxiv from simple-icons Iconify.design set." title="Icon arxiv from simple-icons Iconify.design set."></iconify-icon> ArXiv Preprint</h4>
 </section>
 <div class="link-container">
 <p><a href="https://arxiv.org/abs/2310.02444" target="_blank"></a><a href="https://arxiv.org/abs/2310.02444" class="uri">https://arxiv.org/abs/2310.02444</a></p>
@@ -169,7 +175,6 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <div class="cell page-columns page-full">
 <div class="cell-output-display column-page">
-
 <div class="reactable html-widget html-fill-item-overflow-hidden html-fill-item" id="syllabi-table" style="width:auto;height:auto;"></div>
 <script type="application/json" data-for="syllabi-table">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"title":["The Ethics of Data and Artificial Intelligence","Data, Ethics, and Society","Human Contexts and Ethics of Data","Data Ethics","Computing, Ethics, and Society","Ethical and Societal Issues in AI","Ethics and Technology","Data Science Ethics","Philosophical Foundations of Machine Learning","Ethics and Policy in Data Analytics","Ethics in AI","Ethics and Policy in Data Science","The Ethics and Governance of Artificial Intelligence","Ethics, Public Policy, and Technological Change","Ethics, Data, and Technology","Special Topics in Data Science:<br>\nResponsible Data Science"],"institution":["London School of Economics","Rice University","University of California, Berkeley","University of California, San Diego","Northwestern University","Cornell University","Swarthmore College","Yale Univesity","Carnegie Mellon University","Carnegie Mellon University","","Cornell University","Massachusetts Institute of Technology,<br>Harvard University","Stanford University","University of Florida","New York University"],"department":["Philosophy, Logic, and Scientific Method","Data Science","Data Science (Cross-listed in History and STS)","Philosophy","Computer Science","Computer Science","First-year Seminar","Statistics and Data Science","Machine Learning","Information Systems and Public Policy","Philosophy","Information Sciences","Cross-Disciplinary","Computer Science","Philosophy","Data Science"],"level":["Undergraduate","Undergraduate","Undergraduate","Undergraduate","Undergraduate","Undergraduate","Undergraduate","Undergraduate","Graduate/\nUndergraduate","Graduate","Graduate/\nUndergraduate","Graduate/\nUndergraduate","Graduate","Undergraduate","Undergraduate","Undergraduate"],"prereqs":["None","None","None","None","None","None","None","Statistics and/or Data Analytics is Required,<br>Prior Coursework in AI/ML/Algorithms and Ethics/Philosophy is Useful","None","Familiarity with Data Analytics Pipeline is Recommended","Prior Coursework in Moral/Political Philosophy and Logic/Statistics is Useful","None","None","None","None","Introduction to Data Science or <br> Introduction to Computer Science"],"instructor":["Kate Vredenburgh, Ali Boyle, Alex Voorhoeve, Paola Romero","Elizabeth Petrick","Margo Boenig-Lipstin,<br> Ari Edmundson","David Danks","Sarah Van Wart","Joseph Halpern,<br>Bart Selman","Ameet Soni,<br>Krista Karbowski Thomason","Elisa Celis","Zachary Lipton","David Danks, Sina Fazelpour","Liam Kofi Bright","Solon Barocas","Joi Ito,<br>Jonathan Zittrain","Rob Reich, Mehran Sahami, Jeremy Weinstein","David Gray Grant","Julia Stoyanovich"],"intructor_discipline":["Philosophy, Logic, and Scientific Method","History","Margo Boenig-Lipstin: History<br>Ari Edmundson: Data Science","Philosophy and Data Science","Computer Science and Engineering","Computer Science","Ameet Soni: Computer Science<br> Krista Karbowski Thomason: Philosophy","Statistics and Data Science","Machine Learning and Operations Research","David Danks: Data Science and Philosophy<br>Sina Fazelpour: Computer Science and Philosophy","Philosophy","Information Science (and Principle Researcher at Microsoft)","Joi Ito: Practice in Media Arts and Science<br>Jonathon Zittrain: International Law, Computer Science, and Public Policy","Rob Reich: Political Science<br>Mehran Sahami:Computer Science<br>Jeremy Weinstein: Computer Science","Philosophy","Data Science, Computer Science, and Engineering"],"link":["<a target=\"_top\" href = \"https://www.lse.ac.uk/ss-asset-library/course-outlines/2023/ME102-Course-Outline-2023.pdf\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjBqtWbooD_AhUhIzQIHXWLD_c4ChAWegQIBhAB&url=https%3A%2F%2Festher.rice.edu%2Fselfserve%2F!bwzkpsyl.v_viewDoc%3Fterm%3D202120%26crn%3D23021%26type%3DSYLLABUS&usg=AOvVaw1zimMugXOdwaI0SYtmBHVE\" target = \"_blank\">Syllabus PDF\n(automatically downloads)<\/a>","<a target=\"_top\" href = \"https://docs.google.com/document/d/1aRSkK0FmyaWCIsFq4MCbTrP2yGmP_rTPQ9MJLzdwWnc/edit\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://philosophy.ucsd.edu/courses/course-syllabus/wi23/PHIL174.pdf\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://nu-tech-ethics.github.io/winter2021/syllabus/\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://www.cs.cornell.edu/courses/cs4732/2017sp/\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://works.swarthmore.edu/cgi/viewcontent.cgi?article=1027&context=dev-dhgrants\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://datascienceethics.wordpress.com/the-course/syllabus/\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://github.com/acmi-lab/cmu-10721-philosophy-machine-intelligence\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://www.heinz.cmu.edu/current-students/courses/94-836/2238/\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://philpeople.org/public_cache/file?content_type=application%2Fpdf&key=z1d1wj8yk9ztczwt4d9wspqbl6qb\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://docs.google.com/document/d/1GV97qqvjQNvyM2I01vuRaAwHe9pQAZ9pbP7KkKveg1o/edit\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://dam-prod.media.mit.edu/x/2018/02/07/Ethics%20and%20Governance%20of%20AI%20S18%20.pdf\" target = \"_blank\">Syllabus PDF\n(automatically downloads)<\/a>","<a target=\"_top\" href = \"https://web.stanford.edu/class/cs182/\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://phil.ufl.edu/wp-content/uploads/sites/145/2022/01/PHI3681-Grant-Syllabus-2021-28-12.pdf\" target = \"_blank\">Syllabus Link<\/a>","<a target=\"_top\" href = \"https://dataresponsibly.github.io/courses/spring19/\" target = \"_blank\">Syllabus Link<\/a>"],"semester":["Summer 2023","Spring 2021","Spring 2020","Winter 2023","Winter 2021","Spring 2017","Spring 2019","Spring 2019","Spring 2023","Spring 2021","Spring 2023","Fall 2017","Spring 2018","Winter 2023","Spring 2022","Spring 2019"],"list":["Yes","Yes","Yes","Yes","Yes","Yes","Yes","No","Yes","Yes","Yes","Yes","Yes","Yes","Yes","Yes"]},"columns":[{"id":"title","name":"Course Title","type":"character","html":true,"minWidth":120},{"id":"institution","name":"Institution","type":"character","html":true,"minWidth":125},{"id":"department","name":"Department","type":"character","html":true,"minWidth":120},{"id":"level","name":"Course Level","type":"character","html":true,"minWidth":130},{"id":"prereqs","name":"Prerequisites","type":"character","html":true,"minWidth":135},{"id":"instructor","name":"Instructors","type":"character","html":true,"minWidth":120},{"id":"intructor_discipline","name":"Instructor Discpline","type":"character","html":true,"minWidth":130},{"id":"link","name":"Syllabus Link","type":"character","html":true,"minWidth":130},{"id":"semester","name":"Syllabus' Term","type":"character"},{"id":"list","name":"Reading List Included?","type":"character","minWidth":130}],"resizable":true,"filterable":true,"searchable":true,"showPagination":true,"highlight":true,"showSortable":true,"theme":{"highlightColor":"#F0EDD1","style":{"fontFamily":"-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif","fontSize":"0.875em"}},"elementId":"syllabi-table","dataKey":"25b67dcf992aa228d19a6000da78be18"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
 </div>
@@ -213,18 +218,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -256,11 +250,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/scolando\.github\.io\/data-science-ethics\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -270,8 +303,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -283,7 +325,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -327,6 +492,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -352,6 +518,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -414,7 +606,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">© Copyright 2024, <a href="https://scolando.github.io/personal-website/">Sara Colando</a> and <a href="https://hardin47.netlify.app">Jo Hardin</a></div>   
+    <div class="nav-footer-left">
+<p>© Copyright 2024, <a href="https://scolando.github.io/personal-website/">Sara Colando</a> and <a href="https://hardin47.netlify.app">Jo Hardin</a></p>
+</div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -430,6 +624,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
+
 
 
 

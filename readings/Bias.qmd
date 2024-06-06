@@ -7,4 +7,22 @@ categories:
   - "Processing Objects as Data"
   - "Ordering Data as Models to Represent the World"
   - "Interpreting Models as Knowledge"
+bibliography: bibliographies/Bias.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
 ---
+
+![](images/fairness.png){fig-align="center" width="85%"}
+
+| Title                                                                                                      | Citation                | Description |
+|--------------------------------------|-----------------|-----------------|
+| Are Algorithms Value-Free?                                                                                 | @Johnson2023            | 2020        |
+| Algorithmic Bias: on the Implicit Biases of Social Technology                                              | @Johnson2020            | 2020        |
+| Algorithmic Bias: Senses, Sources, Solutions                                                               | @FazelpourDanks2021     | 2020        |
+| Fairness                                                                                                   | @sep-informed-consent   | 2020        |
+| Just Machines                                                                                              | @Castro2022             | 2020        |
+| Big Data and Compounding Injustice                                                                         | @Hellman2023            | 2020        |
+| On the Site of Predictive Justice                                                                          | @LazarStoneForthcoming  | 2020        |
+| Proceed with Caution                                                                                       | @ZimmermannStronach2021 | 2020        |
+| Semantics Derived Automatically from Language Corpora Contain Human-like Biases                            | @Caliskan2017           | 2020        |
+| The Algorithmic Leviathan: Arbitrariness, Fairness, and Opportunity in Algorithmic Decision-Making Systems | @CreelHellamn2022       | 2020        |

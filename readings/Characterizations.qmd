@@ -1,6 +1,6 @@
 ---
 title: "Characterizations of Data Science"
-number of listed readings: 12
+subtitle: "Readings on how to characterize data science and aritificial intelligence, and in particular, how it uses induction."
 categories:
   - "Interactions with World"
   - "Producing Objects"

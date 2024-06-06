@@ -15,7 +15,7 @@ csl: bibliographies/apa-6th-edition.csl
 ## Privacy Readings
 
 | Title                                                                     | Citation            | Description |
-|----------------------------------------|----------------|----------------|
+|--------------------------------------|-----------------|-----------------|
 | Privacy (Stanford Encyclopedia of Philosophy)                             | @sep-privacy        | 2020        |
 | Why Privacy is Important                                                  | @why-privacy-imp    | 2019        |
 | Why We Care about Privacy                                                 | @why-care-privacy   | 2019        |
@@ -27,8 +27,7 @@ csl: bibliographies/apa-6th-edition.csl
 | Big Data's End Run around Procedural Privacy Protections                  | @end-procedural     | 2019        |
 | Why 'I Have Nothing to Hide' is the Wrong Way to Think About Surveillance | @end-procedural     | 2019        |
 | Can a Set of Equations keep U.S. Census Data Private?                     | @end-procedural     | 2019        |
-| Why 'Anonymous' Data Sometimes Isn't                            | @anonymous-data       | 2020        |
-
+| Why 'Anonymous' Data Sometimes Isn't                                      | @anonymous-data     | 2020        |
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

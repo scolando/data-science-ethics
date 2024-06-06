@@ -5,4 +5,19 @@ categories:
   - "Interactions with World"
   - "Ordering Data as Models to Represent the World"
   - "Interpreting Models as Knowledge"
+bibliography: bibliographies/Explainability.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
 ---
+
+![](images/explainability.png){fig-align="center" width="90%"}
+
+## Explainability, Transparency, and Interpretability Readings
+
+| Title                                                                          | Citation     | Description |
+|-------------------------------------|------------------|------------------|
+| Transparency in Complex Computational Systems                                  | @sep-privacy | 2020        |
+| How the Machine "Thinks": Understanding Opacity in Machine Learning Algorithms | @sep-privacy | 2020        |
+| Algorithmic and Human Decision Making: For a Double Standard of Transparency   | @sep-privacy | 2020        |
+| The Right to an Explanation                                                    | @sep-privacy | 2020        |
+| The Mythos of Model Interpretability                                           | @sep-privacy | 2020        |
