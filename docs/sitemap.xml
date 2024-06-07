@@ -1,87 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://scolando.github.io/data-science-ethics/inside-syllabi.html</loc>
-    <lastmod>2024-05-31T23:23:34.012Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/syllabi-table-code.html</loc>
-    <lastmod>2024-05-31T23:23:34.014Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/readings/Predictive-Policing.html</loc>
-    <lastmod>2024-05-23T05:22:07.349Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/readings/Privacy.html</loc>
-    <lastmod>2024-06-03T19:32:00.362Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/readings/Workplace.html</loc>
-    <lastmod>2024-05-23T05:25:47.257Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/readings/Bias.html</loc>
-    <lastmod>2024-06-06T06:11:16.496Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/readings/Causation.html</loc>
-    <lastmod>2024-06-06T06:14:25.137Z</lastmod>
-  </url>
-  <url>
     <loc>https://scolando.github.io/data-science-ethics/Reading-Tags.html</loc>
-    <lastmod>2024-06-06T06:12:15.915Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/index.html</loc>
-    <lastmod>2024-05-31T23:23:34.012Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/DS-pipeline.html</loc>
-    <lastmod>2024-05-31T23:23:33.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/Intro-DS-lifecycle.html</loc>
-    <lastmod>2024-05-31T23:23:33.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/DS-pedagogies.html</loc>
-    <lastmod>2024-05-31T23:23:33.970Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/Common-Topics.html</loc>
-    <lastmod>2024-06-02T20:12:25.994Z</lastmod>
-  </url>
-  <url>
-    <loc>https://scolando.github.io/data-science-ethics/construction.html</loc>
-    <lastmod>2024-05-31T23:23:33.972Z</lastmod>
+    <lastmod>2024-06-07T00:15:50.385Z</lastmod>
   </url>
   <url>
     <loc>https://scolando.github.io/data-science-ethics/readings/Democracy.html</loc>
-    <lastmod>2024-06-04T20:46:06.895Z</lastmod>
+    <lastmod>2024-06-07T18:09:20.148Z</lastmod>
   </url>
   <url>
     <loc>https://scolando.github.io/data-science-ethics/readings/Alignment.html</loc>
-    <lastmod>2024-05-29T04:36:30.424Z</lastmod>
+    <lastmod>2024-06-07T18:06:11.118Z</lastmod>
   </url>
   <url>
-    <loc>https://scolando.github.io/data-science-ethics/readings/Explainability.html</loc>
-    <lastmod>2024-06-06T06:21:25.627Z</lastmod>
+    <loc>https://scolando.github.io/data-science-ethics/readings/Bias.html</loc>
+    <lastmod>2024-06-07T18:06:27.687Z</lastmod>
   </url>
   <url>
-    <loc>https://scolando.github.io/data-science-ethics/readings/Responsibility.html</loc>
-    <lastmod>2024-06-04T20:49:06.705Z</lastmod>
+    <loc>https://scolando.github.io/data-science-ethics/readings/Causation.html</loc>
+    <lastmod>2024-06-07T18:12:20.481Z</lastmod>
   </url>
   <url>
     <loc>https://scolando.github.io/data-science-ethics/readings/Characterizations.html</loc>
-    <lastmod>2024-06-04T20:52:03.589Z</lastmod>
+    <lastmod>2024-06-07T18:08:26.253Z</lastmod>
   </url>
   <url>
     <loc>https://scolando.github.io/data-science-ethics/readings/Consent.html</loc>
-    <lastmod>2024-06-04T20:35:13.081Z</lastmod>
+    <lastmod>2024-06-07T18:08:14.973Z</lastmod>
   </url>
   <url>
-    <loc>https://scolando.github.io/data-science-ethics/Intro-DS-ethics.html</loc>
-    <lastmod>2024-05-31T23:23:33.970Z</lastmod>
+    <loc>https://scolando.github.io/data-science-ethics/readings/Explainability.html</loc>
+    <lastmod>2024-06-07T18:09:50.461Z</lastmod>
+  </url>
+  <url>
+    <loc>https://scolando.github.io/data-science-ethics/readings/Predictive-Policing.html</loc>
+    <lastmod>2024-06-07T18:05:37.739Z</lastmod>
+  </url>
+  <url>
+    <loc>https://scolando.github.io/data-science-ethics/readings/Privacy.html</loc>
+    <lastmod>2024-06-07T18:05:31.496Z</lastmod>
+  </url>
+  <url>
+    <loc>https://scolando.github.io/data-science-ethics/readings/Responsibility.html</loc>
+    <lastmod>2024-06-07T18:10:41.677Z</lastmod>
+  </url>
+  <url>
+    <loc>https://scolando.github.io/data-science-ethics/readings/Workplace.html</loc>
+    <lastmod>2024-06-07T18:11:01.437Z</lastmod>
   </url>
 </urlset>

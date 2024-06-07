@@ -10,5 +10,5 @@ listing:
   sort: 
     - "title"
   categories: true
-  fields: [title, subtitle, image]
+  fields: [title, subtitle]
 ---

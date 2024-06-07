@@ -1,49 +1,23 @@
 ---
 title: "Democracy"
 subtitle: "Readings and case studies on the applications of data science in democracy and the ethical implications of using statistical models in such contexts."
-output: html_document
+format:
+    html:
+      citeproc: true
+    pdf:
+      pdf-engine: weasyprint
 bibliography: bibliographies/Democracy.bib
 link-citations: true
 csl: bibliographies/apa-6th-edition.csl
-categories: 
-  - "Interactions with World"
-  - "Interpreting Models as Knowledge"
+css: readings.css
+format-links: [pdf]
 ---
 
-------------------------------------------------------------------------
+| Title                                                                     | Citation            |
+|-------------------------------------|------------------|
 
-## Primary Democracy Readings
+## References
 
-------------------------------------------------------------------------
+::: {#refs}
+:::
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(tidyverse)
-library(reactable)
-library(reactablefmtr)
-```
-
-```{css}
-h1 {
-  text-align: left;
-}
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #fff;
-    background-color:  #877e2c;
-    border-color:  #877e2c;
-}
-```
-
-------------------------------------------------------------------------
-
-## Additional Democracy Readings
-
-------------------------------------------------------------------------
-
-------------------------------------------------------------------------
-
-## Primary Democracy Readings' References
-
-------------------------------------------------------------------------

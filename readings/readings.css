@@ -1,0 +1,25 @@
+.print-only {
+  display: none;
+  /*color: aquamarine;*/
+}
+
+@media print {
+    img {
+        display: none;
+    }
+    th, td {
+        border: 1px solid black;
+    }
+    
+    #references {
+        page-break-before: always; /* or page-break-after: always; */
+    }
+    
+    a {
+        color: #746c25 !important; /* Change link color for print version */
+    }
+    
+    body {
+      font-family: "Lato";
+    }
+}

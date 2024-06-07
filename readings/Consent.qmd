@@ -5,98 +5,31 @@ categories:
   - "Interactions with World"
   - "Producing Objects"
   - "Interpreting Models as Knowledge"
-output: html_document
-image: images/consent.png
+format:
+    html:
+      citeproc: true
+    pdf:
+      pdf-engine: weasyprint
 bibliography: bibliographies/Consent.bib
 link-citations: true
 csl: bibliographies/apa-6th-edition.csl
+css: readings.css
+format-links: [pdf]
 ---
 
-![](images/consent.png)
+| Title                                                                                     | Citation                  |
+|------------------------------------------------------|------------------|
+| Informed Consent (Stanford Encyclopedia of Philosophy)                                    | @sep-informed-consent     |
+| Privacy Self-Management and the Consent Dilemma                                           | @Solove                   |
+| The Ethics of Consent: Theory and Practice                                                | @ethics-consent           |
+| Middletown, a Study in Contemporary American Culture                                      | @wolmarans_voorhoeve_2022 |
+| A Belmont Report for Health Data                                                          | @wolmarans_voorhoeve_2022 |
+| Naturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation | @wolmarans_voorhoeve_2022 |
+| What Makes Personal Data Processing by Social Networking Services Permissible?            | @wolmarans_voorhoeve_2022 |
+| What's Wrong with Automated Influence                                                     | @automated-influence      |
 
-------------------------------------------------------------------------
 
-## Consent Readings
+## References
 
-| Title                                                                                     | Citation                  | Description |
-|----------------------------------------|----------------|----------------|
-| Informed Consent (Stanford Encyclopedia of Philosophy)                                    | @sep-informed-consent     | 2020        |
-| Privacy Self-Management and the Consent Dilemma                                           | @Solove                   | 2019        |
-| The Ethics of Consent: Theory and Practice                                                | @ethics-consent           | 2019        |
-| Middletown, a Study in Contemporary American Culture                                      | @wolmarans_voorhoeve_2022 | 2019        |
-| A Belmont Report for Health Data                                                          | @wolmarans_voorhoeve_2022 | 2019        |
-| Naturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation | @wolmarans_voorhoeve_2022 | 2019        |
-| What Makes Personal Data Processing by Social Networking Services Permissible?            | @wolmarans_voorhoeve_2022 | 2019        |
-| What's Wrong with Automated Influence                                                     | @automated-influence      | 2019        |
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-library(tidyverse)
-library(reactable)
-library(reactablefmtr)
-```
-
-```{css}
-h1 {
-  text-align: left;
-}
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #fff;
-    background-color:  #877e2c;
-    border-color:  #877e2c;
-}
-```
-
-```{r}
-consent <- tribble(~Title, ~Reading_One, ~Summary, ~Tags,
-                                        "Informed Consent\n(Stanford Encyclopedia of Philosophy)",
-                   '<span class="citation">Eyal (<a href="#ref-sep-informed-consent" role="doc-biblioref">2019</a>)</span>', 
-                   "This Stanford Encyclopedia of Philosophy (SEP) entry overviews the philosophical discussions about Informed Consent. Specifically, this entry discusses what informed consent is, in which scenarios informed one is morally obligated to obtain informed consent, and why a moral obligation to obtain informed consent exists in the first place. This entry focuses on informed consent in the medical field. Yet, several concepts discussed in the SEP entry could be pertinent to the worries surrounding informed consent in data science.", 
-                   "<a href='consent.html'>Primer</a>,",
-                   "Privacy Self-Management and the Consent Dilemma",
-                    '<span class="citation">Solove (<a href="#ref-Solove"
-role="doc-biblioref">2012</a>)</span>',
-                    "'Privacy Self-Management and the Consent Dilemma' by Daniel J. Solove articulates how the rights to 'privacy self-management' and informed consent are deeply intertwined when collecting, using, and disclosing information (e.g., personal data). In this article, Solove contends that individuals cannot adequately weigh the costs and benefits of revealing personal information or permitting its use and transfer, which limits the ability for privacy to be self-managed. Solove argues that these issues in privacy self-management lead to a 'consent dilemma' about how to ensure that one's informed consent to collect, use, or disclose personal data is meaningful without resorting to paternalistic laws or policies. Solove ends by proposing ways for privacy law to 'grapple with the consent dilemma'.", 
-"<a href='consent.html'>Law</a>,",
-"The Ethics of Consent: Theory and Practice",
-'<span class="citation">Miller &amp; Wertheimer (<a
-href="#ref-ethics-consent" role="doc-biblioref">2010</a>)</span>',
-"This book is a collection of prominent scholars' theoretical and practical perspectives on consent. Part one of the book dives into the theory behind consent and, namely, why it is morally required in certain contexts. Part two then goes into consent applications, such as in contracts, sexual relations, and clinic research. This book provides a substantial overview of philosophical work related to consent, and thus its excerpts could be useful when reflecting on the role of consent in the data science context.",
-"<a href='consent.html'>Primer</a>,",
-"What Makes Personal Data Processing by Social Networking Services Permissible?",
-'<span class="citation">Wolmarans &amp; Voorhoeve (<a
-href="#ref-wolmarans_voorhoeve_2022"
-role="doc-biblioref">2022</a>)</span>',
-"Wolmarans and Voorhoeve's paper focuses on consent in the context of social networking services. Specifically, they explore when the exchange of commericialization rights to personal information for social networking services is morally permissible. They ultimately argue that the exchange of personal information for social networking services is not permissible because a user consented to the exchange, but rather because social networks provide 'sufficiently valuable opportunities' in exchange for the right to commericialize a user's data. Beyond objecting to the common view for why commericialization rights to personal data in exchange for social networking services is permissible, Wolmarans and Voorhoeve also give a helpful overview of real case studies related to exchanging commericialization rights for social networking services in the paper's introduction.",
-"<a href='consent.html'>Policy</a>, <a href='consent.html'>Law</a>,",
-"Beyond Measure",
-'<span class="citation">Butler, Delaney, Hesselbo, &amp; Spoelstra
-(<a href="#ref-beyond-measure"
-role="doc-biblioref">2020</a>)</span>',
-"'Beyond Measure' is the introductory article of a special issue of the journal, ephmera, that explores measurement in the context of 'management, organization, and politics'. The authors explicate how the increase in measurement (quantification) is deeply tied to capitalist organizations and the desire to increase objectivity (which they define as 'not relying on the perspective of the individual'). However, as the authors explain, many things that we try to quantify for the sake of objectivity are not naturally quantifiable, including ourselves. While not directly related to consent, this article impels us to think more deeply about what the aim is of data science, and to think critically about what we should attempt to quantify through data science.",
-"<a href='consent.html'>Primer</a>, <a href='consent.html'>Case Study</a>,",
-
-)
-```
-
-```{r results='hide'}
-reactable(consent,
-          columns = list(Title = colDef("Title", html = TRUE, align = "center", vAlign = "center"),
-            Reading_One = colDef("Reference", html = TRUE, minWidth = 100, align = "center", vAlign = "center"),
-                         Summary = colDef("Summary", html = TRUE, minWidth = 250),
-                         Tags = colDef("Tags", html = TRUE, width = 90)),
-          resizable = TRUE,
-          highlight = TRUE,
-          pagination = FALSE,
-          showSortable = TRUE,
-          searchable = TRUE,
-          theme = reactableTheme(
-             highlightColor = "#F0EDD1",
-             style = list(
-      fontFamily = "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif",
-      fontSize = '14px')
-          )
-)
-```
+::: {#refs}
+:::

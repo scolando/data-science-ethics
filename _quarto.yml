@@ -31,7 +31,7 @@ website:
            href: DS-pipeline.qmd
       - text: "Reading Lists"
         href: Reading-Tags.qmd
-    background: "#f4f4f4ff" 
+    background: white 
     
   page-footer:
     left: "&copy; Copyright 2024, [Sara Colando](https://scolando.github.io/personal-website/) and [Jo Hardin](https://hardin47.netlify.app)"
@@ -39,7 +39,7 @@ website:
     right:
       - icon: github
         href: https://github.com/scolando/personal-website
-    background: "#f4f4f4ff"
+    background: white
 
 format:
   html:

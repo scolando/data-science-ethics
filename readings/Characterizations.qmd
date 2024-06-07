@@ -7,4 +7,23 @@ categories:
   - "Processing Objects as Data"
   - "Ordering Data as Models to Represent the World"
   - "Interpreting Models as Knowledge"
+format:
+    html:
+      citeproc: true
+    pdf:
+      pdf-engine: weasyprint
+bibliography: bibliographies/Characterizations.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
+css: readings.css
+format-links: [pdf]
 ---
+
+| Title                                                                     | Citation            |
+|-------------------------------------|------------------|
+
+## References
+
+::: {#refs}
+:::
+
