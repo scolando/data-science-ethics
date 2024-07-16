@@ -1,0 +1,9 @@
+---
+title: "{{< iconify ph:warning-bold >}} Page Not Found"
+format:
+  html: 
+    toc: false
+---
+
+<p>The requested page: <span id="current-url" style="color: #364f7a;  text-decoration: underline;"></span><script>document.getElementById('current-url').innerText = window.location.href; </script> was not found. </p>
+

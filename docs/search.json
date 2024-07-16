@@ -1,180 +1,5 @@
 [
   {
-    "objectID": "Reading-Tags.html",
-    "href": "Reading-Tags.html",
-    "title": "Reading Lists",
-    "section": "",
-    "text": "Alignment\n\n\nReadings on the moral alignment between human values and current data science practices.\n\n\n\n\n\n\n\n\n\n\nBias, Fairness, and Justice\n\n\nReadings on the normative concepts of bias, fairness, and justice and how they are relevant considerations in data science.\n\n\n\n\n\n\n\n\n\n\nCausation\n\n\nReadings on causation as it applies to data science, and more specifically data science ethics. A primary focus of these readings is causal inference and socially sensitive attributes (e.g., race and gender).\n\n\n\n\n\n\n\n\n\n\nCharacterizations of Data Science\n\n\nReadings on how to characterize data science and aritificial intelligence, and in particular, how it uses induction.\n\n\n\n\n\n\n\n\n\n\nConsent\n\n\nReadings on informed consent in data science practices, why it ethically matters, and how to grapple with the practical challenges of obtaining informed consent in data science.\n\n\n\n\n\n\n\n\n\n\nDemocracy\n\n\nReadings and case studies on the applications of data science in democracy and the ethical implications of using statistical models in such contexts.\n\n\n\n\n\n\n\n\n\n\nExplainability\n\n\nReadings on what is meant by “explainability” (and related terms like “transparency” and “interpretability”) in data science and to what extent acheiving explainabilty (or transparency or interpretability) in algorithms is morally important.\n\n\n\n\n\n\n\n\n\n\nPredictive Policing\n\n\nReadings and case studies on the applications of data science in predictive policing and the ethical implications of using statistical models to perform predictive policing.\n\n\n\n\n\n\n\n\n\n\nPrivacy\n\n\nReadings on privacy, why it matters, its relationship to consent, and case studies that emphasize both the importance and difficulty of ensuring privacy in data science.\n\n\n\n\n\n\n\n\n\n\nResponsibility\n\n\nReadings concerning moral responsibility in data science as well as some of the challenges in assessing who is morally responsible for data models and predictions.\n\n\n\n\n\n\n\n\n\n\nWorkplace\n\n\nReadings and case studies on the applications of data science in the workplace (e.g., in hiring or promotion) and the ethical implications of using statistical models in such contexts.\n\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "readings/Democracy.html",
-    "href": "readings/Democracy.html",
-    "title": "Democracy",
-    "section": "",
-    "text": "Title\nCitation"
-  },
-  {
-    "objectID": "readings/Democracy.html#references",
-    "href": "readings/Democracy.html#references",
-    "title": "Democracy",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "readings/Alignment.html",
-    "href": "readings/Alignment.html",
-    "title": "Alignment",
-    "section": "",
-    "text": "Title\nCitation"
-  },
-  {
-    "objectID": "readings/Alignment.html#references",
-    "href": "readings/Alignment.html#references",
-    "title": "Alignment",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "readings/Bias.html",
-    "href": "readings/Bias.html",
-    "title": "Bias, Fairness, and Justice",
-    "section": "",
-    "text": "Title\nCitation\n\n\n\n\nAre Algorithms Value-Free?\nJohnson (2023)\n\n\nAlgorithmic Bias: on the Implicit Biases of Social Technology\nJohnson (2020)\n\n\nAlgorithmic Bias: Senses, Sources, Solutions\nFazelpour & Danks (2021)\n\n\nFairness\n(sep-informed-consent?)\n\n\nJust Machines\nCastro (2022)\n\n\nBig Data and Compounding Injustice\nHellman (2023)\n\n\nOn the Site of Predictive Justice\nLazar & Stone (forthcoming)\n\n\nProceed with Caution\nZimmermann & Lee-Stronach (2021)\n\n\nSemantics Derived Automatically from Language Corpora Contain Human-like Biases\nCaliskan, Bryson, & Narayanan (2017)\n\n\nThe Algorithmic Leviathan: Arbitrariness, Fairness, and Opportunity in Algorithmic Decision-Making Systems\nCreel & Hellman (2022)"
-  },
-  {
-    "objectID": "readings/Bias.html#references",
-    "href": "readings/Bias.html#references",
-    "title": "Bias, Fairness, and Justice",
-    "section": "References",
-    "text": "References\n\n\nCaliskan, A., Bryson, J., & Narayanan, A. (2017). Semantics derived automatically from language corpora contain human-like biases. Science, 356, 183–186. https://doi.org/10.1126/science.aal4230\n\n\nCastro, C. (2022). Just machines. Public Affairs Quarterly, 36(2), 163–183. https://doi.org/10.5406/21520542.36.2.04\n\n\nCreel, K., & Hellman, D. (2022). The algorithmic leviathan: Arbitrariness, fairness, and opportunity in algorithmic decision-making systems. Canadian Journal of Philosophy, 52(1), 26–43. https://doi.org/10.1017/can.2022.3\n\n\nFazelpour, S., & Danks, D. (2021). Algorithmic bias: Senses, sources, solutions. Philosophy Compass, 16(8), e12760. https://doi.org/10.1111/phc3.12760\n\n\nHellman, D. (2023). Big data and compounding injustice. Journal of Moral Philosophy, 21(1-2), 62–83. https://doi.org/10.1163/17455243-20234373\n\n\nJohnson, G. M. (2020). Algorithmic bias: On the implicit biases of social technology. Synthese, 198(10), 9941–9961. https://doi.org/10.1007/s11229-020-02696-y\n\n\nJohnson, G. M. (2023). Are algorithms value-free? Journal Moral Philosophy, 21(1-2), 1–35. https://doi.org/10.1163/17455243-20234372\n\n\nLazar, S., & Stone, J. (forthcoming). On the site of predictive justice. Noûs. Forthcoming. https://doi.org/10.1111/nous.12477\n\n\nZimmermann, A., & Lee-Stronach, C. (2021). Proceed with caution. Canadian Journal of Philosophy, (1), 6–25. https://doi.org/10.1017/can.2021.17"
-  },
-  {
-    "objectID": "readings/Causation.html",
-    "href": "readings/Causation.html",
-    "title": "Causation",
-    "section": "",
-    "text": "Title\nCitation\n\n\n\n\nCausation\nScheines (n.d.)\n\n\nThe Problem of Induction (Stanford Encyclopedia of Philosophy)\nHenderson (2022)\n\n\nThe Use and Misuse of Counterfactuals in Ethical Machine Learning\nKasirzadeh & Smart (2021)\n\n\nEddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination\nKohler-Hausmann (2017)\n\n\nWhat is “Race” in Algorithmic Discrimination on the Basis of Race?\nHu (Forthcoming)"
-  },
-  {
-    "objectID": "readings/Causation.html#references",
-    "href": "readings/Causation.html#references",
-    "title": "Causation",
-    "section": "References",
-    "text": "References\n\n\nHenderson, L. (2022). The Problem of Induction. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Winter 2022). https://plato.stanford.edu/archives/win2022/entries/induction-problem/; Metaphysics Research Lab, Stanford University.\n\n\nHu, L. (Forthcoming). What’s ’race’ in algorithmic discrimination on the basis of race? Journal of Moral Philosophy.\n\n\nKasirzadeh, A., & Smart, A. (2021). The use and misuse of counterfactuals in ethical machine learning. Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 228–236. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3442188.3445886\n\n\nKohler-Hausmann, I. (2017). The dangers of counterfactual causal thinking about detecting racial discrimination. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3050650\n\n\nScheines, R. (n.d.). Causation."
-  },
-  {
-    "objectID": "readings/Characterizations.html",
-    "href": "readings/Characterizations.html",
-    "title": "Characterizations of Data Science",
-    "section": "",
-    "text": "Title\nCitation"
-  },
-  {
-    "objectID": "readings/Characterizations.html#references",
-    "href": "readings/Characterizations.html#references",
-    "title": "Characterizations of Data Science",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "readings/Consent.html",
-    "href": "readings/Consent.html",
-    "title": "Consent",
-    "section": "",
-    "text": "Title\nCitation\n\n\n\n\nInformed Consent (Stanford Encyclopedia of Philosophy)\nEyal (2019)\n\n\nPrivacy Self-Management and the Consent Dilemma\nSolove (2012)\n\n\nThe Ethics of Consent: Theory and Practice\nMiller & Wertheimer (2010)\n\n\nMiddletown, a Study in Contemporary American Culture\nWolmarans & Voorhoeve (2022)\n\n\nA Belmont Report for Health Data\nWolmarans & Voorhoeve (2022)\n\n\nNaturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation\nWolmarans & Voorhoeve (2022)\n\n\nWhat Makes Personal Data Processing by Social Networking Services Permissible?\nWolmarans & Voorhoeve (2022)\n\n\nWhat’s Wrong with Automated Influence\nBenn & Lazar (2021)"
-  },
-  {
-    "objectID": "readings/Consent.html#references",
-    "href": "readings/Consent.html#references",
-    "title": "Consent",
-    "section": "References",
-    "text": "References\n\n\nBenn, C., & Lazar, S. (2021). What’s wrong with automated influence. Canadian Journal of Philosophy, 52, 1–24. https://doi.org/10.1017/can.2021.23\n\n\nEyal, N. (2019). Informed Consent. In E. N. Zalta (Ed.), The Stanford encyclopedia of philosophy (Spring 2019). https://plato.stanford.edu/archives/spr2019/entries/informed-consent/; Metaphysics Research Lab, Stanford University.\n\n\nMiller, F. G., & Wertheimer, A. (2010). The ethics of consent: Theory and practice (pp. 1–430). https://doi.org/10.1093/acprof:oso/9780195335149.001.0001\n\n\nSolove, D. (2012). Privacy self-management and the consent dilemma. Harvard Law Review, 126.\n\n\nWolmarans, L., & Voorhoeve, A. (2022). What makes personal data processing by social networking services permissible? Canadian Journal of Philosophy, 52(1), 93–108. https://doi.org/10.1017/can.2022.4"
-  },
-  {
-    "objectID": "readings/Explainability.html",
-    "href": "readings/Explainability.html",
-    "title": "Explainability",
-    "section": "",
-    "text": "Title\nCitation\n\n\n\n\nTransparency in Complex Computational Systems\n(sep-privacy?)\n\n\nHow the Machine “Thinks”: Understanding Opacity in Machine Learning Algorithms\n(sep-privacy?)\n\n\nAlgorithmic and Human Decision Making: For a Double Standard of Transparency\n(sep-privacy?)\n\n\nThe Right to an Explanation\n(sep-privacy?)\n\n\nThe Mythos of Model Interpretability\n(sep-privacy?)"
-  },
-  {
-    "objectID": "readings/Explainability.html#explainability-transparency-and-interpretability-readings",
-    "href": "readings/Explainability.html#explainability-transparency-and-interpretability-readings",
-    "title": "Explainability",
-    "section": "",
-    "text": "Title\nCitation\n\n\n\n\nTransparency in Complex Computational Systems\n(sep-privacy?)\n\n\nHow the Machine “Thinks”: Understanding Opacity in Machine Learning Algorithms\n(sep-privacy?)\n\n\nAlgorithmic and Human Decision Making: For a Double Standard of Transparency\n(sep-privacy?)\n\n\nThe Right to an Explanation\n(sep-privacy?)\n\n\nThe Mythos of Model Interpretability\n(sep-privacy?)"
-  },
-  {
-    "objectID": "readings/Explainability.html#references",
-    "href": "readings/Explainability.html#references",
-    "title": "Explainability",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "readings/Predictive-Policing.html",
-    "href": "readings/Predictive-Policing.html",
-    "title": "Predictive Policing",
-    "section": "",
-    "text": "Title\nCitation"
-  },
-  {
-    "objectID": "readings/Predictive-Policing.html#references",
-    "href": "readings/Predictive-Policing.html#references",
-    "title": "Predictive Policing",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "readings/Privacy.html",
-    "href": "readings/Privacy.html",
-    "title": "Privacy",
-    "section": "",
-    "text": "Title\nCitation\n\n\n\n\nPrivacy (Stanford Encyclopedia of Philosophy)\nDeCew (2018)\n\n\nWhy Privacy is Important\nRachels (1975)\n\n\nWhy We Care about Privacy\nMcFarland (2012)\n\n\nPrivacy and Human Behavior in the Age of Information\nAcquisti, Brandimarte, & Loewenstein (2015)\n\n\nSurveillance and Capture: Two Models of Privacy\nAcquisti et al. (2015)\n\n\nFrom Individual to Group Privacy in Big Data Analytics\nMittelstadt (2017)\n\n\nA Modern Pascal’s Wager for Mass Electronic Surveillance\nDanks (2014)\n\n\nPrivacy and Paternalism: The Ethics of Student Data Collection\nCreel & Dixit (2022)\n\n\nBig Data’s End Run around Procedural Privacy Protections\nBarocas & Nissenbaum (2014)\n\n\nWhy ‘I Have Nothing to Hide’ is the Wrong Way to Think About Surveillance\nBarocas & Nissenbaum (2014)\n\n\nCan a Set of Equations keep U.S. Census Data Private?\nBarocas & Nissenbaum (2014)\n\n\nWhy ‘Anonymous’ Data Sometimes Isn’t\nSchneier (2007)"
-  },
-  {
-    "objectID": "readings/Privacy.html#additional-privacy-readings",
-    "href": "readings/Privacy.html#additional-privacy-readings",
-    "title": "Privacy",
-    "section": "Additional Privacy Readings",
-    "text": "Additional Privacy Readings\n\nPhilosophy of Privacy and Digital Life\nNothing to Hide\nIt’s Not Privacy, and It’s Not Fair\nDigital Reputation in an Era of Runaway Data\nThe Surveillance Society\nRecommender Systems and Their Ethical Challenges"
-  },
-  {
-    "objectID": "readings/Privacy.html#references",
-    "href": "readings/Privacy.html#references",
-    "title": "Privacy",
-    "section": "References",
-    "text": "References\n\n\nAcquisti, A., Brandimarte, L., & Loewenstein, G. (2015). Privacy and human behavior in the age of information. Science (New York, N.Y.), 347, 509–514. https://doi.org/10.1126/science.aaa1465\n\n\nBarocas, S., & Nissenbaum, H. (2014). Big data’s end run around procedural privacy protections. Communications of the ACM, 57, 31–33. https://doi.org/10.1145/2668897\n\n\nCreel, K., & Dixit, T. (2022). Privacy and Paternalism: The Ethics of Student Data Collection. https://thereader.mitpress.mit.edu/privacy-and-paternalism-the-ethics-of-student-data-collection/; The MIT Press Reader.\n\n\nDanks, D. (2014). A modern pascal’s wager for mass electronic surveillance. https://doi.org/10.1184/R1/6490751.V1\n\n\nDeCew, J. (2018). Privacy. In E. N. Zalta (Ed.), The Stanford encyclopedia of philosophy (Spring 2018). https://plato.stanford.edu/archives/spr2018/entries/privacy/; Metaphysics Research Lab, Stanford University.\n\n\nMcFarland, M. (2012). Why We Care about Privacy. https://www.scu.edu/ethics/focus-areas/internet-ethics/resources/why-we-care-about-privacy/; Markkula Center for Applied Ethics at Santa Clara University.\n\n\nMittelstadt, B. (2017). From individual to group privacy in big data analytics. Philosophy & Technology, 30. https://doi.org/10.1007/s13347-017-0253-7\n\n\nRachels, J. (1975). Why privacy is important. Philosophy & Public Affairs, 4(4), 323–333. Retrieved from http://www.jstor.org/stable/2265077\n\n\nSchneier, B. (2007). Why ’Anonymous’ Data Sometimes Isn’t. https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/; Wired."
-  },
-  {
-    "objectID": "readings/Responsibility.html",
-    "href": "readings/Responsibility.html",
-    "title": "Responsibility",
-    "section": "",
-    "text": "Title\nCitation"
-  },
-  {
-    "objectID": "readings/Responsibility.html#references",
-    "href": "readings/Responsibility.html#references",
-    "title": "Responsibility",
-    "section": "References",
-    "text": "References"
-  },
-  {
-    "objectID": "readings/Workplace.html",
-    "href": "readings/Workplace.html",
-    "title": "Workplace",
-    "section": "",
-    "text": "Title\nCitation"
-  },
-  {
-    "objectID": "readings/Workplace.html#references",
-    "href": "readings/Workplace.html#references",
-    "title": "Workplace",
-    "section": "References",
-    "text": "References"
-  },
-  {
     "objectID": "inside-syllabi.html#ethics-in-ai-by-liam-kofi-bright",
     "href": "inside-syllabi.html#ethics-in-ai-by-liam-kofi-bright",
     "title": "Inside the Data Science Ethics Syllabi",
@@ -294,17 +119,409 @@
     "text": "html file saved to /Users/sara/Desktop/data-science-ethics/syllabi-table.html"
   },
   {
+    "objectID": "readings/Predictive-Policing.html",
+    "href": "readings/Predictive-Policing.html",
+    "title": "Predictive Policing",
+    "section": "",
+    "text": "https://arxiv.org/abs/2310.02444"
+  },
+  {
+    "objectID": "readings/Predictive-Policing.html#references",
+    "href": "readings/Predictive-Policing.html#references",
+    "title": "Predictive Policing",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "readings/Privacy.html",
+    "href": "readings/Privacy.html",
+    "title": "Privacy",
+    "section": "",
+    "text": "Privacy Reading List"
+  },
+  {
+    "objectID": "readings/Privacy.html#additional-privacy-readings",
+    "href": "readings/Privacy.html#additional-privacy-readings",
+    "title": "Privacy",
+    "section": "Additional Privacy Readings",
+    "text": "Additional Privacy Readings\n\nPhilosophy of Privacy and Digital Life\nNothing to Hide\nIt’s Not Privacy, and It’s Not Fair\nDigital Reputation in an Era of Runaway Data\nThe Surveillance Society\nRecommender Systems and Their Ethical Challenges"
+  },
+  {
+    "objectID": "readings/Privacy.html#references",
+    "href": "readings/Privacy.html#references",
+    "title": "Privacy",
+    "section": "References",
+    "text": "References\n\n\nAcquisti, A., Brandimarte, L., & Loewenstein, G. (2015). Privacy and human behavior in the age of information. Science (New York, N.Y.), 347, 509–514. https://doi.org/10.1126/science.aaa1465\n\n\nAgre, P. E. (1994). Surveillance and capture: Two models of privacy. The Information Society, 10(2), 101–127. https://doi.org/10.1080/01972243.1994.9960162\n\n\nBarocas, S., & Nissenbaum, H. (2014). Big data’s end run around procedural privacy protections. Communications of the ACM, 57, 31–33. https://doi.org/10.1145/2668897\n\n\nCreel, K., & Dixit, T. (2022). Privacy and Paternalism: The Ethics of Student Data Collection. https://thereader.mitpress.mit.edu/privacy-and-paternalism-the-ethics-of-student-data-collection/; The MIT Press Reader.\n\n\nDanks, D. (2014). A modern pascal’s wager for mass electronic surveillance. https://doi.org/10.1184/R1/6490751.V1\n\n\nDeCew, J. (2018). Privacy. In E. N. Zalta (Ed.), The Stanford encyclopedia of philosophy (Spring 2018). https://plato.stanford.edu/archives/spr2018/entries/privacy/; Metaphysics Research Lab, Stanford University.\n\n\nDwork, C., & Mulligan, D. K. (2013). It’s Not Privacy, and It’s Not Fair. https://www.stanfordlawreview.org/online/privacy-and-big-data-its-not-privacy-and-its-not-fair/; Stanford Law Review.\n\n\nGandy, O., Jr. (1989). The surveillance society: Information technology and bureaucratic social control. Journal of Communication, 39, 61–76. https://doi.org/10.1111/j.1460-2466.1989.tb01040.x\n\n\nJain, P., Gyanchandani, M., & Khare, N. (2016). Big data privacy: A technological perspective and review. Journal of Big Data, 3. https://doi.org/10.1186/s40537-016-0059-y\n\n\nMarlinspike, M. (2013). Why ’I Have Nothing to Hide’ Is the Wrong Way to Think About Surveillance. https://www.wired.com/2013/06/why-i-have-nothing-to-hide-is-the-wrong-way-to-think-about-surveillance/; Wired.\n\n\nMcFarland, M. (2012). Why We Care about Privacy. https://www.scu.edu/ethics/focus-areas/internet-ethics/resources/why-we-care-about-privacy/; Markkula Center for Applied Ethics at Santa Clara University.\n\n\nMilano, S., Taddeo, M., & Floridi, L. (2020). Recommender systems and their ethical challenges. AI & Society, 35. https://doi.org/10.1007/s00146-020-00950-y\n\n\nMittelstadt, B. (2017). From individual to group privacy in big data analytics. Philosophy & Technology, 30. https://doi.org/10.1007/s13347-017-0253-7\n\n\nRachels, J. (1975). Why privacy is important. Philosophy & Public Affairs, 4(4), 323–333. Retrieved from http://www.jstor.org/stable/2265077\n\n\nSchneier, B. (2007). Why ’Anonymous’ Data Sometimes Isn’t. https://www.wired.com/2007/12/why-anonymous-data-sometimes-isnt/; Wired.\n\n\nSeeman, J., & Susser, D. (2023). Between privacy and utility: On differential privacy in theory and practice. Acm Journal on Responsible Computing, 1(1), 1–18.\n\n\nWoollacott, E. (2016). 70,000 OkCupid profiles leaked, intimate details and all. https://www.forbes.com/sites/emmawoollacott/2016/05/13/intimate-data-of-70000-okcupid-users-released/?sh=2ac42f2f1e15; Forbes."
+  },
+  {
+    "objectID": "readings/Workplace.html",
+    "href": "readings/Workplace.html",
+    "title": "Workplace",
+    "section": "",
+    "text": "https://arxiv.org/abs/2310.02444"
+  },
+  {
+    "objectID": "readings/Workplace.html#references",
+    "href": "readings/Workplace.html#references",
+    "title": "Workplace",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "readings/Bias.html",
+    "href": "readings/Bias.html",
+    "title": "Bias, Fairness, and Justice",
+    "section": "",
+    "text": "https://arxiv.org/abs/2310.02444"
+  },
+  {
+    "objectID": "readings/Bias.html#references",
+    "href": "readings/Bias.html#references",
+    "title": "Bias, Fairness, and Justice",
+    "section": "References",
+    "text": "References\n\n\nCaliskan, A., Bryson, J., & Narayanan, A. (2017). Semantics derived automatically from language corpora contain human-like biases. Science, 356, 183–186. https://doi.org/10.1126/science.aal4230\n\n\nCastro, C. (2022). Just machines. Public Affairs Quarterly, 36(2), 163–183. https://doi.org/10.5406/21520542.36.2.04\n\n\nCreel, K., & Hellman, D. (2022). The algorithmic leviathan: Arbitrariness, fairness, and opportunity in algorithmic decision-making systems. Canadian Journal of Philosophy, 52(1), 26–43. https://doi.org/10.1017/can.2022.3\n\n\nFazelpour, S., & Danks, D. (2021). Algorithmic bias: Senses, sources, solutions. Philosophy Compass, 16(8), e12760. https://doi.org/10.1111/phc3.12760\n\n\nHellman, D. (2023). Big data and compounding injustice. Journal of Moral Philosophy, 21(1-2), 62–83. https://doi.org/10.1163/17455243-20234373\n\n\nJohnson, G. M. (2020). Algorithmic bias: On the implicit biases of social technology. Synthese, 198(10), 9941–9961. https://doi.org/10.1007/s11229-020-02696-y\n\n\nJohnson, G. M. (2023). Are algorithms value-free? Journal Moral Philosophy, 21(1-2), 1–35. https://doi.org/10.1163/17455243-20234372\n\n\nLazar, S., & Stone, J. (forthcoming). On the site of predictive justice. Noûs. Forthcoming. https://doi.org/10.1111/nous.12477\n\n\nVredenburgh, K. (2024). Fairness. In The Oxford Handbook of AI Governance. Oxford University Press. https://doi.org/10.1093/oxfordhb/9780197579329.013.8\n\n\nZimmermann, A., & Lee-Stronach, C. (2021). Proceed with caution. Canadian Journal of Philosophy, (1), 6–25. https://doi.org/10.1017/can.2021.17"
+  },
+  {
+    "objectID": "readings/Causation.html",
+    "href": "readings/Causation.html",
+    "title": "Causation",
+    "section": "",
+    "text": "Causation Reading List"
+  },
+  {
+    "objectID": "readings/Causation.html#references",
+    "href": "readings/Causation.html#references",
+    "title": "Causation",
+    "section": "References",
+    "text": "References\n\n\nGallow, J. D. (2022). The Metaphysics of Causation. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Fall 2022). https://plato.stanford.edu/archives/fall2022/entries/causation-metaphysics/; Metaphysics Research Lab, Stanford University.\n\n\nHenderson, L. (2022). The Problem of Induction. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Winter 2022). https://plato.stanford.edu/archives/win2022/entries/induction-problem/; Metaphysics Research Lab, Stanford University.\n\n\nHu, L. (2019). Disparate causes, pt. i. Retrieved from https://www.phenomenalworld.org/analysis/disparate-causes-i/\n\n\nHu, L. (Forthcoming). What’s ’race’ in algorithmic discrimination on the basis of race? Journal of Moral Philosophy.\n\n\nHudetz, L., & Crawford, N. (2022). Variation semantics: When counterfactuals in explanations of algorithmic decisions are true. Retrieved from https://philsci-archive.pitt.edu/20626/\n\n\nKasirzadeh, A., & Smart, A. (2021). The use and misuse of counterfactuals in ethical machine learning. Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 228–236. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3442188.3445886\n\n\nKinney, D. (2018). On the explanatory depth and pragmatic value of coarse-grained, probabilistic, causal explanations. Philosophy of Science, (1), 145–167. https://doi.org/10.1086/701072\n\n\nKinney, D., & Lombrozo, T. (2022). Evaluations of causal claims reflect a trade-off between informativeness and compression. Annual Meeting of the Cognitive Science Society. Retrieved from https://api.semanticscholar.org/CorpusID:269447691\n\n\nKohler-Hausmann, I. (2017). The dangers of counterfactual causal thinking about detecting racial discrimination. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3050650\n\n\nMalinsky, D., & Danks, D. (2018). Causal discovery algorithms: A practical guide. Philosophy Compass, 13(1), e12470. https://doi.org/10.1111/phc3.12470\n\n\nMills, C. W. (1998). \"But what are you really?\": The metaphysics of race. In C. W. Mills (Ed.), Blackness visible: Essays on philosophy and race (pp. 41–66). Cornell University Press.\n\n\nPearl, J. (1995). Causal diagrams for empirical research. Biometrika, 82, 669–688. Retrieved from https://api.semanticscholar.org/CorpusID:10023329\n\n\nScheines, R. (n.d.). Causation. Retrieved from https://www.cmu.edu/dietrich/philosophy/docs/scheines/causation.pdf\n\n\nZhang, J., & Bareinboim, E. (2018). Fairness in decision-making — the causal explanation formula. Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence and Thirtieth Innovative Applications of Artificial Intelligence Conference and Eighth AAAI Symposium on Educational Advances in Artificial Intelligence. New Orleans, Louisiana, USA: AAAI Press."
+  },
+  {
+    "objectID": "Reading-Tags.html",
+    "href": "Reading-Tags.html",
+    "title": "Reading Lists",
+    "section": "",
+    "text": "Alignment\n\n\nReadings on the moral alignment between human values and current data science practices.\n\n\n\n\n\n\n\n\n\n\nBias, Fairness, and Justice\n\n\nReadings on the normative concepts of bias, fairness, and justice and how they are relevant considerations in data science.\n\n\n\n\n\n\n\n\n\n\nCausation\n\n\nReadings on causation as it applies to data science, and more specifically data science ethics. A primary focus of these readings is causal inference and socially sensitive attributes (e.g., race and gender).\n\n\n\n\n\n\n\n\n\n\nCharacterizations of Data and Data Science\n\n\nReadings on how to characterize data science and aritificial intelligence, and in particular, how it uses induction.\n\n\n\n\n\n\n\n\n\n\nConsent\n\n\nReadings on informed consent in data science practices, why it ethically matters, and how to grapple with the practical challenges of obtaining informed consent in data science.\n\n\n\n\n\n\n\n\n\n\nDemocracy\n\n\nReadings and case studies on the applications of data science in democracy and the ethical implications of using statistical models in such contexts.\n\n\n\n\n\n\n\n\n\n\nExplainability, Intepretability, and Transparency\n\n\nReadings on what is meant by “explainability” (and related terms like “transparency” and “interpretability”) in data science and to what extent acheiving explainabilty (or transparency or interpretability) in algorithms is morally important.\n\n\n\n\n\n\n\n\n\n\nPredictive Policing\n\n\nReadings and case studies on the applications of data science in predictive policing and the ethical implications of using statistical models to perform predictive policing.\n\n\n\n\n\n\n\n\n\n\nPrivacy\n\n\nReadings on privacy, why it matters, its relationship to consent, and case studies that emphasize both the importance and difficulty of ensuring privacy in data science.\n\n\n\n\n\n\n\n\n\n\nResponsibility\n\n\nReadings concerning moral responsibility in data science as well as some of the challenges in assessing who is morally responsible for data models and predictions.\n\n\n\n\n\n\n\n\n\n\nWorkplace\n\n\nReadings and case studies on the applications of data science in the workplace (e.g., in hiring or promotion) and the ethical implications of using statistical models in such contexts.\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to the Website!",
+    "section": "",
+    "text": "There is wide agreement that ethical considerations are a valuable aspect of a data science curriculum, and to that end, many data science programs offer courses in data science ethics. There are not always, however, explicit connections between data science ethics and the centuries-old work on ethics within the discipline of philosophy. Here, we present a framework for bringing together key data science practices with ethical topics. The ethical topics were collated from sixteen data science ethics courses with public-facing syllabi and reading lists. We encourage individuals who are teaching data science ethics to engage with the philosophical literature and its connection to current data science practices, which is rife with potentially morally charged decision points.\nThis website is associated with the paper: Philosophy in Data Science Ethics Courses, which was recently accepted by the Journal of Statistics and Data Science Education. The paper gives a more in-depth overview of the connections between ethics topics and current data science practice and is available on ArXiv.\n\n\n\n\n\nhttps://arxiv.org/abs/2310.02444\n\n\n\n\n\nThe table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit the data science ethics syllabi page for in-depth notes on each course’s learning goals and topics.\n\n\n\n\n\n\n\n\nFigure 1: Table of all the data science ethics syllabi we collated for the project\n\n\n\n\nWe thank the Pomona College SURP program and Kenneth Cooke Summer Research Fellowship for supporting SC in summer research."
+  },
+  {
+    "objectID": "index.html#data-science-ethics-collated-syllabi",
+    "href": "index.html#data-science-ethics-collated-syllabi",
+    "title": "Welcome to the Website!",
+    "section": "",
+    "text": "The table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit Inside the Syllabi Notes for in-depth notes on each course’s learning goals and topics."
+  },
+  {
+    "objectID": "DS-pipeline.html#consent",
+    "href": "DS-pipeline.html#consent",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Consent",
+    "text": "Consent\n\nParadigmatic Connection(s)\nGenerally, when people think about informed consent in data science, they think about it during data collection (i.e., during ``interactions with the world”). That is, they consider whether the researcher or company has gathered informed consent when collecting people’s data. When researchers or companies get permission to collect people’s data, they also typically ask for consent to use it in a specific capacity later in the data science lifecycle (e.g., to build data models, store it in a database, or share with another company) given that obtaining a person’s informed consent is often essential for respecting their autonomy (Eyal, 2019).\n\n\nLess Conventional Connection(s)\nWhile less conventional, issues of consent also arise when applying insights from data models to future interactions with an individual, even if none of the individual’s data was used to build (or test) the data model. For example, suppose that a job site creates a data model that predicts that people from a certain demographic group are more likely to interact with a nannying job post than a construction job post. A new person from that demographic group then engages with the job site. Based on the predictive model, the social media platform shows the nannying job post to them instead of the construction job post.4 It seems important for the social media company to obtain the new user’s informed consent to use the predictive model on them, given that the predictive model undermines their autonomy in some capacity. Namely, using the data model on the new user restricts them from seeing that certain jobs are available.5\n\n\n Consent Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#privacy",
+    "href": "DS-pipeline.html#privacy",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Privacy",
+    "text": "Privacy\n\nParadigmatic Connection(s)\nPrivacy is often connected to data science between interactions with the world and data processing. For example, university researchers posted profile data from the OkCupid dating site to an open data repository in 2016 (Woollacott, 2016). The data revealed intimate details about more than 70,000 users, including their usernames, sexual preferences, and personal opinions (Woollacott, 2016). Around 30% of the profiles were identifiable, meaning that those profiles could be connected to their real name (Woollacott, 2016). The researchers’ violation of the OkCupid users’ privacy seems morally problematic. As explained in Roessler & DeCew (2023), one reason why violating users’ privacy is morally problematic in this case is that it endangers the users’ abilities to control their relationships with others. That is, privacy is a way of ``modulating” our degrees of friendship with others, i.e., we would share more personal details about our life with someone we are better friends with (Roessler & DeCew, 2023). Additionally, some philosophers contend that the right to privacy is grounded in the right to autonomy (e.g., rights over one’s personal property and own body) (Roessler & DeCew, 2023).\n\n\nLess Conventional Connection(s)\nWorries about privacy can resurface when using insights from a data model to inform our future interactions with the world. For instance, suppose that a company’s data model predicts that an applicant is unqualified for a job. The company decides to share this prediction with a list of other major employers. There is an intuitive sense in which publicizing the model’s prediction to several other employers seems morally problematic, given that it entails sharing personal information about the applicant without their consent. However, would it be unethical for a boss at one company to share their belief that the person is unqualified for a job with their friend, who is a boss at another major company? It seems to be less morally tenuous even though the friend sharing their evaluation of the applicant with their friend still entails sharing personal information about the applicant without their consent. To explain our difference in intuitions in these two cases, we need a well-defended moral principle about what grounds someone’s right to privacy.\nOne justification for our difference in intuitions between the two cases is that there is a difference in scalability and damage in the algorithm versus the friend case. In her book, Weapons of Math Destruction, Cathy O’Neil breaks down different algorithms in terms of their opacity, scalability (pernicious feedback loops), and damage (ability to grow exponentially). She puts forward a moral principle to determine whether an algorithm is a Weapon of Math Destruction, in which case, she argues, it should not be used (O’Neil, 2016). Avoiding pernicious feedback loops is one such strategy to ground privacy concerns and explain the difference in intuitions between the algorithm (which has a scalable pernicious feedback loop) and the friend case (which doesn’t).\n\n\n Privacy Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#explainability-interpretability-transparency",
+    "href": "DS-pipeline.html#explainability-interpretability-transparency",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Explainability, Interpretability, Transparency",
+    "text": "Explainability, Interpretability, Transparency\nA common complaint about data models, particularly more advanced ones, is that they are black boxes. In this subsection, we focus mainly on the connections between the lifecycle and explainability. However, the connections are similar to those for transparency and interpretability, given all three concepts share the common goal of making data models and their predictions more understandable to stakeholders.\n\nParadigmatic Connection(s)\nIn the model deployment stage, where predictions about individuals or groups are made, a reasonable ethical expectation is that the model is understandable to human stakeholders. One reason for this expectation is that if the model is explainable, then we can verify that the model is fair. For example, if a convicted person’s bail is set (using an algorithmic recommendation) higher than they think it should be, it seems fair for the individual to demand and expect an explanation for the algorithm’s recommendation in order to ensure that sensitive social attributes like race, gender, or socioeconomic status did not impact the algorithm’s prediction. Similarly, stakeholders might also demand that the algorithm’s parameters be transparent in order to see which variables influence the model’s predictions and, in particular, see whether the algorithm uses sensitive social attributes to make its predictions. The ethical expectation that data models are understandable to human stakeholders is often referred to as the “right to an explanation.” This expectation is echoed in legal documents such as the European Union’s General Data Protection Regulation (GDPR), which states that an individual has the right to ``obtain an explanation” for any automated decision made about them (Goodman & Flaxman, 2017).\n\n\nLess Conventional Connection(s)\nWhile not mentioned as often, the “right to an explanation” is also important to consider when insights from a data model influence future interactions with the world. For instance, suppose that law enforcement starts heavily policing Neighborhood A relative to Neighborhood B because a data model found that the people in Neighborhood A are more likely to be convicted of a crime than the people in Neighborhood B. It seems that the people in Neighborhood A have a right to understand why they are being policed more than the people in Neighborhood B. Like in the paradigmatic example, one reason for why the people in Neighborhood A seem to have a “right to an explanation” in this case is that explainability is often necessary to ensure that the model does not use sensitive social attributes to make its predictions. However, some philosophers note that human decision-makers are also black boxes with respect to how they arrive at their decisions. For instance, even if a court judge gives justification for their sentencing, it is not clear that the reason they give is the only reason for their decision or even is a reason for their decision at all (e.g., people can be subconsciously influenced by implicit biases) (Günther & Kasirzadeh, 2022). As such, one question within philosophy is whether we have a “right to an explanation” when it comes to data models, and if so, why do we have such a “right to an explanation” when it seems to hold algorithms to a higher standard than human decision-makers?\n\n\n Explainability, Interpretability, and Transparency Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#democracy-workplace-predictive-policing",
+    "href": "DS-pipeline.html#democracy-workplace-predictive-policing",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Democracy, Workplace, Predictive Policing",
+    "text": "Democracy, Workplace, Predictive Policing\n\nParadigmatic Connection(s)\nDemocracy, workplace, and predictive policing are all settings where data models are used and have exceptionally high moral stakes. As such, case studies related to democracy, workplace, and predictive policing are very common in the collated data science ethics syllabi and reading lists. Usually, when democracy, workplace, and predictive policing case studies are referenced, the focus is on model deployment. For instance, COMPAS is often brought up because it is deployed in a setting with high moral stakes, i.e., in US courtrooms to aid judges in making decisions about bond amounts and sentencing lengths for defendant (Angwin, Larson, Kirchner, & Mattu, 2016).\nYet, while there are moral implications for deploying data models in democracy, workplace, and predictive policing settings, it does not seem that creating such data models is inherently morally problematic. For example, suppose that a civil rights group creates an algorithm to predict a defendant’s likelihood of being convicted (like COMPAS does) but only uses the model to show that the criminal justice system is racially biased against Black defendants. Intuitively, building such a data model is not morally problematic. Rather, data models that predict a defendant’s recidivism risk are morally problematic when they are deployed in such a way that the model’s predictions impact people’s beliefs about a defendant’s recidivism risk and court outcomes.\nThe ethical theory of consequentialism can explain why the model’s deployment is relevant to its moral evaluation. According to consequentialism, only the consequences of an action ought to influence our moral assessment of it (Sinnott-Armstrong, 2023). In the civil rights group and COMPAS examples, the consequences are different. COMPAS is being used to set bond amounts, sentence length, and parole, whereas the civil rights group algorithm is not being used in such a capacity. Another relevant difference between the civil rights group algorithm and COMPAS is that the civil rights group algorithm works against existing injustice rather than compounding it by aiming to elucidate the existing racial bias within the criminal justice system. Philosophy helps locate what exactly is morally problematic in a specific case (e.g., is it the data model’s predictions in themselves or how the model is deployed?), thereby helping us make our data science practices more ethical.\n\n\nLess Conventional Connection(s)\nInterpreting knowledge from model predictions can also lead to morally problematic interactions with the world within democracy, workplace, and predictive policing settings. For example, in her book, Weapons of Math Destruction, Cathy O’Neil considers PredPol, an algorithm that uses historical crime data to predict where crimes are most likely to occur. When police use PredPol, they can target neighborhoods based on where “nuisance” crimes (e.g., vagrancy, aggressive panhandling, selling and consuming small quantities of drugs) occur, which are unlikely to be recorded when there is not a police officer present . However, also notes that “nuisance” crimes are also much more common in impoverished neighborhoods. When the “nuisance” crime data is put into the predictive model, more police patrol impoverished neighborhoods, and arrests in those neighborhoods are more likely to occur. This creates a pernicious feedback loop because the policing of impoverished neighborhoods leads to arrests in the neighborhood, which ultimately justifies more policing of those neighborhoods (O’Neil, 2016). As a result, more people are arrested for “nuisance” crimes, the majority of which come from impoverished neighborhoods and are Black or Hispanic due to racial segregation in cities (O’Neil, 2016). Thus, using predictive policing models to inform future interactions with the world (i.e., where to send police) can create pernicious feedback loops that exacerbate existing racial injustices in the criminal justice system.\n\n\n Democracy Readings\n\n\n Predictive Policing Readings\n\n\n Workplace Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#causation",
+    "href": "DS-pipeline.html#causation",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Causation",
+    "text": "Causation\n\nParadigmatic Connection(s)\nAs early as introductory statistics courses, “correlation does not imply causation” is emphasized. The topic of causation is prominent in many data science ethics courses because mistakenly claiming causation can be morally pernicious when attempting to interpret knowledge from a data model. Most current data models can only identify correlations between the predictor variables and the response variable rather than causal relationships (n.b., there are also centuries worth of philosophical debates about how to define causation).7\nIncorrectly interpreting causation between variables can have substantial moral repercussions during model deployment. For instance, suppose we have a logistic model that predicts whether a person will drop out of high school. Our model finds a positive association between having a first language other than English and the expected probability of dropping out of high school. There are several confounding variables, like socioeconomic status and availability of academic opportunities, which explain the identified positive association. However, imagine that a person sees our model and, from it, concludes that having a first language other than English causes a higher probability of dropping out of high school. As a result of mistakenly drawing causal claims from the model, they might advocate for English-only policies or develop prejudiced beliefs against people whose first language is not English.\n\n\nLess Conventional Connection(s)\nMoral implications surrounding causation can also arise when building causal inference models. For example, imagine there is a group of researchers who want to understand how a patient’s race influences their wait time in an emergency room. Answering the wait time question would involve evaluating whether the following counterfactual is true: if a patient was a member of racial group X instead of racial group Y, then their ER wait time would be different. One way the researchers might try to evaluate this counterfactual is by collecting data that contains background information (e.g., race) and the wait time at the hospital for each patient. The data would be used to estimate how changing only the ‘race’ variable for a patient would change their wait time. Yet, Atoosa & Smart (2021) note that changing only the ‘race’ variable endorses an essentialist view of race that fails to acknowledge how race is socially constructed. Essentialist views of variables like race are harmful because they ignore the complex social, historical, and political factors that shape individuals’ experiences. As a result, essentialist views can often lead to overgeneralizations about social groups and even wrongful discrimination against them (Phillips, 2010). Worries about how to thoughtfully conduct causal inference on social categories point to the importance of reflecting on philosophical questions, like what constitutes a specific social category (e.g., race, gender, sexuality, etc.) during model building.\n\n\n Causation Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#bias-fairness-justice",
+    "href": "DS-pipeline.html#bias-fairness-justice",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Bias, Fairness, Justice",
+    "text": "Bias, Fairness, Justice\n\nParadigmatic Connection(s)\nThere are many cases of biased, unfair, and unjust data models. One such example is Amazon’s now-scrapped hiring algorithm, which was critiqued for being biased against female applicants (Dastin, 2018). The algorithm’s goal was to identify ‘ideal candidates’ for technical positions at Amazon from hundreds of resumes submitted. Here, ‘ideal candidates’ were considered those whose resumes were most similar to resumes that had been previously submitted to Amazon over the last ten years. However, given that the technology industry is heavily male-dominated, most of these resumes came from male applicants, and consequently, the algorithm’s predictions turned out to be biased against women (Dastin, 2018). For example, the algorithm penalized resumes with the word ‘women’s’ in it (e.g., ‘women’s cross country team captain’ or ‘women’s union staff member’) as well as graduates from two all-women’s colleges (Dastin, 2018). Amazon’s algorithm seems unfair to female applicants. Namely, the algorithm wrongfully discriminated against female applicants by using a success metric (i.e., the similarity between the applicant’s resume and previously submitted resumes) that systematically overlooks well-qualified female applicants in virtue of their gender identity. However, as discussed in what is data science ethics?, it is unclear how to evaluate fairness in models like Amazon’s now-scrapped hiring algorithm and, with that, how exactly to mitigate any unfairness in such models.\nMoreover, it seems conceivable that even if Amazon improved the success metric, its hiring algorithm would still be biased against female applicants in virtue of there being a gender bias in the training data (i.e., model’s input). The saying “garbage in, garbage out” encapsulates the commonly seen connection between bias, fairness, justice, and data modeling. That is, the saying “garbage in, garbage out” notes that if the data used to build the data model was biased against group X, then the model’s predictions would be biased against group X and could lead to unfair (and/or unjust) outcomes for group X if the model’s predictions influence decision-making.\nBeyond data modeling, issues of bias, fairness, and justice also emerge during ``interactions with the world”. For instance, suppose a data scientist wants to model the average number of hours in the hospital after giving birth but only surveys white females. We would consider the dataset biased towards white women and consequently be cautious about generalizing the data scientist’s findings to people in the population who are not white women.\n\n\nLess Conventional Connection(s)\nHowever, issues of bias, fairness, and justice are crucial to consider at every stage of the data science lifecycle. For example, we might completely drop observations with missing values when processing the data. Yet, dropping those values can create biases in our data and subsequent analyses if they are not missing at random.6 Bias, fairness, and justice can also come into play when insights from a data model influence our future interactions with our world. For instance, it seems unfair (and/or unjust) to only give a nannying job ad to women because an algorithm found that women were substantially more likely than men to click on nannying job ads.\n\n\n Bias, Fairness, and Justice Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#alignment-responsibility-characterizations-of-data-and-data-science",
+    "href": "DS-pipeline.html#alignment-responsibility-characterizations-of-data-and-data-science",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "3.7 Alignment, Responsibility, Characterizations of Data and Data Science",
+    "text": "3.7 Alignment, Responsibility, Characterizations of Data and Data Science\n\n3.7.1 Alignment\nAlignment refers to how our moral values align with our data science practices and technologies. We frequently consider alignment during the deployment stage, where our data model generates predictions about novel inputs. When seeing the outputs, it becomes salient if our moral values and data science practices are misaligned. Still, alignment comes into play throughout the lifecycle. We apply our moral values in interactions with our world (e.g., the moral requirement to get informed consent when collecting personal information). We use our moral values in data processing and cleaning when thinking about what to do with missing data, especially when it is not missing at random. Alignment also comes into play when developing data models. For instance, we use our moral values when deciding what fairness metric to use when evaluating our model’s performance and thereafter when thinking about how we apply the model outputs to inform future interactions with the world (e.g., see the privacy and consent sections above).\nAlignment Readings\n\n\n3.7.2 Responsibility\nHere, I am focusing on moral rather than mere legal responsibility; an individual might be morally responsible for X, even if X is legal (e.g., cheating on a significant other). Moral responsibility comes up throughout the data science lifecycle. Most commonly, data science focuses on moral responsibility concerning model deployment and interactions with the world. For example, Amazon was seen as morally responsible for deploying a hiring algorithm that was biased against female applicants (Dastin, 2018). Moral responsibility also arises when building data models. It seems reasonable to contend that if another company made Amazon’s faulty hiring algorithm, it would also be morally responsible for the biased results – even if that company never deployed the model itself.\nMoral responsibility is also crucial in interactions with the world. For instance, there are several case studies, data science, and beyond where people are morally responsible for failing to obtain informed consent when collecting personal information. Some examples include the Tuskegee Study or commercializing a social media user’s data without informed consent.\nThough less commonly thought about, moral responsibility also influences the “interactions with the world” to “data” stages of the lifecycle. Specifically, it seems valid to hold data scientists morally responsible for how data is stored and cleaned. For example, if a data scientist stored personal data in a foreseeably faulty database, they would be at least partially morally responsible for any data leakages. Similarly, if data is publicized that is not adequately anonymized, the data scientist who was supposed to remove identifiers from the data would be at least partially morally responsible for any ethical repercussions that arose from the data not being adequately anonymized.\nResponsibility Readings\n\n\n3.7.3 Characterizations of Data and Data Science\nFinally, characterizations of data and data science affect how we conceive of the data science lifecycle in general and, in turn, influence each stage in the data science lifecycle (see the Data Science Lifecycle Page for more information).\nCharacterizations of Data and Data Science Readings"
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html",
+    "href": "Intro-DS-lifecycle.html",
+    "title": "Data Science Lifecycle",
+    "section": "",
+    "text": "Though it might not be explicit, using one lifecycle or pipeline over another endorses specific views about data, data models, and their respective relationships to what we take to be knowledge about our world. Thus, the choice to use a certain data science lifecycle is value-laden.\nHere, I examine two popular conceptions of the relationships between data, data models, and what we should interpret as knowledge about our world (i.e., the epistemic roles of data and data models) (Leonelli, 2018):\nExamples of Data Models: 1. A simple linear regression that uses years\n            of education to model the expected income is a data model.2. An algorithm that utilizes\n            millions of hyperparameters to predict an incarcerated individual's risk of recidivism.3.\n            A data visualization that describes a relationship between variables within a sample.\nIn the following two subsections, I provide an explication of the representational and relational view of data and data models and some benefits of using the relational view of data and data models over the representational one. I recommend reading Leonelli (2018) for a more in-depth justification of the value of a relational view of data and data models over a representational one.The Relational View"
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#predicting-the-likelihood-that-a-person-buys-concert-tickets",
+    "href": "Intro-DS-lifecycle.html#predicting-the-likelihood-that-a-person-buys-concert-tickets",
+    "title": "Data Science Lifecycle",
+    "section": "3.1 Predicting the Likelihood that a Person Buys Concert Tickets",
+    "text": "3.1 Predicting the Likelihood that a Person Buys Concert Tickets\nPredicting the Likelihood of Buying Concert Tickets Suppose we are interested in predicting a person’s likelihood of buying concert tickets from a particular website. To predict a person’s likelihood, we collect data about the number of times they clicked on an advertisement for concert tickets from that particular website, the timestamps of these ad-clicks, the person’s demographic information, etc.\nHowever, it is unclear what exactly the data we gathered actually represents. We concede that we cannot directly measure a person’s interest in buying concert tickets, but we believe that someone’s interest is relevant to them actually buying the concerts tickets. So, we decide to use the person’s number of ad-clicks as a proxy for their interest in buying concert tickets. In doing so, we take ad-click counts to represent a person’s interest in buying concert tickets from that website. However, it is possible that a person clicks on the ad because they are trying to figure out for how much to resell their previously purchased concert tickets. So, in this case, the ad-click data does not actually represent a person’s interest in buying concert tickets.\nFurthermore, using certain data as evidence could influence future interactions with the world. Suppose we find that when the website displays, “less than 1% of tickets remaining”, the person is much more likely to buy concert tickets. In turn, other ticket sites adopt this strategy to sell more tickets. However, maybe we only found such a strong correlation between displaying this message and a person’s likelihood of buying tickets on our website because no other site was displaying a similar message. In turn, when other sites adopt our strategy, displaying the message “less than 1% of tickets remaining” no longer increases the person’s likelihood of buying tickets from our website. So, we have changed how people will interact with our site and buy concert tickets. Therefore, we influence people’s future interactions with ticket websites by using display message data as evidence.\nUnlike the representational view, the relational view acknowledges data’s informational content is influenced by researchers’ background assumptions and social contexts. Furthermore, the relational view endorses that data can be dynamic, and what we take as knowledge from the data influences future interactions with the world. As such, the concert ticket example described above gives us reason to endorse the relational view of data and data models over the representational view."
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer",
+    "href": "Intro-DS-lifecycle.html#predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer",
+    "title": "Data Science Lifecycle",
+    "section": "3.2 Predicting the Likelihood that a Player Receives a Red Card in Soccer",
+    "text": "3.2 Predicting the Likelihood that a Player Receives a Red Card in Soccer\nIn Silberzahn et al. (2017), 29 data analysis teams were asked to use the same data set to determine “whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players,”. Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.\nThe difference in chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ final decisions:\n\n4 different model types were used: 15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.\n21/29 teams used unique combinations of predictor variables.\n\nThrough Silberzahn et al. (2017), we can also see how ambiguity about the data model and the relative importance of certain predictor variables also impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by Silberzahn et al. (2017), each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, knowledge, and social contexts.\nHence, Silberzahn et al. (2017) emphasize that data and data models should be viewed relationally rather than representationally."
+  },
+  {
+    "objectID": "DS-pedagogies.html",
+    "href": "DS-pedagogies.html",
+    "title": "Data Science Ethics Pedagogies",
+    "section": "",
+    "text": "Comic via Evil AI Cartoons:\n\n\n\n\n\n\n\n\n\nA common trend in data science ethics is to focus on case studies. In these case studies, students would identify stakeholders, list their values, and then determine how we should balance these values, especially in situations where the values are in conflict with one another. Though, a pertinent goal of data science ethics is to articulate what values we should have in data science, which can then be applied more broadly to issues in development and deployment of data science technologies.\nhttps://bdes.datasociety.net/council-output/pedagogical-approaches-to-data-ethics-2/\nhttps://link.springer.com/article/10.1007/s40593-021-00241-7\nhttp://lcfi.ac.uk/projects/ai-innovation-praxis/ai-ethics-pedagogy/\nhttps://dl.acm.org/doi/abs/10.1145/3313831.3376251\nhttps://eric.ed.gov/?id=EJ1346937\nhttps://link.springer.com/epdf/10.1007/s40593-021-00241-7?sharing_token=7V8AomkB89TXMBI5NnPAVPe4RwlQNchNByi7wbcMAY6lExaQR-ZUUAf62luEpHKe0ZdS9g5ArGcLEIv3lh3HlnQbsDGl31lDLQKrWsTM1iAaJkY2xGE7yaDrp8nme9Oe0b7Av0_i7A8G9y4IvSx4d0pBoOSgkeGjW-k1KbU0ewg%3D\nhttps://dl.acm.org/doi/abs/10.1145/3442188.3445914\nchrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2038041\n\n\nReferences"
+  },
+  {
+    "objectID": "Common-Topics.html",
+    "href": "Common-Topics.html",
+    "title": "Most Common Syllabi Topics",
+    "section": "",
+    "text": "Most Common Syllabi Topics\n\n\n\n\n\n\nCollation Methodology\n\n\n\n\n\nTo determine the syllabi topics, we took the listed course topics, available on Inside the Syllabi Notes, and collated them on one spreadsheet. We then grouped the course topics under more general headings (e.g., we put the ‘Labor, Automation, and Regulation’ under the heading of ‘Workplace’) to create a more concise list of the syllabi topics.\n\nLink to syllabi-topics.csv\n\n\n\n\n\n\n\nAll Syllabi Topics\n\n\n\n\n\n\n\n\n\nFigure 1: All syllabi topics, arranged in descending order by count.\n\n\n\n\n\n\n\nMost Common Syllabi Topics\n\n‘Most Common’ = has a count of 3 or more \n\n\n\n\n\n\n\n\nFigure 2: Most common syllabi topics, arranged in descending order by count."
+  },
+  {
+    "objectID": "construction.html",
+    "href": "construction.html",
+    "title": "Data Science Ethics",
+    "section": "",
+    "text": "This page is under construction. Check back later!"
+  },
+  {
+    "objectID": "readings/Democracy.html",
+    "href": "readings/Democracy.html",
+    "title": "Democracy",
+    "section": "",
+    "text": "https://arxiv.org/abs/2310.02444"
+  },
+  {
+    "objectID": "readings/Democracy.html#references",
+    "href": "readings/Democracy.html#references",
+    "title": "Democracy",
+    "section": "References",
+    "text": "References\n\n\nBuhmann, A., & Fieseler, C. (2022). Deep learning meets deep democracy: Deliberative governance and responsible innovation in artificial intelligence. Business Ethics Quarterly, 33(1), 146–179. https://doi.org/10.1017/beq.2021.42\n\n\nGorwa, R., Binns, R., & Katzenbach, C. (2020). Algorithmic content moderation: Technical and political challenges in the automation of platform governance. Big Data & Society, 7, 205395171989794. https://doi.org/10.1177/2053951719897945\n\n\nHelbing, D., Frey, B. S., Gigerenzer, G., Hafen, E., Hagner, M., Hofstetter, Y., … Zwitter, A. J. (2017). Will democracy survive big data and artificial intelligence? Towards Digital Enlightenment. Retrieved from https://api.semanticscholar.org/CorpusID:46925747\n\n\nKane, T. (2019). Artificial intelligence in politics: Establishing ethics. IEEE Technology and Society Magazine, 38, 72–80. https://doi.org/10.1109/MTS.2019.2894474\n\n\nManheim, K., & Kaplan, L. (2018). Artificial intelligence: Risks to privacy and democracy. Yale Journal of Law and Technology, 21, 106. Retrieved from https://api.semanticscholar.org/CorpusID:158157950\n\n\nMills, R. (2017). Pop-up political advocacy communities on reddit.com - SandersForPresident and the donald. https://doi.org/10.17863/CAM.10039\n\n\nSmith, J., & Villiers-Botha, T. de. (2023). Hey, google, leave those kids alone: Against hypernudging children in the age of big data. AI and Society, 38(4), 1639–1649. https://doi.org/10.1007/s00146-021-01314-w"
+  },
+  {
+    "objectID": "readings/Alignment.html",
+    "href": "readings/Alignment.html",
+    "title": "Alignment",
+    "section": "",
+    "text": "Alignment Reading List"
+  },
+  {
+    "objectID": "readings/Alignment.html#references",
+    "href": "readings/Alignment.html#references",
+    "title": "Alignment",
+    "section": "References",
+    "text": "References\n\n\nBondi, E., Xu, L., Acosta-Navas, D., & Killian, J. (2021, July). Envisioning communities: A participatory approach towards AI for social good. 425–436. https://doi.org/10.1145/3461702.3462612\n\n\nChristian, B. (2021). The alignment problem. New York, NY: WW Norton.\n\n\nDennis, M., & Ziliotti, E. (2023). Living well together online: Digital wellbeing from a confucian perspective. Journal of Applied Philosophy, 40(2), 263–279. https://doi.org/10.1111/japp.12627\n\n\nEckersley, P. (2019). Impossibility and uncertainty theorems in AI value alignment (or why your AGI should not have a utility function). arXiv. https://doi.org/10.48550/ARXIV.1901.00064\n\n\nGabriel, I. (2020). Artificial intelligence, values, and alignment. Minds and Machines, 30(3), 411–437. https://doi.org/10.1007/s11023-020-09539-2\n\n\nHan, S., Kelly, E., Nikou, S., & Svee, E.-O. (2021). Aligning artificial intelligence with human values: Reflections from a phenomenological perspective. AI & Society, 37, 1–13. https://doi.org/10.1007/s00146-021-01247-4\n\n\nSutrop, M. (2020). Challenges of aligning artificial intelligence with human values. Acta Baltica Historiae Et Philosophiae Scientiarum, 8(2), 54–72. https://doi.org/10.11590/abhps.2020.2.04\n\n\nThoma, J. (2022). Risk imposition by artificial agents: The moral proxy problem. In S. Voeneky, P. Kellmeyer, O. Mueller, & W. Burgard (Eds.), The cambridge handbook of responsible artificial intelligence: Interdisciplinary perspectives. Cambridge University Press.\n\n\nWhittlestone, J., Nyrup, R., Alexandrova, A., & Cave, S. (2019, January). The role and limits of principles in AI ethics: Towards a focus on tensions. 195–200. https://doi.org/10.1145/3306618.3314289"
+  },
+  {
+    "objectID": "readings/Explainability.html",
+    "href": "readings/Explainability.html",
+    "title": "Explainability",
+    "section": "",
+    "text": "Explainability Reading List"
+  },
+  {
+    "objectID": "readings/Explainability.html#explainability-transparency-and-interpretability-readings",
+    "href": "readings/Explainability.html#explainability-transparency-and-interpretability-readings",
+    "title": "Explainability",
+    "section": "Explainability, Transparency, and Interpretability Readings",
+    "text": "Explainability, Transparency, and Interpretability Readings\n\n\n\n\n\n\n\nTitle\nCitation\n\n\n\n\nTransparency in Complex Computational Systems\nCreel (2020)\n\n\nHow the Machine “Thinks”: Understanding Opacity in Machine Learning Algorithms\nBurrell (2015)\n\n\nTransparency’s Ideological Drift\nPozen (2018)\n\n\nThe Right to an Explanation\nVredenburgh (2021)\n\n\nAlgorithmic and Human Decision Making: For a Double Standard of Transparency\nGünther & Kasirzadeh (2022)\n\n\nThe Mythos of Model Interpretability\nLipton (2016)\n\n\nEpistemic Values in Feature Importance Methods: Lessons from Feminist Epistemology\nHancox-Li & Kumar (2021)\n\n\nThe Fate of Explanatory Reasoning in the Age of Big Data\nCabrera (2020)\n\n\nInterpreting Interpretability: Understanding Data Scientists’ Use of Interpretability Tools for Machine Learning\nKaur et al. (2020)\n\n\n“Explaining” Machine Learning Reveals Policy Challenges\nCoyle & Weller (2020)"
+  },
+  {
+    "objectID": "readings/Explainability.html#references",
+    "href": "readings/Explainability.html#references",
+    "title": "Explainability, Intepretability, and Transparency",
+    "section": "References",
+    "text": "References\n\n\nBeisbart, C., & Räz, T. (2022). Philosophy of science at sea: Clarifying the interpretability of machine learning. Philosophy Compass, 17(6), e12830. https://doi.org/10.1111/phc3.12830\n\n\nBurrell, J. (2015). How the machine ’thinks:’ understanding opacity in machine learning algorithms. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.2660674\n\n\nCabrera, F. (2020). The fate of explanatory reasoning in the age of big data. Philosophy &Amp; Technology, 34(4), 645–665. https://doi.org/10.1007/s13347-020-00420-9\n\n\nCoyle, D., & Weller, A. (2020). \"Explaining\" machine learning reveals policy challenges. Science, 368(6498), 1433–1434. https://doi.org/10.1126/science.aba9647\n\n\nCreel, K. A. (2020). Transparency in complex computational systems. Philosophy of Science, 87(4), 568–589. https://doi.org/10.1086/709729\n\n\nGünther, M., & Kasirzadeh, A. (2022). Algorithmic and human decision making: For a double standard of transparency. AI and Society, 37(1), 375–381. https://doi.org/10.1007/s00146-021-01200-5\n\n\nHancox-Li, L., & Kumar, I. E. (2021). Epistemic values in feature importance methods: Lessons from feminist epistemology. Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 817–826. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3442188.3445943\n\n\nKaur, H., Nori, H., Jenkins, S., Caruana, R., Wallach, H., & Wortman Vaughan, J. (2020). Interpreting interpretability: Understanding data scientists’ use of interpretability tools for machine learning. Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems, 1–14. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3313831.3376219\n\n\nLinardatos, P., Papastefanopoulos, V., & Kotsiantis, S. (2020). Explainable AI: A review of machine learning interpretability methods. Entropy, 23, 18. https://doi.org/10.3390/e23010018\n\n\nLipton, Z. (2016). The mythos of model interpretability. Communications of the ACM, 61. https://doi.org/10.1145/3233231\n\n\nPozen, D. E. (2018). Transparency’s ideological drift. Yale Law Journal, 128, 100–165.\n\n\nVredenburgh, K. (2021). The right to explanation. Journal of Political Philosophy, 30(2), 209–229. https://doi.org/10.1111/jopp.12262"
+  },
+  {
+    "objectID": "readings/Responsibility.html",
+    "href": "readings/Responsibility.html",
+    "title": "Responsibility",
+    "section": "",
+    "text": "https://arxiv.org/abs/2310.02444"
+  },
+  {
+    "objectID": "readings/Responsibility.html#references",
+    "href": "readings/Responsibility.html#references",
+    "title": "Responsibility",
+    "section": "References",
+    "text": "References"
+  },
+  {
+    "objectID": "readings/Characterizations.html",
+    "href": "readings/Characterizations.html",
+    "title": "Characterizations of Data Science",
+    "section": "",
+    "text": "https://arxiv.org/abs/2310.02444"
+  },
+  {
+    "objectID": "readings/Characterizations.html#references",
+    "href": "readings/Characterizations.html#references",
+    "title": "Characterizations of Data and Data Science",
+    "section": "References",
+    "text": "References\n\n\nBeaulieu, A., & Leonelli, S. (2021). Data and society: A critical introduction (First). SAGE Publications Ltd.\n\n\nBoyd, D., & Crawford, K. (2012). Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon. Information, Communication & Society, 15, 662–679.\n\n\nDanks, D. (2022). Digital ethics as translational ethics. https://doi.org/10.4018/978-1-7998-8467-5.ch001\n\n\nDesai, J., Watson, D., Wang, V., Taddeo, M., & Floridi, L. (2022). The epistemological foundations of data science: A critical review. Synthese, 200. https://doi.org/10.1007/s11229-022-03933-2\n\n\nFloridi, L., & Taddeo, M. (2016). What is data ethics? Philosophical Transactions of The Royal Society A Mathematical Physical and Engineering Sciences, 374, 20160360. https://doi.org/10.1098/rsta.2016.0360\n\n\nGitelman, L. (Ed.). (2013). \"Raw data\" is an oxymoron. London, England: MIT Press.\n\n\nLeonelli, S. (2019). What distinguishes data from models? European Journal for Philosophy of Science, 9. https://doi.org/10.1007/s13194-018-0246-0\n\n\nMitchell, M. (2020). Artificial intelligence: A guide for thinking humans. Picador.\n\n\nMoor, J. H. (1985). What is computer ethics? Metaphilosophy, 16(4), 266–275. https://doi.org/10.1111/j.1467-9973.1985.tb00173.x\n\n\nO’Neil, C. (2013). On being a data skeptic. O’Reilly Media.\n\n\nZarsky, T. (2016). The trouble with algorithmic decisions: An analytic road map to examine efficiency and fairness in automated and opaque decision making. Science, Technology, and Human Values, 41(1), 118–132. https://doi.org/10.1177/0162243915605575"
+  },
+  {
+    "objectID": "readings/Consent.html",
+    "href": "readings/Consent.html",
+    "title": "Consent",
+    "section": "",
+    "text": "https://arxiv.org/abs/2310.02444"
+  },
+  {
+    "objectID": "readings/Consent.html#references",
+    "href": "readings/Consent.html#references",
+    "title": "Consent",
+    "section": "References",
+    "text": "References\n\n\nBenn, C., & Lazar, S. (2021). What’s wrong with automated influence. Canadian Journal of Philosophy, 52, 1–24. https://doi.org/10.1017/can.2021.23\n\n\nEyal, N. (2019). Informed Consent. In E. N. Zalta (Ed.), The Stanford encyclopedia of philosophy (Spring 2019). https://plato.stanford.edu/archives/spr2019/entries/informed-consent/; Metaphysics Research Lab, Stanford University.\n\n\nMiller, F. G., & Wertheimer, A. (2010). The ethics of consent: Theory and practice (pp. 1–430). https://doi.org/10.1093/acprof:oso/9780195335149.001.0001\n\n\nSolove, D. (2012). Privacy self-management and the consent dilemma. Harvard Law Review, 126.\n\n\nWolmarans, L., & Voorhoeve, A. (2022). What makes personal data processing by social networking services permissible? Canadian Journal of Philosophy, 52(1), 93–108. https://doi.org/10.1017/can.2022.4"
+  },
+  {
     "objectID": "Intro-DS-ethics.html",
     "href": "Intro-DS-ethics.html",
     "title": "What is Data Science Ethics?",
     "section": "",
-    "text": "Comic via Evil AI Cartoons."
+    "text": "Figure 1: A comic from Evil AI Cartoons."
   },
   {
     "objectID": "Intro-DS-ethics.html#footnotes",
     "href": "Intro-DS-ethics.html#footnotes",
     "title": "What is Data Science Ethics?",
     "section": "Footnotes",
-    "text": "Footnotes\n\n\nIt is also worth noting that some philosophers just focus on what we should do in specific cases and do not appeal to overarching ethical theories at all↩︎"
+    "text": "Footnotes\n\n\nIn the context of data science ethics, professional codes are guidelines that outline the ethical standards and responsibilities for those engaged in data science work. Many companies and organizations have produced professional codes related to data science ethics, such as Microsoft, IBM, and the United Nations↩︎\nSee Barocas, Hardt, & Narayanan (2023) for an overview of fairness measures in machine learning.↩︎"
+  },
+  {
+    "objectID": "index.html#data-science-ethics-course-syllabi",
+    "href": "index.html#data-science-ethics-course-syllabi",
+    "title": "Welcome to the Website!",
+    "section": "",
+    "text": "The table below details the syllabi that we used to examine data science ethics curriculum. A majority of them are undergraduate courses and include a reading list on the syllabi. Visit the data science ethics syllabi page for in-depth notes on each course’s learning goals and topics.\n\n\n\n\n\n\n\n\nFigure 1: Table of all the data science ethics syllabi we collated for the project\n\n\n\n\nWe thank the Pomona College SURP program and Kenneth Cooke Summer Research Fellowship for supporting SC in summer research."
+  },
+  {
+    "objectID": "DS-pipeline.html#alignment",
+    "href": "DS-pipeline.html#alignment",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Alignment",
+    "text": "Alignment\nAlignment focuses on whether (and if so, how) our moral values are reflected in our current data science practices. Given that potentially morally charged decision points exist throughout data science (see what is data science ethics?), alignment is also an important ethics topic at every stage of the data science lifecycle.\n\n\n Alignment Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#responsibility",
+    "href": "DS-pipeline.html#responsibility",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Responsibility",
+    "text": "Responsibility\nWhile both moral and legal responsibility are important considerations in data science, we focus here on moral responsibility. Again, an individual might be morally responsible for their behavior, even if they would not be legally responsible for it (e.g., an individual might be morally responsible for plagiarizing a school paper but not legally responsible for it since the act of plagiarism is not against the law).\n\nParadigmatic Connection(s)\nDiscussions of moral responsibility in data science typically concern model deployment and “interactions with the world”. For example, Amazon was held morally responsible for deploying a hiring algorithm that was biased against female applicants (Dastin, 2018). Moral responsibility also arises when building data models. For instance, it seems reasonable to contend that if another company had created Amazon’s faulty hiring algorithm, then that company would also be morally responsible, alongside Amazon, for the biased results if they did not adequately define where the model should be used or who should use it.\nThere are also several case studies (in data science and beyond) where people are morally responsible for failing to obtain informed consent when collecting personal information (i.e., during “interactions with the world”). Some examples include the collection of HeLa cells1 and the commercialization of social media users’ data without obtaining their informed consent.2\n\n\nLess Conventional Connection(s)\nThough less commonly thought about, moral responsibility is also relevant during data processing (i.e., between “interactions with the world” and “data”). Specifically, it seems reasonable to hold data scientists morally responsible for the moral harms that arise from their data cleaning or storage practices. For example, if a data scientist stored personal data in a foreseeably faulty database, they would be at least partially morally responsible for any data leakages. Similarly, if the data scientist who was supposed to remove identifiers from the data was negligent, they would have (at least some) moral responsibility for the ethical repercussions that arise from the data not being adequately anonymized.3\n\n\n Responsibility Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#characterizations-of-data-and-data-science",
+    "href": "DS-pipeline.html#characterizations-of-data-and-data-science",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Characterizations of Data and Data Science",
+    "text": "Characterizations of Data and Data Science\nAs mentioned on the data science lifecycle page, the choice of how to characterize data and data science is value-laden as it reflects a particular interpretation of knowledge from data and data models. For instance, if we view data as a direct representation of the world, we might overlook biases or other ethical issues that arise during the collection or data processing stages. On the other hand, if we view data and data models as context-dependent, then we can acknowledge that ethical issues, like algorithmic bias, can arise during the data collection and processing stages. In turn, characterizations of data and data science influence every stage of the data science lifecycle.\n\n\n Characterizations of Data and Data Science Readings"
+  },
+  {
+    "objectID": "DS-pipeline.html#references",
+    "href": "DS-pipeline.html#references",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "References",
+    "text": "References\n\n\nAndreotta, A. J., Kirkham, N., & Rizzi, M. (2021). AI, Big Data, and the future of consent. AI and Society, 37(4), 1715–1728. https://doi.org/10.1007/s00146-021-01262-5\n\n\nAngwin, J., Larson, J., Kirchner, L., & Mattu, S. (2016). Machine Bias. https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing; ProPublica.\n\n\nAtoosa, A. K., & Smart, A. (2021). The use and misuse of counterfactuals in ethical machine learning. Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 228–236. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3442188.3445886\n\n\nBogen, M. (2019). All the ways hiring algorithms can introduce bias. https://hbr.org/2019/05/all-the-ways-hiring-algorithms-can-introduce-bias.\n\n\nCallaway, E. (2013). Deal done over HeLa cell line. Nature, 500(7461), 132–133. https://doi.org/10.1038/500132a\n\n\nDastin, J. (2018). Amazon scraps secret AI recruiting tool that showed bias against women. https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G; Reuters.\n\n\nEyal, N. (2019). Informed consent. In E. N. Zalta (Ed.), The Stanford encyclopedia of philosophy (Spring 2019). https://plato.stanford.edu/archives/spr2019/entries/informed-consent/; Metaphysics Research Lab, Stanford University.\n\n\nGoodman, B., & Flaxman, S. (2017). European Union regulations on algorithmic decision making and a “right to explanation”. AI Magazine, 38(3), 50–57. https://doi.org/10.1609/aimag.v38i3.2741\n\n\nGünther, M., & Kasirzadeh, A. (2022). Algorithmic and human decision making: For a double standard of transparency. AI and Society, 37(1), 375–381. https://doi.org/10.1007/s00146-021-01200-5\n\n\nKang, H. (2013). The prevention and handling of the missing data. Korean Journal of Anesthesiology, 64(5), 402. https://doi.org/10.4097/kjae.2013.64.5.402\n\n\nO’Neil, C. (2016). Weapons of math destruction. Crown Publishing Group.\n\n\nPhillips, A. (2010). What’s wrong with essentialism? Distinktion: Scandinavian Journal of Social Theory, 11, 47–60. https://doi.org/10.1080/1600910X.2010.9672755\n\n\nRoessler, B., & DeCew, J. (2023). Privacy. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Winter 2023). https://plato.stanford.edu/archives/win2023/entries/privacy/; Metaphysics Research Lab, Stanford University.\n\n\nSinnott-Armstrong, W. (2023). Consequentialism. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Winter 2023). https://plato.stanford.edu/archives/win2023/entries/consequentialism/; Metaphysics Research Lab, Stanford University.\n\n\nTalebi, S. (2021). Causal discovery. https://towardsdatascience.com/causal-discovery-6858f9af6dcb.\n\n\nWoollacott, E. (2016). 70,000 OkCupid profiles leaked, intimate details and all. https://www.forbes.com/sites/emmawoollacott/2016/05/13/intimate-data-of-70000-okcupid-users-released/?sh=2ac42f2f1e15; Forbes."
+  },
+  {
+    "objectID": "readings/pdf-qmds/Causation-pdf.html",
+    "href": "readings/pdf-qmds/Causation-pdf.html",
+    "title": "Causation",
+    "section": "",
+    "text": "Title\nCitation\n\n\n\n\nThe Metaphysics of Causation (Stanford Encyclopedia of Philosophy)\nGallow (2022)\n\n\nThe Problem of Induction (Stanford Encyclopedia of Philosophy)\nHenderson (2022)\n\n\nCausation\nScheines (n.d.)\n\n\nCausal Diagrams for Empirical Research\nPearl (1995)\n\n\nDisparate Causes, Pt. I\nHu (2019)\n\n\nVariation Semantics: When Counterfactuals in Explanations of Algorithmic Decisions are True\nHudetz & Crawford (2022)\n\n\nCausal Discovery Algorithms: A Practical Guide\nMalinsky & Danks (2018)\n\n\nOn the Explanatory Depth and Pragmatic Value of Coarse-Grained, Probabilistic, Causal Explanations\nKinney (2018)\n\n\nFairness in Decision-making — the Causal Explanation Formula\nZhang & Bareinboim (2018)\n\n\nEvaluations of Causal Claims Reflect a Trade-Off Between Informativeness and Compression\nKinney & Lombrozo (2022)\n\n\nThe Use and Misuse of Counterfactuals in Ethical Machine Learning\nKasirzadeh & Smart (2021)\n\n\nEddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination\nKohler-Hausmann (2017)\n\n\n“But What Are You Really?”: The Metaphysics of Race\nMills (1998)\n\n\nWhat is “Race” in Algorithmic Discrimination on the Basis of Race?\nHu (Forthcoming)"
+  },
+  {
+    "objectID": "readings/pdf-qmds/Causation-pdf.html#references",
+    "href": "readings/pdf-qmds/Causation-pdf.html#references",
+    "title": "Causation",
+    "section": "References",
+    "text": "References\n\n\nGallow, J. D. (2022). The Metaphysics of Causation. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Fall 2022). https://plato.stanford.edu/archives/fall2022/entries/causation-metaphysics/; Metaphysics Research Lab, Stanford University.\n\n\nHenderson, L. (2022). The Problem of Induction. In E. N. Zalta & U. Nodelman (Eds.), The Stanford encyclopedia of philosophy (Winter 2022). https://plato.stanford.edu/archives/win2022/entries/induction-problem/; Metaphysics Research Lab, Stanford University.\n\n\nHu, L. (2019). Disparate causes, pt. i. Retrieved from https://www.phenomenalworld.org/analysis/disparate-causes-i/\n\n\nHu, L. (Forthcoming). What’s ’race’ in algorithmic discrimination on the basis of race? Journal of Moral Philosophy.\n\n\nHudetz, L., & Crawford, N. (2022). Variation semantics: When counterfactuals in explanations of algorithmic decisions are true. Retrieved from https://philsci-archive.pitt.edu/20626/\n\n\nKasirzadeh, A., & Smart, A. (2021). The use and misuse of counterfactuals in ethical machine learning. Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency, 228–236. New York, NY, USA: Association for Computing Machinery. https://doi.org/10.1145/3442188.3445886\n\n\nKinney, D. (2018). On the explanatory depth and pragmatic value of coarse-grained, probabilistic, causal explanations. Philosophy of Science, (1), 145–167. https://doi.org/10.1086/701072\n\n\nKinney, D., & Lombrozo, T. (2022). Evaluations of causal claims reflect a trade-off between informativeness and compression. Annual Meeting of the Cognitive Science Society. Retrieved from https://api.semanticscholar.org/CorpusID:269447691\n\n\nKohler-Hausmann, I. (2017). The dangers of counterfactual causal thinking about detecting racial discrimination. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.3050650\n\n\nMalinsky, D., & Danks, D. (2018). Causal discovery algorithms: A practical guide. Philosophy Compass, 13(1), e12470. https://doi.org/10.1111/phc3.12470\n\n\nMills, C. W. (1998). \"But what are you really?\": The metaphysics of race. In C. W. Mills (Ed.), Blackness visible: Essays on philosophy and race (pp. 41–66). Cornell University Press.\n\n\nPearl, J. (1995). Causal diagrams for empirical research. Biometrika, 82, 669–688. Retrieved from https://api.semanticscholar.org/CorpusID:10023329\n\n\nScheines, R. (n.d.). Causation. Retrieved from https://www.cmu.edu/dietrich/philosophy/docs/scheines/causation.pdf\n\n\nZhang, J., & Bareinboim, E. (2018). Fairness in decision-making — the causal explanation formula. Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence and Thirtieth Innovative Applications of Artificial Intelligence Conference and Eighth AAAI Symposium on Educational Advances in Artificial Intelligence. New Orleans, Louisiana, USA: AAAI Press."
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#the-representational-view",
+    "href": "Intro-DS-lifecycle.html#the-representational-view",
+    "title": "The Data Science Lifecycle",
+    "section": "The Representational View",
+    "text": "The Representational View\nUnder the representational view of data and data models (see Figure 3), the informational content of data is fixed and independent of the researchers’ background assumptions and context. Thus, data models are only important insofar as they extract the underlying truth from the data. So, under the representational view, data models are either correct or incorrect, depending on their ability to elucidate the truth stored in the data. In other words, data are simply numbers that hold information, and data models (and other methods of processing data) are only relevant because they clarify the connections between data and what we interpret to be knowledge (Leonelli, 2019).1\n\n\n\n\n\n\n\n\nFigure 3: Data science lifecycle under the representational view of data and models as formulated by Leonelli (2019)."
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#the-relational-vs.-representational-view-in-practice",
+    "href": "Intro-DS-lifecycle.html#the-relational-vs.-representational-view-in-practice",
+    "title": "The Data Science Lifecycle",
+    "section": "The Relational vs. Representational View In-Practice",
+    "text": "The Relational vs. Representational View In-Practice\n\n\n\n\n\n\nExample 1: Predicting the Likelihood that a Person Buys Concert Tickets\n\n\n\n\n\nSuppose we are interested in predicting a person’s likelihood of buying concert tickets from a particular website. To do so, we collect data about the number of times they clicked on an advertisement for concert tickets from that particular website, the timestamps of these ad clicks, the person’s demographic information, et cetera.\nHowever, it is unclear what exactly the data we gather should be taken to represent. We concede that we cannot directly measure a person’s interest in buying concert tickets, but we believe that someone’s interest is correlated to how often they interact with online ads for the tickets. So, we decide to use a person’s number of ad clicks as a proxy for their interest in buying concert tickets. However, this proxy is imperfect. For instance, a person might click on a ticket ad in order to determine how much to resell their concert tickets for.\nFurthermore, using particular data as evidence can sometimes influence future interactions with the world. Imagine that we find that when a website displays, “less than 1% of tickets remaining”, the person is much more likely to buy concert tickets. As a result, other ticket sites adopt this strategy in an attempt to sell more tickets. However, suppose there is only a strong correlation between displaying the message`less than 1% of tickets remaining” and a person’s likelihood of buying tickets when no other site displayed a similar message. Namely, when other sites also display the message “less than 1% of tickets remaining,” displaying the message on our site will no longer increase the person’s likelihood of buying tickets from our site. What this example demonstrates is that by treating the display message data as evidence for there being a correlation between displaying the message and the likelihood of buying a ticket, we have changed how future users will interact with our site.\nUnlike the representational view, the relational view acknowledges that data’s informational content is influenced by researchers’ background assumptions and social contexts. Furthermore, the relational view endorses that data can be dynamic, and what we take as evidence can influence future interactions with the world. Thus, the concert ticket example described above gives us reason to endorse the relational view of data and data models over the representational view.\n\n\n\n\n\n\n\n\n\nExample 2: Predicting the Likelihood that a Player Receives a Red Card in Soccer\n\n\n\n\n\nIn Silberzahn et al. (2017), 29 data analysis teams were asked to use the same data set to determine ``whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players.” Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.\nThe difference in the chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ findings:\n\n15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.\n21 of 29 teams used unique combinations of predictor variables.\n\nThrough Silberzahn et al. (2017), we can also see how ambiguity about the data model and the relative importance of certain predictor variables impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by Silberzahn et al. (2017), each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, and social contexts. These subjective factors ultimately influenced what the analysts interpreted as the true relationship between the player’s skin tone and the likelihood of the referee giving the player a red card. Hence, the Silberzahn et al. (2017) case study emphasizes that data and data models should be viewed relationally rather than representationally."
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#final-data-science-lifecycle-caveats",
+    "href": "Intro-DS-lifecycle.html#final-data-science-lifecycle-caveats",
+    "title": "The Data Science Lifecycle",
+    "section": "Final Data Science Lifecycle Caveats",
+    "text": "Final Data Science Lifecycle Caveats\nFor instructors who seek to walk their students through the advantages and disadvantages of specific data science lifecycles, we note some flaws with our selected lifecycle (see Figure 2). First, the arrows between the data science stages imply that the data science is linear (i.e., only when all prior steps are complete is the next step pursued). However, in practice, data science is iterative; for example, data scientists may build a data model, realize their model underperforms on a certain group, and then collect more data to improve the model’s performance. Another shortcoming of our final lifecycle in Figure Figure 2 is that it does not highlight how many different people (or groups) are often involved in different stages of the lifecycle. For instance, a company might collect the data and then bring in an external group of data scientists to create a meaningful model from that data. The fact that different people (or groups) act at different stages of data science is essential both for understanding how data science practices are actually carried out as well as why understanding certain ethics topics (such as moral responsibility) is integral to data science. As such, we move forward with our final data science lifecycle in the spirit of George E. P. Box, “all models are wrong, but some are useful,” (Box, 1979)."
+  },
+  {
+    "objectID": "Intro-DS-ethics.html#definition",
+    "href": "Intro-DS-ethics.html#definition",
+    "title": "What is Data Science Ethics?",
+    "section": "Definition",
+    "text": "Definition\n\n\n\n\n\n\n\n\nData Science Example\n\n\n\n\n\nProblem Definition: suppose we aim to answer: what is the likelihood that a customer purchases product S? Only when our model (built on training data) achieves an overall accuracy \\(\\ge\\) 0.75 (for the test data) do we say that our model is successful.\nRaw Data: our raw data includes information from each time the customer clicks on an advertisement for product S, including the timestamps for each advertisement interaction and the customer’s demographic information.\nData: a data table where each row represents a unique customer and the columns are the variables that describe that customer. These columns include information from the raw data (e.g., the number of times they click on an advertisement for product S, their age, etc.) and also any engineered variables (e.g., their average time between advertisement clicks). During data generation, we also decide what to do with any missing values (i.e., do we leave them, ignore them, or impute them?).\nData Model(s): we choose to use logistic regression, where our response variable is the binary indicator of whether or not the customer purchased product S. Our explanatory variables are the customer’s age, their number of advertisement clicks, and the average time between advertisement clicks. The general form of our data model would be:\n\\[\n\\begin{split}\n\\textrm{logit}(p(\\textrm{purchase S})) = \\beta_0 + \\beta_1 \\cdot \\textrm{age} + \\\\ \\beta_2 \\cdot \\textrm{ad-click number} + \\beta_3 \\cdot \\textrm{average time between clicks}\n\\end{split}\n\\]\nTuned Data Model(s): we choose to do 5-fold cross-validation to tune our data model’s parameters in order to maximize our model’s overall accuracy at a particular cutoff value. With logistic regression, the model tuning comes as a choice of which variables to include (because logistic regression does not have any hyperparameters).\nDeployment and Use: we ultimately decide that we should only use our tuned data model on US customers who are under a certain age. Also, we determine that only data scientists at the company who are selling product S should be able to access the data model and generate predictions with it.\n\n\n\nData science courses are often focused on transforming data into data model(s), but data science as a field encompasses all the processes needed to answer questions with data: from “Problem Definition” to “Deployment and Use”.\n\n\n\n\n\nProcesses involved in data science. The amount of processing required to get the outputted object (e.g., raw data, data, a tuned model, etc.) increases as we move from left to right.\n\n\n\n\nBelow, we walk through the data science processes described in Figure \\(\\ref{fig:ds_process}\\) with a hypothetical example to illustrate what happens at each processing step and how these steps relate to one another.\n\nProblem Definition\ndefines the question we aim to answer with data. We answer questions like what counts as ``success” (i.e., when do we say a data model is successful), and how can we actually measure (or approximate) our event of interest?\n\n\nRaw Data\nthe information collected from interactions with the world.\n\nData\nthe processed form of the raw data. This often is the tabularized version of the raw data.\n\n\nData Model(s)\nthe product created from running the input data through a learning algorithm (i.e., a mathematical formula that predicts an output for a given input). Data Models aim to generalize the relationship between variables in the data.\n\n\nTuned Data Model(s)\na data model in which the model’s parameters (including hyperparameters) are adjusted, usually to better balance the model’s generalizability and (prediction) accuracy for the population of interest. In practice, tuning is typically done by either splitting the data into training and test sets or by performing cross-validation.\n\n\nDeployment and Use\ngeneration of predictions (or other output) from the tuned data model. This is the stage where we ask questions like where should the system be used, who should be using it, and who/what should the data model be used on?"
+  },
+  {
+    "objectID": "Intro-DS-ethics.html#importance-of-data-science-ethics",
+    "href": "Intro-DS-ethics.html#importance-of-data-science-ethics",
+    "title": "What is Data Science Ethics?",
+    "section": "Importance of Data Science Ethics",
+    "text": "Importance of Data Science Ethics\nThere are a number of critical decision points in data science, which can lead to moral problems in data, algorithms, and corresponding practices. Figure \\(\\ref{fig:DS-stack-values}\\) connects potentially morally charged decision points with data science processes.\n\n\n\n\n\nSome key decision points that could produce morally charged outcomes have been added to the data science processes diagram. A data scientist may or may not be aware of these decision points or responsible for all these decisions in practice.\n\n\n\n\nGiven the commonly held belief that mathematics, and consequently statistics, is objective in the sense that it is not influenced by factors such as the practitioner’s moral values, potentially morally charged choices in data science are often made implicitly, without the decision-maker reflecting on, for example, how opting one choice over another (mis)aligns with their best judgment about what they ought to do or their moral duties to stakeholders. The ethical considerations at data science decision points must be made explicit: both the existence of a choice and the moral implications of the practitioner’s ultimate decision are key aspects of each data science stage.\nData science ethics aims to illuminate the moral implications of choices within data science and takes an interdisciplinary perspective on aligning our data science practices with what we ought to do and our moral duties to stakeholders. For example, returning to the COMPAS example, data science ethics would address questions such as: what does it mean for an algorithm to be fair or just? Does algorithmic fairness or justice require satisfying some statistical criteria, and if so, which one(s)? Does Equivant, the company that made COMPAS, have a duty to make their algorithm transparent, explainable, or even fair? Engaging with such questions, and with data science ethics more generally, is critical to ensuring morally permissible data science practices. This engagement is particularly important given we live in the age of Big Data, where decisions with high moral stakes, like pretrial release , home loan approvals , and Child Protective Service’s welfare visits , are increasingly being influenced by data science.\n\nCase studies"
+  },
+  {
+    "objectID": "Intro-DS-ethics.html#case-studies",
+    "href": "Intro-DS-ethics.html#case-studies",
+    "title": "What is Data Science Ethics?",
+    "section": "Case Studies",
+    "text": "Case Studies\n\n\n Markkula Center for Applied Ethics\n\n\nData science ethics case studies\n\n\n\n\n\n Federal Anti-Discrimination Agency\n\n\nData science ethics case studies (see chapter 4)"
+  },
+  {
+    "objectID": "Intro-DS-ethics.html#more-case-studies",
+    "href": "Intro-DS-ethics.html#more-case-studies",
+    "title": "What is Data Science Ethics?",
+    "section": "More Case Studies",
+    "text": "More Case Studies\n\n\n Markkula Center for Applied Ethics\n\n\nData science ethics case studies\n\n\n\n\n\n Federal Anti-Discrimination Agency\n\n\nData science ethics case studies (see chapter 4)"
+  },
+  {
+    "objectID": "Intro-DS-lifecycle.html#footnotes",
+    "href": "Intro-DS-lifecycle.html#footnotes",
+    "title": "The Data Science Lifecycle",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nWhat we interpret as knowledge is not the same as actual knowledge. E.g., the statement “the Earth is flat” was historically interpreted as knowledge, even though it is a false statement and thus not actual knowledge.↩︎"
+  },
+  {
+    "objectID": "DS-pipeline.html#footnotes",
+    "href": "DS-pipeline.html#footnotes",
+    "title": "The Data Science Ethics Lifecycle",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nIn 1951, cervical cancer cells from Henrietta Lacks were taken without her knowledge. Her cells and cell line, known colloquially as HeLa cells, have been widely used in science ever since (Callaway, 2013).↩︎\nSee Andreotta, Kirkham, & Rizzi (2021) for issues with informed consent and social media.↩︎\nSee Woollacott (2016) for an example of how moral responsibility can be relevant when failing to remove identifiers from data.↩︎\nThis example is partially inspired by the examples in Bogen (2019).↩︎\nSee Eyal (2019) for reasons beyond respecting a person’s autonomy why obtaining informed consent is morally important.↩︎\nThis example is partially inspired by the discussion in Kang (2013).↩︎\nAlso, see examples of how current data models are not yet able to accurately identify causation in Talebi (2021).↩︎"
   }
 ]

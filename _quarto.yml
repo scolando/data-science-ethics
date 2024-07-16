@@ -19,7 +19,7 @@ website:
         menu: 
          - text: "What is Data Science Ethics?"
            href: Intro-DS-ethics.qmd
-         - text: "Data Science Lifecycles"
+         - text: "The Data Science Lifecycle"
            href: Intro-DS-lifecycle.qmd
       - text: "Inside the Syllabi"
         menu:
@@ -31,14 +31,15 @@ website:
            href: DS-pipeline.qmd
       - text: "Reading Lists"
         href: Reading-Tags.qmd
-    background: white 
+    background: white
     
   page-footer:
     left: "&copy; Copyright 2024, [Sara Colando](https://scolando.github.io/personal-website/) and [Jo Hardin](https://hardin47.netlify.app)"
-    
     right:
-      - icon: github
-        href: https://github.com/scolando/personal-website
+        - text: "{{< iconify mdi:github >}} Source Code"
+          href: https://github.com/scolando/personal-website
+        - text: "Report an Issue"
+          href: https://github.com/scolando/data-science-ethics/issues/new
     background: white
 
 format:
@@ -48,4 +49,8 @@ format:
       - styles.scss
     backgroundcolor: white
 
+
+
 editor: visual
+
+

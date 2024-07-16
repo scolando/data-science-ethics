@@ -60,6 +60,7 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -151,7 +152,7 @@ window.Quarto = {
   </li>  
         <li>
     <a class="dropdown-item" href="./Intro-DS-lifecycle.html">
- <span class="dropdown-text">Data Science Lifecycles</span></a>
+ <span class="dropdown-text">The Data Science Lifecycle</span></a>
   </li>  
     </ul>
   </li>
@@ -194,29 +195,26 @@ window.Quarto = {
     <h2 id="toc-title">Page Contents</h2>
    
   <ul>
-  <li><a href="#what-is-data-science" id="toc-what-is-data-science" class="nav-link active" data-scroll-target="#what-is-data-science">What is Data Science?</a>
-  <ul class="collapse">
-  <li><a href="#definition" id="toc-definition" class="nav-link" data-scroll-target="#definition">Definition</a></li>
-  </ul></li>
+  <li><a href="#what-is-data-science" id="toc-what-is-data-science" class="nav-link active" data-scroll-target="#what-is-data-science">What is Data Science?</a></li>
   <li><a href="#what-is-ethics" id="toc-what-is-ethics" class="nav-link" data-scroll-target="#what-is-ethics">What is Ethics?</a>
   <ul class="collapse">
-  <li><a href="#definition-1" id="toc-definition-1" class="nav-link" data-scroll-target="#definition-1">Definition</a></li>
+  <li><a href="#example-questions" id="toc-example-questions" class="nav-link" data-scroll-target="#example-questions">Example Questions</a></li>
   </ul></li>
-  <li><a href="#what-is-data-science-ethics" id="toc-what-is-data-science-ethics" class="nav-link" data-scroll-target="#what-is-data-science-ethics">What is Data Science Ethics?</a>
+  <li><a href="#what-is-data-science-ethics" id="toc-what-is-data-science-ethics" class="nav-link" data-scroll-target="#what-is-data-science-ethics">What is Data Science Ethics?</a></li>
+  <li><a href="#importance-of-data-science-ethics" id="toc-importance-of-data-science-ethics" class="nav-link" data-scroll-target="#importance-of-data-science-ethics">Importance of Data Science Ethics</a>
   <ul class="collapse">
-  <li><a href="#definition-2" id="toc-definition-2" class="nav-link" data-scroll-target="#definition-2">Definition</a></li>
-  <li><a href="#importance" id="toc-importance" class="nav-link" data-scroll-target="#importance">Importance</a></li>
+  <li><a href="#more-case-studies" id="toc-more-case-studies" class="nav-link" data-scroll-target="#more-case-studies">More Case Studies</a></li>
   </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">What is Data Science Ethics?</h1>
-<p class="subtitle lead">defining data science ethics, its importance, and demonstrating how it combines the discplines of data science and ethics.</p>
+<p class="subtitle lead">defining data science ethics, its importance, and how it combines the discplines of data science and ethics.</p>
 </div>
 
 
@@ -235,10 +233,14 @@ window.Quarto = {
 
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/AI-ethics.jpg" style="width:100.0%;height:20.0%" alt="Comic from Evil AI Cartoons in black and white where three people are voicing their wants to a computer (e.g., we want AI fairness). The computer responds, 'And I want infinite battery! Talk to me when you've negotiated tradeoffs!'." class="figure-img"></p>
-<figcaption>Comic via <a href="https://www.evilaicartoons.com/">Evil AI Cartoons</a>.</figcaption>
+<div id="fig-AI-ethics" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="A comic from Evil AI Cartoons in black and white where three people are voicing their wants to a computer (e.g., we want AI fairness). The computer responds, 'And I want infinite battery! Talk to me when you've negotiated tradeoffs!'.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-AI-ethics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/AI-ethics.jpg" class="quarto-figure quarto-figure-center figure-img" style="width:100.0%;height:20.0%" alt="A comic from Evil AI Cartoons in black and white where three people are voicing their wants to a computer (e.g., we want AI fairness). The computer responds, 'And I want infinite battery! Talk to me when you've negotiated tradeoffs!'.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-AI-ethics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: A comic from <a href="https://www.evilaicartoons.com/">Evil AI Cartoons</a>.
+</figcaption>
 </figure>
 </div>
 </div>
@@ -247,144 +249,165 @@ window.Quarto = {
 <section id="what-is-data-science" class="level1">
 <h1>What is Data Science?</h1>
 <hr>
-<section id="definition" class="level3">
-<h3 class="anchored" data-anchor-id="definition">Definition</h3>
-<p>Data Science is typically focused on transforming the data into data model(s), but data science encompasses the <em>all the stages</em> needed to answer questions with data: from “Problem Definition” to “Deployment and Use”.</p>
+<p>Data science courses are often focused on transforming data into data model(s), but data science as a field encompasses all the processes needed to answer questions with data: from “Problem Definition” to “Deployment and Use”.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/DS-stack.png" class="img-fluid figure-img" width="1104"></p>
-<figcaption>Processes involved in data science. The amount of processing required to get the outputted object (e.g., raw data, data, a tuned model, etc.) increases as we move to the right.</figcaption>
+<div id="fig-ds_process" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-ds_process-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/DS-stack.png" class="img-fluid quarto-figure quarto-figure-center figure-img" width="1104">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ds_process-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Processes involved in data science. The amount of processing required to get the outputted object (e.g., raw data, data, a tuned model, etc.) increases as we move from left to right.
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<ul>
-<li><strong>Problem Definition:</strong> defines the question we aim to answer with data. We answer questions like: what counts as “success” (i.e., when do we say a data model is successful), and how can we actually measure (or approximate) our event-of-interest?</li>
-</ul>
-<div class="callout callout-style-default callout-note no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<p>Below, we walk through the data science processes described in <a href="#fig-ds_process" class="quarto-xref">Figure&nbsp;2</a> with a hypothetical example to illustrate what happens at each processing step and how these steps relate to one another.</p>
+<section id="problem-definition" class="level4">
+<h4 class="anchored" data-anchor-id="problem-definition">Problem Definition</h4>
+<p>defines the question we aim to answer with data. We answer questions like what counts as ``success” (i.e., when do we say a data model is successful), and how can we actually measure (or approximate) our event of interest?</p>
+</section>
+<section id="raw-data" class="level4">
+<h4 class="anchored" data-anchor-id="raw-data">Raw Data</h4>
+<p>the information collected from interactions with the world.</p>
+</section>
+<section id="data" class="level4">
+<h4 class="anchored" data-anchor-id="data">Data</h4>
+<p>the processed form of the raw data. This often is the tabularized version of the raw data.</p>
+</section>
+<section id="data-models" class="level4">
+<h4 class="anchored" data-anchor-id="data-models">Data Model(s)</h4>
+<p>the product created from running the input data through a learning algorithm (i.e., a mathematical formula that predicts an output for a given input). Data Models aim to generalize the relationship between variables in the data.</p>
+</section>
+<section id="tuned-data-models" class="level4">
+<h4 class="anchored" data-anchor-id="tuned-data-models">Tuned Data Model(s)</h4>
+<p>a data model in which the model’s parameters (including hyperparameters) are adjusted, usually to better balance the model’s generalizability and (prediction) accuracy for the population of interest. In practice, tuning is typically done by either splitting the data into training and test sets or by performing cross-validation.</p>
+</section>
+<section id="deployment-and-use" class="level4">
+<h4 class="anchored" data-anchor-id="deployment-and-use">Deployment and Use</h4>
+<p>generation of predictions (or other output) from the tuned data model. This is the stage where we ask questions like where should the system be used, who should be using it, and who/what should the data model be used on?</p>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Example
+Data Science Example
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Suppose we aim to answer: what is likelihood that a customer purchases product S? Only when our model achieves an overall accuracy ≥ 0.75 (for the test data) at a particular cutoff value (generated using only the training data), do we say that our model is successful.</p>
+<p><strong>Problem Definition:</strong> suppose we aim to answer: what is the likelihood that a customer purchases product S? Only when our model (built on training data) achieves an overall accuracy <span class="math inline">\(\ge\)</span> 0.75 (for the test data) do we say that our model is successful.</p>
+<p><strong>Raw Data:</strong> our raw data includes information from each time the customer clicks on an advertisement for product S, including the timestamps for each advertisement interaction and the customer’s demographic information.</p>
+<p><strong>Data:</strong> a data table where each row represents a unique customer and the columns are the variables that describe that customer. These columns include information from the raw data (e.g., the number of times they click on an advertisement for product S, their age, etc.) and also any engineered variables (e.g., their average time between advertisement clicks). During data generation, we also decide what to do with any missing values (i.e., do we leave them, ignore them, or impute them?).</p>
+<p><strong>Data Model(s):</strong> we choose to use logistic regression, where our response variable is the binary indicator of whether or not the customer purchased product S. Our explanatory variables are the customer’s age, their number of advertisement clicks, and the average time between advertisement clicks. The general form of our data model would be:</p>
+<p><span class="math display">\[
+\begin{split}
+\textrm{logit}(p(\textrm{purchase S})) = \beta_0 + \beta_1 \cdot \textrm{age} + \\ \beta_2 \cdot \textrm{ad-click number} + \beta_3 \cdot \textrm{average time between clicks}
+\end{split}
+\]</span></p>
+<p><strong>Tuned Data Model(s):</strong> we choose to do 5-fold cross-validation to tune our data model’s parameters in order to maximize our model’s overall accuracy at a particular cutoff value. With logistic regression, the model tuning comes as a choice of which variables to include (because logistic regression does not have any hyperparameters).</p>
+<p><strong>Deployment and Use:</strong> we ultimately decide that we should only use our tuned data model on US customers who are under a certain age. Also, we determine that only data scientists at the company who are selling product S should be able to access the data model and generate predictions with it.</p>
 </div>
 </div>
 </div>
-<p class="example" ;"="">
-
-            <strong>Example:</strong> suppose we aim to answer: what is likelihood that a customer purchases
-            product S? Only when our model achieves an overall accuracy ≥ 0.75 (for the test
-            data) at a particular cutoff value (generated using only the training data), do we
-            say that our model is successful. 
-
-</p>
-<ul>
-<li><strong>Raw Data:</strong> the information collected from interactions with the world.</li>
-</ul>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.g. our raw data includes information from each time the customer clicks on a advertisement<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for product S, including the timestamps for each advertisement interaction, and the customer’s<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;demographic information.</div>
-<ul>
-<li><strong>Data:</strong> the processed form of the raw data. This often is the tabularized version of the raw data.</li>
-</ul>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.g., a data table where each row represents a unique customer and the columns are the<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;variables that describe that customer. These columns include information from the raw data<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(e.g., the number of times they click on a advertisement for product S, their age, etc.) and<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;also any engineered variables (e.g., their average time between advertisement clicks). During<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data generation, we also decide what to do with any missing values (i.e., do we leave them as<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;null or impute them?).</div>
-<ul>
-<li><strong>Data Model(s):</strong> the product created from running the input data through a learning algorithm (i.e., a mathematical formula that predicts an output for a given input). Data Models aim to generalize the relationship between variables in the data.</li>
-</ul>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.g., we choose to use logistic regression, where our response variable is the binary<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;indicator of whether or not the customer purchased product S. Our explanatory variables are<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the customer’s age, their number of advertisement clicks, and the average time between<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;advertisement clicks. The general form of our data model would be:</div>
-<p><span class="math display">\[\textrm{logit}(p(\textrm{purchase S})) = \beta_0 + \beta_1 \cdot \textrm{age} + \beta_2 \cdot \textrm{ad-click number} + \beta_3 \cdot \textrm{average time between clicks} \]</span></p>
-<ul>
-<li><strong>Tuned Data Model(s):</strong> a data model in which the model’s parameters (including hyperparameters) are adjusted, usually to better balance the model’s generalizablity and (prediction) accuracy for the population-of-interest. In practice, tuning is typically done by either splitting the data into training and test sets or by performing cross-validation.</li>
-</ul>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.g., we choose to do 5-fold cross-validation to tune our data model’s parameters in order to<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;maximize our model’s overall accuracy at a particular cutoff value. With logistic regression,<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the model tuning comes as choice of which variables to include (logistic regression does not<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;have any hyperparameters).</div>
-<ul>
-<li><strong>Deployment and Use:</strong> the generation of predictions (or other output) from the tuned data model. This is the stage where we ask questions like where should the system be used, who should be using it, and who/what should the data model be used on?</li>
-</ul>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.g., we ultimately decide that we should only use our tuned data model on US customers who are<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;under a certain age. Also, we determine that only data scientists at the company who are selling<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;product S should be able to access the data model and generate predictions with it.</div>
 <hr>
 </section>
 </section>
-<section id="what-is-ethics" class="level1">
+<section id="what-is-ethics" class="level1 page-columns page-full">
 <h1>What is Ethics?</h1>
 <hr>
-<section id="definition-1" class="level3">
-<h3 class="anchored" data-anchor-id="definition-1">Definition</h3>
-<p>Ethics (also referred to as moral philosophy) is comprised of three main branches:</p>
-<ol type="1">
-<li><strong>Applied Ethics:</strong> concerns the treatment of “moral problems, practices, and policies in personal life, professions, technology, and government,” <span class="citation" data-cites="applied-ethics">(<a href="#ref-applied-ethics" role="doc-biblioref">Petersen &amp; Ryberg, 2010</a>)</span>.</li>
-</ol>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.g., Is it morally permissible to deploy predictive-policing algorithms? When (if ever) is it<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;morally permissible to let someone die?</div>
-<ol start="2" type="1">
-<li><strong>Ethical Theory:</strong> concerns “the articulation and justification of the fundamental moral principles that govern how we should live and what we ought to morally do,” (Driver, 2007). Types of overarching ethical theories include utilitarianism (Sinnott- Armstrong, 2019), deontological ethics (Alexander and Moore, 2020), and virtue ethics (Hursthouse and Pettigrove, 2022). It is important to note that many ethical theories are abstract (e.g., do the action that maximizes utility). As such, ongoing philosophical work is committed to offering, critiquing, and translating abstract ethical theories into advice about how we should actually live and what we ought to morally do in practice <span class="citation" data-cites="ethical-theory">(<a href="#ref-ethical-theory" role="doc-biblioref">Driver, 2007</a>)</span>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
-</ol>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.g., Why should I be just? What constitutes respecting others?</div>
-<ol start="3" type="1">
-<li><strong>Metaethics:</strong> explores “the status, foundations, and scope of moral values, properties, and words,” <span class="citation" data-cites="metaethics">(<a href="#ref-metaethics" role="doc-biblioref">DeLapp</a>)</span>.</li>
-</ol>
-<div class="line-block">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;E.g., When we say an action is morally “wrong”, do we mean the action has a certain feature<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that is bad, that I have a negative feeling towards the action, or something else? How do we<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;come to know whether ethical claims (e.g., we should respect others) are true or false?</div>
-<p>A key takeaway is that ethics attempts to answer normative questions. For instance, ethics attempts to answer not what person A morally values, but rather what person A <em>should</em> morally value. Similarly, ethics is interested in what decision person A should make and not what decision person A makes (or is likely to make).</p>
-<p>It is also important to distinguish between ethics and the law. Actions can be legal without being morally permissible and actions can be illegal without being morally impermissible. For example, it seems morally impermissible for someone to cheat on a romantic partner they are in a monogamous relationship with, even though it is legal for them to do so.</p>
+<p>Ethics is comprised of three main branches:</p>
+
+<div class="no-row-height column-margin column-container"><section id="example-questions" class="level3">
+<h3 class="anchored" data-anchor-id="example-questions">Example Questions</h3>
+</section></div><section id="applied-ethics" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="applied-ethics">1. Applied Ethics</h4>
+<p>concerns the treatment of “moral problems, practices, and policies in personal life, professions, technology, and government,” <span class="citation" data-cites="applied-ethics">(<a href="#ref-applied-ethics" role="doc-biblioref">Petersen &amp; Ryberg, 2010</a>)</span>.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Applied Ethics:</strong> Should we ever deploy predictive policing algorithms? If there is a shortage of ventilators, who should get one?</p>
+</div></div></section>
+<section id="ethical-theory" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="ethical-theory">2. Ethical Theory</h4>
+<p>concerns “the articulation and justification of the fundamental moral principles that govern how we should live and what we ought to morally do,” <span class="citation" data-cites="ethical-theory">(<a href="#ref-ethical-theory" role="doc-biblioref">Driver, 2005</a>)</span>. Types of overarching ethical theories include <em>consequentialism</em> <span class="citation" data-cites="StanConsequentialism">(<a href="#ref-StanConsequentialism" role="doc-biblioref">Sinnott-Armstrong, 2023</a>)</span>, <em>deontological ethics</em> <span class="citation" data-cites="StanDeontological">(<a href="#ref-StanDeontological" role="doc-biblioref">Alexander &amp; Moore, 2021</a>)</span>, and <em>virtue ethics</em> <span class="citation" data-cites="StanVirtue">(<a href="#ref-StanVirtue" role="doc-biblioref">Hursthouse &amp; Pettigrove, 2023</a>)</span>. It is important to note that many ethical theories are very abstract. As such, ongoing philosophical work is committed to offering, critiquing, and translating abstract ethical theories into advice about how we should actually live and what is morally permissible in practice. It is also worth noting that some philosophers just focus on what we should do in specific cases and do not appeal to overarching ethical theories at all.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Ethical Theory:</strong> Why should I be just? What constitutes respecting others?</p>
+</div></div></section>
+<section id="metaethics" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="metaethics">3. Metaethics</h4>
+<p>explores “the status, foundations, and scope of moral values, properties, and words,” <span class="citation" data-cites="metaethics">(<a href="#ref-metaethics" role="doc-biblioref">DeLapp, 2023</a>)</span>.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Metaethics:</strong> When we say an action is morally “wrong”, do we mean the action has a certain feature that is bad, that I have a negative feeling towards the action, or something else? How do we come to know whether moral claims (e.g., we should respect others) are true or false?</p>
+</div></div><p>A key takeaway is that ethics is concerned with <em>normative</em> questions. For instance, ethics attempts to answer not what person A morally values, but rather what person A <em>should</em> morally value. Similarly, ethics is interested in what decision person A <em>should</em> make in a given context and not what decision person A actually makes (or is likely to make) in that context.</p>
+<p>Another important distinction is between ethics and the law. Actions can be legal without being morally permissible. Conversely, actions can be illegal but still morally permissible. For example, it seems morally impermissible to plagiarize a paper in school even though it is not against the law to do so. As such, we cannot simply appeal to the law in order to understand what is morally (im)permissible. Rather, we need to defend and appeal to moral principles. For instance, we might defend that plagiarizing a paper is morally impermissible by arguing that it is deceptive. That is, plagiarism misrepresents another person’s work as one’s own without properly crediting them (e.g., citing them). However, is deception always morally impermissible? Suppose a person deceives their friend about their whereabouts to keep the friend’s surprise birthday party a secret. In this case, the friend’s deception does not seem morally impermissible. What, then, if not merely being a case of deception, explains the intuition that plagiarizing a school paper is morally impermissible? Ethics aims to answer such questions and, more broadly, offer a methodical way of approaching such questions and, with that, making morally good decisions.</p>
 <hr>
 </section>
 </section>
 <section id="what-is-data-science-ethics" class="level1">
 <h1>What is Data Science Ethics?</h1>
 <hr>
-<p>Data science ethics is usually considered a subfield of applied ethics. Though, case studies in data science ethics can also be used to explore questions in ethical theory and metaethics.</p>
-<section id="definition-2" class="level3">
-<h3 class="anchored" data-anchor-id="definition-2">Definition</h3>
-<p>Per <span class="citation" data-cites="DS-ethics-def">Floridi &amp; Taddeo (<a href="#ref-DS-ethics-def" role="doc-biblioref">2016</a>)</span>, Data Science Ethics studies and evaluates moral problems related to:</p>
-<ul>
-<li><p><strong>Data</strong> including generation, recording, processing, dissemination, and sharing</p></li>
-<li><p><strong>Algorithms</strong> including artificial intelligence, machine learning and statistical learning</p></li>
-<li><p><strong>Corresponding Practices</strong> including responsible innovation, programming, hacking, and professional codes</p></li>
-</ul>
-<p>in order to formulate and support morally good solutions (e.g.&nbsp;right conducts or right moral values).</p>
+<p>Data science ethics is usually considered a subfield of applied ethics. However, case studies in data science ethics can also be used to explore questions in ethical theory and metaethics. Per <span class="citation" data-cites="DS-ethics-def">Floridi &amp; Taddeo (<a href="#ref-DS-ethics-def" role="doc-biblioref">2016</a>)</span>, data science ethics studies and evaluates moral problems related to:</p>
+<section id="data-1" class="level4">
+<h4 class="anchored" data-anchor-id="data-1">1. Data</h4>
+<p>including generation, recording, processing, dissemination, and sharing</p>
 </section>
-<section id="importance" class="level3">
-<h3 class="anchored" data-anchor-id="importance">Importance</h3>
-<p>There are a number of critical decision points in data science, which can lead to moral problems in data, algorithms, and corresponding practices.</p>
+<section id="algorithms" class="level4">
+<h4 class="anchored" data-anchor-id="algorithms">2. Algorithms</h4>
+<p>including artificial intelligence, machine learning, large language models, and statistical learning models</p>
+</section>
+<section id="corresponding-practices" class="level4">
+<h4 class="anchored" data-anchor-id="corresponding-practices">3. Corresponding Practices</h4>
+<p>including responsible innovation, programming, hacking, and professional codes<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>A famous case study that highlights the moral problems related to data science is the Correctional Offender Management Profiling for Alternative Sanctions algorithm (COMPAS). COMPAS generates a risk score for each defendant based on their predicted likelihood of being convicted. This risk score is then used to inform decisions in the United States criminal justice system (e.g., to set bond amounts, determine criminal sentencing, and decide early release for parole). In 2016, ProPublica researchers found that Black defendants were twice as likely as white defendants to be falsely labeled as recidivists by COMPAS <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Angwin, Larson, Kirchner, &amp; Mattu, 2016</a>)</span>. Additionally, white defendants were more likely to be mislabeled as having a lower risk of recidivism than Black defendants <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Angwin et al., 2016</a>)</span>. As such, <span class="citation" data-cites="COMPAS">Angwin et al. (<a href="#ref-COMPAS" role="doc-biblioref">2016</a>)</span> concluded that COMPAS was unfair to Black defendants. However, other literature complicates what it means for an algorithm to be <em>fair</em>. For instance, some argue that fairness requires <em>predictive parity</em>, which in the case of COMPAS means that if Black and white defendants were each given the same risk score, they would be equally likely to recidivate <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Angwin et al., 2016</a>)</span></p>
+<p>Yet, researchers have found that when base rates are different, as they are for recidivism across Black and white defendants in the United States, an algorithm cannot simultaneously satisfy <em>equal false positive rates</em>, <em>equal false negative rates</em>, and <em>predictive parity</em> across groups <span class="citation" data-cites="kleinberg2016">(<a href="#ref-kleinberg2016" role="doc-biblioref">Kleinberg, Mullainathan, &amp; Raghavan, 2016</a>)</span>, <span class="citation" data-cites="chouldechova2017">(<a href="#ref-chouldechova2017" role="doc-biblioref">Chouldechova, 2017</a>)</span>, <span class="citation" data-cites="Corbett-Davies">(<a href="#ref-Corbett-Davies" role="doc-biblioref">Corbett-Davies, Pierson, Feller, Goel, &amp; Huq, 2017</a>)</span>. This has prompted discussions about what is actually required for algorithmic fairness and whether statistical criteria, like <em>equal false positive rates</em>, <em>equal false negative rates</em>, and <em>predictive parity</em>, actually track important aspects of the normative concept of fairness.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> Thus, we need to understand the normative concept of fairness in order to assess whether COMPAS is unfair to Black defendants and, moreover, whether it is even possible in principle for COMPAS to be fair given the unequal recidivism base rates across Black and white defendants in the United States.</p>
+<hr>
+</section>
+</section>
+<section id="importance-of-data-science-ethics" class="level1">
+<h1>Importance of Data Science Ethics</h1>
+<hr>
+<p>There are a number of critical decision points in data science, which can lead to moral problems in data, algorithms, and corresponding practices. <a href="#fig-DS-stack-values" class="quarto-xref">Figure&nbsp;3</a> connects potentially morally charged decision points with data science processes.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/DS-stack-values.png" class="img-fluid figure-img" alt="data science pipeline labeled in blue with some of the key decision points which might produce morally charged outcomes. E.g., for the 'data model(s)', model assumptions are noted in blue." width="906"></p>
-<figcaption>In blue, some key decision points which might produce morally charged outcomes have been added to the data science processes diagram. A data scientist may or may not be aware of these decision points or responsible for all these decisions in-practice.</figcaption>
+<div id="fig-DS-stack-values" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="data science pipeline labeled in blue with some of the key decision points which might produce morally charged outcomes. E.g., for the 'data model(s)', model assumptions are noted in blue.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-DS-stack-values-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/DS-stack-values.png" class="img-fluid quarto-figure quarto-figure-center figure-img" alt="data science pipeline labeled in blue with some of the key decision points which might produce morally charged outcomes. E.g., for the 'data model(s)', model assumptions are noted in blue." width="906">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-DS-stack-values-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Some key decision points that could produce morally charged outcomes have been added to the data science processes diagram. A data scientist may or may not be aware of these decision points or responsible for all these decisions in practice.
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Given the commonly-held belief that math, and consequently statistics, is objective (in the sense that it is not influenced by one’s moral values), the potentially morally charged choices in data science are often made implicitly, without the decision-maker reflecting on, for example, how opting for Choice A over Choice B (mis)aligns with their best jugdement about what they ought to do and/or their moral duties to stakeholders. The ethical considerations at data science decision points must be made explicit: both the existence of a choice and the implications of the analyst’s ultimate decision are key aspects of each data science stage.</p>
-<p>Data science ethics attempts to illuminate the ethical repercussions of these choices and takes an interdisciplinary perspective on aligning our data science practices with what we should do and/or our moral duties to stakeholders.</p>
-<p>Therefore, understanding data science ethics is critical to ensuring morally responsible data science practices, and is particularly important in the age of big data, where our decisions are increasingly influenced by data science.</p>
-<blockquote class="blockquote">
-<p>Case studies</p>
-</blockquote>
+<p>Given the commonly held belief that mathematics, and consequently statistics, is objective in the sense that it is not influenced by factors such as the practitioner’s moral values, potentially morally charged choices in data science are often made implicitly, without the decision-maker reflecting on, for example, how opting one choice over another (mis)aligns with their best judgment about what they ought to do or their moral duties to stakeholders. The ethical considerations at data science decision points must be made explicit: both the existence of a choice and the moral implications of the practitioner’s ultimate decision are key aspects of each data science stage.</p>
+<p>Data science ethics aims to illuminate the moral implications of choices within data science and takes an interdisciplinary perspective on aligning our data science practices with what we ought to do and our moral duties to stakeholders. For example, returning to the COMPAS example, data science ethics would address questions such as: what does it mean for an algorithm to be fair or just? Does algorithmic fairness or justice require satisfying some statistical criteria, and if so, which one(s)? Does Equivant, the company that made COMPAS, have a duty to make their algorithm transparent, explainable, or even fair? Engaging with such questions, and with data science ethics more generally, is critical to ensuring morally permissible data science practices. This engagement is particularly important given we live in the age of Big Data, where decisions with high moral stakes, like pretrial release <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Angwin et al., 2016</a>)</span>, home loan approvals <span class="citation" data-cites="homeloan-biased">(<a href="#ref-homeloan-biased" role="doc-biblioref">Martinez &amp; Kirchner, 2021</a>)</span>, and Child Protective Service’s welfare visits <span class="citation" data-cites="ChildWelfare-biased">(<a href="#ref-ChildWelfare-biased" role="doc-biblioref">Ho &amp; Burke, 2023</a>)</span>, are increasingly being influenced by data science.</p>
+<section id="more-case-studies" class="level2">
+<h2 class="anchored" data-anchor-id="more-case-studies">More Case Studies</h2>
+<div class="link">
+<section id="markkula-center-for-applied-ethics" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="markkula-center-for-applied-ethics"><iconify-icon inline="" icon="icons8:pdf" aria-label="Icon pdf from icons8 Iconify.design set." title="Icon pdf from icons8 Iconify.design set."></iconify-icon> Markkula Center for Applied Ethics</h4>
+</section>
+<div class="link-container">
+<p><a href="https://www.scu.edu/ethics/focus-areas/internet-ethics/cases/" target="_blank">Data science ethics case studies</a></p>
+</div>
+</div>
+<p><br></p>
+<div class="link">
+<section id="federal-anti-discrimination-agency" class="level4 link-header">
+<h4 class="anchored" data-anchor-id="federal-anti-discrimination-agency"><iconify-icon inline="" icon="icons8:pdf" aria-label="Icon pdf from icons8 Iconify.design set." title="Icon pdf from icons8 Iconify.design set."></iconify-icon> Federal Anti-Discrimination Agency</h4>
+</section>
+<div class="link-container">
+<p><a href="https://www.antidiskriminierungsstelle.de/SharedDocs/downloads/EN/publikationen/Studie_en_Diskriminierungsrisiken_durch_Verwendung_von_Algorithmen.pdf?__blob=publicationFile&amp;v=2" target="_blank">Data science ethics case studies (see chapter 4)</a></p>
+</div>
+</div>
 
 
 
@@ -393,22 +416,53 @@ Example
 
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-StanDeontological" class="csl-entry" role="listitem">
+Alexander, L., &amp; Moore, M. (2021). Deontological ethics. In E. N. Zalta (Ed.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>W</span>inter 2021). <a href="https://plato.stanford.edu/archives/win2021/entries/ethics-deontological/" class="uri">https://plato.stanford.edu/archives/win2021/entries/ethics-deontological/</a>; Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-COMPAS" class="csl-entry" role="listitem">
+Angwin, J., Larson, J., Kirchner, L., &amp; Mattu, S. (2016). <em><span>M</span>achine <span>B</span>ias</em>. <a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" class="uri">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>; ProPublica.
+</div>
+<div id="ref-fairness-book" class="csl-entry" role="listitem">
+Barocas, S., Hardt, M., &amp; Narayanan, A. (2023). <em>Fairness and machine learning: Limitations and opportunities</em>. MIT Press.
+</div>
+<div id="ref-chouldechova2017" class="csl-entry" role="listitem">
+Chouldechova, A. (2017). Fair prediction with disparate impact: A study of bias in recidivism prediction instruments. <em>Big Data</em>, <em>5</em>, 153–163. Retrieved from <a href="http://doi.org/10.1089/big.2016.0047">http://doi.org/10.1089/big.2016.0047</a>
+</div>
+<div id="ref-Corbett-Davies" class="csl-entry" role="listitem">
+Corbett-Davies, S., Pierson, E., Feller, A., Goel, S., &amp; Huq, A. (2017). Algorithmic decision making and the cost of fairness. <em>Proceedings of the 23rd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</em>, 797–806. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/3097983.3098095">https://doi.org/10.1145/3097983.3098095</a>
+</div>
 <div id="ref-metaethics" class="csl-entry" role="listitem">
-DeLapp, K. M. <em><span>M</span>etaethics</em>. <a href="https://iep.utm.edu/metaethi/" class="uri">https://iep.utm.edu/metaethi/</a>; <span>I</span>nternet <span>E</span>ncyclopedia of <span>P</span>hilosophy.
+DeLapp, K. M. (2023). <em><span>M</span>etaethics</em>. <a href="https://iep.utm.edu/metaethi/" class="uri">https://iep.utm.edu/metaethi/</a>; <span>I</span>nternet <span>E</span>ncyclopedia of <span>P</span>hilosophy.
 </div>
 <div id="ref-ethical-theory" class="csl-entry" role="listitem">
-Driver, J. (2007). <em>Normative ethics</em>. <a href="https://doi.org/10.1093/oxfordhb/9780199234769.003.0002">https://doi.org/10.1093/oxfordhb/9780199234769.003.0002</a>
+Driver, J. (2005). Normative ethics. In F. Jackson &amp; M. Smith (Eds.), <em>The oxford handbook of contemporary philosophy</em>. Oxford University Press.
 </div>
 <div id="ref-DS-ethics-def" class="csl-entry" role="listitem">
 Floridi, L., &amp; Taddeo, M. (2016). What is data ethics? <em>Philosophical Transactions of The Royal Society A Mathematical Physical and Engineering Sciences</em>, <em>374</em>, 20160360. <a href="https://doi.org/10.1098/rsta.2016.0360">https://doi.org/10.1098/rsta.2016.0360</a>
 </div>
+<div id="ref-ChildWelfare-biased" class="csl-entry" role="listitem">
+Ho, S., &amp; Burke, G. (2023). <em><span>C</span>hild welfare algorithm faces <span>J</span>ustice <span>D</span>epartment scrutiny</em>. <a href="https://apnews.com/article/justice-scrutinizes-pittsburgh-child-welfare-ai-tool-4f61f45bfc3245fd2556e886c2da988b" class="uri">https://apnews.com/article/justice-scrutinizes-pittsburgh-child-welfare-ai-tool-4f61f45bfc3245fd2556e886c2da988b</a>.
+</div>
+<div id="ref-StanVirtue" class="csl-entry" role="listitem">
+Hursthouse, R., &amp; Pettigrove, G. (2023). Virtue ethics. In E. N. Zalta &amp; U. Nodelman (Eds.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>F</span>all 2023). <a href="https://plato.stanford.edu/archives/fall2023/entries/ethics-virtue/" class="uri">https://plato.stanford.edu/archives/fall2023/entries/ethics-virtue/</a>; Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-kleinberg2016" class="csl-entry" role="listitem">
+Kleinberg, J., Mullainathan, S., &amp; Raghavan, M. (2016). Inherent trade-offs in the fair determination of risk scores. <em>Information Technology Convergence and Services</em>. Retrieved from <a href="https://api.semanticscholar.org/CorpusID:12845273">https://api.semanticscholar.org/CorpusID:12845273</a>
+</div>
+<div id="ref-homeloan-biased" class="csl-entry" role="listitem">
+Martinez, E., &amp; Kirchner, L. (2021). <em><span>T</span>he secret bias hidden in mortgage-approval algorithms</em>. <a href="https://themarkup.org/denied/2021/08/25/the-secret-bias-hidden-in-mortgage-approval-algorithms" class="uri">https://themarkup.org/denied/2021/08/25/the-secret-bias-hidden-in-mortgage-approval-algorithms</a>.
+</div>
 <div id="ref-applied-ethics" class="csl-entry" role="listitem">
-Petersen, T. S., &amp; Ryberg, J. (2010). <em>Applied ethics</em>. Oxford University Press. <a href="https://doi.org/10.1093/obo/9780195396577-0006">https://doi.org/10.1093/obo/9780195396577-0006</a>
+Petersen, T. S., &amp; Ryberg, J. (2010). <em>Applied ethics</em>. <a href="https://doi.org/10.1093/obo/9780195396577-0006" class="uri">https://doi.org/10.1093/obo/9780195396577-0006</a>; Oxford University Press. <a href="https://doi.org/10.1093/obo/9780195396577-0006">https://doi.org/10.1093/obo/9780195396577-0006</a>
+</div>
+<div id="ref-StanConsequentialism" class="csl-entry" role="listitem">
+Sinnott-Armstrong, W. (2023). <span>Consequentialism</span>. In E. N. Zalta &amp; U. Nodelman (Eds.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>W</span>inter 2023). <a href="https://plato.stanford.edu/archives/win2023/entries/consequentialism/" class="uri">https://plato.stanford.edu/archives/win2023/entries/consequentialism/</a>; Metaphysics Research Lab, Stanford University.
 </div>
 </div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
 
 <ol>
-<li id="fn1"><p>It is also worth noting that some philosophers just focus on what we should do in specific cases and do not appeal to overarching ethical theories at all<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p>In the context of data science ethics, professional codes are guidelines that outline the ethical standards and responsibilities for those engaged in data science work. Many companies and organizations have produced professional codes related to data science ethics, such as <a href="https://www.microsoft.com/en-us/ai/responsible-ai?ef_id=_k_CjwKCAjw65-zBhBkEiwAjrqRMOOu4pQdMiA-H3F4IAPwAFy6P5AteC8WR1R1ry6SETKE3Zhlhgi4ABoC5HIQAvD_BwE_k_&amp;OCID=AIDcmm1o1fzy5i_SEM__k_CjwKCAjw65-zBhBkEiwAjrqRMOOu4pQdMiA-H3F4IAPwAFy6P5AteC8WR1R1ry6SETKE3Zhlhgi4ABoC5HIQAvD_BwE_k_&amp;gad_source=1&amp;gclid=CjwKCAjw65-zBhBkEiwAjrqRMOOu4pQdMiA-H3F4IAPwAFy6P5AteC8WR1R1ry6SETKE3Zhlhgi4ABoC5HIQAvD_BwE">Microsoft</a>, <a href="https://www.ibm.com/watson/assets/duo/pdf/everydayethics.pdf">IBM</a>, and the <a href="https://www.unesco.org/en/artificial-intelligence/recommendation-ethics">United Nations</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>See <span class="citation" data-cites="fairness-book">Barocas, Hardt, &amp; Narayanan (<a href="#ref-fairness-book" role="doc-biblioref">2023</a>)</span> for an overview of fairness measures in machine learning.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -842,11 +896,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+    <li class="nav-item">
     <a class="nav-link" href="https://github.com/scolando/personal-website">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
+<p><iconify-icon inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> Source Code</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/scolando/data-science-ethics/issues/new">
+<p>Report an Issue</p>
+</a>
   </li>  
 </ul>
     </div>

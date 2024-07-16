@@ -9,19 +9,6 @@ csl: bibliographies/apa-6th-edition.csl
 ::: column-page
 # Most Common Syllabi Topics
 
-```{css, echo=FALSE}
-h1 {
-  text-align: left;
-}
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #fff;
-    background-color:  #877e2c;
-    border-color:  #877e2c;
-}
-```
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
@@ -43,7 +30,13 @@ To determine the syllabi topics, we took the listed course topics, available on 
 
 ------------------------------------------------------------------------
 
-```{r message=FALSE, warning=FALSE, fig.alt = "This is a table of the syllabi topics ordered from most common to least common. There are two columns: 'Syllabi Topic' and 'Count'. 'Count' represents the number of times the syllabi topic came up in the collected syllabi. The most common topic is 'Privacy' with a count of 11. 'Privacy' is followed by 'Bias' and 'Justice', both of which a count of 8.", fig.align='center', fig.cap="Syllabi topics, arranged in descending order by count."}
+```{r}
+#| message: FALSE
+#| warning: FALSE
+#| fig.alt: "This is a table of the syllabi topics ordered from most common to least common. There are two columns: 'Syllabi Topic' and 'Count'. 'Count' represents the number of times the syllabi topic came up in the collected syllabi. The most common topic is 'Privacy' with a count of 11. 'Privacy' is followed by 'Bias' and 'Justice', both of which a count of 8."
+#| fig.align: 'center'
+#| fig.cap: "All syllabi topics, arranged in descending order by count."
+#| label: fig-all-syallbi-topics
 syllabi_topics <- readr::read_csv("syllabi-topics.csv")
 
 syllabi_topics %>%
@@ -60,11 +53,7 @@ syllabi_topics %>%
     searchable = TRUE,
     defaultPageSize = 8,
     width = '100%',
-    theme = reactableTheme(
-             highlightColor = "#F0EDD1",
-             style = list(
-      fontFamily = "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
-             )))
+    theme = reactableTheme( highlightColor = "#FAF9F0", rowHighlightStyle = list(`border-left` = "0.15em solid #f0ba55;"), style = list( fontFamily = "Helvetica Neue", fontSize = '0.875em')))
 ```
 
 ------------------------------------------------------------------------
@@ -73,9 +62,15 @@ syllabi_topics %>%
 
 ------------------------------------------------------------------------
 
-[**'Most Common' = has a count of 3 or more**]{style="color:#877e2c; background-color: #F0EDD1; border: 3px solid #F0EDD1; border-radius: 4px;"} <br>
+[**'Most Common' = has a count of 3 or more**]{style="color:#364f7a; background-color: #f2f8fc; border: 0.15em solid #f2f8fc; border-radius: 4px;"} <br>
 
-```{r message=FALSE, warning=FALSE, fig.align='center', fig.alt = "This is a table of the most common syllabi topics ordered from most common to least common. There are two columns: 'Syllabi Topic' and 'Count'. 'Count' represents the number of times the syllabi topic came up in the collected syllabi. Only syllabi topics with a count greater or equal to 3 are in the table. The most common topic is 'Privacy' with a count of 11. 'Privacy' is followed by 'Bias' and 'Justice', both of which a count of 8.", fig.cap="Most common syllabi topics, arranged in descending order by count."}
+```{r}
+#| message: FALSE
+#| warning: FALSE
+#| fig.align: 'center'
+#| fig.alt: "This is a table of the most common syllabi topics ordered from most common to least common. There are two columns: 'Syllabi Topic' and 'Count'. 'Count' represents the number of times the syllabi topic came up in the collected syllabi. Only syllabi topics with a count greater or equal to 3 are in the table. The most common topic is 'Privacy' with a count of 11. 'Privacy' is followed by 'Bias' and 'Justice', both of which a count of 8."
+#| fig.cap: "Most common syllabi topics, arranged in descending order by count."
+#| label: fig-common-syllabi-topics
 syllabi_topics <- readr::read_csv("syllabi-topics.csv")
 
 syllabi_topics %>%
@@ -92,10 +87,6 @@ syllabi_topics %>%
     pagination = FALSE,
     searchable = TRUE,
     width = '100%',
-    theme = reactableTheme(
-             highlightColor = "#F0EDD1",
-             style = list(
-      fontFamily = "-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"
-             ))) 
+    theme = reactableTheme( highlightColor = "#FAF9F0", rowHighlightStyle = list(`border-left` = "0.15em solid #f0ba55;"), style = list( fontFamily = "Helvetica Neue", fontSize = '0.875em')))
 ```
 :::

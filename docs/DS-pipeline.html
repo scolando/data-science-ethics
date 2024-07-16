@@ -60,6 +60,7 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -129,7 +130,7 @@ div.csl-indent {
   </li>  
         <li>
     <a class="dropdown-item" href="./Intro-DS-lifecycle.html">
- <span class="dropdown-text">Data Science Lifecycles</span></a>
+ <span class="dropdown-text">The Data Science Lifecycle</span></a>
   </li>  
     </ul>
   </li>
@@ -172,22 +173,48 @@ div.csl-indent {
     <h2 id="toc-title">Page Contents</h2>
    
   <ul>
-  <li><a href="#common-syllabi-topics" id="toc-common-syllabi-topics" class="nav-link active" data-scroll-target="#common-syllabi-topics"><span class="header-section-number">1</span> Common Syllabi Topics</a></li>
-  <li><a href="#connections-to-the-data-science-lifecycle" id="toc-connections-to-the-data-science-lifecycle" class="nav-link" data-scroll-target="#connections-to-the-data-science-lifecycle"><span class="header-section-number">2</span> Connections to the Data Science Lifecycle</a></li>
-  <li><a href="#lifecycle-connections" id="toc-lifecycle-connections" class="nav-link" data-scroll-target="#lifecycle-connections"><span class="header-section-number">3</span> Lifecycle Connections</a>
+  <li><a href="#common-syllabi-topics" id="toc-common-syllabi-topics" class="nav-link active" data-scroll-target="#common-syllabi-topics">Common Syllabi Topics</a></li>
+  <li><a href="#ethics-topics-and-the-data-science-lifecycle" id="toc-ethics-topics-and-the-data-science-lifecycle" class="nav-link" data-scroll-target="#ethics-topics-and-the-data-science-lifecycle">Ethics Topics and the Data Science Lifecycle</a></li>
+  <li><a href="#lifecycle-connections" id="toc-lifecycle-connections" class="nav-link" data-scroll-target="#lifecycle-connections">Lifecycle Connections</a>
   <ul class="collapse">
-  <li><a href="#consent" id="toc-consent" class="nav-link" data-scroll-target="#consent"><span class="header-section-number">3.1</span> Consent</a></li>
-  <li><a href="#privacy" id="toc-privacy" class="nav-link" data-scroll-target="#privacy"><span class="header-section-number">3.2</span> Privacy</a></li>
-  <li><a href="#explainability-interpretability-transparency" id="toc-explainability-interpretability-transparency" class="nav-link" data-scroll-target="#explainability-interpretability-transparency"><span class="header-section-number">3.3</span> Explainability, Interpretability, Transparency</a></li>
-  <li><a href="#democracy-workplace-predictive-policing" id="toc-democracy-workplace-predictive-policing" class="nav-link" data-scroll-target="#democracy-workplace-predictive-policing"><span class="header-section-number">3.4</span> Democracy, Workplace, Predictive Policing</a></li>
-  <li><a href="#causation" id="toc-causation" class="nav-link" data-scroll-target="#causation"><span class="header-section-number">3.5</span> Causation</a></li>
-  <li><a href="#bias-fairness-justice" id="toc-bias-fairness-justice" class="nav-link" data-scroll-target="#bias-fairness-justice"><span class="header-section-number">3.6</span> Bias, Fairness, Justice</a></li>
-  <li><a href="#alignment-responsibility-characterizations-of-data-and-data-science" id="toc-alignment-responsibility-characterizations-of-data-and-data-science" class="nav-link" data-scroll-target="#alignment-responsibility-characterizations-of-data-and-data-science"><span class="header-section-number">3.7</span> Alignment, Responsibility, Characterizations of Data and Data Science</a>
+  <li><a href="#characterizations-of-data-and-data-science" id="toc-characterizations-of-data-and-data-science" class="nav-link" data-scroll-target="#characterizations-of-data-and-data-science">Characterizations of Data and Data Science</a></li>
+  <li><a href="#alignment" id="toc-alignment" class="nav-link" data-scroll-target="#alignment">Alignment</a></li>
+  <li><a href="#responsibility" id="toc-responsibility" class="nav-link" data-scroll-target="#responsibility">Responsibility</a>
   <ul class="collapse">
-  <li><a href="#alignment" id="toc-alignment" class="nav-link" data-scroll-target="#alignment"><span class="header-section-number">3.7.1</span> Alignment</a></li>
-  <li><a href="#responsibility" id="toc-responsibility" class="nav-link" data-scroll-target="#responsibility"><span class="header-section-number">3.7.2</span> Responsibility</a></li>
-  <li><a href="#characterizations-of-data-and-data-science" id="toc-characterizations-of-data-and-data-science" class="nav-link" data-scroll-target="#characterizations-of-data-and-data-science"><span class="header-section-number">3.7.3</span> Characterizations of Data and Data Science</a></li>
+  <li><a href="#paradigmatic-connections" id="toc-paradigmatic-connections" class="nav-link" data-scroll-target="#paradigmatic-connections">Paradigmatic Connection(s)</a></li>
+  <li><a href="#less-conventional-connections" id="toc-less-conventional-connections" class="nav-link" data-scroll-target="#less-conventional-connections">Less Conventional Connection(s)</a></li>
   </ul></li>
+  <li><a href="#consent" id="toc-consent" class="nav-link" data-scroll-target="#consent">Consent</a>
+  <ul class="collapse">
+  <li><a href="#paradigmatic-connections-1" id="toc-paradigmatic-connections-1" class="nav-link" data-scroll-target="#paradigmatic-connections-1">Paradigmatic Connection(s)</a></li>
+  <li><a href="#less-conventional-connections-1" id="toc-less-conventional-connections-1" class="nav-link" data-scroll-target="#less-conventional-connections-1">Less Conventional Connection(s)</a></li>
+  </ul></li>
+  <li><a href="#privacy" id="toc-privacy" class="nav-link" data-scroll-target="#privacy">Privacy</a>
+  <ul class="collapse">
+  <li><a href="#paradigmatic-connections-2" id="toc-paradigmatic-connections-2" class="nav-link" data-scroll-target="#paradigmatic-connections-2">Paradigmatic Connection(s)</a></li>
+  <li><a href="#less-conventional-connections-2" id="toc-less-conventional-connections-2" class="nav-link" data-scroll-target="#less-conventional-connections-2">Less Conventional Connection(s)</a></li>
+  </ul></li>
+  <li><a href="#bias-fairness-justice" id="toc-bias-fairness-justice" class="nav-link" data-scroll-target="#bias-fairness-justice">Bias, Fairness, Justice</a>
+  <ul class="collapse">
+  <li><a href="#paradigmatic-connections-3" id="toc-paradigmatic-connections-3" class="nav-link" data-scroll-target="#paradigmatic-connections-3">Paradigmatic Connection(s)</a></li>
+  <li><a href="#less-conventional-connections-3" id="toc-less-conventional-connections-3" class="nav-link" data-scroll-target="#less-conventional-connections-3">Less Conventional Connection(s)</a></li>
+  </ul></li>
+  <li><a href="#explainability-interpretability-transparency" id="toc-explainability-interpretability-transparency" class="nav-link" data-scroll-target="#explainability-interpretability-transparency">Explainability, Interpretability, Transparency</a>
+  <ul class="collapse">
+  <li><a href="#paradigmatic-connections-4" id="toc-paradigmatic-connections-4" class="nav-link" data-scroll-target="#paradigmatic-connections-4">Paradigmatic Connection(s)</a></li>
+  <li><a href="#less-conventional-connections-4" id="toc-less-conventional-connections-4" class="nav-link" data-scroll-target="#less-conventional-connections-4">Less Conventional Connection(s)</a></li>
+  </ul></li>
+  <li><a href="#causation" id="toc-causation" class="nav-link" data-scroll-target="#causation">Causation</a>
+  <ul class="collapse">
+  <li><a href="#paradigmatic-connections-5" id="toc-paradigmatic-connections-5" class="nav-link" data-scroll-target="#paradigmatic-connections-5">Paradigmatic Connection(s)</a></li>
+  <li><a href="#less-conventional-connections-5" id="toc-less-conventional-connections-5" class="nav-link" data-scroll-target="#less-conventional-connections-5">Less Conventional Connection(s)</a></li>
+  </ul></li>
+  <li><a href="#democracy-workplace-predictive-policing" id="toc-democracy-workplace-predictive-policing" class="nav-link" data-scroll-target="#democracy-workplace-predictive-policing">Democracy, Workplace, Predictive Policing</a>
+  <ul class="collapse">
+  <li><a href="#paradigmatic-connections-6" id="toc-paradigmatic-connections-6" class="nav-link" data-scroll-target="#paradigmatic-connections-6">Paradigmatic Connection(s)</a></li>
+  <li><a href="#less-conventional-connections-6" id="toc-less-conventional-connections-6" class="nav-link" data-scroll-target="#less-conventional-connections-6">Less Conventional Connection(s)</a></li>
+  </ul></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -198,7 +225,7 @@ div.csl-indent {
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">The Data Science Ethics Lifecycle</h1>
-<p class="subtitle lead">aligning the most common data science ethics syllabi topics to the data science lifecycle</p>
+<p class="subtitle lead">connecting the most common ethics topics from the data science ethics syllabi to the final data science lifecycle</p>
 </div>
 
 
@@ -215,140 +242,273 @@ div.csl-indent {
 </header>
 
 
-<div class="cell">
-<style type="text/css">
-h1 {
-  text-align: left;
-}
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #fff;
-    background-color:  #877e2c;
-    border-color:  #877e2c;
-}
-</style>
-</div>
 <hr>
-<section id="common-syllabi-topics" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Common Syllabi Topics</h1>
+<section id="common-syllabi-topics" class="level1">
+<h1>Common Syllabi Topics</h1>
 <hr>
-<p><span style="color:#877e2c; background-color: #F0EDD1; border: 3px solid #F0EDD1; border-radius: 4px;"><strong>‘Most Common’ = has a count of 3 or more</strong></span></p>
+<p><span style="color:#364f7a; background-color: #f2f8fc; border: 3px solid #f2f8fc; border-radius: 4px;"><strong>‘Most Common’ = has a count of 3 or more</strong></span></p>
 <div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div id="htmlwidget-fc3e773e8e4b85e8cb05" class="reactable html-widget " style="width:800px;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-fc3e773e8e4b85e8cb05">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Syllabi_Topics":["Privacy","Bias","Fairness","Explainability","Workplace","Alignment","Transparency","Causation","Characterizations of Data and Data Science","Consent","Democracy","Interpretability","Justice","Predictive Policing","Responsibility"],"Count":[11,8,8,6,5,4,4,3,3,3,3,3,3,3,3]},"columns":[{"id":"Syllabi_Topics","name":"Syllabi Topic","type":"character"},{"id":"Count","name":"Count","type":"numeric"}],"searchable":true,"defaultPageSize":8,"showPagination":true,"highlight":true,"showSortable":true,"width":"800px","theme":{"highlightColor":"#F0EDD1","style":{"fontFamily":"-apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif"}},"dataKey":"8a384a6acb5ecbddc7a8140ad79e3911"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
-<p>Most Common Syllabi Topics Arranged in Descending Order by Count</p>
+<div id="fig-common-topics" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-common-topics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div id="htmlwidget-53eb842db2f4271a05d1" class="reactable html-widget " style="width:700px;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-53eb842db2f4271a05d1">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Syllabi_Topics":["Privacy","Bias","Fairness","Explainability","Workplace","Alignment","Transparency","Causation","Characterizations of Data and Data Science","Consent","Democracy","Interpretability","Justice","Predictive Policing","Responsibility"],"Count":[11,8,8,6,5,4,4,3,3,3,3,3,3,3,3]},"columns":[{"id":"Syllabi_Topics","name":"Syllabi Topic","type":"character"},{"id":"Count","name":"Count","type":"numeric"}],"searchable":true,"defaultPageSize":8,"showPagination":true,"highlight":true,"showSortable":true,"width":"700px","theme":{"highlightColor":"#FAF9F0","style":{"fontFamily":"Helvetica Neue","fontSize":"0.875em"},"rowHighlightStyle":{"border-left":"0.15em solid #f0ba55;"}},"dataKey":"8a384a6acb5ecbddc7a8140ad79e3911"},"children":[]},"class":"reactR_markup"},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-common-topics-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Most Common Syllabi Topics Arranged in Descending Order by Count.
+</figcaption>
+</figure>
 </div>
 </div>
 <hr>
 </section>
-<section id="connections-to-the-data-science-lifecycle" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Connections to the Data Science Lifecycle</h1>
+<section id="ethics-topics-and-the-data-science-lifecycle" class="level1">
+<h1>Ethics Topics and the Data Science Lifecycle</h1>
 <hr>
 <p>The rings with less opacity denote areas where there seems to be substantial overlap between common topics and the data science stage though these considerations are not “paradigmatic” ethical issues.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Pipeline-Ethics-Alpha.png" style="width:100.0%;height:100.0%" alt="this is the data science lifecycle diagram with rings around it that represent the connections between the ethical issues and the lifecycle. The connections between the ethical issues and the lifecycle are described in section 3:'Connections'" class="figure-img"></p>
-<figcaption>The diagram helps us understand which stages or processes of the Data Science lifecycle are represented in the syllabi and which stages or processes are (generally) underrepresented in the syllabi. The components with less opacity are areas of overlap between syllabi topics and data science stages that are less commonly thought of within data science literature</figcaption>
+<div id="fig-Pipeline-Ethics-Alpha-new" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-Pipeline-Ethics-Alpha-new-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Pipeline-Ethics-Alpha-new.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:90.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Pipeline-Ethics-Alpha-new-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Data science lifecycle overlayed with concentric circles. The opaque concentric circles represent paradigmatic connections between the common ethics topic from the course syllabi and the data science stages. The transparent arcs denote areas where there is a connection between the common syllabi topics and the data science stage, but the connection is less conventional.
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
 <hr>
 </section>
-<section id="lifecycle-connections" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Lifecycle Connections</h1>
+<section id="lifecycle-connections" class="level1">
+<h1>Lifecycle Connections</h1>
 <hr>
-<p>This section is meant to give some brief justifications for my placement of the most common syllabi topics on the data science lifecycle in the diagram above. As with most topics in <em>both</em> data science and ethics, there is so much nuance that I cannot possibly capture in a few paragraphs. I recommend going through the readings linked below to understand more intricacies and applications of the connections between data science practices and the ethical issues that I begin to explicate below.</p>
+<p>On this page, we offer paradigmatic and less conventional examples that demonstrate how the most frequent ethics topics from the syllabi arise throughout the data science lifecycle. The subsections are ordered from the first paradigmatic connection between the ethics topic and a data science stage, starting from ``interactions with the world” and then proceeding counterclockwise around the data science lifecycle. When understanding why ethical issues arise and are salient in a particular case, it is often beneficial to reflect on our intuitions in the case (e.g., that plagiarizing a school paper is morally impermissible). However, as also seen in the plagiarism case, explaining our intuitions involves developing a well-defended moral principle which often requires us to critically examine the validity of various moral principles (e.g., that deception is always morally impermissible) and then either scrap or revise the moral principles accordingly. Given the nuances of the ethical issues that arise in data science and ongoing discussions in philosophy about them, we direct the reader to our website’s reading lists (linked in each subsection’s header) to further explore the intricacies and applications of the ethics topics to data science.</p>
 <hr>
-<section id="consent" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="consent"><span class="header-section-number">3.1</span> Consent</h2>
-<p>Generally, when people think about consent in data science, they think about it in data collection. That is, did the researchers or business have informed consent when collecting people’s data? Usually, when researchers or companies get permission to collect people’s data, they also ask for consent to use the data in a specific capacity later in the lifecycle (e.g., to build models, be placed in a database, sell to another company, etc.).</p>
-<p>Yet, an agent must also consent to have the knowledge interpreted from a data model applied to them, even if none of their data was collected for the model building. For example, imagine that a company creates a data model that predicts that people who watch a certain television show are more likely to vote for a particular presidential candidate based on previously observed cases. A person begins watching the television show, and none of their information was used in building the predictive data model. Still, it seems crucial to consider if the person gave informed consent to have the model make predictions about them and their likelihood of voting for a particular presidential candidate.</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Consent.html"><strong>Consent Readings</strong></a></p>
-<hr>
+<section id="characterizations-of-data-and-data-science" class="level2">
+<h2 class="anchored" data-anchor-id="characterizations-of-data-and-data-science">Characterizations of Data and Data Science</h2>
+<p>As mentioned on the <a href="Intro-DS-lifecycle.html">data science lifecycle page</a>, the choice of how to characterize data and data science is value-laden as it reflects a particular interpretation of knowledge from data and data models. For instance, if we view data as a direct representation of the world, we might overlook biases or other ethical issues that arise during the collection or data processing stages. On the other hand, if we view data and data models as context-dependent, then we can acknowledge that ethical issues, like algorithmic bias, can arise during the data collection and processing stages. In turn, characterizations of data and data science influence every stage of the data science lifecycle.</p>
+<div class="link-2">
+<section id="characterizations-of-data-and-data-science-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="characterizations-of-data-and-data-science-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Characterizations.html" target="_blank">Characterizations of Data and Data Science Readings</a></h4>
 </section>
-<section id="privacy" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="privacy"><span class="header-section-number">3.2</span> Privacy</h2>
-<p>In 2016, university researchers published personal data from the OkCupid dating site to an open data repository. This data revealed intimate details about over 70,000 users, including usernames, sexual preferences, and personal opinions. A scholar at Carnegie Mellon University said about 30% of these profiles were directly identifiable, meaning their OkCupid profile data could be connected to their real name, causing international outrage <span class="citation" data-cites="OkCupid">(<a href="#ref-OkCupid" role="doc-biblioref">Woollacott, 2016</a>)</span>. The OkCupid case study underscores why data science ethics courses heavily emphasize privacy’s importance. Data science often requires massive amounts of data and, as aforementioned, informed consent to be collected. Intuitively, it is unethical for personal data that people usually consented to be used by a particular entity for a specific purpose to be available to other entities, especially when the available data is identifiable (i.e., traceable back to them).</p>
-<p>Therefore, privacy is central to interactions with the world that lead to data collection, processing, and data storage, especially when the information collected is personal. Usually, data is aggregated and thus anonymized to develop a model, so there are typically no concerns about the model or its predictions exposing personal information.</p>
-<p>When knowledge inferred from a data model informs further interactions with the world, worries about privacy resurface. For instance, imagine a data model by one company predicts that you are unqualified for a job. It would be unethical for this prediction to be shared with every other company you applied to or for your prediction to be given to career development companies to target course advertisements toward you. Hence, just like personal data, it seems like people have a right to keep model predictions about them private.</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Privacy.html"><strong>Privacy Readings</strong></a></p>
-<hr>
+</div>
 </section>
-<section id="explainability-interpretability-transparency" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="explainability-interpretability-transparency"><span class="header-section-number">3.3</span> Explainability, Interpretability, Transparency</h2>
-<p>A common complaint about data science models, particularly more advanced ones, is that they are black boxes. Explainability, interpretability, and transparency all describe similar desires for data science technologies to be more understandable to humans, particularly the technology’s stakeholders. People usually demand that data science technologies are comprehensible to humans at the deployment stage, where predictions about individuals or groups are made. For example, if an inmate’s bail is set higher than they think it should be because an algorithm recommended the higher bail amount, it seems highly likely that the inmate would be upset. Some would argue that the inmate’s upsetness is partly because they have a right to an explanation.</p>
-<p>The “right to an explanation” argument extends to future interactions with our world. Imagine law enforcement starts over-policing neighborhood A relative to neighborhood B because people in neighborhood A tend to have higher bail amounts than people in neighborhood B. It seems that the people in neighborhood A have a right to know why they are being over-policed relative to the people in neighborhood B.</p>
-<p>Like many data science ethics terms, what exactly explainability, interpretability, and transparency require is an open question. It does not seem sufficient to publish the model’s code because this does not tell us why the model made the decision it did on a particular person. Simultaneously, more advanced data science models can use millions of hyper-parameters to make predictions. So, we cannot point to a single variable and say that it caused the algorithm to predict class X over class Y for Individual I.</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Explainability.html"><strong>Explainability Readings</strong></a></p>
+<section id="alignment" class="level2">
+<h2 class="anchored" data-anchor-id="alignment">Alignment</h2>
+<p>Alignment focuses on whether (and if so, how) our moral values are reflected in our current data science practices. Given that potentially morally charged decision points exist throughout data science (see <a href="Intro-DS-ethics.html">what is data science ethics?</a>), alignment is also an important ethics topic at every stage of the data science lifecycle.</p>
+<div class="link-2">
+<section id="alignment-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="alignment-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Alignment.html" target="_blank">Alignment Readings</a></h4>
+</section>
+</div>
 <hr>
 </section>
-<section id="democracy-workplace-predictive-policing" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="democracy-workplace-predictive-policing"><span class="header-section-number">3.4</span> Democracy, Workplace, Predictive Policing</h2>
-<p>Democracy, workplace, and predictive policing are settings where data science practices have exceptionally high moral stakes. As such, case studies from democracy, workplace, or predictive policing settings are routinely used in data science ethics classes to underscore how pernicious data science’s moral harms can be. Usually, when case studies are referenced, it concerns deploying predictive models in these settings. The COMPAS algorithm, which predicted an inmate’s risk of being reconvicted to determine their sentence length, is a well-known example of an algorithm that was scrutinized for being deployed in courtrooms, given that it predicted a higher proportion of false high-risk appraisals for Black defendants than White defendants <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Julia Angwin, 2016</a>)</span>.</p>
-<p>Furthermore, these predictions can lead to morally problematic interactions with the world. For instance, suppose that law enforcement starts over-policing a predominantly Black neighborhood because a recidivism algorithm predicted that people from that neighborhood are more likely to be reconvicted of a crime. Yet, the recidivism algorithm was trained on historical data riddled with racial biases. Over-policing that neighborhood could lead to specific populations being wrongfully convicted or more likely to be convicted solely because of their demographic characteristics – both of which are intuitively morally problematic.</p>
-<p>Interestingly, even though there is a high likelihood of immoral outcomes of deploying predictive models in democracy, workplace, and predictive policing settings, creating these predictive models is not intuitively morally problematic in itself. Imagine that a civil rights group develops an algorithm to predict a person’s likelihood of being reconvicted to show that the criminal justice system is racially biased, which intuitively, does not seem morally troublesome. Though, if the recidivism algorithm is deployed, meaning it influences people’s beliefs about a person’s reconviction risk, does it become morally pernicious.</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Democracy.html"><strong>Democracy Readings</strong></a></p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Workplace.html"><strong>Workplace Readings</strong></a></p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Predictive-Policing.html"><strong>Predictive Policing Readings</strong></a></p>
+<section id="responsibility" class="level2">
+<h2 class="anchored" data-anchor-id="responsibility">Responsibility</h2>
+<p>While both moral and legal responsibility are important considerations in data science, we focus here on moral responsibility. Again, an individual might be morally responsible for their behavior, even if they would not be legally responsible for it (e.g., an individual might be morally responsible for plagiarizing a school paper but not legally responsible for it since the act of plagiarism is not against the law).</p>
+<section id="paradigmatic-connections" class="level3">
+<h3 class="anchored" data-anchor-id="paradigmatic-connections">Paradigmatic Connection(s)</h3>
+<p>Discussions of moral responsibility in data science typically concern model deployment and “interactions with the world”. For example, Amazon was held morally responsible for deploying a hiring algorithm that was biased against female applicants <span class="citation" data-cites="Amazon">(<a href="#ref-Amazon" role="doc-biblioref">Dastin, 2018</a>)</span>. Moral responsibility also arises when building data models. For instance, it seems reasonable to contend that if another company had created Amazon’s faulty hiring algorithm, then that company would also be morally responsible, alongside Amazon, for the biased results if they did not adequately define where the model should be used or who should use it.</p>
+<p>There are also several case studies (in data science and beyond) where people are morally responsible for failing to obtain informed consent when collecting personal information (i.e., during “interactions with the world”). Some examples include the collection of HeLa cells<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> and the commercialization of social media users’ data without obtaining their informed consent.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></p>
+</section>
+<section id="less-conventional-connections" class="level3">
+<h3 class="anchored" data-anchor-id="less-conventional-connections">Less Conventional Connection(s)</h3>
+<p>Though less commonly thought about, moral responsibility is also relevant during data processing (i.e., between “interactions with the world” and “data”). Specifically, it seems reasonable to hold data scientists morally responsible for the moral harms that arise from their data cleaning or storage practices. For example, if a data scientist stored personal data in a foreseeably faulty database, they would be at least partially morally responsible for any data leakages. Similarly, if the data scientist who was supposed to remove identifiers from the data was negligent, they would have (at least some) moral responsibility for the ethical repercussions that arise from the data not being adequately anonymized.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p>
+<div class="link-2">
+<section id="responsibility-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="responsibility-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Responsibility.html" target="_blank">Responsibility Readings</a></h4>
+</section>
+</div>
 <hr>
 </section>
-<section id="causation" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="causation"><span class="header-section-number">3.5</span> Causation</h2>
-<p>Probably the most-known lesson in statistics is that “correlation does not imply causation”. This lesson becomes especially poignant when a model representing the world is interpreted as knowledge. At least currently, most models only identify correlations between the predictor variables and the response variable, not causation (there is also centuries worth of philosophical debates about how to define causation). Interpreting correlative relationships as causal can have significant moral repercussions. For instance, suppose we have a logistic model that predicts whether a person will drop out of high school. Our model has a positive correlation between having Spanish as your first language and your expected probability of dropping out (i.e., if your first language is Spanish, you are expected to have a higher chance of dropping out of high school, holding all other variables constant). Clearly, several confounding variables, such as socioeconomic status and available academic opportunities, lead to the positive relationship we found. But, suppose that someone took our model and, from it, declared that having Spanish as your first language causes a higher probability of dropping out of high school. They might conclude that people whose first language is Spanish are less intelligent or lazier in school than those whose first language is not Spanish, leading to racist beliefs and actions that morally harm people whose first language is Spanish. Therefore, several data science ethics classes focus on causation at the knowledge-interpretation stage and, specifically, how it is dangerous to interpret causal relationships from most data models.</p>
-<p>There can also be ethical repercussions of false causal relationships between predictors and the response variable in informing future interactions with the world. Imagine biologists theorize that native Spanish speakers are naturally less intelligent than native English speakers and use false causal claims they took from our model to justify data collection. Thus, ethical worries related to causation span not just what we should interpret as knowledge from a data model but also what sorts of interactions with the world are can be justified on the basis of previously interpreted knowledge.</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Causation.html"><strong>Causation Readings</strong></a></p>
+</section>
+<section id="consent" class="level2">
+<h2 class="anchored" data-anchor-id="consent">Consent</h2>
+<section id="paradigmatic-connections-1" class="level3">
+<h3 class="anchored" data-anchor-id="paradigmatic-connections-1">Paradigmatic Connection(s)</h3>
+<p>Generally, when people think about informed consent in data science, they think about it during data collection (i.e., during ``interactions with the world”). That is, they consider whether the researcher or company has gathered informed consent when collecting people’s data. When researchers or companies get permission to collect people’s data, they also typically ask for consent to use it in a specific capacity later in the data science lifecycle (e.g., to build data models, store it in a database, or share with another company) given that obtaining a person’s informed consent is often essential for respecting their autonomy <span class="citation" data-cites="sep-informed-consent">(<a href="#ref-sep-informed-consent" role="doc-biblioref">Eyal, 2019</a>)</span>.</p>
+</section>
+<section id="less-conventional-connections-1" class="level3">
+<h3 class="anchored" data-anchor-id="less-conventional-connections-1">Less Conventional Connection(s)</h3>
+<p>While less conventional, issues of consent also arise when applying insights from data models to future interactions with an individual, even if none of the individual’s data was used to build (or test) the data model. For example, suppose that a job site creates a data model that predicts that people from a certain demographic group are more likely to interact with a nannying job post than a construction job post. A new person from that demographic group then engages with the job site. Based on the predictive model, the social media platform shows the nannying job post to them instead of the construction job post.<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> It seems important for the social media company to obtain the new user’s informed consent to use the predictive model on them, given that the predictive model undermines their autonomy in some capacity. Namely, using the data model on the new user restricts them from seeing that certain jobs are available.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p>
+<div class="link-2">
+<section id="consent-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="consent-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Consent.html" target="_blank">Consent Readings</a></h4>
+</section>
+</div>
 <hr>
 </section>
-<section id="bias-fairness-justice" class="level2" data-number="3.6">
-<h2 data-number="3.6" class="anchored" data-anchor-id="bias-fairness-justice"><span class="header-section-number">3.6</span> Bias, Fairness, Justice</h2>
-<p>Bias, fairness, and justice are all fundamental topics in data science ethics. Ongoing philosophical work is committed to defining bias, fairness, and justice and their relationship to one another. As such, I will not attempt to define nor explain the relationship between bias, fairness, and justice in this short connection paragraph. Even without definitions, though, there are intuitive cases of biased, unfair, and unjust data science practices and models. For instance, consider the COMPAS algorithm: a data model that predicted the risk of recidivism had higher rates of false “high risk” predictions for Black defendants than White defendants <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Julia Angwin, 2016</a>)</span>. Intuitively, COMPAS’ predictions are biased against Black people, and similarly, it would be unfair (and unjust) to decide a person’s parole or set their bail using COMPAS.</p>
-<p>The COMPAS case study highlights why most data science ethics courses tend to focus on bias, fairness, and justice surrounding data models: primarily, what is input into them (i.e., the data) as well as what they output (i.e., their predictions) and how decision-makers use the model’s outputs. The saying “garbage in, garbage out” encapsulates the commonly-seen connection between bias, fairness, and justice and data modeling. “Garbage in, garbage out” indicates that if the data used to build the data model was biased against group X, then the model’s predictions would be biased against group X and could lead to unfair outcomes for group X. This explains why the opaque concentric circle for bias, fairness, and justice extends from “data” to “knowledge” in the data science lifecycle.</p>
-<p>Another paradigmatic stage of the data science lifecycle where bias, fairness, and justice emerge is “interactions with the world”. Suppose a data scientist wants to model the average number of hours in the hospital after giving birth but only surveys white females. We would consequently consider the data set biased towards white women and be cautious about generalizing the data scientist’s findings to people who are not white women.</p>
-<p>While there is a focus on bias, fairness, and justice in data modeling and interactions with the world, they are essential concepts to consider at every stage in the data science lifecycle. For example, we might drop observations with missing values when processing interactions as objects and then data. Yet, dropping those values can create biases in our data and subsequent analysis if they are not missing at random (<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3668100/">example inspired by this paper</a>). Bias, fairness, and justice can also come into play from “knowledge” to “interactions with our world”. For instance, it might be considered unjust or unfair to give nannying job ads to only women because an algorithm found that women were significantly more likely than men to click on a nannying ad (<a href="https://hbr.org/2019/05/all-the-ways-hiring-algorithms-can-introduce-bias">example inspired by this article</a>).</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Bias.html"><strong>Bias, Fairness, Justice Readings</strong></a></p>
+</section>
+<section id="privacy" class="level2">
+<h2 class="anchored" data-anchor-id="privacy">Privacy</h2>
+<section id="paradigmatic-connections-2" class="level3">
+<h3 class="anchored" data-anchor-id="paradigmatic-connections-2">Paradigmatic Connection(s)</h3>
+<p>Privacy is often connected to data science between interactions with the world and data processing. For example, university researchers posted profile data from the OkCupid dating site to an open data repository in 2016 <span class="citation" data-cites="OkCupid">(<a href="#ref-OkCupid" role="doc-biblioref">Woollacott, 2016</a>)</span>. The data revealed intimate details about more than 70,000 users, including their usernames, sexual preferences, and personal opinions <span class="citation" data-cites="OkCupid">(<a href="#ref-OkCupid" role="doc-biblioref">Woollacott, 2016</a>)</span>. Around 30% of the profiles were identifiable, meaning that those profiles could be connected to their real name <span class="citation" data-cites="OkCupid">(<a href="#ref-OkCupid" role="doc-biblioref">Woollacott, 2016</a>)</span>. The researchers’ violation of the OkCupid users’ privacy seems morally problematic. As explained in <span class="citation" data-cites="sep-privacy">Roessler &amp; DeCew (<a href="#ref-sep-privacy" role="doc-biblioref">2023</a>)</span>, one reason why violating users’ privacy is morally problematic in this case is that it endangers the users’ abilities to control their relationships with others. That is, privacy is a way of ``modulating” our degrees of friendship with others, i.e., we would share more personal details about our life with someone we are better friends with <span class="citation" data-cites="sep-privacy">(<a href="#ref-sep-privacy" role="doc-biblioref">Roessler &amp; DeCew, 2023</a>)</span>. Additionally, some philosophers contend that the right to privacy is grounded in the right to autonomy (e.g., rights over one’s personal property and own body) <span class="citation" data-cites="sep-privacy">(<a href="#ref-sep-privacy" role="doc-biblioref">Roessler &amp; DeCew, 2023</a>)</span>.</p>
+</section>
+<section id="less-conventional-connections-2" class="level3">
+<h3 class="anchored" data-anchor-id="less-conventional-connections-2">Less Conventional Connection(s)</h3>
+<p>Worries about privacy can resurface when using insights from a data model to inform our future interactions with the world. For instance, suppose that a company’s data model predicts that an applicant is unqualified for a job. The company decides to share this prediction with a list of other major employers. There is an intuitive sense in which publicizing the model’s prediction to several other employers seems morally problematic, given that it entails sharing personal information about the applicant without their consent. However, would it be unethical for a boss at one company to share their belief that the person is unqualified for a job with their friend, who is a boss at another major company? It seems to be less morally tenuous even though the friend sharing their evaluation of the applicant with their friend still entails sharing personal information about the applicant without their consent. To explain our difference in intuitions in these two cases, we need a well-defended moral principle about what grounds someone’s right to privacy.</p>
+<p>One justification for our difference in intuitions between the two cases is that there is a difference in scalability and damage in the algorithm versus the friend case. In her book, <em>Weapons of Math Destruction</em>, Cathy O’Neil breaks down different algorithms in terms of their opacity, scalability (pernicious feedback loops), and damage (ability to grow exponentially). She puts forward a moral principle to determine whether an algorithm is a <em>Weapon of Math Destruction</em>, in which case, she argues, it should not be used <span class="citation" data-cites="oneil2016">(<a href="#ref-oneil2016" role="doc-biblioref">O’Neil, 2016</a>)</span>. Avoiding pernicious feedback loops is one such strategy to ground privacy concerns and explain the difference in intuitions between the algorithm (which has a scalable pernicious feedback loop) and the friend case (which doesn’t).</p>
+<div class="link-2">
+<section id="privacy-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="privacy-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Privacy.html" target="_blank">Privacy Readings</a></h4>
+</section>
+</div>
 <hr>
 </section>
-<section id="alignment-responsibility-characterizations-of-data-and-data-science" class="level2" data-number="3.7">
-<h2 data-number="3.7" class="anchored" data-anchor-id="alignment-responsibility-characterizations-of-data-and-data-science"><span class="header-section-number">3.7</span> Alignment, Responsibility, Characterizations of Data and Data Science</h2>
-<section id="alignment" class="level3" data-number="3.7.1">
-<h3 data-number="3.7.1" class="anchored" data-anchor-id="alignment"><span class="header-section-number">3.7.1</span> Alignment</h3>
-<p>Alignment refers to how our moral values align with our data science practices and technologies. We frequently consider alignment during the deployment stage, where our data model generates predictions about novel inputs. When seeing the outputs, it becomes salient if our moral values and data science practices are misaligned. Still, alignment comes into play throughout the lifecycle. We apply our moral values in interactions with our world (e.g., the moral requirement to get informed consent when collecting personal information). We use our moral values in data processing and cleaning when thinking about what to do with missing data, especially when it is not missing at random. Alignment also comes into play when developing data models. For instance, we use our moral values when deciding what fairness metric to use when evaluating our model’s performance and thereafter when thinking about how we apply the model outputs to inform future interactions with the world (e.g., see the privacy and consent sections above).</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Alignment.html"><strong>Alignment Readings</strong></a></p>
 </section>
-<section id="responsibility" class="level3" data-number="3.7.2">
-<h3 data-number="3.7.2" class="anchored" data-anchor-id="responsibility"><span class="header-section-number">3.7.2</span> Responsibility</h3>
-<p>Here, I am focusing on <em>moral</em> rather than mere legal responsibility; an individual might be morally responsible for X, even if X is legal (e.g., cheating on a significant other). Moral responsibility comes up throughout the data science lifecycle. Most commonly, data science focuses on moral responsibility concerning model deployment and interactions with the world. For example, Amazon was seen as morally responsible for deploying a hiring algorithm that was biased against female applicants <span class="citation" data-cites="Amazon">(<a href="#ref-Amazon" role="doc-biblioref">Dastin, 2018</a>)</span>. Moral responsibility also arises when building data models. It seems reasonable to contend that if another company made Amazon’s faulty hiring algorithm, it would also be morally responsible for the biased results – even if that company never deployed the model itself.</p>
-<p>Moral responsibility is also crucial in interactions with the world. For instance, there are several case studies, data science, and beyond where people are morally responsible for failing to obtain informed consent when collecting personal information. Some examples include the Tuskegee Study or commercializing a social media user’s data without informed consent.</p>
-<p>Though less commonly thought about, moral responsibility also influences the “interactions with the world” to “data” stages of the lifecycle. Specifically, it seems valid to hold data scientists morally responsible for how data is stored and cleaned. For example, if a data scientist stored personal data in a foreseeably faulty database, they would be at least partially morally responsible for any data leakages. Similarly, if data is publicized that is not adequately anonymized, the data scientist who was supposed to remove identifiers from the data would be at least partially morally responsible for any ethical repercussions that arose from the data not being adequately anonymized.</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Responsibility.html"><strong>Responsibility Readings</strong></a></p>
+<section id="bias-fairness-justice" class="level2">
+<h2 class="anchored" data-anchor-id="bias-fairness-justice">Bias, Fairness, Justice</h2>
+<section id="paradigmatic-connections-3" class="level3">
+<h3 class="anchored" data-anchor-id="paradigmatic-connections-3">Paradigmatic Connection(s)</h3>
+<p>There are many cases of biased, unfair, and unjust data models. One such example is Amazon’s now-scrapped hiring algorithm, which was critiqued for being biased against female applicants <span class="citation" data-cites="Amazon">(<a href="#ref-Amazon" role="doc-biblioref">Dastin, 2018</a>)</span>. The algorithm’s goal was to identify ‘ideal candidates’ for technical positions at Amazon from hundreds of resumes submitted. Here, ‘ideal candidates’ were considered those whose resumes were most similar to resumes that had been previously submitted to Amazon over the last ten years. However, given that the technology industry is heavily male-dominated, most of these resumes came from male applicants, and consequently, the algorithm’s predictions turned out to be biased against women <span class="citation" data-cites="Amazon">(<a href="#ref-Amazon" role="doc-biblioref">Dastin, 2018</a>)</span>. For example, the algorithm penalized resumes with the word ‘women’s’ in it (e.g., ‘women’s cross country team captain’ or ‘women’s union staff member’) as well as graduates from two all-women’s colleges <span class="citation" data-cites="Amazon">(<a href="#ref-Amazon" role="doc-biblioref">Dastin, 2018</a>)</span>. Amazon’s algorithm seems unfair to female applicants. Namely, the algorithm wrongfully discriminated against female applicants by using a success metric (i.e., the similarity between the applicant’s resume and previously submitted resumes) that systematically overlooks well-qualified female applicants in virtue of their gender identity. However, as discussed in <a href="intro-DS-ethics.qmd">what is data science ethics?</a>, it is unclear how to evaluate fairness in models like Amazon’s now-scrapped hiring algorithm and, with that, how exactly to mitigate any unfairness in such models.</p>
+<p>Moreover, it seems conceivable that even if Amazon improved the success metric, its hiring algorithm would still be biased against female applicants in virtue of there being a gender bias in the training data (i.e., model’s input). The saying “garbage in, garbage out” encapsulates the commonly seen connection between bias, fairness, justice, and data modeling. That is, the saying “garbage in, garbage out” notes that if the data used to build the data model was biased against group X, then the model’s predictions would be biased against group X and could lead to unfair (and/or unjust) outcomes for group X if the model’s predictions influence decision-making.</p>
+<p>Beyond data modeling, issues of bias, fairness, and justice also emerge during ``interactions with the world”. For instance, suppose a data scientist wants to model the average number of hours in the hospital after giving birth but only surveys white females. We would consider the dataset biased towards white women and consequently be cautious about generalizing the data scientist’s findings to people in the population who are not white women.</p>
 </section>
-<section id="characterizations-of-data-and-data-science" class="level3" data-number="3.7.3">
-<h3 data-number="3.7.3" class="anchored" data-anchor-id="characterizations-of-data-and-data-science"><span class="header-section-number">3.7.3</span> Characterizations of Data and Data Science</h3>
-<p>Finally, characterizations of data and data science affect how we conceive of the data science lifecycle in general and, in turn, influence each stage in the data science lifecycle (see the <a href="Intro-DS-lifecycle.html">Data Science Lifecycle Page</a> for more information).</p>
-<p><a style="color:#877e2c; background-color: #F0EDD1; border: 5px solid #F0EDD1; border-radius: 4px;" href="readings/Characterizations.html"><strong>Characterizations of Data and Data Science Readings</strong></a></p>
-
-
-
+<section id="less-conventional-connections-3" class="level3">
+<h3 class="anchored" data-anchor-id="less-conventional-connections-3">Less Conventional Connection(s)</h3>
+<p>However, issues of bias, fairness, and justice are crucial to consider at every stage of the data science lifecycle. For example, we might completely drop observations with missing values when processing the data. Yet, dropping those values can create biases in our data and subsequent analyses if they are not missing at random.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a> Bias, fairness, and justice can also come into play when insights from a data model influence our future interactions with our world. For instance, it seems unfair (and/or unjust) to only give a nannying job ad to women because an algorithm found that women were substantially more likely than men to click on nannying job ads.</p>
+<div class="link-2">
+<section id="bias-fairness-and-justice-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="bias-fairness-and-justice-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Bias.html" target="_blank">Bias, Fairness, and Justice Readings</a></h4>
+</section>
+</div>
+<hr>
 </section>
 </section>
+<section id="explainability-interpretability-transparency" class="level2">
+<h2 class="anchored" data-anchor-id="explainability-interpretability-transparency">Explainability, Interpretability, Transparency</h2>
+<p>A common complaint about data models, particularly more advanced ones, is that they are black boxes. In this subsection, we focus mainly on the connections between the lifecycle and explainability. However, the connections are similar to those for transparency and interpretability, given all three concepts share the common goal of making data models and their predictions more understandable to stakeholders.</p>
+<section id="paradigmatic-connections-4" class="level3">
+<h3 class="anchored" data-anchor-id="paradigmatic-connections-4">Paradigmatic Connection(s)</h3>
+<p>In the model deployment stage, where predictions about individuals or groups are made, a reasonable ethical expectation is that the model is understandable to human stakeholders. One reason for this expectation is that if the model is explainable, then we can verify that the model is fair. For example, if a convicted person’s bail is set (using an algorithmic recommendation) higher than they think it should be, it seems fair for the individual to demand and expect an explanation for the algorithm’s recommendation in order to ensure that sensitive social attributes like race, gender, or socioeconomic status did not impact the algorithm’s prediction. Similarly, stakeholders might also demand that the algorithm’s parameters be transparent in order to see which variables influence the model’s predictions and, in particular, see whether the algorithm uses sensitive social attributes to make its predictions. The ethical expectation that data models are understandable to human stakeholders is often referred to as the “right to an explanation.” This expectation is echoed in legal documents such as the European Union’s General Data Protection Regulation (GDPR), which states that an individual has the right to ``obtain an explanation” for any automated decision made about them <span class="citation" data-cites="Goodman2017">(<a href="#ref-Goodman2017" role="doc-biblioref">Goodman &amp; Flaxman, 2017</a>)</span>.</p>
 </section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<section id="less-conventional-connections-4" class="level3">
+<h3 class="anchored" data-anchor-id="less-conventional-connections-4">Less Conventional Connection(s)</h3>
+<p>While not mentioned as often, the “right to an explanation” is also important to consider when insights from a data model influence future interactions with the world. For instance, suppose that law enforcement starts heavily policing Neighborhood A relative to Neighborhood B because a data model found that the people in Neighborhood A are more likely to be convicted of a crime than the people in Neighborhood B. It seems that the people in Neighborhood A have a right to understand why they are being policed more than the people in Neighborhood B. Like in the paradigmatic example, one reason for why the people in Neighborhood A seem to have a “right to an explanation” in this case is that explainability is often necessary to ensure that the model does not use sensitive social attributes to make its predictions. However, some philosophers note that human decision-makers are also black boxes with respect to how they arrive at their decisions. For instance, even if a court judge gives justification for their sentencing, it is not clear that the reason they give is the only reason for their decision or even is a reason for their decision at all (e.g., people can be subconsciously influenced by implicit biases) <span class="citation" data-cites="Gunther2022">(<a href="#ref-Gunther2022" role="doc-biblioref">Günther &amp; Kasirzadeh, 2022</a>)</span>. As such, one question within philosophy is whether we have a “right to an explanation” when it comes to data models, and if so, why do we have such a “right to an explanation” when it seems to hold algorithms to a higher standard than human decision-makers?</p>
+<div class="link-2">
+<section id="explainability-interpretability-and-transparency-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="explainability-interpretability-and-transparency-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Explainability.html" target="_blank">Explainability, Interpretability, and Transparency Readings</a></h4>
+</section>
+</div>
+<hr>
+</section>
+</section>
+<section id="causation" class="level2">
+<h2 class="anchored" data-anchor-id="causation">Causation</h2>
+<section id="paradigmatic-connections-5" class="level3">
+<h3 class="anchored" data-anchor-id="paradigmatic-connections-5">Paradigmatic Connection(s)</h3>
+<p>As early as introductory statistics courses, “correlation does not imply causation” is emphasized. The topic of causation is prominent in many data science ethics courses because mistakenly claiming causation can be morally pernicious when attempting to interpret knowledge from a data model. Most current data models can only identify correlations between the predictor variables and the response variable rather than causal relationships (n.b., there are also centuries worth of philosophical debates about how to define causation).<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a></p>
+<p>Incorrectly interpreting causation between variables can have substantial moral repercussions during model deployment. For instance, suppose we have a logistic model that predicts whether a person will drop out of high school. Our model finds a positive association between having a first language other than English and the expected probability of dropping out of high school. There are several confounding variables, like socioeconomic status and availability of academic opportunities, which explain the identified positive association. However, imagine that a person sees our model and, from it, concludes that having a first language other than English <em>causes</em> a higher probability of dropping out of high school. As a result of mistakenly drawing causal claims from the model, they might advocate for English-only policies or develop prejudiced beliefs against people whose first language is not English.</p>
+</section>
+<section id="less-conventional-connections-5" class="level3">
+<h3 class="anchored" data-anchor-id="less-conventional-connections-5">Less Conventional Connection(s)</h3>
+<p>Moral implications surrounding causation can also arise when building causal inference models. For example, imagine there is a group of researchers who want to understand how a patient’s race influences their wait time in an emergency room. Answering the wait time question would involve evaluating whether the following counterfactual is true: if a patient was a member of racial group X instead of racial group Y, then their ER wait time would be different. One way the researchers might try to evaluate this counterfactual is by collecting data that contains background information (e.g., race) and the wait time at the hospital for each patient. The data would be used to estimate how changing only the ‘race’ variable for a patient would change their wait time. Yet, <span class="citation" data-cites="causal-inference-worries">Atoosa &amp; Smart (<a href="#ref-causal-inference-worries" role="doc-biblioref">2021</a>)</span> note that changing only the ‘race’ variable endorses an essentialist view of race that fails to acknowledge how race is socially constructed. Essentialist views of variables like race are harmful because they ignore the complex social, historical, and political factors that shape individuals’ experiences. As a result, essentialist views can often lead to overgeneralizations about social groups and even wrongful discrimination against them <span class="citation" data-cites="essentialism-harm">(<a href="#ref-essentialism-harm" role="doc-biblioref">Phillips, 2010</a>)</span>. Worries about how to thoughtfully conduct causal inference on social categories point to the importance of reflecting on philosophical questions, like what constitutes a specific social category (e.g., race, gender, sexuality, etc.) during model building.</p>
+<div class="link-2">
+<section id="causation-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="causation-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Causation.html" target="_blank">Causation Readings</a></h4>
+</section>
+</div>
+<hr>
+</section>
+</section>
+<section id="democracy-workplace-predictive-policing" class="level2">
+<h2 class="anchored" data-anchor-id="democracy-workplace-predictive-policing">Democracy, Workplace, Predictive Policing</h2>
+<section id="paradigmatic-connections-6" class="level3">
+<h3 class="anchored" data-anchor-id="paradigmatic-connections-6">Paradigmatic Connection(s)</h3>
+<p>Democracy, workplace, and predictive policing are all settings where data models are used and have exceptionally high moral stakes. As such, case studies related to democracy, workplace, and predictive policing are very common in the collated data science ethics syllabi and reading lists. Usually, when democracy, workplace, and predictive policing case studies are referenced, the focus is on model deployment. For instance, COMPAS is often brought up because it is deployed in a setting with high moral stakes, i.e., in US courtrooms to aid judges in making decisions about bond amounts and sentencing lengths for defendant <span class="citation" data-cites="COMPAS">(<a href="#ref-COMPAS" role="doc-biblioref">Angwin, Larson, Kirchner, &amp; Mattu, 2016</a>)</span>.</p>
+<p>Yet, while there are moral implications for deploying data models in democracy, workplace, and predictive policing settings, it does not seem that creating such data models is inherently morally problematic. For example, suppose that a civil rights group creates an algorithm to predict a defendant’s likelihood of being convicted (like COMPAS does) but only uses the model to show that the criminal justice system is racially biased against Black defendants. Intuitively, building such a data model is not morally problematic. Rather, data models that predict a defendant’s recidivism risk are morally problematic when they are deployed in such a way that the model’s predictions impact people’s beliefs about a defendant’s recidivism risk and court outcomes.</p>
+<p>The ethical theory of <em>consequentialism</em> can explain why the model’s deployment is relevant to its moral evaluation. According to <em>consequentialism</em>, only the consequences of an action ought to influence our moral assessment of it <span class="citation" data-cites="StanConsequentialism">(<a href="#ref-StanConsequentialism" role="doc-biblioref">Sinnott-Armstrong, 2023</a>)</span>. In the civil rights group and COMPAS examples, the consequences are different. COMPAS is being used to set bond amounts, sentence length, and parole, whereas the civil rights group algorithm is not being used in such a capacity. Another relevant difference between the civil rights group algorithm and COMPAS is that the civil rights group algorithm works <em>against</em> existing injustice rather than compounding it by aiming to elucidate the existing racial bias within the criminal justice system. Philosophy helps locate what exactly is morally problematic in a specific case (e.g., is it the data model’s predictions in themselves or how the model is deployed?), thereby helping us make our data science practices more ethical.</p>
+</section>
+<section id="less-conventional-connections-6" class="level3">
+<h3 class="anchored" data-anchor-id="less-conventional-connections-6">Less Conventional Connection(s)</h3>
+<p>Interpreting knowledge from model predictions can also lead to morally problematic interactions with the world within democracy, workplace, and predictive policing settings. For example, in her book, <em>Weapons of Math Destruction</em>, Cathy O’Neil considers PredPol, an algorithm that uses historical crime data to predict where crimes are most likely to occur. When police use PredPol, they can target neighborhoods based on where “nuisance” crimes (e.g., vagrancy, aggressive panhandling, selling and consuming small quantities of drugs) occur, which are unlikely to be recorded when there is not a police officer present . However, also notes that “nuisance” crimes are also much more common in impoverished neighborhoods. When the “nuisance” crime data is put into the predictive model, more police patrol impoverished neighborhoods, and arrests in those neighborhoods are more likely to occur. This creates a pernicious feedback loop because the policing of impoverished neighborhoods leads to arrests in the neighborhood, which ultimately justifies more policing of those neighborhoods <span class="citation" data-cites="oneil2016">(<a href="#ref-oneil2016" role="doc-biblioref">O’Neil, 2016</a>)</span>. As a result, more people are arrested for “nuisance” crimes, the majority of which come from impoverished neighborhoods and are Black or Hispanic due to racial segregation in cities <span class="citation" data-cites="oneil2016">(<a href="#ref-oneil2016" role="doc-biblioref">O’Neil, 2016</a>)</span>. Thus, using predictive policing models to inform future interactions with the world (i.e., where to send police) can create pernicious feedback loops that exacerbate existing racial injustices in the criminal justice system.</p>
+<div class="link-2">
+<section id="democracy-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="democracy-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Democracy.html" target="_blank">Democracy Readings</a></h4>
+</section>
+<section id="predictive-policing-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="predictive-policing-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Predictive-Policing.html" target="_blank">Predictive Policing Readings</a></h4>
+</section>
+<section id="workplace-readings" class="level4 link-2-header">
+<h4 class="anchored" data-anchor-id="workplace-readings"><iconify-icon inline="" icon="ep:reading" aria-label="Icon reading from ep Iconify.design set." title="Icon reading from ep Iconify.design set."></iconify-icon> <a href="./readings/Workplace.html" target="_blank">Workplace Readings</a></h4>
+</section>
+</div>
+</section>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-social-media-example" class="csl-entry" role="listitem">
+Andreotta, A. J., Kirkham, N., &amp; Rizzi, M. (2021). <span>AI</span>, <span>B</span>ig <span>D</span>ata, and the future of consent. <em><span>AI</span> and <span>Society</span></em>, <em>37</em>(4), 1715–1728. <a href="https://doi.org/10.1007/s00146-021-01262-5">https://doi.org/10.1007/s00146-021-01262-5</a>
+</div>
+<div id="ref-COMPAS" class="csl-entry" role="listitem">
+Angwin, J., Larson, J., Kirchner, L., &amp; Mattu, S. (2016). <em><span>M</span>achine <span>B</span>ias</em>. <a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" class="uri">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>; ProPublica.
+</div>
+<div id="ref-causal-inference-worries" class="csl-entry" role="listitem">
+Atoosa, A. K., &amp; Smart, A. (2021). The use and misuse of counterfactuals in ethical machine learning. <em>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</em>, 228–236. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/3442188.3445886">https://doi.org/10.1145/3442188.3445886</a>
+</div>
+<div id="ref-hiring-example" class="csl-entry" role="listitem">
+Bogen, M. (2019). <em>All the ways hiring algorithms can introduce bias</em>. <a href="https://hbr.org/2019/05/all-the-ways-hiring-algorithms-can-introduce-bias" class="uri">https://hbr.org/2019/05/all-the-ways-hiring-algorithms-can-introduce-bias</a>.
+</div>
+<div id="ref-HeLa" class="csl-entry" role="listitem">
+Callaway, E. (2013). Deal done over <span>HeLa</span> cell line. <em>Nature</em>, <em>500</em>(7461), 132–133. <a href="https://doi.org/10.1038/500132a">https://doi.org/10.1038/500132a</a>
+</div>
 <div id="ref-Amazon" class="csl-entry" role="listitem">
 Dastin, J. (2018). <em><span>A</span>mazon scraps secret <span>A</span><span>I</span> recruiting tool that showed bias against women</em>. <a href="https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G" class="uri">https://www.reuters.com/article/us-amazon-com-jobs-automation-insight-idUSKCN1MK08G</a>; Reuters.
 </div>
-<div id="ref-COMPAS" class="csl-entry" role="listitem">
-Julia Angwin, L. K., Jeff Larson. (2016). <em><span>M</span>achine <span>B</span>ias</em>. <a href="https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing" class="uri">https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing</a>; ProPublica.
+<div id="ref-sep-informed-consent" class="csl-entry" role="listitem">
+Eyal, N. (2019). Informed consent. In E. N. Zalta (Ed.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>S</span>pring 2019). <a href="https://plato.stanford.edu/archives/spr2019/entries/informed-consent/" class="uri">https://plato.stanford.edu/archives/spr2019/entries/informed-consent/</a>; Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-Goodman2017" class="csl-entry" role="listitem">
+Goodman, B., &amp; Flaxman, S. (2017). European <span>U</span>nion regulations on algorithmic decision making and a “right to explanation”. <em><span>AI</span> Magazine</em>, <em>38</em>(3), 50–57. <a href="https://doi.org/10.1609/aimag.v38i3.2741">https://doi.org/10.1609/aimag.v38i3.2741</a>
+</div>
+<div id="ref-Gunther2022" class="csl-entry" role="listitem">
+Günther, M., &amp; Kasirzadeh, A. (2022). Algorithmic and human decision making: For a double standard of transparency. <em>AI and Society</em>, <em>37</em>(1), 375–381. <a href="https://doi.org/10.1007/s00146-021-01200-5">https://doi.org/10.1007/s00146-021-01200-5</a>
+</div>
+<div id="ref-non-random-imputation" class="csl-entry" role="listitem">
+Kang, H. (2013). The prevention and handling of the missing data. <em>Korean Journal of Anesthesiology</em>, <em>64</em>(5), 402. <a href="https://doi.org/10.4097/kjae.2013.64.5.402">https://doi.org/10.4097/kjae.2013.64.5.402</a>
+</div>
+<div id="ref-oneil2016" class="csl-entry" role="listitem">
+O’Neil, C. (2016). <em>Weapons of math destruction</em>. Crown Publishing Group.
+</div>
+<div id="ref-essentialism-harm" class="csl-entry" role="listitem">
+Phillips, A. (2010). What’s wrong with essentialism? <em>Distinktion: Scandinavian Journal of Social Theory</em>, <em>11</em>, 47–60. <a href="https://doi.org/10.1080/1600910X.2010.9672755">https://doi.org/10.1080/1600910X.2010.9672755</a>
+</div>
+<div id="ref-sep-privacy" class="csl-entry" role="listitem">
+Roessler, B., &amp; DeCew, J. (2023). <span>Privacy</span>. In E. N. Zalta &amp; U. Nodelman (Eds.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>W</span>inter 2023). <a href="https://plato.stanford.edu/archives/win2023/entries/privacy/" class="uri">https://plato.stanford.edu/archives/win2023/entries/privacy/</a>; Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-StanConsequentialism" class="csl-entry" role="listitem">
+Sinnott-Armstrong, W. (2023). <span>Consequentialism</span>. In E. N. Zalta &amp; U. Nodelman (Eds.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>W</span>inter 2023). <a href="https://plato.stanford.edu/archives/win2023/entries/consequentialism/" class="uri">https://plato.stanford.edu/archives/win2023/entries/consequentialism/</a>; Metaphysics Research Lab, Stanford University.
+</div>
+<div id="ref-towardsdatascienceCausalDiscovery" class="csl-entry" role="listitem">
+Talebi, S. (2021). <em><span>C</span>ausal discovery</em>. <a href="https://towardsdatascience.com/causal-discovery-6858f9af6dcb" class="uri">https://towardsdatascience.com/causal-discovery-6858f9af6dcb</a>.
 </div>
 <div id="ref-OkCupid" class="csl-entry" role="listitem">
-Woollacott, E. (2016). <em>70,000 <span>O</span>k<span>C</span>upid <span>P</span>rofiles <span>L</span>eaked, <span>I</span>ntimate <span>D</span>etails <span>A</span>nd <span>A</span>ll</em>. <a href="https://www.forbes.com/sites/emmawoollacott/2016/05/13/intimate-data-of-70000-okcupid-users-released/?sh=2ac42f2f1e15" class="uri">https://www.forbes.com/sites/emmawoollacott/2016/05/13/intimate-data-of-70000-okcupid-users-released/?sh=2ac42f2f1e15</a>; Forbes.
+Woollacott, E. (2016). <em>70,000 <span>O</span>k<span>C</span>upid profiles leaked, intimate details and all</em>. <a href="https://www.forbes.com/sites/emmawoollacott/2016/05/13/intimate-data-of-70000-okcupid-users-released/?sh=2ac42f2f1e15" class="uri">https://www.forbes.com/sites/emmawoollacott/2016/05/13/intimate-data-of-70000-okcupid-users-released/?sh=2ac42f2f1e15</a>; Forbes.
 </div>
-</div></section></div></main> <!-- /main -->
+</div>
+
+
+</section>
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>In 1951, cervical cancer cells from Henrietta Lacks were taken without her knowledge. Her cells and cell line, known colloquially as HeLa cells, have been widely used in science ever since <span class="citation" data-cites="HeLa">(<a href="#ref-HeLa" role="doc-biblioref">Callaway, 2013</a>)</span>.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>See <span class="citation" data-cites="social-media-example">Andreotta, Kirkham, &amp; Rizzi (<a href="#ref-social-media-example" role="doc-biblioref">2021</a>)</span> for issues with informed consent and social media.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>See <span class="citation" data-cites="OkCupid">Woollacott (<a href="#ref-OkCupid" role="doc-biblioref">2016</a>)</span> for an example of how moral responsibility can be relevant when failing to remove identifiers from data.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>This example is partially inspired by the examples in <span class="citation" data-cites="hiring-example">Bogen (<a href="#ref-hiring-example" role="doc-biblioref">2019</a>)</span>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p>See <span class="citation" data-cites="sep-informed-consent">Eyal (<a href="#ref-sep-informed-consent" role="doc-biblioref">2019</a>)</span> for reasons beyond respecting a person’s autonomy why obtaining informed consent is morally important.<a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p>This example is partially inspired by the discussion in <span class="citation" data-cites="non-random-imputation">Kang (<a href="#ref-non-random-imputation" role="doc-biblioref">2013</a>)</span>.<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p>Also, see examples of how current data models are not yet able to accurately identify causation in <span class="citation" data-cites="towardsdatascienceCausalDiscovery">Talebi (<a href="#ref-towardsdatascienceCausalDiscovery" role="doc-biblioref">2021</a>)</span>.<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -780,11 +940,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+    <li class="nav-item">
     <a class="nav-link" href="https://github.com/scolando/personal-website">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
+<p><iconify-icon inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> Source Code</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/scolando/data-science-ethics/issues/new">
+<p>Report an Issue</p>
+</a>
   </li>  
 </ul>
     </div>

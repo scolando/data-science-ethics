@@ -1,6 +1,6 @@
 ---
 title: "Reading Lists"
-subtitle: 'readings are primarily pulled from the syllabi listed in <a href="inside-syllabi.html"> Inside the Syllabi Notes</a>.'
+subtitle: 'readings are primarily pulled from the collated <a href="inside-syllabi.html"> data science ethics courses</a>.'
 format:
   html:
     search: true

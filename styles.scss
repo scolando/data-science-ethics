@@ -1,37 +1,38 @@
 /*-- scss:defaults --*/
 
-$toc-active-border: rgba(0, 0, 0, 0.8);
-$toc-color: rgba(0, 0, 0, 0.8);
+$toc-active-border: #f0ba55;
+$toc-color: #364f7a;
 
 #quarto-header {
     border-bottom: .15em solid #ddd; /* Adjust the thickness and color as needed */
 }
 
 .navbar-title{
-  font-family: Helvetica;
+  font-family: "Helvetica Neue";
   color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
 }
 
 .menu-text{
-  font-family: Helvetica;
+  font-family: "Helvetica Neue";
   color: rgba(0, 0, 0, 0.8);
   border: none;
   outline-color: none;
   
   &:hover{
-    color: #746c25;
-    border-bottom: .05em solid #746c25;
+    color: #364f7a;
+    border-bottom: .05em solid #364f7a;
   }
   
 }
 
 .dropdown-text{
-  font-family: Helvetica;
+  font-family: "Helvetica Neue";
   color: rgba(0, 0, 0, 0.8); 
 
 &:hover{
-    color: #746c25;
-    border-bottom: .05em solid #746c25;
+    color: #364f7a;
+    border-bottom: .05em solid #364f7a;
   } 
   
   &:active{
@@ -54,32 +55,40 @@ $toc-color: rgba(0, 0, 0, 0.8);
 }
 
 p {
-  font-family: Helvetica;
+  font-family: "Helvetica Neue";
   color: rgba(0, 0, 0, 0.8);
   font-size: 16px;
+  font-weight: 300;
 }
 
   h1 {
   text-align: left;
-  font-family: Helvetica;
+  font-family: "Helvetica Neue";
   color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
 }
 
   h2 {
      color: rgba(0, 0, 0, 0.8); 
-      font-family: Helvetica;
+     font-family: "Helvetica Neue";
+     font-weight: 400;
   }
   
     h3 {
      color: rgba(0, 0, 0, 0.8); 
-     font-family: Helvetica;
+     font-family: "Helvetica Neue";
+  }
+  
+    h4 {
+     color: rgba(0, 0, 0, 0.8); 
+     font-family: "Helvetica Neue";
   }
 
 a {
-  color: #877e2c !important;
+  color: #364f7a !important;
   
 &:hover {
-  color: #746c25 !important;
+  color: #364f7a !important;
 }
 }
 
@@ -105,7 +114,7 @@ header h2 {
   margin: 1em 0;
   border: 2px solid gray;
   border-left: 10px solid gray; 
-  border-color: black;
+  border-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
 }
 
@@ -114,7 +123,7 @@ header h2 {
   padding-left:  60px;
   padding-top:  5px;
   padding-bottom: 0.1em;
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
   background-color: #FAF9F0;
   border-color: #676565;
   border-top-right-radius: 10px;
@@ -129,7 +138,7 @@ header h2 {
   padding-top: 5px;
   padding-left: 10px;
   padding-bottom: 0.1em;
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
   background-color: #FAF9F0;
   border-color: #676565;
   border-bottom-right-radius: 10px;
@@ -139,7 +148,7 @@ header h2 {
   background-color: #f2f8fc;
   padding: 0.5em;
   border-radius: 10px;
-  border: 0.1em solid #364f7a;
+  border: 0.05em solid #364f7a;
   border-left: 0.2em solid #364f7a;
 }
 
@@ -147,7 +156,7 @@ header h2 {
   margin-top:-20px;
   width: 488px;
   height: 50px;
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
   background-color: #f2f8fc;
   border-top-right-radius: 10px;
 }
@@ -157,33 +166,38 @@ header h2 {
   width: 488px;
   height: 35px;
   padding: 5px;
-  color: black;
+  color: rgba(0, 0, 0, 0.8);
   background-color: #f2f8fc;
   border-bottom-right-radius: 10px;
 }
 
 h5.no-anchor.card-title.listing-title {
-  color: black;
-  border-bottom: 0.05em solid black;
+  color: rgba(0, 0, 0, 0.8);
+  border-bottom: 0.05em solid rgba(0, 0, 0, 0.8);
   padding-bottom: 0.1em;
 }
 
 .quarto-grid-item.card-left {
   background-color: #FAF9F0;
-  color: rgb(103,101,101);
+  color: rgba(0, 0, 0, 0.8);
   border: .05em solid  #746c25;
 }
 
 h2#toc-title{
-  font-family: Helvetica;
-  color: black;
+  font-family: "Helvetica Neue";
+  color: rgba(0, 0, 0, 0.8);
   font-size: 16px;
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, 0.8);
 }
 
 div.callout-note.callout-style-default>.callout-header {
   background-color: #f2f8fc !important;
-  color: rgba(0, 0, 0, 0.8) !important;
-  font: Helvetica;
+  color: rgba(0, 0, 0, 0.8);
+  font: "Helvetica Neue";
+  
 }
 
 div.callout-note.callout {
@@ -195,4 +209,51 @@ border-left-color: #364f7a !important;
   padding: 0.5em;
   border-radius: 10px;
   border-left: 0.2em solid #746c25;
+}
+
+.column-margin h3 {
+  font-family: "Helvetica Neue";
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 800;
+  
+}
+
+.column-margin p {
+  font-family: "Helvetica Neue";
+  color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.link-2 {
+  background-color: #FAF9F0;
+  padding: .1em;
+  border-radius: 10px;
+  border: 0.05em solid #746c25;
+  border-left: 0.2em solid #746c25;
+}
+
+.link-2-header {
+  margin-top: -1em;
+  color: black;
+  background-color: #FAF9F0;
+  border-top-right-radius: 10px;
+  margin-left: 1em;
+}
+
+.link-2-container {
+  color: black;
+  background-color: #FAF9F0;
+  border-bottom-right-radius: 10px;
+}
+
+div.callout-warning.callout-style-default>.callout-header {
+  background-color: #FAF9F0 !important;
+  color: rgba(0, 0, 0, 0.8);
+  font: "Helvetica Neue";
+  
+}
+
+div.callout-warning.callout {
+border-left-color: #f0ba55 !important;
 }

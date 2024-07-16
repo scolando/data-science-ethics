@@ -4,7 +4,7 @@ subtitle: "includes each course's listed background information, outcomes, and t
 format: 
   html:
     toc: true
-    toc_float: true
+    toc-expand: 1
     toc-title: "Page Contents"
     number-depth: 3
     toc-depth: 3

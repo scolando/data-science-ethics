@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Science Ethics – Data Science Lifecycle</title>
+<title>Data Science Ethics – The Data Science Lifecycle</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -60,6 +60,7 @@ div.csl-indent {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -122,7 +123,7 @@ div.csl-indent {
   </li>  
         <li>
     <a class="dropdown-item" href="./Intro-DS-lifecycle.html">
- <span class="dropdown-text">Data Science Lifecycles</span></a>
+ <span class="dropdown-text">The Data Science Lifecycle</span></a>
   </li>  
     </ul>
   </li>
@@ -165,23 +166,24 @@ div.csl-indent {
     <h2 id="toc-title">Page Contents</h2>
    
   <ul>
-  <li><a href="#the-representational-view" id="toc-the-representational-view" class="nav-link active" data-scroll-target="#the-representational-view"><span class="header-section-number">1</span> The Representational View</a></li>
-  <li><a href="#the-relational-view" id="toc-the-relational-view" class="nav-link" data-scroll-target="#the-relational-view"><span class="header-section-number">2</span> The Relational View</a></li>
-  <li><a href="#the-relational-vs.-representational-view-in-practice" id="toc-the-relational-vs.-representational-view-in-practice" class="nav-link" data-scroll-target="#the-relational-vs.-representational-view-in-practice"><span class="header-section-number">3</span> The Relational vs.&nbsp;Representational View In-Practice</a>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#the-relational-view-of-data-and-data-models" id="toc-the-relational-view-of-data-and-data-models" class="nav-link" data-scroll-target="#the-relational-view-of-data-and-data-models">The Relational View of Data and Data Models</a></li>
+  <li><a href="#the-final-data-science-lifecycle" id="toc-the-final-data-science-lifecycle" class="nav-link" data-scroll-target="#the-final-data-science-lifecycle">The Final Data Science Lifecycle</a></li>
+  <li><a href="#appendix" id="toc-appendix" class="nav-link" data-scroll-target="#appendix">Appendix</a>
   <ul class="collapse">
-  <li><a href="#predicting-the-likelihood-that-a-person-buys-concert-tickets" id="toc-predicting-the-likelihood-that-a-person-buys-concert-tickets" class="nav-link" data-scroll-target="#predicting-the-likelihood-that-a-person-buys-concert-tickets"><span class="header-section-number">3.1</span> Predicting the Likelihood that a Person Buys Concert Tickets</a></li>
-  <li><a href="#predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer" id="toc-predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer" class="nav-link" data-scroll-target="#predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer"><span class="header-section-number">3.2</span> Predicting the Likelihood that a Player Receives a Red Card in Soccer</a></li>
+  <li><a href="#the-representational-view" id="toc-the-representational-view" class="nav-link" data-scroll-target="#the-representational-view">The Representational View</a></li>
+  <li><a href="#the-relational-vs.-representational-view-in-practice" id="toc-the-relational-vs.-representational-view-in-practice" class="nav-link" data-scroll-target="#the-relational-vs.-representational-view-in-practice">The Relational vs.&nbsp;Representational View In-Practice</a></li>
+  <li><a href="#final-data-science-lifecycle-caveats" id="toc-final-data-science-lifecycle-caveats" class="nav-link" data-scroll-target="#final-data-science-lifecycle-caveats">Final Data Science Lifecycle Caveats</a></li>
   </ul></li>
-  <li><a href="#the-final-data-science-lifecycle" id="toc-the-final-data-science-lifecycle" class="nav-link" data-scroll-target="#the-final-data-science-lifecycle"><span class="header-section-number">4</span> The Final Data Science Lifecycle</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Data Science Lifecycle</h1>
+<h1 class="title">The Data Science Lifecycle</h1>
 <p class="subtitle lead">motivating our selected data science lifecycle and how different lifecycles make value judgements about what exactly data represents in our world.</p>
 </div>
 
@@ -200,20 +202,9 @@ div.csl-indent {
 
 
 <hr>
-<div class="cell">
-<style type="text/css">
-h1 {
-  text-align: left;
-}
-
-.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
-    z-index: 2;
-    color: #fff;
-    background-color:  #877e2c;
-    border-color:  #877e2c;
-}
-</style>
-</div>
+<section id="introduction" class="level1 page-columns page-full">
+<h1>Introduction</h1>
+<p>To take an interdisciplinary perspective on aligning what we should do and our moral duties to stakeholders with our actual data science practices, we must understand where common ethics topics emerge in data science. This requires us to choose a data science lifecycle that characterizes how interactions with our world are transformed into data models. Though it might not be explicit, choosing one lifecycle over another endorses specific views about data, data models, and their respective relationships to what we interpret as knowledge about our world. Thus, the choice to use a certain data science lifecycle is value-laden, an important point to reiterate to students. Below, we describe the relational view of data and data models, a framework that is likely very familiar to statisticians and data scientists.</p>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -230,12 +221,6 @@ Data Science Lifecycle Definition
 </div>
 </div>
 </div>
-<p>Though it might not be explicit, using one lifecycle or pipeline over another endorses specific views about data, data models, and their respective relationships to what we take to be knowledge about our world. Thus, the choice to use a certain data science lifecycle is <strong>value-laden</strong>.</p>
-<p>Here, I examine two popular conceptions of the relationships between data, data models, and what we should interpret as knowledge about our world (i.e., the epistemic roles of data and data models) <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>:</p>
-<ol type="1">
-<li><p><strong>The representational view of data and data models</strong></p></li>
-<li><p><strong>The relational view of data and data models</strong></p></li>
-</ol>
 <div class="callout callout-style-default callout-note no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="true" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -248,106 +233,160 @@ Data Models Definition
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse show">
 <div class="callout-body-container callout-body">
-<p>“Arrangements of data that are evaluated, manipulated and modified with the explicit goal of representing a phenomenon, which is often (though not always) meant to capture specific aspects of the world,” <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span></p>
+<p>“Arrangements of data that are evaluated, manipulated and modified with the explicit goal of representing a phenomenon, which is often (though not always) meant to capture specific aspects of the world,” <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2019</a>)</span></p>
 </div>
 </div>
 </div>
-<p class="example" ;"="">
 
-            <strong>Examples of Data Models:</strong> <br><br>1. A simple linear regression that uses years
-            of education to model the expected income is a data model.<br><br>2. An algorithm that utilizes
-            millions of hyperparameters to predict an incarcerated individual's risk of recidivism.<br><br>3.
-            A data visualization that describes a relationship between variables within a sample. 
-
-</p>
-<p>In the following two subsections, I provide an explication of the representational and relational view of data and data models and some benefits of using the relational view of data and data models over the representational one. I recommend reading <span class="citation" data-cites="Leonelli">Leonelli (<a href="#ref-Leonelli" role="doc-biblioref">2018</a>)</span> for a more in-depth justification of the value of a relational view of data and data models over a representational one.</p>
+<div class="no-row-height column-margin column-container"><div class="">
+<p><strong>Examples of Data Models:</strong></p>
+<ol type="1">
+<li><p>A simple linear regression that uses years of education to model a person’s expected income.</p></li>
+<li><p>An algorithm that utilizes millions of hyperparameters to predict an incarcerated individual’s risk of recidivism.</p></li>
+<li><p>A data visualization that describes a relationship between variables within a sample.</p></li>
+</ol>
+</div></div><hr>
+</section>
+<section id="the-relational-view-of-data-and-data-models" class="level1">
+<h1>The Relational View of Data and Data Models</h1>
 <hr>
-<section id="the-representational-view" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> The Representational View</h1>
-<hr>
-<p>Under the representational view of data and data models, the informational content of data is fixed and independent of the researchers’ background assumptions and context. Thus, data models are important only insofar as they extract the truth from the data. Hence, under the representational view, models are either objectively correct or incorrect, depending on their ability to elucidate the truth stored in the data. In other words, data models are only relevant because they clarify the arrows between data and knowledge in the diagram below <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>.</p>
+<p>Under the relational view of data and data models, data is understood as an object that is treated as evidence for a claim about the world and that can be circulated amongst individuals or groups <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2019</a>)</span>. The informational content of data depends on the researchers’ background assumptions and social context. So, information is not inherent to the data but is instead defined by the social environment in which the data is collected and the function the data is supposed to serve. The view that context plays an integral role in what data represents is also emphasized within the statistics community. As statisticians George Cobb and Thomas Moore famously claimed, ``[data] are numbers with a context” <span class="citation" data-cites="Cobb-Moore">(<a href="#ref-Cobb-Moore" role="doc-biblioref">Cobb &amp; Moore, 1997</a>)</span>. Given data is context-sensitive in the sense that its informational content is influenced by researchers’ assumptions and social contexts, data models (rather than the data itself) are taken to represent relationships in our world under the relational view. Thus, the relational view of data and data models highlights that data models are a necessary and highly influential aspect of what we take to be knowledge about our world in data science <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2019</a>)</span>.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/DS-replifecycle.png" style="width:70.0%;height:70.0%" alt="Data Science Lifecycle under the Representational View of Data and Models described by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 3 components that all interact with one another. The components include: (1) World, (2) Data, and (3) Knowledge. (1) World is documented via (2) Data and (2) Data represents (1) World. Additonally, (3) Knowledge is based on (2) Data and (2) Data is used to infer (3) Knowledge." class="figure-img"></p>
-<figcaption>Data Science Lifecycle under the Representational View of Data and Models described by Sabina Leonelli in 2019. Any processing of the data, data organizing, or data modeling would merely be a tool to elucidate the connection between Data and Knowledge and the World.</figcaption>
+<div id="fig-DS-pipeline" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 5 stages. The stages of inquiry include: (1) 'Interactions with the World', which produce (2) 'Objects', which are processed as 'Data', which are ordered as (4) 'Models representing the World', which is then interpreted as (5) 'Knowledge'. What is interpreted as (5) 'Knowledge' further informs (1) 'Interactions with the World'." data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-DS-pipeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/DS-pipeline.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%" alt="Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 5 stages. The stages of inquiry include: (1) 'Interactions with the World', which produce (2) 'Objects', which are processed as 'Data', which are ordered as (4) 'Models representing the World', which is then interpreted as (5) 'Knowledge'. What is interpreted as (5) 'Knowledge' further informs (1) 'Interactions with the World'.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-DS-pipeline-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Data Science Lifecycle under the Relational View of Data and Models conceptualized by <span class="citation" data-cites="Leonelli">Leonelli (<a href="#ref-Leonelli" role="doc-biblioref">2019</a>)</span>.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="the-final-data-science-lifecycle" class="level1">
+<h1>The Final Data Science Lifecycle</h1>
+<hr>
+<p>Given that the relational view aligns well with data science examples (see <a href="Intro-DS-lifecycle.html#the-relational-vs.-representational-view-in-practice">Appendix</a>), we use the data science lifecycle in <a href="#fig-lifecycle-practices" class="quarto-xref">Figure&nbsp;2</a> throughout this paper and on the associated website. Beyond aligning well with data science examples, the lifecycle shown in <a href="#fig-lifecycle-practices" class="quarto-xref">Figure&nbsp;2</a> also fits with the data science processes described in <a href="./Intro-DS-ethics.html#what-is-data-science">what is data science ethics?</a>. <a href="#fig-lifecycle-practices" class="quarto-xref">Figure&nbsp;2</a> showcases how the data science processes connect to our final data science lifecycle. However, other data science lifecycles could also be compatible with the relational view of data and data models as well as the described data science processes (we outline some potential shortcomings of our final lifecycle in the <a href="Intro-DS-lifecycle.html#final-data-science-lifecycle-caveats">Appendix</a> for instructors who want to have their students walk through the pros and cons of working with different versions of the data science lifecycle). As such, we acknowledge that our selected lifestyle, depicted in <a href="#fig-lifecycle-practices" class="quarto-xref">Figure&nbsp;2</a>, is not the only viable choice.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-lifecycle-practices" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 5 stages. Data Collection belongs to (1) Interactions with the World. Data Processing creates (2) Objects. Data Cleaning produces (3) Data. Exploratory Data Analysis is an intermediary between (3) Data and (4) Models. Machine Learning, Algorithms, Statistical Models are paradigmatic examples of (4) Models representing the World. Deployment of (4) Models creates interpretations of (5) Knowledge, which includes Communication, Visualizations, Report-Findings, and Decision making. Finally, (5) Knowledge informs further (1) Interactions with the world via Data Product Development." data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-lifecycle-practices-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/Lifecycle-Practices.png" class="quarto-figure quarto-figure-center figure-img" style="width:90.0%;height:100.0%" alt="Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 5 stages. Data Collection belongs to (1) Interactions with the World. Data Processing creates (2) Objects. Data Cleaning produces (3) Data. Exploratory Data Analysis is an intermediary between (3) Data and (4) Models. Machine Learning, Algorithms, Statistical Models are paradigmatic examples of (4) Models representing the World. Deployment of (4) Models creates interpretations of (5) Knowledge, which includes Communication, Visualizations, Report-Findings, and Decision making. Finally, (5) Knowledge informs further (1) Interactions with the world via Data Product Development.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-lifecycle-practices-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Data science lifecycle under the relational view of data and data models, superimposed with the data science processes, described in <a href="./Intro-DS-ethics.html#what-is-data-science">what is data science ethics?</a>. “Raw Data” is equivalent to objects, which is processed into “Data”. Data Model(s) result from ordering data in a particular way (e.g., as a linear regression). “Tuned Data Model(s)” also result from ordering data. However, tuned models usually involve <em>more</em> data (e.g., additional data collected because the data model(s) was unsuccessful with respect to some chosen metric or <em>different</em> data (e.g., test data) than the original data model(s). “Deployment/Use” involves interpreting knowledge from the model(s). “Problem Definition” affects the entire lifecycle, which is why the “Problem Definition” box surrounding the entire lifecycle (e.g., how we define the question we want to answer with data and model success influences what raw data we process and how we tune our model). The layout for this figure was inspired by the diagram on pg. 58 of <span class="citation" data-cites="Beaulieu-Leonelli">Beaulieu &amp; Leonelli (<a href="#ref-Beaulieu-Leonelli" role="doc-biblioref">2021</a>)</span>.
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
 <hr>
 </section>
-<section id="the-relational-view" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> The Relational View</h1>
+<section id="appendix" class="level1">
+<h1>Appendix</h1>
 <hr>
-<p>Meanwhile, under the relational view of data and data models, data is understood as any object treated as evidence for at least one claim about the world and “is possible to circulate…among individuals/groups,” <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>. Consequently, the informational content of data depends on the researchers’ background assumptions and social context. So, truth is not stored in data and is instead defined by its social environment and the function it is supposed to serve. As such, data models, not data, serve as representations of our world, making data models necessary and highly influential to knowledge production under the relational view of data and data models <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2018</a>)</span>.</p>
+<p>In the appendix, we provide worked-out examples and describe some of the limitations of the lifecycle we used in this paper to underscore the value of judgment in defining relationships between data, the world, and knowledge. We hope that our examples lead to interesting and fruitful classroom discussions.</p>
+<p>Even though, as highlighted in <a href="Intro-DS-lifecycle.html#the-relational-view-of-data-and-data-models">the relational view of data and data models subsection</a>, it makes the most sense to think of data and data models using a relational view, it is worth noting (and pointing out to students) that there exist alternative frameworks in which to consider data and data models. Here, we examine the representational view of data, data models, and their connections to what we interpret as knowledge about our world <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2019</a>)</span>.</p>
+<section id="the-representational-view" class="level2">
+<h2 class="anchored" data-anchor-id="the-representational-view">The Representational View</h2>
+<p>Under the representational view of data and data models (see <a href="#fig-DS-replifecycle" class="quarto-xref">Figure&nbsp;3</a>), the informational content of data is fixed and independent of the researchers’ background assumptions and context. Thus, data models are only important insofar as they extract the underlying truth from the data. So, under the representational view, data models are either correct or incorrect, depending on their ability to elucidate the truth stored in the data. In other words, data are simply numbers that hold information, and data models (and other methods of processing data) are only relevant because they clarify the connections between data and what we interpret to be knowledge <span class="citation" data-cites="Leonelli">(<a href="#ref-Leonelli" role="doc-biblioref">Leonelli, 2019</a>)</span>.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/DS-pipeline.png" style="width:50.0%;height:50.0%" alt="Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 5 stages. The stages of inquiry include: (1) 'Interactions with the World', which produce (2) 'Objects', which are processed as 'Data', which are ordered as (4) 'Models representing the World', which is then interpreted as (5) 'Knowledge'. What is interpreted as (5) 'Knowledge' further informs (1) 'Interactions with the World'." class="figure-img"></p>
-<figcaption>Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019.</figcaption>
+<div id="fig-DS-replifecycle" class="quarto-float quarto-figure quarto-figure-center anchored" alt="Data Science Lifecycle under the Representational View of Data and Models described by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 3 components that all interact with one another. The components include: (1) World, (2) Data, and (3) Knowledge. (1) World is documented via (2) Data and (2) Data represents (1) World. Additonally, (3) Knowledge is based on (2) Data and (2) Data is used to infer (3) Knowledge." data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-DS-replifecycle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/DS-replifecycle.png" class="quarto-figure quarto-figure-center figure-img" style="width:70.0%;height:70.0%" alt="Data Science Lifecycle under the Representational View of Data and Models described by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 3 components that all interact with one another. The components include: (1) World, (2) Data, and (3) Knowledge. (1) World is documented via (2) Data and (2) Data represents (1) World. Additonally, (3) Knowledge is based on (2) Data and (2) Data is used to infer (3) Knowledge.">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-DS-replifecycle-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3: Data science lifecycle under the representational view of data and models as formulated by <span class="citation" data-cites="Leonelli">Leonelli (<a href="#ref-Leonelli" role="doc-biblioref">2019</a>)</span>.
+</figcaption>
 </figure>
 </div>
 </div>
 </div>
 <hr>
 </section>
-<section id="the-relational-vs.-representational-view-in-practice" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> The Relational vs.&nbsp;Representational View In-Practice</h1>
-<hr>
-<section id="predicting-the-likelihood-that-a-person-buys-concert-tickets" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="predicting-the-likelihood-that-a-person-buys-concert-tickets"><span class="header-section-number">3.1</span> Predicting the Likelihood that a Person Buys Concert Tickets</h2>
-<p>Predicting the Likelihood of Buying Concert Tickets Suppose we are interested in predicting a person’s likelihood of buying concert tickets from a particular website. To predict a person’s likelihood, we collect data about the number of times they clicked on an advertisement for concert tickets from that particular website, the timestamps of these ad-clicks, the person’s demographic information, etc.</p>
-<p>However, it is unclear what exactly the data we gathered actually represents. We concede that we cannot directly measure a person’s interest in buying concert tickets, but we believe that someone’s interest is relevant to them actually buying the concerts tickets. So, we decide to use the person’s number of ad-clicks as a proxy for their interest in buying concert tickets. In doing so, we take ad-click counts to represent a person’s interest in buying concert tickets from that website. However, it is possible that a person clicks on the ad because they are trying to figure out for how much to resell their previously purchased concert tickets. So, in this case, the ad-click data does not actually represent a person’s interest in buying concert tickets.</p>
-<p>Furthermore, using certain data as evidence could influence future interactions with the world. Suppose we find that when the website displays, “less than 1% of tickets remaining”, the person is much more likely to buy concert tickets. In turn, other ticket sites adopt this strategy to sell more tickets. However, maybe we only found such a strong correlation between displaying this message and a person’s likelihood of buying tickets on our website because no other site was displaying a similar message. In turn, when other sites adopt our strategy, displaying the message “less than 1% of tickets remaining” no longer increases the person’s likelihood of buying tickets from our website. So, we have changed how people will interact with our site and buy concert tickets. Therefore, we influence people’s future interactions with ticket websites by using display message data as evidence.</p>
-<p>Unlike the representational view, the relational view acknowledges data’s informational content is influenced by researchers’ background assumptions and social contexts. Furthermore, the relational view endorses that data can be dynamic, and what we take as knowledge from the data influences future interactions with the world. As such, the concert ticket example described above gives us reason to endorse the relational view of data and data models over the representational view.</p>
-<hr>
-</section>
-<section id="predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="predicting-the-likelihood-that-a-player-receives-a-red-card-in-soccer"><span class="header-section-number">3.2</span> Predicting the Likelihood that a Player Receives a Red Card in Soccer</h2>
-<p>In <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, 29 data analysis teams were asked to use the same data set to determine “whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players,”. Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.</p>
-<p>The difference in chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ final decisions:</p>
+<section id="the-relational-vs.-representational-view-in-practice" class="level2">
+<h2 class="anchored" data-anchor-id="the-relational-vs.-representational-view-in-practice">The Relational vs.&nbsp;Representational View In-Practice</h2>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example 1: Predicting the Likelihood that a Person Buys Concert Tickets
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Suppose we are interested in predicting a person’s likelihood of buying concert tickets from a particular website. To do so, we collect data about the number of times they clicked on an advertisement for concert tickets from that particular website, the timestamps of these ad clicks, the person’s demographic information, et cetera.</p>
+<p>However, it is unclear what exactly the data we gather should be taken to represent. We concede that we cannot directly measure a person’s interest in buying concert tickets, but we believe that someone’s interest is correlated to how often they interact with online ads for the tickets. So, we decide to use a person’s number of ad clicks as a proxy for their interest in buying concert tickets. However, this proxy is imperfect. For instance, a person might click on a ticket ad in order to determine how much to resell their concert tickets for.</p>
+<p>Furthermore, using particular data as evidence can sometimes influence future interactions with the world. Imagine that we find that when a website displays, “less than 1% of tickets remaining”, the person is much more likely to buy concert tickets. As a result, other ticket sites adopt this strategy in an attempt to sell more tickets. However, suppose there is only a strong correlation between displaying the message`less than 1% of tickets remaining” and a person’s likelihood of buying tickets when no other site displayed a similar message. Namely, when other sites also display the message “less than 1% of tickets remaining,” displaying the message on our site will no longer increase the person’s likelihood of buying tickets from our site. What this example demonstrates is that by treating the display message data as evidence for there being a correlation between displaying the message and the likelihood of buying a ticket, we have changed how future users will interact with our site.</p>
+<p>Unlike the representational view, the relational view acknowledges that data’s informational content is influenced by researchers’ background assumptions and social contexts. Furthermore, the relational view endorses that data can be dynamic, and what we take as evidence can influence future interactions with the world. Thus, the concert ticket example described above gives us reason to endorse the relational view of data and data models over the representational view.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Example 2: Predicting the Likelihood that a Player Receives a Red Card in Soccer
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>In <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, 29 data analysis teams were asked to use the same data set to determine ``whether soccer referees are more likely to give red cards to dark-skin-toned players than light-skin-toned players.” Despite operating from the same data set, the final conclusions were split: 20 teams found that there was a statistically significant positive relationship, and 9 teams did not find a significant association between skin tone and the likelihood of the referee giving a red card.</p>
+<p>The difference in the chosen data model type and the relative importance of the potential predictor variables contributed to the division in the teams’ findings:</p>
 <ul>
-<li><p>4 different model types were used: 15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.</p></li>
-<li><p>21/29 teams used unique combinations of predictor variables.</p></li>
+<li>15 teams used logistic models, 6 teams used Poisson models, 6 teams used linear models, and 2 teams used other types of models.</li>
+<li>21 of 29 teams used unique combinations of predictor variables.</li>
 </ul>
-<p>Through <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, we can also see how ambiguity about the data model and the relative importance of certain predictor variables also impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, knowledge, and social contexts.</p>
-<p><strong>Hence, <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span> emphasize that data and data models should be viewed relationally rather than representationally.</strong></p>
+<p>Through <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, we can also see how ambiguity about the data model and the relative importance of certain predictor variables impacts what data is taken as evidence. No two teams had the same set of evidence for their claim about the relationship between skin tone and the likelihood of the referee giving a red card. As emphasized by <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span>, each team’s evidence set was defensible based on the original data set provided. Yet, these evidence sets were also subjective in the sense that they relied upon the analysts’ background assumptions, value judgments, and social contexts. These subjective factors ultimately influenced what the analysts interpreted as the true relationship between the player’s skin tone and the likelihood of the referee giving the player a red card. Hence, the <span class="citation" data-cites="soccer-case">Silberzahn et al. (<a href="#ref-soccer-case" role="doc-biblioref">2017</a>)</span> case study emphasizes that data and data models should be viewed relationally rather than representationally.</p>
+</div>
+</div>
+</div>
 <hr>
 </section>
-</section>
-<section id="the-final-data-science-lifecycle" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> The Final Data Science Lifecycle</h1>
-<hr>
-<p>Several lifecycles are compatible with a relational view of data. The final data science lifecycle I will use on this website endorses the relational view of data and data models proposed by <span class="citation" data-cites="Leonelli">Leonelli (<a href="#ref-Leonelli" role="doc-biblioref">2018</a>)</span>. The diagram below shows us where paradigmatic data science practices occur in the selected lifecycle <span class="citation" data-cites="Beaulieu-Leonelli">(<a href="#ref-Beaulieu-Leonelli" role="doc-biblioref">Beaulieu &amp; Leonelli, 2021, p. 58</a>)</span>.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Lifecycle-Practices.png" style="width:90.0%;height:100.0%" alt="Data Science Lifecycle under the Relational View of Data and Models conceptualized by Sabina Leonelli in 2019. The lifecycle is represented as a circle with 5 stages. Data Collection belongs to (1) Interactions with the World. Data Processing creates (2) Objects. Data Cleaning produces (3) Data. Exploratory Data Analysis is an intermediary between (3) Data and (4) Models. Machine Learning, Algorithms, Statistical Models are paradigmatic examples of (4) Models representing the World. Deployment of (4) Models creates interpretations of (5) Knowledge, which includes Communication, Visualizations, Report-Findings, and Decision making. Finally, (5) Knowledge informs further (1) Interactions with the world via Data Product Development." class="figure-img"></p>
-<figcaption>Data science lifecycle under the relational view of data and data models, superimposed with the data science processes, described in the <a href="Intro-DS-ethics.html">What is Data Science Ethics?</a> page. “Raw Data” is equivalent to objects, which is processed into “Data”. Data Model(s) result from ordering data in a particular way (e.g., a linear regression). “Tuned Data Model(s)” also result from ordering data. Though, tuned models usually involve more data (e.g., additional data collected be- cause the data model(s) was “unsuccessful” with respect to some chosen metric or different data (e.g., test data) than the original data model(s). “Deployment/Use” involves inter- preting knowledge from the the model(s). “Problem Definition” affects the entire lifecycle, which is why the “Problem Definition” box surrounding the entire lifecycle (e.g., how we define the question we want to answer with data and model success influences what raw data we process and how we tune our model). The layout for this figure was inspired by Beaulieu and Leonelli’s diagram <span class="citation" data-cites="Beaulieu-Leonelli">(<a href="#ref-Beaulieu-Leonelli" role="doc-biblioref">Beaulieu &amp; Leonelli, 2021, p. 58</a>)</span>.</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<section id="final-data-science-lifecycle-caveats" class="level2">
+<h2 class="anchored" data-anchor-id="final-data-science-lifecycle-caveats">Final Data Science Lifecycle Caveats</h2>
+<p>For instructors who seek to walk their students through the advantages and disadvantages of specific data science lifecycles, we note some flaws with our selected lifecycle (see <a href="#fig-lifecycle-practices" class="quarto-xref">Figure&nbsp;2</a>). First, the arrows between the data science stages imply that the data science is linear (i.e., only when all prior steps are complete is the next step pursued). However, in practice, data science is iterative; for example, data scientists may build a data model, realize their model underperforms on a certain group, and then collect more data to improve the model’s performance. Another shortcoming of our final lifecycle in Figure <a href="#fig-lifecycle-practices" class="quarto-xref">Figure&nbsp;2</a> is that it does not highlight how many different people (or groups) are often involved in different stages of the lifecycle. For instance, a company might collect the data and then bring in an external group of data scientists to create a meaningful model from that data. The fact that different people (or groups) act at different stages of data science is essential both for understanding how data science practices are actually carried out as well as why understanding certain ethics topics (such as moral responsibility) is integral to data science. As such, we move forward with our final data science lifecycle in the spirit of George E. P. Box, “all models are wrong, but some are useful,” <span class="citation" data-cites="box1979">(<a href="#ref-box1979" role="doc-biblioref">Box, 1979</a>)</span>.</p>
 
 
 
 </section>
+</section>
+
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-Beaulieu-Leonelli" class="csl-entry" role="listitem">
 Beaulieu, A., &amp; Leonelli, S. (2021). <em>Data and society: A critical introduction</em> (First). SAGE Publications Ltd.
 </div>
+<div id="ref-box1979" class="csl-entry" role="listitem">
+Box, G. E. P. (1979). Robustness in the strategy of scientific model building. In R. L. Launer &amp; G. N. Wilkinson (Eds.), <em>Robustness in statistics</em> (pp. 201–236). Academic Press. https://doi.org/<a href="https://doi.org/10.1016/B978-0-12-438150-6.50018-2">https://doi.org/10.1016/B978-0-12-438150-6.50018-2</a>
+</div>
+<div id="ref-Cobb-Moore" class="csl-entry" role="listitem">
+Cobb, G. W., &amp; Moore, D. S. (1997). Mathematics, statistics, and teaching. <em>The American Mathematical Monthly</em>, <em>104</em>(9), 801–823. Retrieved from <a href="http://www.jstor.org/stable/2975286">http://www.jstor.org/stable/2975286</a>
+</div>
 <div id="ref-Leonelli" class="csl-entry" role="listitem">
-Leonelli, S. (2018). What distinguishes data from models? <em>European Journal for Philosophy of Science</em>, <em>9</em>. <a href="https://doi.org/10.1007/s13194-018-0246-0">https://doi.org/10.1007/s13194-018-0246-0</a>
+Leonelli, S. (2019). What distinguishes data from models? <em>European Journal for Philosophy of Science</em>, <em>9</em>. <a href="https://doi.org/10.1007/s13194-018-0246-0">https://doi.org/10.1007/s13194-018-0246-0</a>
 </div>
 <div id="ref-soccer-case" class="csl-entry" role="listitem">
 Silberzahn, R., Uhlmann, E., Martin, D., Anselmi, P., Aust, F., Awtrey, E., … Nosek, B. (2017). Many analysts, one dataset: Making transparent how variations in analytical choices affect results. <em>Advances in Methods and Practices in Psychological Science</em>.
 </div>
-</div></section></div></main> <!-- /main -->
+</div></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>What we interpret as knowledge is <em>not</em> the same as actual knowledge. E.g., the statement “the Earth is flat” was historically interpreted as knowledge, even though it is a false statement and thus not actual knowledge.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -779,11 +818,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
-    <li class="nav-item compact">
+    <li class="nav-item">
     <a class="nav-link" href="https://github.com/scolando/personal-website">
-      <i class="bi bi-github" role="img">
-</i> 
-    </a>
+<p><iconify-icon inline="" icon="mdi:github" aria-label="Icon github from mdi Iconify.design set." title="Icon github from mdi Iconify.design set."></iconify-icon> Source Code</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="https://github.com/scolando/data-science-ethics/issues/new">
+<p>Report an Issue</p>
+</a>
   </li>  
 </ul>
     </div>
