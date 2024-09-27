@@ -8,14 +8,14 @@ categories:
 format:
   pdf:
     pdf-engine: weasyprint
-bibliography: bibliographies/Causation.bib
+bibliography: ../bibliographies/Causation.bib
 link-citations: true
-csl: bibliographies/apa-6th-edition.csl
-css: readings.css
+csl: ../bibliographies/apa-6th-edition.csl
+css: ../readings.css
 ---
 
 | Title                                                                                                | Citation                   |
-|------------------------------------------------------------------------------------------------------|----------------------------|
+|------------------------------------------------------|------------------|
 | The Metaphysics of Causation (Stanford Encyclopedia of Philosophy)                                   | @sep-causation-metaphysics |
 | The Problem of Induction (Stanford Encyclopedia of Philosophy)                                       | @sep-induction-problem     |
 | Causation                                                                                            | @scheines                  |

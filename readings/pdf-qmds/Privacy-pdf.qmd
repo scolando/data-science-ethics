@@ -1,0 +1,42 @@
+---
+title: "Privacy"
+subtitle: "Readings on privacy, why it matters, its relationship to consent, and case studies that emphasize both the importance and difficulty of ensuring privacy in data science."
+categories:
+  - "Interactions with World"
+  - "Producing Objects"
+  - "Processing Objects as Data"
+format:
+  pdf:
+    pdf-engine: weasyprint
+bibliography: ../bibliographies/Privacy.bib
+link-citations: true
+csl: ../bibliographies/apa-6th-edition.csl
+css: ../readings.css
+---
+
+| Title                                                                            | Citation            |
+|----------------------------------------------------------------------------------|---------------------|
+| Privacy (Stanford Encyclopedia of Philosophy)                                    | @sep-privacy        |
+| Why Privacy is Important                                                         | @why-privacy-imp    |
+| Why We Care about Privacy                                                        | @why-care-privacy   |
+| Privacy and Human Behavior in the Age of Information                             | @privacy-behavior   |
+| Philosophy of Privacy and Digital Life                                           | @Allen2019          |
+| Surveillance and Capture: Two Models of Privacy                                  | @privacy-behavior   |
+| From Individual to Group Privacy in Big Data Analytics                           | @individual-group   |
+| Big Data Privacy: A Technological Perspective and Review                         | @Jain2016           |
+| A Modern Pascal's Wager for Mass Electronic Surveillance                         | @Danks-privacy      |
+| Privacy and Paternalism: The Ethics of Student Data Collection                   | @PrivacyPaternalism |
+| It's Not Privacy, and It's Not Fair                                              | @Dwork2013          |
+| The Surveillance Society: Information Technology and Bureaucratic Social Control | @Gandy1989          |
+| Big Data's End Run around Procedural Privacy Protections                         | @end-procedural     |
+| Why 'I Have Nothing to Hide' is the Wrong Way to Think About Surveillance        | @Marlinspike2013    |
+| Between Privacy and Utility: On Differential Privacy in Theory and Practice      | @Seeman2023         |
+| Can a Set of Equations keep U.S. Census Data Private?                            | @Mervis2019         |
+| Why 'Anonymous' Data Sometimes Isn't                                             | @anonymous-data     |
+| Recommender Systems and their Ethical Challenges                                 | @Milano2020         |
+| 70,000 OkCupid Profiles Leaked, Intimate Details And All                         | @OkCupid            |
+
+## References
+
+::: {#refs}
+:::

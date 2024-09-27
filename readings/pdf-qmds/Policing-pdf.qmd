@@ -1,0 +1,33 @@
+---
+title: "Predictive Policing"
+subtitle: "Readings and case studies on the applications of data science in predictive policing and the ethical implications of using statistical models in such settings."
+categories: 
+  - "Interactions with World"
+  - "Interpreting Models as Knowledge"
+format:
+  pdf:
+    pdf-engine: weasyprint
+bibliography: ../bibliographies/Policing.bib
+link-citations: true
+csl: ../bibliographies/apa-6th-edition.csl
+css: ../readings.css
+---
+
+|                                                                                                                       |              |
+|-----------------------------------------------------|-------------------|
+| Using Artificial Intelligence to Address Criminal Justice Needs                                                       | @Rigano2019  |
+| Police Use of Face Recognition Is Sweeping the UK                                                                     | @Nast2023    |
+| Predictive Policing Algorithms are Racist. They Need to be Dismantled.                                                | @Heaven2020  |
+| Weapons of Math Destruction                                                                                           | @oneil2016   |
+| Machine Bias                                                                                                          | @COMPAS      |
+| What Happens When Police Use AI to Predict and Prevent Crime?                                                         | @Reese2022   |
+| To Predict and Serve?                                                                                                 | @Lum2016     |
+| An Episode in the History of PreCrime                                                                                 | @Lemov2018   |
+| Dirty Data, Bad Predictions: How Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice | @Rashida2019 |
+| Want to Predict the Future of Surveillance? Ask Poor Communities                                                      | @Eubanks2014 |
+
+## References
+
+::: {#refs}
+:::
+

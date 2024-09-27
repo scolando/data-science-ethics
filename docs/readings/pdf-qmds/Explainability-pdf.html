@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Data Science Ethics – Causation</title>
+<title>Data Science Ethics – Explainability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -164,14 +164,14 @@ div.csl-indent {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Causation-pdf.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
+    <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="Explainability-pdf.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Causation</h1>
-<p class="subtitle lead">Readings on causation as it applies to data science, and more specifically data science ethics. A primary focus of these readings is causal inference and socially sensitive attributes (e.g., race and gender).</p>
+<h1 class="title">Explainability</h1>
+<p class="subtitle lead">Readings on what is meant by “explainability” (and related terms like “transparency” and “interpretability”) in data science and to what extent acheiving explainabilty (or transparency or interpretability) in algorithms is morally important.</p>
   <div class="quarto-categories">
     <div class="quarto-category">Interactions with World</div>
     <div class="quarto-category">Ordering Data as Models to Represent the World</div>
@@ -195,8 +195,8 @@ div.csl-indent {
 
 <table class="caption-top table">
 <colgroup>
-<col style="width: 75%">
-<col style="width: 25%">
+<col style="width: 72%">
+<col style="width: 27%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -206,107 +206,93 @@ div.csl-indent {
 </thead>
 <tbody>
 <tr class="odd">
-<td>The Metaphysics of Causation (Stanford Encyclopedia of Philosophy)</td>
-<td><span class="citation" data-cites="sep-causation-metaphysics">Gallow (<a href="#ref-sep-causation-metaphysics" role="doc-biblioref">2022</a>)</span></td>
+<td>Transparency in Complex Computational Systems</td>
+<td><span class="citation" data-cites="Creel2020">Creel (<a href="#ref-Creel2020" role="doc-biblioref">2020</a>)</span></td>
 </tr>
 <tr class="even">
-<td>The Problem of Induction (Stanford Encyclopedia of Philosophy)</td>
-<td><span class="citation" data-cites="sep-induction-problem">Henderson (<a href="#ref-sep-induction-problem" role="doc-biblioref">2022</a>)</span></td>
+<td>How the Machine “Thinks”: Understanding Opacity in Machine Learning Algorithms</td>
+<td><span class="citation" data-cites="Burrell2015">Burrell (<a href="#ref-Burrell2015" role="doc-biblioref">2015</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Causation</td>
-<td><span class="citation" data-cites="scheines">Scheines (<a href="#ref-scheines" role="doc-biblioref">n.d.</a>)</span></td>
+<td>Explainable AI: A Review of Machine Learning Interpretability Methods</td>
+<td><span class="citation" data-cites="Linardatos2020">Linardatos, Papastefanopoulos, &amp; Kotsiantis (<a href="#ref-Linardatos2020" role="doc-biblioref">2020</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Causal Diagrams for Empirical Research</td>
-<td><span class="citation" data-cites="Pearl">Pearl (<a href="#ref-Pearl" role="doc-biblioref">1995</a>)</span></td>
+<td>Transparency’s Ideological Drift</td>
+<td><span class="citation" data-cites="Pozen2018">Pozen (<a href="#ref-Pozen2018" role="doc-biblioref">2018</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Disparate Causes, Pt. I</td>
-<td><span class="citation" data-cites="Hu2019">Hu (<a href="#ref-Hu2019" role="doc-biblioref">2019</a>)</span></td>
+<td>Philosophy of Science at Sea: Clarifying the Interpretability of Machine Learning</td>
+<td><span class="citation" data-cites="Beisbart2022">Beisbart &amp; Räz (<a href="#ref-Beisbart2022" role="doc-biblioref">2022</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Variation Semantics: When Counterfactuals in Explanations of Algorithmic Decisions are True</td>
-<td><span class="citation" data-cites="pittphilsci20626">Hudetz &amp; Crawford (<a href="#ref-pittphilsci20626" role="doc-biblioref">2022</a>)</span></td>
+<td>The Right to an Explanation</td>
+<td><span class="citation" data-cites="Vredenburgh2021">Vredenburgh (<a href="#ref-Vredenburgh2021" role="doc-biblioref">2021</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Causal Discovery Algorithms: A Practical Guide</td>
-<td><span class="citation" data-cites="Malinsky2018">Malinsky &amp; Danks (<a href="#ref-Malinsky2018" role="doc-biblioref">2018</a>)</span></td>
+<td>Algorithmic and Human Decision Making: For a Double Standard of Transparency</td>
+<td><span class="citation" data-cites="Gunther2022">Günther &amp; Kasirzadeh (<a href="#ref-Gunther2022" role="doc-biblioref">2022</a>)</span></td>
 </tr>
 <tr class="even">
-<td>On the Explanatory Depth and Pragmatic Value of Coarse-Grained, Probabilistic, Causal Explanations</td>
-<td><span class="citation" data-cites="Kinney2018">Kinney (<a href="#ref-Kinney2018" role="doc-biblioref">2018</a>)</span></td>
+<td>The Mythos of Model Interpretability</td>
+<td><span class="citation" data-cites="Lipton2016">Lipton (<a href="#ref-Lipton2016" role="doc-biblioref">2016</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>Fairness in Decision-making — the Causal Explanation Formula</td>
-<td><span class="citation" data-cites="Zhang2018">Zhang &amp; Bareinboim (<a href="#ref-Zhang2018" role="doc-biblioref">2018</a>)</span></td>
+<td>Epistemic Values in Feature Importance Methods: Lessons from Feminist Epistemology</td>
+<td><span class="citation" data-cites="Hancox2021">Hancox-Li &amp; Kumar (<a href="#ref-Hancox2021" role="doc-biblioref">2021</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Evaluations of Causal Claims Reflect a Trade-Off Between Informativeness and Compression</td>
-<td><span class="citation" data-cites="Kinney2022">Kinney &amp; Lombrozo (<a href="#ref-Kinney2022" role="doc-biblioref">2022</a>)</span></td>
+<td>The Fate of Explanatory Reasoning in the Age of Big Data</td>
+<td><span class="citation" data-cites="Cabrera2020">Cabrera (<a href="#ref-Cabrera2020" role="doc-biblioref">2020</a>)</span></td>
 </tr>
 <tr class="odd">
-<td>The Use and Misuse of Counterfactuals in Ethical Machine Learning</td>
-<td><span class="citation" data-cites="causal-inf-use">Kasirzadeh &amp; Smart (<a href="#ref-causal-inf-use" role="doc-biblioref">2021</a>)</span></td>
+<td>Interpreting Interpretability: Understanding Data Scientists’ Use of Interpretability Tools for Machine Learning</td>
+<td><span class="citation" data-cites="Kaur2020">Kaur et al. (<a href="#ref-Kaur2020" role="doc-biblioref">2020</a>)</span></td>
 </tr>
 <tr class="even">
-<td>Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination</td>
-<td><span class="citation" data-cites="Eddie-murphy">Kohler-Hausmann (<a href="#ref-Eddie-murphy" role="doc-biblioref">2017</a>)</span></td>
-</tr>
-<tr class="odd">
-<td>“But What Are You <em>Really</em>?”: The Metaphysics of Race</td>
-<td><span class="citation" data-cites="Mills1998">Mills (<a href="#ref-Mills1998" role="doc-biblioref">1998</a>)</span></td>
-</tr>
-<tr class="even">
-<td>What is “Race” in Algorithmic Discrimination on the Basis of Race?</td>
-<td><span class="citation" data-cites="Hu">Hu (<a href="#ref-Hu" role="doc-biblioref">Forthcoming</a>)</span></td>
+<td>“Explaining” Machine Learning Reveals Policy Challenges</td>
+<td><span class="citation" data-cites="Coyle2020">Coyle &amp; Weller (<a href="#ref-Coyle2020" role="doc-biblioref">2020</a>)</span></td>
 </tr>
 </tbody>
 </table>
 <section id="references" class="level2">
 <h2 class="anchored" data-anchor-id="references">References</h2>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-sep-causation-metaphysics" class="csl-entry" role="listitem">
-Gallow, J. D. (2022). <span class="nocase">The Metaphysics of Causation</span>. In E. N. Zalta &amp; U. Nodelman (Eds.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>F</span>all 2022). <a href="https://plato.stanford.edu/archives/fall2022/entries/causation-metaphysics/" class="uri">https://plato.stanford.edu/archives/fall2022/entries/causation-metaphysics/</a>; Metaphysics Research Lab, Stanford University.
+<div id="ref-Beisbart2022" class="csl-entry" role="listitem">
+Beisbart, C., &amp; Räz, T. (2022). Philosophy of science at sea: Clarifying the interpretability of machine learning. <em>Philosophy Compass</em>, <em>17</em>(6), e12830. <a href="https://doi.org/10.1111/phc3.12830">https://doi.org/10.1111/phc3.12830</a>
 </div>
-<div id="ref-sep-induction-problem" class="csl-entry" role="listitem">
-Henderson, L. (2022). <span class="nocase">The Problem of Induction</span>. In E. N. Zalta &amp; U. Nodelman (Eds.), <em>The <span>Stanford</span> encyclopedia of philosophy</em> (<span>W</span>inter 2022). <a href="https://plato.stanford.edu/archives/win2022/entries/induction-problem/" class="uri">https://plato.stanford.edu/archives/win2022/entries/induction-problem/</a>; Metaphysics Research Lab, Stanford University.
+<div id="ref-Burrell2015" class="csl-entry" role="listitem">
+Burrell, J. (2015). How the machine ’thinks:’ understanding opacity in machine learning algorithms. <em>SSRN Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.2660674">https://doi.org/10.2139/ssrn.2660674</a>
 </div>
-<div id="ref-Hu2019" class="csl-entry" role="listitem">
-Hu, L. (2019). <em>Disparate causes, pt. i</em>. Retrieved from <a href="https://www.phenomenalworld.org/analysis/disparate-causes-i/">https://www.phenomenalworld.org/analysis/disparate-causes-i/</a>
+<div id="ref-Cabrera2020" class="csl-entry" role="listitem">
+Cabrera, F. (2020). The fate of explanatory reasoning in the age of big data. <em>Philosophy &amp;Amp; Technology</em>, <em>34</em>(4), 645–665. <a href="https://doi.org/10.1007/s13347-020-00420-9">https://doi.org/10.1007/s13347-020-00420-9</a>
 </div>
-<div id="ref-Hu" class="csl-entry" role="listitem">
-Hu, L. (Forthcoming). What<span>’</span>s <span>’</span>race<span>’</span> in algorithmic discrimination on the basis of race? <em>Journal of Moral Philosophy</em>.
+<div id="ref-Coyle2020" class="csl-entry" role="listitem">
+Coyle, D., &amp; Weller, A. (2020). "Explaining" machine learning reveals policy challenges. <em>Science</em>, <em>368</em>(6498), 1433–1434. <a href="https://doi.org/10.1126/science.aba9647">https://doi.org/10.1126/science.aba9647</a>
 </div>
-<div id="ref-pittphilsci20626" class="csl-entry" role="listitem">
-Hudetz, L., &amp; Crawford, N. (2022). <em>Variation semantics: When counterfactuals in explanations of algorithmic decisions are true</em>. Retrieved from <a href="https://philsci-archive.pitt.edu/20626/">https://philsci-archive.pitt.edu/20626/</a>
+<div id="ref-Creel2020" class="csl-entry" role="listitem">
+Creel, K. A. (2020). Transparency in complex computational systems. <em>Philosophy of Science</em>, <em>87</em>(4), 568–589. <a href="https://doi.org/10.1086/709729">https://doi.org/10.1086/709729</a>
 </div>
-<div id="ref-causal-inf-use" class="csl-entry" role="listitem">
-Kasirzadeh, A., &amp; Smart, A. (2021). The use and misuse of counterfactuals in ethical machine learning. <em>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</em>, 228–236. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/3442188.3445886">https://doi.org/10.1145/3442188.3445886</a>
+<div id="ref-Gunther2022" class="csl-entry" role="listitem">
+Günther, M., &amp; Kasirzadeh, A. (2022). Algorithmic and human decision making: For a double standard of transparency. <em>AI and Society</em>, <em>37</em>(1), 375–381. <a href="https://doi.org/10.1007/s00146-021-01200-5">https://doi.org/10.1007/s00146-021-01200-5</a>
 </div>
-<div id="ref-Kinney2018" class="csl-entry" role="listitem">
-Kinney, D. (2018). On the explanatory depth and pragmatic value of coarse-grained, probabilistic, causal explanations. <em>Philosophy of Science</em>, (1), 145–167. <a href="https://doi.org/10.1086/701072">https://doi.org/10.1086/701072</a>
+<div id="ref-Hancox2021" class="csl-entry" role="listitem">
+Hancox-Li, L., &amp; Kumar, I. E. (2021). Epistemic values in feature importance methods: Lessons from feminist epistemology. <em>Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</em>, 817–826. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/3442188.3445943">https://doi.org/10.1145/3442188.3445943</a>
 </div>
-<div id="ref-Kinney2022" class="csl-entry" role="listitem">
-Kinney, D., &amp; Lombrozo, T. (2022). Evaluations of causal claims reflect a trade-off between informativeness and compression. <em>Annual Meeting of the Cognitive Science Society</em>. Retrieved from <a href="https://api.semanticscholar.org/CorpusID:269447691">https://api.semanticscholar.org/CorpusID:269447691</a>
+<div id="ref-Kaur2020" class="csl-entry" role="listitem">
+Kaur, H., Nori, H., Jenkins, S., Caruana, R., Wallach, H., &amp; Wortman Vaughan, J. (2020). Interpreting interpretability: Understanding data scientists’ use of interpretability tools for machine learning. <em>Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems</em>, 1–14. New York, NY, USA: Association for Computing Machinery. <a href="https://doi.org/10.1145/3313831.3376219">https://doi.org/10.1145/3313831.3376219</a>
 </div>
-<div id="ref-Eddie-murphy" class="csl-entry" role="listitem">
-Kohler-Hausmann, I. (2017). The dangers of counterfactual causal thinking about detecting racial discrimination. <em><span>SSRN</span> Electronic Journal</em>. <a href="https://doi.org/10.2139/ssrn.3050650">https://doi.org/10.2139/ssrn.3050650</a>
+<div id="ref-Linardatos2020" class="csl-entry" role="listitem">
+Linardatos, P., Papastefanopoulos, V., &amp; Kotsiantis, S. (2020). Explainable AI: A review of machine learning interpretability methods. <em>Entropy</em>, <em>23</em>, 18. <a href="https://doi.org/10.3390/e23010018">https://doi.org/10.3390/e23010018</a>
 </div>
-<div id="ref-Malinsky2018" class="csl-entry" role="listitem">
-Malinsky, D., &amp; Danks, D. (2018). Causal discovery algorithms: A practical guide. <em>Philosophy Compass</em>, <em>13</em>(1), e12470. <a href="https://doi.org/10.1111/phc3.12470">https://doi.org/10.1111/phc3.12470</a>
+<div id="ref-Lipton2016" class="csl-entry" role="listitem">
+Lipton, Z. (2016). The mythos of model interpretability. <em>Communications of the ACM</em>, <em>61</em>. <a href="https://doi.org/10.1145/3233231">https://doi.org/10.1145/3233231</a>
 </div>
-<div id="ref-Mills1998" class="csl-entry" role="listitem">
-Mills, C. W. (1998). "But what are you <em>really</em>?": The metaphysics of race. In C. W. Mills (Ed.), <em>Blackness visible: Essays on philosophy and race</em> (pp. 41–66). Cornell University Press.
+<div id="ref-Pozen2018" class="csl-entry" role="listitem">
+Pozen, D. E. (2018). Transparency’s ideological drift. <em>Yale Law Journal</em>, <em>128</em>, 100–165.
 </div>
-<div id="ref-Pearl" class="csl-entry" role="listitem">
-Pearl, J. (1995). Causal diagrams for empirical research. <em>Biometrika</em>, <em>82</em>, 669–688. Retrieved from <a href="https://api.semanticscholar.org/CorpusID:10023329">https://api.semanticscholar.org/CorpusID:10023329</a>
-</div>
-<div id="ref-scheines" class="csl-entry" role="listitem">
-Scheines, R. (n.d.). <em>Causation</em>. Retrieved from <a href="https://www.cmu.edu/dietrich/philosophy/docs/scheines/causation.pdf">https://www.cmu.edu/dietrich/philosophy/docs/scheines/causation.pdf</a>
-</div>
-<div id="ref-Zhang2018" class="csl-entry" role="listitem">
-Zhang, J., &amp; Bareinboim, E. (2018). Fairness in decision-making — the causal explanation formula. <em>Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence and Thirtieth Innovative Applications of Artificial Intelligence Conference and Eighth AAAI Symposium on Educational Advances in Artificial Intelligence</em>. New Orleans, Louisiana, USA: AAAI Press.
+<div id="ref-Vredenburgh2021" class="csl-entry" role="listitem">
+Vredenburgh, K. (2021). The right to explanation. <em>Journal of Political Philosophy</em>, <em>30</em>(2), 209–229. <a href="https://doi.org/10.1111/jopp.12262">https://doi.org/10.1111/jopp.12262</a>
 </div>
 </div>
 

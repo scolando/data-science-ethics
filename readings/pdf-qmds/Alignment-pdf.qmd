@@ -10,14 +10,15 @@ subtitle: "Readings on the moral alignment between human values and current data
 format:
   pdf:
     pdf-engine: weasyprint
-bibliography: bibliographies/Alignment.bib
+bibliography: ../bibliographies/Alignment.bib
 link-citations: true
-csl: bibliographies/apa-6th-edition.csl
-css: readings.css
+csl: ../bibliographies/apa-6th-edition.csl
+css: ../readings.css
 ---
 
 | Title                                                                                                             | Citation          |
-|-----------------------------------------------|------------------------|
+|----------------------------------------------|--------------------------|
+| Coded Bias (Documentary)                                                                                          | @CodedBias        |
 | The Alignment Problem: Machine Learning and Human Values                                                          | @Christian2021    |
 | Artificial Intelligence, Values, and Alignment                                                                    | @Gabriel2020      |
 | Living Well Together Online: Digital Well-Being from a Confucian Perspective                                      | @Dennis2023       |

@@ -1,0 +1,17 @@
+---
+title: "Responsibility"
+subtitle: "Readings concerning moral responsibility in data science as well as some of the challenges in assessing who is morally responsible for data models and predictions."
+categories:
+  - "Interactions with World"
+  - "Producing Objects"
+  - "Processing Objects as Data"
+  - "Ordering Data as Models to Represent the World"
+  - "Interpreting Models as Knowledge"
+format:
+  pdf:
+    pdf-engine: weasyprint
+bibliography: ../bibliographies/Responsibility.bib
+link-citations: true
+csl: ../bibliographies/apa-6th-edition.csl
+css: ../readings.css
+---

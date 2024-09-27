@@ -1,0 +1,14 @@
+---
+title: "Workplace"
+subtitle: "Readings and case studies on the applications of data science in the workplace (e.g., in hiring or promotion) and the ethical implications of using statistical models in such contexts."
+categories: 
+  - "Interactions with World"
+  - "Interpreting Models as Knowledge"
+format:
+  pdf:
+    pdf-engine: weasyprint
+bibliography: ../bibliographies/Workplace.bib
+link-citations: true
+csl: ../bibliographies/apa-6th-edition.csl
+css: ../readings.css
+---

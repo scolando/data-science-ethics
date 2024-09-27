@@ -1,0 +1,31 @@
+---
+title: "Consent"
+subtitle: "Readings on informed consent in data science practices, why it ethically matters, and how to grapple with the practical challenges of obtaining informed consent in data science."
+categories:
+  - "Interactions with World"
+  - "Producing Objects"
+  - "Interpreting Models as Knowledge"
+format:
+  pdf:
+    pdf-engine: weasyprint
+bibliography: ../bibliographies/Consent.bib
+link-citations: true
+csl: ../bibliographies/apa-6th-edition.csl
+css: ../readings.css
+---
+
+| Title                                                                                     | Citation                  |
+|------------------------------------------------------|------------------|
+| Informed Consent (Stanford Encyclopedia of Philosophy)                                    | @sep-informed-consent     |
+| Privacy Self-Management and the Consent Dilemma                                           | @Solove                   |
+| The Ethics of Consent: Theory and Practice                                                | @ethics-consent           |
+| Middletown, a Study in Contemporary American Culture                                      | @Middletown1929           |
+| A Belmont Report for Health Data                                                          | @Parasidis2019            |
+| Naturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation | @Rusert2019               |
+| What Makes Personal Data Processing by Social Networking Services Permissible?            | @wolmarans_voorhoeve_2022 |
+| What's Wrong with Automated Influence                                                     | @automated-influence      |
+
+## References
+
+::: {#refs}
+:::

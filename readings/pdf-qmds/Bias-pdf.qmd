@@ -1,0 +1,17 @@
+---
+title: "Bias, Fairness, and Justice"
+subtitle: "Readings on the normative concepts of bias, fairness, and justice and how they are relevant considerations in data science."
+categories:
+  - "Interactions with World"
+  - "Producing Objects"
+  - "Processing Objects as Data"
+  - "Ordering Data as Models to Represent the World"
+  - "Interpreting Models as Knowledge"
+format:
+  pdf:
+    pdf-engine: weasyprint
+bibliography: ../bibliographies/Bias.bib
+link-citations: true
+csl: ../bibliographies/apa-6th-edition.csl
+css: ../readings.css
+---
