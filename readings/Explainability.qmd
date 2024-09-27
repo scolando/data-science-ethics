@@ -1,0 +1,42 @@
+---
+title: "Explainability, Intepretability, and Transparency"
+subtitle: 'Readings on what is meant by "explainability" (and related terms like "transparency" and "interpretability") in data science and to what extent acheiving explainabilty (or transparency or interpretability) in algorithms is morally important.'
+categories:
+  - "Interactions with World"
+  - "Ordering Data as Models to Represent the World"
+  - "Interpreting Models as Knowledge"
+format:
+    html:
+      citeproc: true
+bibliography: bibliographies/Explainability.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
+css: readings.css
+---
+
+::: link-2
+::: link-2-header
+#### {{< iconify icons8:pdf >}} <a href = "pdf-qmds/Explainability-pdf.qmd" target = "_blank">Explainability, Interpretability, and Transparency Reading List PDF</a>
+:::
+:::
+
+| Title                                                                                                            | Citation         |
+|------------------------------------------------------|------------------|
+| Transparency in Complex Computational Systems                                                                    | @Creel2020       |
+| How the Machine "Thinks": Understanding Opacity in Machine Learning Algorithms                                   | @Burrell2015     |
+| Explainable AI: A Review of Machine Learning Interpretability Methods                                            | @Linardatos2020  |
+| Transparency's Ideological Drift                                                                                 | @Pozen2018       |
+| Philosophy of Science at Sea: Clarifying the Interpretability of Machine Learning                                | @Beisbart2022    |
+| The Right to an Explanation                                                                                      | @Vredenburgh2021 |
+| Algorithmic and Human Decision Making: For a Double Standard of Transparency                                     | @Gunther2022     |
+| The Mythos of Model Interpretability                                                                             | @Lipton2016      |
+| Epistemic Values in Feature Importance Methods: Lessons from Feminist Epistemology                               | @Hancox2021      |
+| The Fate of Explanatory Reasoning in the Age of Big Data                                                         | @Cabrera2020     |
+| Interpreting Interpretability: Understanding Data Scientists' Use of Interpretability Tools for Machine Learning | @Kaur2020        |
+| "Explaining" Machine Learning Reveals Policy Challenges                                                          | @Coyle2020       |
+| Why Should I Trust You? Explaining the Predictions of Any Classifier                                             | @Ribeiro2016     |
+
+## References
+
+::: {#refs}
+:::

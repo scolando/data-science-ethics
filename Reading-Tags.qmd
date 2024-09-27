@@ -1,6 +1,6 @@
 ---
 title: "Reading Lists"
-subtitle: 'readings are primarily pulled from the collated <a href="inside-syllabi.html"> data science ethics courses</a>.'
+subtitle: 'The listed readings are primarily pulled from the collated <a href="inside-syllabi.html"> data science ethics courses</a> and are in no way exhaustive. For additional readings, see the references of the readings we list under each ethics topic.'
 format:
   html:
     search: true

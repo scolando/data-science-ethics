@@ -1,0 +1,43 @@
+---
+title: "Characterizations of Data and Data Science"
+subtitle: "Readings on how to characterize data, data science, artificial intelligence, and data science ethics."
+categories:
+  - "Interactions with World"
+  - "Producing Objects"
+  - "Processing Objects as Data"
+  - "Ordering Data as Models to Represent the World"
+  - "Interpreting Models as Knowledge"
+format:
+    html:
+      citeproc: true
+bibliography: bibliographies/Characterizations.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
+css: readings.css
+---
+
+::: link-2
+::: link-2-header
+#### {{< iconify icons8:pdf >}} <a href = "pdf-qmds/Characterizations-pdf.qmd" target = "_blank">Characterizations of Data and Data Science Reading List PDF</a>
+:::
+:::
+
+| Title                                                                                                                                   | Citation           |
+|----------------------------------------------|--------------|
+| Data and Society: A Critical Introduction                                                                                               | @Beaulieu-Leonelli |
+| Critical Questions for Big Data: Provocations for a Cultural, Technological, and Scholarly Phenomenon                                   | @Boyd2012          |
+| What Distinguishes Data from Models?                                                                                                    | @Leonelli          |
+| Raw Data is an Oxymoron (Introduction)                                                                                                  | @Gitelman2013      |
+| On Being a Data Skeptic                                                                                                                 | @ONeil2013         |
+| The Epistemological Foundations of Data Science: A Critical Review                                                                      | @Desai2022         |
+| Artificial Intelligence: A Guide for Thinking Humans (Chapter 1)                                                                        | @Mitchell2020      |
+| The Invention of Ethical AI: How Big Tech Manipulates Academia to Avoid Regulation                                                      | @Ochigame          |
+| Digital Ethics as Translational Ethics                                                                                                  | @Danks2022         |
+| The Trouble with Algorithmic Decisions: An Analytic Road Map to Examine Efficiency and Fairness in Automated and Opaque Decision Making | @Zarsky2016        |
+| What is Computer Ethics?                                                                                                                | @Moor1985          |
+| What is Data Ethics?                                                                                                                    | @DS-ethics-def     |
+
+## References
+
+::: {#refs}
+:::

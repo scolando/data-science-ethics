@@ -1,0 +1,30 @@
+---
+title: "Workplace"
+subtitle: "Readings and case studies on the applications of data science in the workplace (e.g., in hiring or promotion) and the ethical implications of using statistical models in such contexts."
+categories: 
+  - "Interactions with World"
+  - "Interpreting Models as Knowledge"
+format:
+    html:
+      citeproc: true
+bibliography: bibliographies/Workplace.bib
+link-citations: true
+csl: bibliographies/apa-6th-edition.csl
+css: readings.css
+---
+
+::: link-2
+::: link-2-header
+#### {{< iconify icons8:pdf >}} <a href = "pdf-qmds/Workplace-pdf.qmd" target = "_blank">Workplace Reading List PDF</a>
+:::
+:::
+
+| Title                                                                           | Citation |
+|---------------------------------------------------------------------------------|----------|
+| Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor |          |
+|                                                                                 |          |
+
+## References
+
+::: {#refs}
+:::
