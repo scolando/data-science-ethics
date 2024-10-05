@@ -17,7 +17,7 @@ css: ../readings.css
 ---
 
 | Title                                                                                                                                   | Citation           |
-|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------|
+|--------------------------------------------------|--------------------|
 | Data and Society: A Critical Introduction                                                                                               | @Beaulieu-Leonelli |
 | Critical Questions for Big Data: Provocations for a Cultural, Technological, and Scholarly Phenomenon                                   | @Boyd2012          |
 | What Distinguishes Data from Models?                                                                                                    | @Leonelli          |

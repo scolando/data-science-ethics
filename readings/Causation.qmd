@@ -21,10 +21,9 @@ css: readings.css
 :::
 
 | Title                                                                                                | Citation               |
-|-------------------------------------------------|----------------------|
+|-------------------------------------------------|-----------------------|
 | The Metaphysics of Causation (Stanford Encyclopedia of Philosophy)                                   | @scheines              |
 | The Problem of Induction (Stanford Encyclopedia of Philosophy)                                       | @sep-induction-problem |
-| Causation                                                                                            | @scheines              |
 | Causal Diagrams for Empirical Research                                                               | @Pearl                 |
 | Disparate Causes, Pt. I                                                                              | @Hu2019                |
 | Variation Semantics: When Counterfactuals in Explanations of Algorithmic Decisions are True          | @pittphilsci20626      |
@@ -34,8 +33,8 @@ css: readings.css
 | Evaluations of Causal Claims Reflect a Trade-Off Between Informativeness and Compression             | @Kinney2022            |
 | The Use and Misuse of Counterfactuals in Ethical Machine Learning                                    | @causal-inf-use        |
 | Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination | @Eddie-murphy          |
-| \"But What Are You *Really*?\": The Metaphysics of Race                                              | @Mills1998             |
-| What is \"Race\" in Algorithmic Discrimination on the Basis of Race?                                 | @Hu                    |
+| "But What Are You *Really*?": The Metaphysics of Race                                                | @Mills1998             |
+| What is "Race" in Algorithmic Discrimination on the Basis of Race?                                   | @Hu                    |
 
 ## References
 

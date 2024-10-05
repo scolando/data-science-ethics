@@ -15,3 +15,21 @@ link-citations: true
 csl: ../bibliographies/apa-6th-edition.csl
 css: ../readings.css
 ---
+| Title                                                                                                      | Citation                |
+|-------------------------------------------------------|-----------------|
+| Are Algorithms Value-Free?                                                                                 | @Johnson2023            |
+| Algorithmic Bias: on the Implicit Biases of Social Technology                                              | @Johnson2020            |
+| Algorithmic Bias: Senses, Sources, Solutions                                                               | @FazelpourDanks2021     |
+| Fairness                                                                                                   | @vredenburgh2023        |
+| Just Machines                                                                                              | @Castro2022             |
+| Big Data and Compounding Injustice                                                                         | @Hellman2023            |
+| On the Site of Predictive Justice                                                                          | @LazarStoneForthcoming  |
+| Proceed with Caution                                                                                       | @ZimmermannStronach2021 |
+| Semantics Derived Automatically from Language Corpora Contain Human-like Biases                            | @Caliskan2017           |
+| The Algorithmic Leviathan: Arbitrariness, Fairness, and Opportunity in Algorithmic Decision-Making Systems | @CreelHellamn2022       |
+| Facebook has been Charged with Housing Discrimination by the US government                                 | @Facebook               |
+
+## References
+
+::: {#refs}
+:::

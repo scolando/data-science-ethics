@@ -15,3 +15,24 @@ link-citations: true
 csl: ../bibliographies/apa-6th-edition.csl
 css: ../readings.css
 ---
+
+| Title                                                                                                                     | Citation                      |
+|----------------------------------------|------------------------------|
+| Computing and Moral Responsibility                                                                                        | @sep-computing-responsibility |
+| Critical Questions for Big Data                                                                                           | @boyd2012                     |
+| Data, Responsibly                                                                                                         | @DataResponsibly              |
+| Data Science as Political Action: Grounding Data Science in a Politics of Justice                                         | @Green2020                    |
+| Thinking Responsibly about Responsible AI and ‘the Dark Side’ of AI                                                       | @Mikalef2022                  |
+| Locating Ethics in Data Science: Responsibility and Accountability in Global and Distributed Knowledge Production Systems | @Leonelli2016                 |
+| Deep Learning Meets Deep Democracy: Deliberative Governance and Responsible Innovation in Artificial Intelligence         | @Buhmann2022                  |
+| Killer Robots                                                                                                             | @Sparrow2007                  |
+| Amazon scraps secret AI recruiting tool that showed bias against women                                                    | @Amazon                       |
+| 70,000 OkCupid Profiles Leaked, Intimate Details and All                                                                  | @OkCupid                      |
+| Automated Anti-Blackness: Facial Recognition in Brooklyn, New York                                                        | @Nkonde2020                   |
+| Facial Recognition Technology: The need for Public Regulation and Corporate Responsibility                                | @microsoft                    |
+| Cultivating Moral Attention: A Virtue-Oriented Approach to Responsible Data Science in Healthcare                         | @Ratti2021                    |
+
+## References
+
+::: {#refs}
+:::

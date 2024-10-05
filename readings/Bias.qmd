@@ -23,7 +23,7 @@ css: readings.css
 :::
 
 | Title                                                                                                      | Citation                |
-|------------------------------------------------------------------------------------------------------------|-------------------------|
+|-------------------------------------------------------|-----------------|
 | Are Algorithms Value-Free?                                                                                 | @Johnson2023            |
 | Algorithmic Bias: on the Implicit Biases of Social Technology                                              | @Johnson2020            |
 | Algorithmic Bias: Senses, Sources, Solutions                                                               | @FazelpourDanks2021     |
@@ -34,7 +34,7 @@ css: readings.css
 | Proceed with Caution                                                                                       | @ZimmermannStronach2021 |
 | Semantics Derived Automatically from Language Corpora Contain Human-like Biases                            | @Caliskan2017           |
 | The Algorithmic Leviathan: Arbitrariness, Fairness, and Opportunity in Algorithmic Decision-Making Systems | @CreelHellamn2022       |
-| Facebook has been Charged with Housing Discrimination by the US government                                 |                         |
+| Facebook has been Charged with Housing Discrimination by the US government                                 | @Facebook               |
 
 ## References
 

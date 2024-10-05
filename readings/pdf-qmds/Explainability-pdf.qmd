@@ -13,15 +13,15 @@ link-citations: true
 csl: ../bibliographies/apa-6th-edition.csl
 css: ../readings.css
 ---
-
 | Title                                                                                                            | Citation         |
-|------------------------------------------------------|------------------|
+|-----------------------------------------------------|-------------------|
 | Transparency in Complex Computational Systems                                                                    | @Creel2020       |
 | How the Machine "Thinks": Understanding Opacity in Machine Learning Algorithms                                   | @Burrell2015     |
 | Explainable AI: A Review of Machine Learning Interpretability Methods                                            | @Linardatos2020  |
 | Transparency's Ideological Drift                                                                                 | @Pozen2018       |
 | Philosophy of Science at Sea: Clarifying the Interpretability of Machine Learning                                | @Beisbart2022    |
 | The Right to an Explanation                                                                                      | @Vredenburgh2021 |
+| Transparency in Algorithmic and Human Decision-Making: Is There a Double Standard?                               | @Zerilli2018     |
 | Algorithmic and Human Decision Making: For a Double Standard of Transparency                                     | @Gunther2022     |
 | The Mythos of Model Interpretability                                                                             | @Lipton2016      |
 | Epistemic Values in Feature Importance Methods: Lessons from Feminist Epistemology                               | @Hancox2021      |

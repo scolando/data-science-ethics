@@ -15,7 +15,7 @@ css: ../readings.css
 ---
 
 | Title                                                                            | Citation            |
-|----------------------------------------------------------------------------------|---------------------|
+|------------------------------------------------|--------------------------|
 | Privacy (Stanford Encyclopedia of Philosophy)                                    | @sep-privacy        |
 | Why Privacy is Important                                                         | @why-privacy-imp    |
 | Why We Care about Privacy                                                        | @why-care-privacy   |
