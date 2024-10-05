@@ -65,7 +65,7 @@ Responsible Data Science", "New York University", "Data Science", "Undergraduate
 #| message: false
 #| warning: false
 #| label: fig-syllabi-table
-#| fig-cap: "Table of all the data science ethics syllabi we collated for the project"
+#| fig-cap: "Table of all the data science ethics syllabi we collated for the project. Each row is a distinct data science ethics course, and we include information about the course title, its instructors, the level, any prerequisites, and the term taught."
 
 reactable(syllabi, elementId = "syllabi-table", columns = list(title = colDef("Course Title", minWidth = 120, html = TRUE ), institution = colDef("Institution", minWidth = 125, html = TRUE), department = colDef("Department", minWidth = 120, html = TRUE), level = colDef("Course Level", minWidth = 130, html = TRUE), prereqs = colDef("Prerequisites", minWidth = 135, html = TRUE), instructor = colDef("Instructors", minWidth = 120, html = TRUE), intructor_discipline = colDef("Instructor Discpline", minWidth = 130, html = TRUE), link = colDef("Syllabus Link", html = TRUE, minWidth = 130), semester = colDef("Syllabus' Term"), list = colDef("Reading List Included?", minWidth = 130)), highlight = TRUE, searchable = TRUE, showSortable = TRUE, showPagination = TRUE, filterable = TRUE, resizable = TRUE, fullWidth = TRUE, theme = reactableTheme( highlightColor = "#FAF9F0", rowHighlightStyle = list(`border-left` = "0.15em solid #f0ba55;"), style = list( fontFamily = "Helvetica Neue", fontSize = '0.875em')))
 ```
