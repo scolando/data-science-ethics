@@ -12,3 +12,20 @@ link-citations: true
 csl: ../bibliographies/apa-6th-edition.csl
 css: ../readings.css
 ---
+
+| Title                                                                                                                | Citation         |
+|-------------------------------------------|-----------------------------|
+| Freedom at Work: Understanding, Alienation, and the AI-Driven Workplace                                              | @Vredenburgh2022 |
+| The Algorithmic Leviathan: Arbitrariness, Fairness, and Opportunity in Algorithmic Decision Making Systems           | @Creel2022       |
+| Algorithmic Domination in the Gig Economy                                                                            | @Muldoon2022     |
+| Big Other: Surveillance Capitalism and the Prospects of an Information Civilization                                  | @Zuboff2015      |
+| A Short-term Intervention for Long-term Fairness in the Labor Market                                                 | @Hu2018          |
+| Digital Innovation and the Fourth Industrial Revolution                                                              | @Caruso2017      |
+| Picking on the Same Person: Does Algorithmic Monoculture Lead to Outcome Homogenization?                             | @Bommasani2024   |
+| Accessible Crowdwork?: Understanding the Value in and Challenge of Microtask Employment for People with Disabilities | @Zyskowski2015   |
+| Amazon Scraps Secret AI Recruiting Tool that Showed Bias Against Women                                               | @Amazon          |
+
+## References
+
+::: {#refs}
+:::
