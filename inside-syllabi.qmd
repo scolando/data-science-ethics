@@ -18,7 +18,7 @@ csl: bibliographies/apa-6th-edition.csl
 
 # Philosophy-Oriented Courses
 
-These are the courses that I would categorize as philosophy-oriented data science ethics courses because the reading lists and/or assignments that students in the course are expected to produce come are (more) philosophically-rooted.
+These are the courses that we categorize as philosophy-oriented data science ethics courses as the reading lists and/or assignments that students in the course are expected to produce align more with a philosophy course.
 
 ## Ethics in AI by Liam Kofi Bright
 
@@ -384,7 +384,7 @@ The following is taken from the "Objectives" section of @Rice-Syllabus.
 
 # Data Science-Oriented Courses
 
-These are the courses that I would categorize as data science-oriented data science ethics courses because the reading lists and/or assignments that students in the course are expected to produce are (more) data science (i.e., technical) in nature.
+These are the courses that we would categorize as data science-oriented data science ethics courses because the reading lists and/or assignments that students in the course are expected to produce are (more) align more with a data science course (i.e., focus on technical approaches or solutions).
 
 ------------------------------------------------------------------------
 

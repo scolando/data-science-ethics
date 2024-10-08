@@ -20,7 +20,7 @@ css: readings.css
 :::
 
 |                                                                                                                       |              |
-|-----------------------------------------------|--------------------------------------------------|
+|-----------------------------------------------------------------------------------------------------------------------|--------------|
 | Using Artificial Intelligence to Address Criminal Justice Needs                                                       | @Rigano2019  |
 | Police Use of Face Recognition Is Sweeping the UK                                                                     | @Nast2023    |
 | Predictive Policing Algorithms are Racist. They Need to be Dismantled.                                                | @Heaven2020  |
