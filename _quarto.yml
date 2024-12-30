@@ -37,7 +37,7 @@ website:
     left: "&copy; Copyright 2024, [Sara Colando](https://scolando.github.io/personal-website/) and [Jo Hardin](https://hardin47.netlify.app)"
     right:
         - text: "{{< iconify mdi:github >}} Source Code"
-          href: https://github.com/scolando/personal-website
+          href: https://github.com/scolando/data-science-ethics
         - text: "Report an Issue"
           href: https://github.com/scolando/data-science-ethics/issues/new
     background: white
