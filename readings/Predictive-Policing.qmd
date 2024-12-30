@@ -13,24 +13,24 @@ csl: bibliographies/apa-6th-edition.csl
 css: readings.css
 ---
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify icons8:pdf >}} <a href = "pdf-qmds/Policing-pdf.qmd" target = "_blank">Predictive Policing Reading List PDF</a>
 :::
-:::
+::::
 
-|                                                                                                                       |              |
-|-----------------------------------------------------------------------------------------------------------------------|--------------|
-| Using Artificial Intelligence to Address Criminal Justice Needs                                                       | @Rigano2019  |
-| Police Use of Face Recognition Is Sweeping the UK                                                                     | @Nast2023    |
-| Predictive Policing Algorithms are Racist. They Need to be Dismantled.                                                | @Heaven2020  |
-| Weapons of Math Destruction                                                                                           | @oneil2016   |
-| Machine Bias                                                                                                          | @COMPAS      |
-| What Happens When Police Use AI to Predict and Prevent Crime?                                                         | @Reese2022   |
-| To Predict and Serve?                                                                                                 | @Lum2016     |
-| An Episode in the History of PreCrime                                                                                 | @Lemov2018   |
+|  |  |
+|---------------------------------|---------------------------------------|
+| Using Artificial Intelligence to Address Criminal Justice Needs | @Rigano2019 |
+| Police Use of Face Recognition Is Sweeping the UK | @Nast2023 |
+| Predictive Policing Algorithms are Racist. They Need to be Dismantled. | @Heaven2020 |
+| Weapons of Math Destruction | @oneil2016 |
+| Machine Bias | @COMPAS |
+| What Happens When Police Use AI to Predict and Prevent Crime? | @Reese2022 |
+| To Predict and Serve? | @Lum2016 |
+| An Episode in the History of PreCrime | @Lemov2018 |
 | Dirty Data, Bad Predictions: How Civil Rights Violations Impact Police Data, Predictive Policing Systems, and Justice | @Rashida2019 |
-| Want to Predict the Future of Surveillance? Ask Poor Communities                                                      | @Eubanks2014 |
+| Want to Predict the Future of Surveillance? Ask Poor Communities | @Eubanks2014 |
 
 ## References
 

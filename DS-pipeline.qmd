@@ -85,21 +85,21 @@ On this page, we offer paradigmatic and less conventional examples that demonstr
 
 As mentioned on the [data science lifecycle page](Intro-DS-lifecycle.html), the choice of how to characterize data and data science is value-laden as it reflects a particular interpretation of knowledge from data and data models. For instance, if we view data as a direct representation of the world, we might overlook biases or other ethical issues that arise during the collection or data processing stages. On the other hand, if we view data and data models as context-dependent, then we can acknowledge that ethical issues, like algorithmic bias, can arise during the data collection and processing stages. In turn, characterizations of data and data science influence every stage of the data science lifecycle.
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Characterizations.qmd" target = "_blank">Characterizations of Data and Data Science Readings</a>
 :::
-:::
+::::
 
 ## Alignment
 
 Alignment focuses on whether (and if so, how) our moral values are reflected in our current data science practices. Given that potentially morally charged decision points exist throughout data science (see [what is data science ethics?](Intro-DS-ethics.html)), alignment is also an important ethics topic at every stage of the data science lifecycle.
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Alignment.qmd" target = "_blank">Alignment Readings</a>
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -123,11 +123,11 @@ Though less commonly thought about, moral responsibility is also relevant during
 
 [^3]: See @OkCupid for an example of how moral responsibility can be relevant when failing to remove identifiers from data.
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Responsibility.qmd" target = "_blank">Responsibility Readings</a>
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -145,11 +145,11 @@ While less conventional, issues of consent also arise when applying insights fro
 
 [^5]: See @sep-informed-consent for reasons beyond respecting a person's autonomy why obtaining informed consent is morally important.
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Consent.qmd" target = "_blank">Consent Readings</a>
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -165,11 +165,11 @@ Worries about privacy can resurface when using insights from a data model to inf
 
 One justification for our difference in intuitions between the two cases is that there is a difference in scalability and damage in the algorithm versus the friend case. In her book, *Weapons of Math Destruction*, Cathy O'Neil breaks down different algorithms in terms of their opacity, scalability (pernicious feedback loops), and damage (ability to grow exponentially). She puts forward a moral principle to determine whether an algorithm is a *Weapon of Math Destruction*, in which case, she argues, it should not be used [@oneil2016]. Avoiding pernicious feedback loops is one such strategy to ground privacy concerns and explain the difference in intuitions between the algorithm (which has a scalable pernicious feedback loop) and the friend case (which doesn't).
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Privacy.qmd" target = "_blank">Privacy Readings</a>
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -189,11 +189,11 @@ However, issues of bias, fairness, and justice are crucial to consider at every 
 
 [^6]: This example is partially inspired by the discussion in @non-random-imputation.
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Bias.qmd" target = "_blank">Bias, Fairness, and Justice Readings</a>
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -209,11 +209,11 @@ In the model deployment stage, where predictions about individuals or groups are
 
 While not mentioned as often, the "right to an explanation" is also important to consider when insights from a data model influence future interactions with the world. For instance, suppose that law enforcement starts heavily policing Neighborhood A relative to Neighborhood B because a data model found that the people in Neighborhood A are more likely to be convicted of a crime than the people in Neighborhood B. It seems that the people in Neighborhood A have a right to understand why they are being policed more than the people in Neighborhood B. Like in the paradigmatic example, one reason for why the people in Neighborhood A seem to have a "right to an explanation" in this case is that explainability is often necessary to ensure that the model does not use sensitive social attributes to make its predictions. However, some philosophers note that human decision-makers are also black boxes with respect to how they arrive at their decisions. For instance, even if a court judge gives justification for their sentencing, it is not clear that the reason they give is the only reason for their decision or even is a reason for their decision at all (e.g., people can be subconsciously influenced by implicit biases) [@Gunther2022]. As such, one question within philosophy is whether we have a "right to an explanation" when it comes to data models, and if so, why do we have such a "right to an explanation" when it seems to hold algorithms to a higher standard than human decision-makers?
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Explainability.qmd" target = "_blank">Explainability, Interpretability, and Transparency Readings</a>
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -231,11 +231,11 @@ Incorrectly interpreting causation between variables can have substantial moral 
 
 Moral implications surrounding causation can also arise when building causal inference models. For example, imagine there is a group of researchers who want to understand how a patient's race influences their wait time in an emergency room. Answering the wait time question would involve evaluating whether the following counterfactual is true: if a patient was a member of racial group X instead of racial group Y, then their ER wait time would be different. One way the researchers might try to evaluate this counterfactual is by collecting data that contains background information (e.g., race) and the wait time at the hospital for each patient. The data would be used to estimate how changing only the 'race' variable for a patient would change their wait time. Yet, @causal-inference-worries note that changing only the 'race' variable endorses an essentialist view of race that fails to acknowledge how race is socially constructed. Essentialist views of variables like race are harmful because they ignore the complex social, historical, and political factors that shape individuals' experiences. As a result, essentialist views can often lead to overgeneralizations about social groups and even wrongful discrimination against them [@essentialism-harm]. Worries about how to thoughtfully conduct causal inference on social categories point to the importance of reflecting on philosophical questions, like what constitutes a specific social category (e.g., race, gender, sexuality, etc.) during model building.
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Causation.qmd" target = "_blank">Causation Readings</a>
 :::
-:::
+::::
 
 ------------------------------------------------------------------------
 
@@ -253,7 +253,7 @@ The ethical theory of *consequentialism* can explain why the model's deployment 
 
 Interpreting knowledge from model predictions can also lead to morally problematic interactions with the world within democracy, workplace, and predictive policing settings. For example, in her book, *Weapons of Math Destruction*, Cathy O'Neil considers PredPol, an algorithm that uses historical crime data to predict where crimes are most likely to occur. When police use PredPol, they can target neighborhoods based on where "nuisance" crimes (e.g., vagrancy, aggressive panhandling, selling and consuming small quantities of drugs) occur, which are unlikely to be recorded when there is not a police officer present \citep{oneil2016}. However, \citet{oneil2016} also notes that "nuisance" crimes are also much more common in impoverished neighborhoods. When the "nuisance" crime data is put into the predictive model, more police patrol impoverished neighborhoods, and arrests in those neighborhoods are more likely to occur. This creates a pernicious feedback loop because the policing of impoverished neighborhoods leads to arrests in the neighborhood, which ultimately justifies more policing of those neighborhoods [@oneil2016]. As a result, more people are arrested for "nuisance" crimes, the majority of which come from impoverished neighborhoods and are Black or Hispanic due to racial segregation in cities [@oneil2016]. Thus, using predictive policing models to inform future interactions with the world (i.e., where to send police) can create pernicious feedback loops that exacerbate existing racial injustices in the criminal justice system.
 
-::: link-2
+:::::: link-2
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Democracy.qmd" target = "_blank">Democracy Readings</a>
 :::
@@ -265,7 +265,7 @@ Interpreting knowledge from model predictions can also lead to morally problemat
 ::: link-2-header
 #### {{< iconify ep:reading >}} <a href = "readings/Workplace.qmd" target = "_blank">Workplace Readings</a>
 :::
-:::
+::::::
 
 ## References
 

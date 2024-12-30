@@ -6,7 +6,7 @@ link-citations: true
 csl: bibliographies/apa-6th-edition.csl
 ---
 
-::: column-page
+:::: column-page
 # Most Common Syllabi Topics
 
 ```{r setup, include=FALSE}
@@ -89,4 +89,4 @@ syllabi_topics %>%
     width = '100%',
     theme = reactableTheme( highlightColor = "#FAF9F0", rowHighlightStyle = list(`border-left` = "0.15em solid #f0ba55;"), style = list( fontFamily = "Helvetica Neue", fontSize = '0.875em')))
 ```
-:::
+::::
