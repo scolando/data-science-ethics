@@ -13,30 +13,30 @@ csl: bibliographies/apa-6th-edition.csl
 css: readings.css
 ---
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify icons8:pdf >}} <a href = "pdf-qmds/Democracy-pdf.qmd" target = "_blank">Democracy Reading List PDF</a>
 :::
-:::
+::::
 
-| Title                                                                                                                   | Citation       |
-|-------------------------------------------------------|-----------------|
-| Weapons of Math Destruction                                                                                             | @oneil2016     |
-| Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor                                         | @Eubanks2018   |
-| Algorithmic Content Moderation: Technical and Political challenges in the Automation of Platform Governance             | @Gorwa2020     |
-| Artificial Intelligence: Risks to Privacy and Democracy                                                                 | @Manheim2018   |
-| Pop-up Political Advocacy Communities on Reddit.com: SandersForPresident and The Donald                                 | @Mills2017     |
-| Artificial Intelligence in Politics: Establishing Ethics                                                                | @Kane2019      |
-| Hey Google, Leave those Kids Alone: Against Hypernudging Children in the Age of Big Data                                | @Smith2023     |
-| Deep Learning Meets Deep Democracy: Deliberative Governance and Responsible Innovation in Artificial Intelligence       | @Buhmann2022   |
-| Will Democracy Survive Big Data and Artificial Intelligence?                                                            | @Helbing2017   |
+| Title | Citation |
+|----|----|
+| Weapons of Math Destruction | @oneil2016 |
+| Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor | @Eubanks2018 |
+| Algorithmic Content Moderation: Technical and Political challenges in the Automation of Platform Governance | @Gorwa2020 |
+| Artificial Intelligence: Risks to Privacy and Democracy | @Manheim2018 |
+| Pop-up Political Advocacy Communities on Reddit.com: SandersForPresident and The Donald | @Mills2017 |
+| Artificial Intelligence in Politics: Establishing Ethics | @Kane2019 |
+| Hey Google, Leave those Kids Alone: Against Hypernudging Children in the Age of Big Data | @Smith2023 |
+| Deep Learning Meets Deep Democracy: Deliberative Governance and Responsible Innovation in Artificial Intelligence | @Buhmann2022 |
+| Will Democracy Survive Big Data and Artificial Intelligence? | @Helbing2017 |
 | Custodians of the Internet: Platforms, Content Moderation, and the Hidden Decisions that Shape Social Media (Chapter 6) | @Gillespie2018 |
-| Ex-Content Moderator Sues Facebook, Saying Violent Images Caused Her PTSD                                               | @Hern2019      |
-| Twitter and Tear Gas: The Power and Fragility of Networked Protest (Chapter 1)                                          | @Tufekci2017   |
-| You Think You Want Media Literacy: Do You?                                                                              | @Boyd2018      |
-| Machine Politics: The Rise of the Internet and a New Age of Authoritarianism                                            | @Turner2019    |
-| Judgment under Siege: The Three Body Problem of Expert Legitimacy                                                       | @Jasanoff2006  |
-| In a Constitutional Moment: Science and Social Order at the Millennium                                                  | @Jasanoff2003  |
+| Ex-Content Moderator Sues Facebook, Saying Violent Images Caused Her PTSD | @Hern2019 |
+| Twitter and Tear Gas: The Power and Fragility of Networked Protest (Chapter 1) | @Tufekci2017 |
+| You Think You Want Media Literacy: Do You? | @Boyd2018 |
+| Machine Politics: The Rise of the Internet and a New Age of Authoritarianism | @Turner2019 |
+| Judgment under Siege: The Three Body Problem of Expert Legitimacy | @Jasanoff2006 |
+| In a Constitutional Moment: Science and Social Order at the Millennium | @Jasanoff2003 |
 
 ## References
 

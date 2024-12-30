@@ -177,7 +177,7 @@ Data science ethics aims to illuminate the moral implications of choices within 
 
 ## More Case Studies
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify icons8:pdf >}} Markkula Center for Applied Ethics
 :::
@@ -185,11 +185,11 @@ Data science ethics aims to illuminate the moral implications of choices within 
 ::: link-container
 <a href = "https://www.scu.edu/ethics/focus-areas/internet-ethics/cases/" target = "_blank">Data science ethics case studies</a>
 :::
-:::
+:::::
 
 <br>
 
-::: link
+::::: link
 ::: link-header
 #### {{< iconify icons8:pdf >}} Federal Anti-Discrimination Agency
 :::
@@ -197,4 +197,4 @@ Data science ethics aims to illuminate the moral implications of choices within 
 ::: link-container
 <a href = "https://www.antidiskriminierungsstelle.de/SharedDocs/downloads/EN/publikationen/Studie_en_Diskriminierungsrisiken_durch_Verwendung_von_Algorithmen.pdf?__blob=publicationFile&v=2" target = "_blank">Data science ethics case studies (see chapter 4)</a>
 :::
-:::
+:::::

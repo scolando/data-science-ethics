@@ -13,7 +13,6 @@ csl: bibliographies/apa-6th-edition.csl
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
 
-
 ```{css, echo=FALSE}
 h1 {
   text-align: left;
@@ -33,7 +32,6 @@ Comic via [Evil AI Cartoons](https://www.evilaicartoons.com/):
 knitr::include_graphics("images/teaching-ethics.png")
 ```
 
-
 A common trend in data science ethics is to focus on case studies. In these case studies, students would identify stakeholders, list their values, and then determine how we should balance these values, especially in situations where the values are in conflict with one another. Though, a pertinent goal of data science ethics is to articulate what values we *should* have in data science, which can then be applied more broadly to issues in development and deployment of data science technologies.
 
 https://bdes.datasociety.net/council-output/pedagogical-approaches-to-data-ethics-2/
@@ -52,8 +50,8 @@ https://dl.acm.org/doi/abs/10.1145/3442188.3445914
 
 chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.tandfonline.com/doi/pdf/10.1080/26939169.2022.2038041
 
----
+------------------------------------------------------------------------
 
 # References
 
----
+------------------------------------------------------------------------

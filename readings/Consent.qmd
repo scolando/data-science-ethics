@@ -14,22 +14,22 @@ csl: bibliographies/apa-6th-edition.csl
 css: readings.css
 ---
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify icons8:pdf >}} <a href = "pdf-qmds/Consent-pdf.qmd" target = "_blank">Consent Reading List PDF</a>
 :::
-:::
+::::
 
-| Title                                                                                     | Citation                  |
-|--------------------------------------------------|----------------------|
-| Informed Consent (Stanford Encyclopedia of Philosophy)                                    | @sep-informed-consent     |
-| Privacy Self-Management and the Consent Dilemma                                           | @Solove                   |
-| The Ethics of Consent: Theory and Practice                                                | @ethics-consent           |
-| Middletown, a Study in Contemporary American Culture                                      | @Middletown1929           |
-| A Belmont Report for Health Data                                                          | @Parasidis2019            |
-| Naturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation | @Rusert2019               |
-| What Makes Personal Data Processing by Social Networking Services Permissible?            | @wolmarans_voorhoeve_2022 |
-| What's Wrong with Automated Influence                                                     | @automated-influence      |
+| Title | Citation |
+|----|----|
+| Informed Consent (Stanford Encyclopedia of Philosophy) | @sep-informed-consent |
+| Privacy Self-Management and the Consent Dilemma | @Solove |
+| The Ethics of Consent: Theory and Practice | @ethics-consent |
+| Middletown, a Study in Contemporary American Culture | @Middletown1929 |
+| A Belmont Report for Health Data | @Parasidis2019 |
+| Naturalizing Coercion: The Tuskegee Experiments and the Laboratory Life of the Plantation | @Rusert2019 |
+| What Makes Personal Data Processing by Social Networking Services Permissible? | @wolmarans_voorhoeve_2022 |
+| What's Wrong with Automated Influence | @automated-influence |
 
 ## References
 

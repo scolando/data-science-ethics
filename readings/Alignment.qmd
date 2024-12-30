@@ -16,24 +16,24 @@ csl: bibliographies/apa-6th-edition.csl
 css: readings.css
 ---
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify icons8:pdf >}} <a href = "pdf-qmds/Alignment-pdf.qmd" target = "_blank">Alignment Reading List PDF</a>
 :::
-:::
+::::
 
-| Title                                                                                                             | Citation          |
-|----------------------------------------------|--------------------------|
-| Coded Bias (Documentary)                                                                                          | @CodedBias        |
-| The Alignment Problem: Machine Learning and Human Values                                                          | @Christian2021    |
-| Artificial Intelligence, Values, and Alignment                                                                    | @Gabriel2020      |
-| Living Well Together Online: Digital Well-Being from a Confucian Perspective                                      | @Dennis2023       |
-| Envisioning Communities: A Participatory Approach Towards AI for Social Good                                      | @Bondi2021        |
-| Aligning Artificial Intelligence with Human Values: Reflections from a Phenomenological Perspective               | @Han2021          |
-| Challenges of Aligning Artificial Intelligence with Human Values                                                  | @Sutrop2020       |
-| The Role and Limits of Principles in AI Ethics: Towards a Focus on Tensions                                       | @Whittlestone2019 |
-| Impossibility and Uncertainty Theorems in AI Value Alignment (or why your AGI should not have a utility function) | @Eckersley2019    |
-| Risk Imposition by Artificial Agents: The Moral Proxy Problem                                                     | @Thoma2022        |
+| Title | Citation |
+|----|----|
+| Coded Bias (Documentary) | @CodedBias |
+| The Alignment Problem: Machine Learning and Human Values | @Christian2021 |
+| Artificial Intelligence, Values, and Alignment | @Gabriel2020 |
+| Living Well Together Online: Digital Well-Being from a Confucian Perspective | @Dennis2023 |
+| Envisioning Communities: A Participatory Approach Towards AI for Social Good | @Bondi2021 |
+| Aligning Artificial Intelligence with Human Values: Reflections from a Phenomenological Perspective | @Han2021 |
+| Challenges of Aligning Artificial Intelligence with Human Values | @Sutrop2020 |
+| The Role and Limits of Principles in AI Ethics: Towards a Focus on Tensions | @Whittlestone2019 |
+| Impossibility and Uncertainty Theorems in AI Value Alignment (or why your AGI should not have a utility function) | @Eckersley2019 |
+| Risk Imposition by Artificial Agents: The Moral Proxy Problem | @Thoma2022 |
 
 ## References
 

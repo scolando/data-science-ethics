@@ -14,27 +14,27 @@ csl: bibliographies/apa-6th-edition.csl
 css: readings.css
 ---
 
-::: link-2
+:::: link-2
 ::: link-2-header
 #### {{< iconify icons8:pdf >}} <a href = "pdf-qmds/Causation-pdf.qmd" target = "_blank">Causation Reading List PDF</a>
 :::
-:::
+::::
 
-| Title                                                                                                | Citation               |
-|-------------------------------------------------|-----------------------|
-| The Metaphysics of Causation (Stanford Encyclopedia of Philosophy)                                   | @scheines              |
-| The Problem of Induction (Stanford Encyclopedia of Philosophy)                                       | @sep-induction-problem |
-| Causal Diagrams for Empirical Research                                                               | @Pearl                 |
-| Disparate Causes, Pt. I                                                                              | @Hu2019                |
-| Variation Semantics: When Counterfactuals in Explanations of Algorithmic Decisions are True          | @pittphilsci20626      |
-| Causal Discovery Algorithms: A Practical Guide                                                       | @Malinsky2018          |
-| On the Explanatory Depth and Pragmatic Value of Coarse-Grained, Probabilistic, Causal Explanations   | @Kinney2018            |
-| Fairness in Decision-making --- the Causal Explanation Formula                                       | @Zhang2018             |
-| Evaluations of Causal Claims Reflect a Trade-Off Between Informativeness and Compression             | @Kinney2022            |
-| The Use and Misuse of Counterfactuals in Ethical Machine Learning                                    | @causal-inf-use        |
-| Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination | @Eddie-murphy          |
-| "But What Are You *Really*?": The Metaphysics of Race                                                | @Mills1998             |
-| What is "Race" in Algorithmic Discrimination on the Basis of Race?                                   | @Hu                    |
+| Title | Citation |
+|----|----|
+| The Metaphysics of Causation (Stanford Encyclopedia of Philosophy) | @scheines |
+| The Problem of Induction (Stanford Encyclopedia of Philosophy) | @sep-induction-problem |
+| Causal Diagrams for Empirical Research | @Pearl |
+| Disparate Causes, Pt. I | @Hu2019 |
+| Variation Semantics: When Counterfactuals in Explanations of Algorithmic Decisions are True | @pittphilsci20626 |
+| Causal Discovery Algorithms: A Practical Guide | @Malinsky2018 |
+| On the Explanatory Depth and Pragmatic Value of Coarse-Grained, Probabilistic, Causal Explanations | @Kinney2018 |
+| Fairness in Decision-making --- the Causal Explanation Formula | @Zhang2018 |
+| Evaluations of Causal Claims Reflect a Trade-Off Between Informativeness and Compression | @Kinney2022 |
+| The Use and Misuse of Counterfactuals in Ethical Machine Learning | @causal-inf-use |
+| Eddie Murphy and the Dangers of Counterfactual Causal Thinking About Detecting Racial Discrimination | @Eddie-murphy |
+| "But What Are You *Really*?": The Metaphysics of Race | @Mills1998 |
+| What is "Race" in Algorithmic Discrimination on the Basis of Race? | @Hu |
 
 ## References
 
